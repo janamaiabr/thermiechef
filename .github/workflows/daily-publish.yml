@@ -1,46 +1,58 @@
-name: Daily recipe publish (keyless)
+name: Daily recipe publish
 
-# No API key. Recipes are pre-written in recipes/data/ with future dates.
-# build.mjs only publishes recipes whose datePublished has arrived, so each day
-# this rebuilds, and when a queued recipe's day comes it gets committed + pushed.
-# Vercel (connected to this repo) auto-deploys on push.
 on:
   schedule:
-    - cron: "0 19 * * *"   # 19:00 UTC ≈ 5am AEST — fresh recipe each morning
-  workflow_dispatch: {}      # manual run from the Actions tab
+    # 19:00 UTC = 5:00 AM Australia/Brisbane
+    - cron: '0 19 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-recipe-publish
+  cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          node-version: "20"
-      - name: Rebuild (publishes any recipe whose date has arrived)
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild dated recipes
         run: node scripts/build.mjs
         env:
           SITE_URL: https://thermiechef.com.au
+
       - name: Validate SEO, LLM and recipe safety
         run: node scripts/validate-site.mjs
         env:
           SITE_URL: https://thermiechef.com.au
-      - name: Commit & push if something new went live
+
+      - name: Commit and push when a recipe goes live
         run: |
           git config user.name "ThermieChef Bot"
           git config user.email "bot@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Publish daily recipe ($(date -u +%F))"
-          git push
-      - name: Email an alert when the recipe queue is running low
+          if git diff --cached --quiet; then
+            echo "No dated recipe to publish today."
+          else
+            git commit -m "Publish daily recipe ($(date -u +%F))"
+            git push
+          fi
+
+      - name: Queue status
         run: |
           REMAINING=$(node scripts/queue-status.mjs)
           echo "Recipes still queued: $REMAINING"
-          if [ "$REMAINING" -le 5 ]; then
-            curl -s -X POST https://api.web3forms.com/submit \
-              -H "Content-Type: application/json" \
-              -d "{\"access_key\":\"07fef056-a3d1-4da9-9d7b-423b88fd3e1a\",\"subject\":\"ThermieChef: fila de receitas acabando ($REMAINING restantes)\",\"message\":\"A fila de receitas do ThermieChef está com $REMAINING receita(s) restante(s). Quando chegar a zero, o site para de publicar receita nova. Peça pro Claude: 'gera mais receitas pro ThermieChef'.\"}" || true
+          if [ "$REMAINING" -le 14 ]; then
+            echo "::warning::ThermieChef recipe queue is low ($REMAINING recipes remaining). Add more recipes/data/*.json files."
           fi
