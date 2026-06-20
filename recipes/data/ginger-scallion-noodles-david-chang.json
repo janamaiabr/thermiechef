@@ -1,0 +1,48 @@
+{
+  "slug": "ginger-scallion-noodles-david-chang",
+  "title": "Ginger Scallion Noodles",
+  "inspiredBy": {
+    "chef": "David Chang",
+    "dish": "ginger scallion noodles"
+  },
+  "image": "dish-pasta.jpg",
+  "category": "Dinner",
+  "cuisine": "Korean-American",
+  "prepMin": 10,
+  "cookMin": 5,
+  "servings": 4,
+  "keywords": [
+    "thermomix ginger scallion noodles",
+    "david chang noodles thermomix",
+    "momofuku noodles TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "David Chang's ginger scallion sauce is legendary. The Thermomix chops it into a punchy, glossy sauce in seconds — toss through hot noodles and dinner's done.",
+  "ingredients": [
+    "6 spring onions",
+    "40 g ginger",
+    "60 g neutral oil",
+    "20 g soy sauce",
+    "15 g rice vinegar",
+    "1 tsp sesame oil",
+    "1 tsp sugar",
+    "400 g cooked noodles"
+  ],
+  "steps": [
+    "Place the spring onions and ginger in the bowl and chop 4 sec / speed 5. Scrape down.",
+    "Add the oil and warm 3 min / 70°C / speed 1 to mellow the raw bite.",
+    "Add the soy, vinegar, sesame oil and sugar and mix 5 sec / speed 3.",
+    "Toss the warm sauce through hot cooked noodles and serve straight away."
+  ],
+  "tips": [
+    "Gently warming the sauce takes the raw edge off the ginger and onion.",
+    "Brilliant over rice, greens or chicken too."
+  ],
+  "faq": [
+    {
+      "q": "Can I make the sauce ahead?",
+      "a": "Yes — it keeps a few days in the fridge and gets better as it sits."
+    }
+  ],
+  "datePublished": "2026-07-02"
+}

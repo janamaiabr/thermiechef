@@ -1,0 +1,49 @@
+{
+  "slug": "carrot-coriander-soup-nigel-slater",
+  "title": "Carrot & Coriander Soup",
+  "inspiredBy": {
+    "chef": "Nigel Slater",
+    "dish": "carrot & coriander soup"
+  },
+  "image": "food-soup.jpg",
+  "category": "Lunch",
+  "cuisine": "British",
+  "prepMin": 10,
+  "cookMin": 25,
+  "servings": 4,
+  "keywords": [
+    "thermomix carrot soup",
+    "nigel slater carrot coriander soup thermomix",
+    "TM6 soup"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Nigel Slater writes about food like it's poetry, and his carrot and coriander soup is comfort in a bowl. The Thermomix cooks and blends it velvety in the same bowl.",
+  "ingredients": [
+    "1 onion, halved",
+    "2 garlic cloves",
+    "20 g ginger",
+    "20 g olive oil",
+    "600 g carrots, chopped",
+    "700 g vegetable stock",
+    "1 tsp ground coriander",
+    "Fresh coriander, to finish",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Chop onion, garlic and ginger 4 sec / speed 5. Scrape down.",
+    "Add oil and ground coriander and sauté 3 min / 120°C / speed 1.",
+    "Add carrots and stock. Cook 20 min / 100°C / speed 1.",
+    "Blend 1 min / speed 4 to speed 9 until silky. Season and finish with fresh coriander."
+  ],
+  "tips": [
+    "A squeeze of orange juice at the end lifts the carrots beautifully.",
+    "Add a swirl of yoghurt or coconut milk for richness."
+  ],
+  "faq": [
+    {
+      "q": "Can I make this dairy-free?",
+      "a": "Yes — it's naturally dairy-free; finish with coconut milk instead of yoghurt."
+    }
+  ],
+  "datePublished": "2026-06-23"
+}

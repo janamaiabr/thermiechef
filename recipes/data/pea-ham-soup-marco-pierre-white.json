@@ -1,0 +1,47 @@
+{
+  "slug": "pea-ham-soup-marco-pierre-white",
+  "title": "Pea & Ham Soup",
+  "inspiredBy": {
+    "chef": "Marco Pierre White",
+    "dish": "pea & ham soup"
+  },
+  "image": "dish-soup.jpg",
+  "category": "Lunch",
+  "cuisine": "British",
+  "prepMin": 10,
+  "cookMin": 25,
+  "servings": 4,
+  "keywords": [
+    "thermomix pea and ham soup",
+    "marco pierre white soup thermomix",
+    "pea soup TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Marco Pierre White is all about big flavour from simple things. This pea and ham soup is comfort itself — the Thermomix cooks and blends it smooth in one bowl.",
+  "ingredients": [
+    "1 onion, halved",
+    "20 g butter",
+    "500 g frozen peas",
+    "150 g cooked ham, diced",
+    "700 g chicken stock",
+    "1 sprig mint",
+    "Salt and pepper",
+    "Cream, to finish"
+  ],
+  "steps": [
+    "Chop onion 4 sec / speed 5. Add butter and sauté 3 min / 120°C / speed 1.",
+    "Add the peas, half the ham, stock and mint. Cook 15 min / 100°C / speed 1.",
+    "Blend 1 min / speed 4 to speed 8 until smooth. Stir the rest of the ham through, season and finish with a swirl of cream."
+  ],
+  "tips": [
+    "Keep a little ham back to stir through at the end for texture.",
+    "A pinch of mint keeps the peas tasting fresh and sweet."
+  ],
+  "faq": [
+    {
+      "q": "Can I use a ham hock?",
+      "a": "Yes — simmer a hock in the stock first for deeper flavour, then shred the meat in."
+    }
+  ],
+  "datePublished": "2026-07-03"
+}

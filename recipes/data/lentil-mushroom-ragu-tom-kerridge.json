@@ -1,0 +1,50 @@
+{
+  "slug": "lentil-mushroom-ragu-tom-kerridge",
+  "title": "Lentil & Mushroom Ragù",
+  "inspiredBy": {
+    "chef": "Tom Kerridge",
+    "dish": "lentil ragù"
+  },
+  "image": "food-risotto.jpg",
+  "category": "Dinner",
+  "cuisine": "Italian",
+  "prepMin": 12,
+  "cookMin": 30,
+  "servings": 4,
+  "keywords": [
+    "thermomix lentil ragu",
+    "tom kerridge lentil mushroom thermomix",
+    "vegetarian ragu TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Tom Kerridge proves lighter food can be deeply satisfying. This meat-free lentil and mushroom ragù is rich and hearty — the Thermomix builds it all in one bowl.",
+  "ingredients": [
+    "1 onion, halved",
+    "2 garlic cloves",
+    "1 carrot",
+    "250 g mushrooms",
+    "30 g olive oil",
+    "150 g dried green lentils",
+    "2 tbsp tomato paste",
+    "700 g passata",
+    "100 g red wine",
+    "1 tsp dried oregano",
+    "Salt, pepper, parmesan"
+  ],
+  "steps": [
+    "Chop onion, garlic, carrot and mushrooms 5 sec / speed 5. Scrape.",
+    "Add oil and sauté 4 min / 120°C / speed 1.",
+    "Add lentils, tomato paste, passata, wine and oregano. Cook 28 min / 100°C / Reverse / speed 1, MC off and basket on the lid, until the lentils are tender. Season and serve over pasta with parmesan."
+  ],
+  "tips": [
+    "Chopping the mushrooms fine gives the ragù a meaty texture.",
+    "Even better the next day — make a double batch."
+  ],
+  "faq": [
+    {
+      "q": "Do the lentils need soaking?",
+      "a": "No — green lentils cook from dry in the sauce in about 28 minutes."
+    }
+  ],
+  "datePublished": "2026-06-29"
+}

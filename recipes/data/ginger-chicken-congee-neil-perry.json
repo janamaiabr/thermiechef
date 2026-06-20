@@ -1,0 +1,44 @@
+{
+  "slug": "ginger-chicken-congee-neil-perry",
+  "title": "Ginger Chicken Congee",
+  "inspiredBy": {
+    "chef": "Neil Perry",
+    "dish": "chicken congee"
+  },
+  "image": "food-soup.jpg",
+  "category": "Breakfast",
+  "cuisine": "Chinese",
+  "prepMin": 10,
+  "cookMin": 45,
+  "servings": 4,
+  "keywords": [
+    "thermomix congee",
+    "neil perry congee thermomix",
+    "chicken rice porridge TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Neil Perry champions gentle, soulful Asian cooking. Congee is the ultimate comfort breakfast, and the Thermomix simmers the rice down to silk while you get on with your morning.",
+  "ingredients": [
+    "200 g jasmine rice, rinsed",
+    "20 g ginger, sliced",
+    "1200 g chicken stock",
+    "300 g chicken thigh",
+    "Soy, sesame oil, spring onion and coriander, to serve"
+  ],
+  "steps": [
+    "Place the rice, ginger and stock in the bowl. Cook 40 min / 100°C / Reverse / speed 1, MC off, until the rice breaks down to a porridge.",
+    "Add the chicken thigh and cook 12 min / 100°C / Reverse / speed 1.",
+    "Shred the chicken, stir back through and season. Serve topped with soy, sesame oil, spring onion and coriander."
+  ],
+  "tips": [
+    "The longer and slower it cooks, the silkier the congee.",
+    "Top with anything you love — chilli oil, a soft egg, fried shallots."
+  ],
+  "faq": [
+    {
+      "q": "Why cook it so long?",
+      "a": "Time is what breaks the rice down into that signature creamy, soothing porridge."
+    }
+  ],
+  "datePublished": "2026-07-04"
+}

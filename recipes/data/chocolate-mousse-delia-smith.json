@@ -1,0 +1,44 @@
+{
+  "slug": "chocolate-mousse-delia-smith",
+  "title": "Chocolate Mousse",
+  "inspiredBy": {
+    "chef": "Delia Smith",
+    "dish": "chocolate mousse"
+  },
+  "image": "dish-dessert.jpg",
+  "category": "Dessert",
+  "cuisine": "French",
+  "prepMin": 15,
+  "cookMin": 5,
+  "servings": 6,
+  "keywords": [
+    "thermomix chocolate mousse",
+    "delia smith mousse thermomix",
+    "easy chocolate mousse TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Delia Smith taught Britain to cook, and her chocolate mousse is pure, dark and grown-up. The Thermomix melts the chocolate and whips the eggs, so it comes together in minutes.",
+  "ingredients": [
+    "200 g dark chocolate, broken",
+    "4 eggs, separated",
+    "40 g caster sugar",
+    "1 pinch salt"
+  ],
+  "steps": [
+    "Place the chocolate in the bowl and chop 8 sec / speed 8. Melt 4 min / 50°C / speed 2, then tip into a bowl.",
+    "Insert the butterfly. Add the egg whites and salt and whip 3 min / speed 4 to firm peaks; set aside.",
+    "Without washing, add the yolks and sugar and mix 30 sec / speed 4. Add the melted chocolate and mix 10 sec / speed 3.",
+    "Fold the whipped whites through by hand, gently. Spoon into glasses and chill 2 hours."
+  ],
+  "tips": [
+    "Fold — don't stir — the whites in to keep it airy.",
+    "Use a good 70% dark chocolate for that grown-up edge."
+  ],
+  "faq": [
+    {
+      "q": "Why separate the eggs?",
+      "a": "Whipped whites give the mousse its light, airy set without any cream."
+    }
+  ],
+  "datePublished": "2026-06-22"
+}

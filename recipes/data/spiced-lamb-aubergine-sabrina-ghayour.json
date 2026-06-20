@@ -1,0 +1,51 @@
+{
+  "slug": "spiced-lamb-aubergine-sabrina-ghayour",
+  "title": "Spiced Lamb & Aubergine",
+  "inspiredBy": {
+    "chef": "Sabrina Ghayour",
+    "dish": "spiced lamb & aubergine"
+  },
+  "image": "dish-chicken.jpg",
+  "category": "Dinner",
+  "cuisine": "Persian",
+  "prepMin": 15,
+  "cookMin": 35,
+  "servings": 4,
+  "keywords": [
+    "thermomix lamb aubergine",
+    "sabrina ghayour thermomix",
+    "persian lamb stew TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Sabrina Ghayour brought Persian flavours to everyone's table. This rich, spiced lamb and aubergine is fragrant with cinnamon and cumin — the Thermomix simmers it tender.",
+  "ingredients": [
+    "1 onion, halved",
+    "3 garlic cloves",
+    "30 g olive oil",
+    "500 g lamb, diced",
+    "1 aubergine, cubed",
+    "1 tsp cumin",
+    "1 tsp cinnamon",
+    "2 tbsp tomato paste",
+    "400 g chopped tomatoes",
+    "200 g stock",
+    "Salt, pepper, parsley"
+  ],
+  "steps": [
+    "Chop onion and garlic 4 sec / speed 5. Scrape.",
+    "Add oil and spices and sauté 3 min / 120°C / speed 1.",
+    "Add lamb and sear 5 min / 120°C / Reverse / speed 1.",
+    "Add aubergine, tomato paste, tomatoes and stock. Cook 30 min / 100°C / Reverse / speed 1, MC off and basket on the lid. Season and scatter with parsley."
+  ],
+  "tips": [
+    "Cinnamon with lamb is the Persian signature — don't skip it.",
+    "Lovely over rice or with warm flatbread."
+  ],
+  "faq": [
+    {
+      "q": "Can I use beef instead of lamb?",
+      "a": "Yes — beef chuck works well; keep the slow simmer so it goes tender."
+    }
+  ],
+  "datePublished": "2026-06-24"
+}

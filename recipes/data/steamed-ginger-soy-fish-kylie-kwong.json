@@ -1,0 +1,46 @@
+{
+  "slug": "steamed-ginger-soy-fish-kylie-kwong",
+  "title": "Steamed Ginger & Soy Fish",
+  "inspiredBy": {
+    "chef": "Kylie Kwong",
+    "dish": "steamed fish"
+  },
+  "image": "hero-table.jpg",
+  "category": "Dinner",
+  "cuisine": "Chinese",
+  "prepMin": 10,
+  "cookMin": 20,
+  "servings": 4,
+  "keywords": [
+    "thermomix steamed fish",
+    "kylie kwong fish thermomix",
+    "varoma fish TM7"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Kylie Kwong's steamed fish is elegant and light. The Thermomix steams the fish gently in the Varoma while the rice cooks below — a whole dinner in one go.",
+  "ingredients": [
+    "4 white fish fillets",
+    "20 g ginger, julienned",
+    "3 spring onions, sliced",
+    "30 g soy sauce",
+    "15 g sesame oil",
+    "For the rice: 300 g jasmine rice, rinsed + 360 g water"
+  ],
+  "steps": [
+    "Rinse the rice and place with the water in the mixing bowl.",
+    "Lay the fish in the Varoma dish, scatter with half the ginger. Set the Varoma in position.",
+    "Cook 18 min / Varoma / speed 2 — the rice cooks below while the fish steams above.",
+    "Top the fish with the remaining ginger and spring onions, pour over warmed soy and sesame oil, and serve over the rice."
+  ],
+  "tips": [
+    "Steaming keeps the fish silky and delicate — don't overcook it.",
+    "Heat the soy and sesame oil until just smoking and pour over to sizzle."
+  ],
+  "faq": [
+    {
+      "q": "Which fish works best?",
+      "a": "A firm white fish like snapper, barramundi or ling holds together when steamed."
+    }
+  ],
+  "datePublished": "2026-06-27"
+}

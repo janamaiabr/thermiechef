@@ -1,0 +1,48 @@
+{
+  "slug": "focaccia-paul-hollywood",
+  "title": "Rosemary Focaccia",
+  "inspiredBy": {
+    "chef": "Paul Hollywood",
+    "dish": "focaccia"
+  },
+  "image": "food-bread.jpg",
+  "category": "Baking",
+  "cuisine": "Italian",
+  "prepMin": 15,
+  "cookMin": 25,
+  "servings": 8,
+  "keywords": [
+    "thermomix focaccia",
+    "paul hollywood focaccia thermomix",
+    "TM6 bread dough"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Paul Hollywood made the nation fall for proper bread. The Thermomix mixes and kneads this dimpled, olive-oil-rich focaccia for you — all you do is dimple and bake.",
+  "ingredients": [
+    "350 g warm water",
+    "7 g dried yeast",
+    "1 tsp sugar",
+    "500 g baker's flour",
+    "1.5 tsp salt",
+    "40 g olive oil, plus extra",
+    "Rosemary and flaky salt, to top"
+  ],
+  "steps": [
+    "Place water, yeast and sugar in the bowl. Warm 2 min / 37°C / speed 2 until foamy.",
+    "Add the flour, salt and olive oil. Mix 6 sec / speed 6.",
+    "Knead 3 min / dough mode.",
+    "Tip into an oiled tray, cover and prove 1 hour until puffy. Dimple all over with oiled fingers, drizzle with oil, scatter rosemary and flaky salt.",
+    "Bake in a preheated oven at 220°C for 22–25 minutes until golden. (The Thermomix makes the dough; baking is done in your oven.)"
+  ],
+  "tips": [
+    "Don't skimp on the olive oil — it's what makes focaccia.",
+    "Press your dimples deep so they hold little pools of oil."
+  ],
+  "faq": [
+    {
+      "q": "Can the Thermomix knead focaccia dough?",
+      "a": "Yes — dough mode kneads this wet dough in 3 minutes; you only shape and bake."
+    }
+  ],
+  "datePublished": "2026-06-21"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "salted-caramel-sauce-diana-henry",
+  "title": "Salted Caramel Sauce",
+  "inspiredBy": {
+    "chef": "Diana Henry",
+    "dish": "salted caramel"
+  },
+  "image": "dish-smoothie.jpg",
+  "category": "Dessert",
+  "cuisine": "International",
+  "prepMin": 5,
+  "cookMin": 12,
+  "servings": 10,
+  "keywords": [
+    "thermomix salted caramel",
+    "diana henry caramel thermomix",
+    "caramel sauce TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Diana Henry writes some of the most beautiful food books around. This salted caramel is glossy and deep — and the Thermomix makes it without the fear of a burnt pan.",
+  "ingredients": [
+    "200 g caster sugar",
+    "60 g water",
+    "100 g butter, cubed",
+    "150 g thickened cream",
+    "1 tsp flaky salt"
+  ],
+  "steps": [
+    "Place the sugar and water in the bowl. Cook 9 min / Varoma / speed 1, MC off, until deep amber.",
+    "Add the butter and cook 2 min / 100°C / speed 2 (take care, it will bubble up).",
+    "Add the cream and salt and mix 30 sec / 80°C / speed 3 until smooth and glossy. Cool — it thickens as it sits."
+  ],
+  "tips": [
+    "Watch the colour at the end — amber is flavour, but too dark turns bitter.",
+    "Keeps 2 weeks in the fridge; warm gently to pour."
+  ],
+  "faq": [
+    {
+      "q": "Is it hard to make caramel in a Thermomix?",
+      "a": "No — it cooks at a steady temperature with no stirring, so there's far less risk of burning."
+    }
+  ],
+  "datePublished": "2026-07-01"
+}

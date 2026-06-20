@@ -1,0 +1,51 @@
+{
+  "slug": "coconut-greens-dal-anna-jones",
+  "title": "Coconut Greens Dal",
+  "inspiredBy": {
+    "chef": "Anna Jones",
+    "dish": "coconut dal"
+  },
+  "image": "dish-bowl.jpg",
+  "category": "Dinner",
+  "cuisine": "Indian",
+  "prepMin": 10,
+  "cookMin": 30,
+  "servings": 4,
+  "keywords": [
+    "thermomix coconut dal",
+    "anna jones dal thermomix",
+    "vegan dal TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Anna Jones makes vegetables the star. This creamy coconut dal with greens is her kind of food — nourishing and easy. The Thermomix cooks the lentils hands-free.",
+  "ingredients": [
+    "1 onion, halved",
+    "3 garlic cloves",
+    "20 g ginger",
+    "20 g coconut oil",
+    "1 tsp turmeric",
+    "1 tsp cumin",
+    "250 g red lentils, rinsed",
+    "400 g coconut milk",
+    "400 g water",
+    "100 g spinach",
+    "Salt, lime"
+  ],
+  "steps": [
+    "Chop onion, garlic and ginger 4 sec / speed 5. Scrape.",
+    "Add coconut oil, turmeric and cumin and sauté 3 min / 120°C / speed 1.",
+    "Add lentils, coconut milk and water. Cook 22 min / 100°C / speed 1, basket on the lid.",
+    "Add the spinach and cook 3 min / 100°C / Reverse / speed 1. Finish with salt and lime."
+  ],
+  "tips": [
+    "Stir in a handful of spinach right at the end so it stays green.",
+    "Top with toasted coconut and chilli for crunch."
+  ],
+  "faq": [
+    {
+      "q": "Is it vegan?",
+      "a": "Yes — completely plant-based and gluten-free."
+    }
+  ],
+  "datePublished": "2026-06-25"
+}

@@ -1,0 +1,33 @@
+name: Daily recipe publish (keyless)
+
+# No API key. Recipes are pre-written in recipes/data/ with future dates.
+# build.mjs only publishes recipes whose datePublished has arrived, so each day
+# this rebuilds, and when a queued recipe's day comes it gets committed + pushed.
+# Vercel (connected to this repo) auto-deploys on push.
+on:
+  schedule:
+    - cron: "0 19 * * *"   # 19:00 UTC ≈ 5am AEST — fresh recipe each morning
+  workflow_dispatch: {}      # manual run from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Rebuild (publishes any recipe whose date has arrived)
+        run: node scripts/build.mjs
+        env:
+          SITE_URL: https://thermiechef.com.au
+      - name: Commit & push if something new went live
+        run: |
+          git config user.name "ThermieChef Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Publish daily recipe ($(date -u +%F))"
+          git push

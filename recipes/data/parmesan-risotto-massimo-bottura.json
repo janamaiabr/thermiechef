@@ -1,0 +1,48 @@
+{
+  "slug": "parmesan-risotto-massimo-bottura",
+  "title": "Parmesan Risotto",
+  "inspiredBy": {
+    "chef": "Massimo Bottura",
+    "dish": "parmesan risotto"
+  },
+  "image": "food-risotto.jpg",
+  "category": "Dinner",
+  "cuisine": "Italian",
+  "prepMin": 10,
+  "cookMin": 20,
+  "servings": 4,
+  "keywords": [
+    "thermomix parmesan risotto",
+    "massimo bottura risotto thermomix",
+    "cheese risotto TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Massimo Bottura turned risotto into art. This stripped-back parmesan risotto celebrates the cheese — and the Thermomix gets it creamy with no stirring at all.",
+  "ingredients": [
+    "1 onion, halved",
+    "30 g butter",
+    "320 g arborio rice",
+    "100 g white wine",
+    "800 g hot vegetable stock",
+    "80 g parmesan, grated",
+    "20 g extra butter",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Chop onion 4 sec / speed 5. Add butter and sauté 3 min / 120°C / speed 1.",
+    "Add rice and wine and cook 2 min / 100°C / Reverse / speed 1.",
+    "Add the hot stock. Cook 16 min / 100°C / Reverse / speed 1, MC off and basket on the lid.",
+    "Add parmesan and extra butter. Stir 20 sec / Reverse / speed 1. Rest 2 minutes — it should be loose and glossy. Season."
+  ],
+  "tips": [
+    "Bottura's secret is finishing hard with cheese and butter for a glossy 'mantecatura'.",
+    "Keep it loose — risotto should ripple, not stand up."
+  ],
+  "faq": [
+    {
+      "q": "Why use arborio rice?",
+      "a": "Its high starch is what makes risotto creamy without any cream."
+    }
+  ],
+  "datePublished": "2026-06-30"
+}

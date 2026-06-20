@@ -19,7 +19,12 @@ function loadRecipes() {
 }
 
 function build() {
-  const recipes = loadRecipes();
+  // date-gated publishing: only recipes whose datePublished has arrived go live.
+  // Future-dated recipes sit in the queue (recipes/data/) until their day comes.
+  const TODAY = process.env.BUILD_DATE || new Date().toISOString().slice(0, 10);
+  const queueAll = loadRecipes();
+  const recipes = queueAll.filter((r) => (r.datePublished || "0000-00-00") <= TODAY);
+  const queued = queueAll.length - recipes.length;
   mkdirSync(join(ROOT, "recipes"), { recursive: true });
 
   // 1. individual recipe pages

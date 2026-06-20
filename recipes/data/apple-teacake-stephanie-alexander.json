@@ -1,0 +1,48 @@
+{
+  "slug": "apple-teacake-stephanie-alexander",
+  "title": "Apple Teacake",
+  "inspiredBy": {
+    "chef": "Stephanie Alexander",
+    "dish": "apple teacake"
+  },
+  "image": "food-cake.jpg",
+  "category": "Baking",
+  "cuisine": "Australian",
+  "prepMin": 15,
+  "cookMin": 40,
+  "servings": 8,
+  "keywords": [
+    "thermomix apple teacake",
+    "stephanie alexander teacake thermomix",
+    "apple cake TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Stephanie Alexander is an Australian treasure. Her apple teacake is the kind of simple, buttery cake that fills the house with cinnamon. The Thermomix makes the batter in one bowl.",
+  "ingredients": [
+    "125 g butter, soft",
+    "150 g caster sugar",
+    "2 eggs",
+    "225 g self-raising flour",
+    "100 g milk",
+    "1 tsp vanilla",
+    "1 apple, thinly sliced",
+    "Butter, cinnamon and sugar, to top"
+  ],
+  "steps": [
+    "Add butter, sugar, eggs, flour, milk and vanilla. Mix 25 sec / speed 5, scrape, then 10 sec / speed 4.",
+    "Spoon into a lined round tin and smooth the top.",
+    "Arrange the apple slices over the top, brush with melted butter and dust with cinnamon sugar.",
+    "Bake in a preheated oven at 180°C for 35–40 minutes until golden and springy."
+  ],
+  "tips": [
+    "Fan the apple slices over the top for that classic teacake look.",
+    "Best warm, with a cup of tea — as intended."
+  ],
+  "faq": [
+    {
+      "q": "No self-raising flour?",
+      "a": "Use plain flour with 2 tsp baking powder."
+    }
+  ],
+  "datePublished": "2026-06-28"
+}

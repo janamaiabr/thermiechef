@@ -1,0 +1,48 @@
+{
+  "slug": "mac-and-cheese-curtis-stone",
+  "title": "Creamy Mac & Cheese",
+  "inspiredBy": {
+    "chef": "Curtis Stone",
+    "dish": "mac and cheese"
+  },
+  "image": "dish-pasta.jpg",
+  "category": "Dinner",
+  "cuisine": "American",
+  "prepMin": 10,
+  "cookMin": 20,
+  "servings": 4,
+  "keywords": [
+    "thermomix mac and cheese",
+    "curtis stone mac cheese thermomix",
+    "cheese sauce TM6"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Curtis Stone does comfort food beautifully. The Thermomix makes a lump-free cheese sauce in minutes — stir through cooked pasta and you've got the creamiest mac and cheese.",
+  "ingredients": [
+    "250 g cheddar, cubed",
+    "40 g butter",
+    "40 g plain flour",
+    "600 g milk",
+    "1 tsp mustard",
+    "1 pinch nutmeg",
+    "Salt and pepper",
+    "300 g macaroni, cooked"
+  ],
+  "steps": [
+    "Grate the cheddar 8 sec / speed 8; set aside.",
+    "Add butter, flour and milk. Cook 8 min / 90°C / speed 4 until thickened to a smooth white sauce.",
+    "Add the cheese, mustard and nutmeg. Mix 20 sec / speed 4 until melted and glossy. Season.",
+    "Stir the cooked macaroni through the sauce. For a crust, top with breadcrumbs and grill a few minutes."
+  ],
+  "tips": [
+    "Grating the cheese in the Thermomix means it melts smooth, never grainy.",
+    "A spoon of mustard sharpens the whole thing."
+  ],
+  "faq": [
+    {
+      "q": "Why won't the cheese sauce go lumpy?",
+      "a": "Cooking the flour, butter and milk together at speed 4 keeps it constantly whisked and silky."
+    }
+  ],
+  "datePublished": "2026-06-26"
+}
