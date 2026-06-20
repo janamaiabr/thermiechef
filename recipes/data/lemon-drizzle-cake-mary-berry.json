@@ -1,0 +1,51 @@
+{
+  "slug": "lemon-drizzle-cake-mary-berry",
+  "title": "Lemon Drizzle Cake",
+  "inspiredBy": {
+    "chef": "Mary Berry",
+    "dish": "lemon drizzle cake"
+  },
+  "description": "My Thermomix version of Mary Berry's lemon drizzle cake — tender crumb, crunchy lemon top.",
+  "image": "food-cake.jpg",
+  "category": "Baking",
+  "cuisine": "British",
+  "prepMin": 15,
+  "cookMin": 35,
+  "servings": 10,
+  "keywords": [
+    "thermomix lemon drizzle cake",
+    "mary berry cake thermomix",
+    "lemon cake TM6"
+  ],
+  "datePublished": "2026-06-10",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Mary Berry's lemon drizzle is the cake everyone asks for. The Thermomix makes the batter in one bowl, and the warm lemon-sugar drizzle gives it that signature crackly top.",
+  "ingredients": [
+    "225 g butter, soft",
+    "225 g caster sugar",
+    "4 eggs",
+    "225 g self-raising flour",
+    "1 tsp baking powder",
+    "Zest of 2 lemons",
+    "For the drizzle: juice of 2 lemons + 85 g caster sugar"
+  ],
+  "steps": [
+    "Add the butter, sugar, eggs, flour, baking powder and lemon zest. Mix 25 sec / speed 5, scrape down, then 10 sec / speed 4 to a smooth batter.",
+    "Spoon into a lined loaf tin. Bake in a preheated oven at 180°C for 30–35 minutes, until golden and springy. (The Thermomix makes the batter; baking is done in your oven.)",
+    "Mix the lemon juice and 85 g sugar. Prick the warm cake all over and spoon the drizzle on so it soaks in. Cool in the tin."
+  ],
+  "tips": [
+    "Prick the warm cake well so the drizzle soaks right through.",
+    "Don't overmix once the flour is in."
+  ],
+  "faq": [
+    {
+      "q": "No self-raising flour?",
+      "a": "Use plain flour plus 2 tsp baking powder."
+    },
+    {
+      "q": "Why drizzle while warm?",
+      "a": "A warm cake drinks up the lemon syrup and sets a crunchy top."
+    }
+  ]
+}

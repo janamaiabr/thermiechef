@@ -182,7 +182,20 @@ ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script
 }
 
 export function renderIndexPage(recipes, siteUrl) {
-  const cards = recipes.map((r) => `<a class="card" href="${r.slug}.html"><div class="ph"><img src="../assets/${esc(r.image)}" alt="${esc(r.title)}" loading="lazy"/><span class="b">${r.inspiredBy && r.inspiredBy.chef ? "Inspired by " + esc(r.inspiredBy.chef) : "Thermomix"}</span></div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`).join("");
+  const chefsList = [...new Set(recipes.map((r) => r.inspiredBy && r.inspiredBy.chef).filter(Boolean))].sort();
+  const catList = [...new Set(recipes.map((r) => r.category).filter(Boolean))];
+  const cards = recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; return `<a class="card" data-cat="${esc((r.category || "").toLowerCase())}" data-chef="${esc(chef)}" data-s="${esc((r.title + " " + chef + " " + (r.cuisine || "") + " " + (r.category || "")).toLowerCase())}" href="${r.slug}.html"><div class="ph"><img src="../assets/${esc(r.image)}" alt="${esc(r.title)}" loading="lazy"/><span class="b">${chef ? "Inspired by " + esc(chef) : "Thermomix"}</span></div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`; }).join("");
+  const filterBar = `<div class="filters">
+    <input id="rsearch" class="rsearch" placeholder="Search recipes or chefs…" oninput="filt()" aria-label="Search recipes"/>
+    <select id="rchef" class="rchef" onchange="filt()"><option value="">All chefs</option>${chefsList.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select>
+  </div>
+  <div class="chips"><button class="chip on" data-cat="" onclick="setCat(this)">All</button>${catList.map((c) => `<button class="chip" data-cat="${esc(c.toLowerCase())}" onclick="setCat(this)">${esc(c)}</button>`).join("")}</div>
+  <p class="rcount"><span id="rcount">${recipes.length}</span> recipes</p>
+  <script>
+  var curCat="";
+  function setCat(b){curCat=b.getAttribute('data-cat')||"";var cs=document.querySelectorAll('.chip');for(var i=0;i<cs.length;i++)cs[i].classList.toggle('on',cs[i]===b);filt();}
+  function filt(){var q=(document.getElementById('rsearch').value||'').toLowerCase().trim();var chef=document.getElementById('rchef').value||'';var cards=document.querySelectorAll('.rgrid .card'),n=0;for(var i=0;i<cards.length;i++){var c=cards[i];var ok=(!curCat||c.getAttribute('data-cat')===curCat)&&(!chef||c.getAttribute('data-chef')===chef)&&(!q||(c.getAttribute('data-s')||'').indexOf(q)>=0);c.classList.toggle('hide',!ok);if(ok)n++;}document.getElementById('rcount').textContent=n;document.getElementById('noRes').style.display=n?'none':'block';}
+  </script>`;
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G1D265RTZ0"></script>
@@ -205,13 +218,25 @@ export function renderIndexPage(recipes, siteUrl) {
 .card .cb{padding:16px 18px 20px}.card h3{font-size:1.18rem;color:var(--ink);margin-bottom:6px}.card p{color:var(--muted);font-size:.9rem;margin-bottom:10px}
 .card .m{font-family:Poppins;font-weight:600;font-size:.82rem;color:var(--terra)}
 @media(max-width:820px){.rgrid{grid-template-columns:1fr 1fr}}@media(max-width:540px){.rgrid{grid-template-columns:1fr}}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:6px 0 14px}
+.rsearch{flex:1;min-width:200px;padding:.72em 1.1em;border:1.5px solid var(--line);border-radius:999px;font-size:.95rem;font-family:inherit;background:#fff}
+.rsearch:focus{outline:none;border-color:var(--terra)}
+.rchef{padding:.62em 1.1em;border:1.5px solid var(--line);border-radius:999px;font-family:Poppins;font-weight:600;font-size:.85rem;background:#fff;color:var(--ink)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:.5em 1.05em;font-family:Poppins;font-weight:600;font-size:.84rem;cursor:pointer;transition:.15s}
+.chip.on{background:var(--green);color:#fff;border-color:var(--green)}
+.rcount{color:var(--muted);font-size:.85rem;font-family:Poppins;font-weight:600;margin:4px 0 0}
+.rgrid .card.hide{display:none}
+.no-res{display:none;color:var(--muted);padding:40px 0;text-align:center;font-size:1.05rem}
 </style>
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org/", "@type": "CollectionPage", name: "Thermomix Recipes", url: `${siteUrl}/recipes/`, hasPart: recipes.map((r) => ({ "@type": "Recipe", name: r.title, url: `${siteUrl}/recipes/${r.slug}.html` })) })}</script>
 </head><body>
-<header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#convert">Recipe converter</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener">Get yours</a></div></div></header>
+<header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#recipes">Latest</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener" onclick="trackBuy('recipes-index')">Get yours</a></div></div></header>
 <div class="wrap">
-  <div class="head"><h1>Thermomix recipes</h1><p>A new recipe every day — real food, exact Thermomix speeds, times and temperatures. Made by Chef Aly for the TM6 and TM7.</p></div>
+  <div class="head"><h1>Famous recipes, reimagined for Thermomix</h1><p>Iconic dishes from the world's best chefs, rebuilt for your TM6 and TM7 — exact speeds, times and temperatures. A new one every day.</p></div>
+  ${filterBar}
   <div class="rgrid">${cards}</div>
+  <p class="no-res" id="noRes">No recipes match — try clearing the filters.</p>
 </div>
 <footer><div class="logo">Thermie<span>Chef</span></div><p style="margin-top:6px">Famous recipes, reimagined for your Thermomix.</p><nav class="foot-links"><a href="/terms.html">Terms</a><a href="/privacy.html">Privacy</a><a href="/index.html">Home</a></nav></footer>
 <script>${TRACK_JS}</script>

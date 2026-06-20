@@ -1,0 +1,55 @@
+{
+  "slug": "coconut-fish-curry-rick-stein",
+  "title": "Coconut Fish Curry",
+  "inspiredBy": {
+    "chef": "Rick Stein",
+    "dish": "coconut fish curry"
+  },
+  "description": "My Thermomix take on Rick Stein's coconut fish curry — fragrant, gentle, and the fish stays whole.",
+  "image": "food-risotto.jpg",
+  "category": "Dinner",
+  "cuisine": "Indian",
+  "prepMin": 15,
+  "cookMin": 20,
+  "servings": 4,
+  "keywords": [
+    "thermomix fish curry",
+    "rick stein fish curry thermomix",
+    "coconut fish curry TM6"
+  ],
+  "datePublished": "2026-06-03",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Rick Stein has spent a lifetime chasing the perfect fish curry. This one is light and aromatic, and the Thermomix cooks the fish so gently it stays in beautiful whole pieces.",
+  "ingredients": [
+    "1 brown onion, halved",
+    "3 garlic cloves",
+    "20 g fresh ginger",
+    "2 tbsp mild curry paste",
+    "30 g oil",
+    "400 g coconut milk",
+    "100 g water",
+    "1 tbsp tamarind paste (or lime juice)",
+    "600 g firm white fish, in chunks",
+    "Coriander and salt, to finish"
+  ],
+  "steps": [
+    "Place onion, garlic and ginger in the bowl and chop 4 sec / speed 5. Scrape down.",
+    "Add the oil and curry paste and sauté 3 min / 120°C / speed 1.",
+    "Add the coconut milk, water and tamarind. Cook 8 min / 100°C / speed 2.",
+    "Add the fish chunks and cook 8 min / 90°C / Reverse / speed 1 — gentle so the fish stays whole. Finish with coriander, lime and salt. Serve with rice."
+  ],
+  "tips": [
+    "The low 90°C on Reverse keeps the fish from breaking up.",
+    "Use a firm white fish like snapper or ling."
+  ],
+  "faq": [
+    {
+      "q": "Won't the fish fall apart in the Thermomix?",
+      "a": "No — cooking at 90°C on Reverse speed 1 is gentle enough to keep the pieces whole."
+    },
+    {
+      "q": "Can I use prawns?",
+      "a": "Yes — add them for the last 5 minutes."
+    }
+  ]
+}

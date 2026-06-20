@@ -1,0 +1,61 @@
+{
+  "slug": "beef-bourguignon-julia-child",
+  "title": "Beef Bourguignon",
+  "inspiredBy": {
+    "chef": "Julia Child",
+    "dish": "beef bourguignon"
+  },
+  "description": "My Thermomix version of Julia Child's beef bourguignon — a rich red-wine beef stew, low and slow in one bowl.",
+  "image": "dish-chicken.jpg",
+  "category": "Dinner",
+  "cuisine": "French",
+  "prepMin": 20,
+  "cookMin": 70,
+  "servings": 5,
+  "keywords": [
+    "thermomix beef bourguignon",
+    "julia child stew thermomix",
+    "red wine beef TM6"
+  ],
+  "datePublished": "2026-06-12",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Julia made this French classic the dish everyone wants to master. The Thermomix simmers it low and slow on Reverse so the beef goes meltingly tender — no babysitting the pot.",
+  "ingredients": [
+    "1 brown onion, halved",
+    "2 garlic cloves",
+    "150 g bacon lardons",
+    "30 g olive oil",
+    "800 g beef chuck, cubed",
+    "30 g plain flour",
+    "300 g red wine",
+    "300 g beef stock",
+    "1 tbsp tomato paste",
+    "1 bay leaf",
+    "2 sprigs thyme",
+    "200 g mushrooms",
+    "200 g baby onions",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Place onion and garlic in the mixing bowl and chop 4 sec / speed 5. Scrape down.",
+    "Add the olive oil and bacon and sauté 4 min / 120°C / speed 1.",
+    "Add the beef and cook 5 min / 120°C / Reverse / speed 1 to seal.",
+    "Add the flour and cook 1 min / 100°C / Reverse / speed 1 to coat.",
+    "Add the wine, stock, tomato paste, bay and thyme. Cook 60 min / 100°C / Reverse / speed 1, MC off and basket on the lid, adding the mushrooms and baby onions for the last 20 minutes.",
+    "Season and rest. Serve with mash or crusty bread."
+  ],
+  "tips": [
+    "For deeper flavour, brown the beef in a hot pan first if you have time.",
+    "Even better the next day."
+  ],
+  "faq": [
+    {
+      "q": "Can the Thermomix make beef bourguignon?",
+      "a": "Yes — it sautés, seals and simmers low-and-slow on Reverse so the beef turns tender without stirring."
+    },
+    {
+      "q": "Best cut of beef?",
+      "a": "Chuck — its connective tissue melts during the slow cook."
+    }
+  ]
+}

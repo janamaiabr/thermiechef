@@ -1,0 +1,52 @@
+{
+  "slug": "gazpacho-jose-andres",
+  "title": "Gazpacho",
+  "inspiredBy": {
+    "chef": "José Andrés",
+    "dish": "gazpacho"
+  },
+  "description": "My Thermomix take on José Andrés' silky Spanish gazpacho — a cold soup blitzed in seconds.",
+  "image": "dish-soup.jpg",
+  "category": "Lunch",
+  "cuisine": "Spanish",
+  "prepMin": 10,
+  "cookMin": 0,
+  "servings": 4,
+  "keywords": [
+    "thermomix gazpacho",
+    "jose andres gazpacho thermomix",
+    "cold tomato soup TM6"
+  ],
+  "datePublished": "2026-06-11",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "No cooking at all — just ripe summer veg blitzed until glassy and smooth. The Thermomix turns a handful of tomatoes into the silkiest cold soup.",
+  "ingredients": [
+    "700 g ripe tomatoes",
+    "1 cucumber, peeled",
+    "1 red capsicum, deseeded",
+    "1 garlic clove",
+    "30 g sherry vinegar",
+    "40 g stale bread",
+    "1 tsp salt",
+    "80 g olive oil"
+  ],
+  "steps": [
+    "Place the tomatoes, cucumber, capsicum, garlic, vinegar, bread and salt in the mixing bowl. Blend 30 sec / speed 7.",
+    "With the blades running on speed 5, drizzle the olive oil through the lid, then blend 1 min / speed 9 until completely silky.",
+    "Chill at least 1 hour. Check the seasoning and serve cold with an extra drizzle of olive oil."
+  ],
+  "tips": [
+    "The best tomatoes you can find make the whole dish.",
+    "For an ultra-smooth finish, pass it through a sieve."
+  ],
+  "faq": [
+    {
+      "q": "Do you cook gazpacho?",
+      "a": "No — it's a raw, cold soup. The Thermomix just blends it silky."
+    },
+    {
+      "q": "Why add bread?",
+      "a": "It gives the soup body and that classic velvety texture."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "orange-almond-cake-claudia-roden",
+  "title": "Orange & Almond Cake",
+  "inspiredBy": {
+    "chef": "Claudia Roden",
+    "dish": "orange & almond cake"
+  },
+  "description": "My Thermomix version of Claudia Roden's famous flourless orange & almond cake — impossibly moist and gluten-free.",
+  "image": "dish-dessert.jpg",
+  "category": "Dessert",
+  "cuisine": "Middle Eastern",
+  "prepMin": 15,
+  "cookMin": 50,
+  "servings": 10,
+  "keywords": [
+    "thermomix orange almond cake",
+    "claudia roden orange cake thermomix",
+    "flourless cake TM6"
+  ],
+  "datePublished": "2026-06-04",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Claudia Roden's whole-orange almond cake is a legend — flourless, fragrant and so moist it barely keeps. The Thermomix softens the oranges and makes the batter, skin and all.",
+  "ingredients": [
+    "2 whole oranges",
+    "250 g almond meal",
+    "250 g caster sugar",
+    "6 eggs",
+    "1 tsp baking powder"
+  ],
+  "steps": [
+    "Place the whole oranges in the bowl with 500 g water. Cook 30 min / 100°C / speed 1 until very soft, then drain and cool slightly.",
+    "Blend the cooked oranges (skin and all) 20 sec / speed 6 to a smooth purée.",
+    "Add the eggs, sugar, almond meal and baking powder. Mix 20 sec / speed 5.",
+    "Pour into a lined 22 cm tin. Bake in a preheated oven at 170°C for 50 minutes, until set. (The Thermomix makes the batter; baking is done in your oven.)"
+  ],
+  "tips": [
+    "Using the whole orange, skin and all, gives the signature bittersweet depth.",
+    "Naturally gluten-free thanks to the almond meal."
+  ],
+  "faq": [
+    {
+      "q": "Is this cake really flourless?",
+      "a": "Yes — almond meal replaces flour, so it's gluten-free and beautifully moist."
+    },
+    {
+      "q": "Why boil the oranges first?",
+      "a": "Softening them mellows the bitterness of the peel."
+    }
+  ]
+}

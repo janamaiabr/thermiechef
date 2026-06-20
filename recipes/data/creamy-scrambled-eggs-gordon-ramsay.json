@@ -1,0 +1,51 @@
+{
+  "slug": "creamy-scrambled-eggs-gordon-ramsay",
+  "title": "Creamy Scrambled Eggs",
+  "inspiredBy": {
+    "chef": "Gordon Ramsay",
+    "dish": "scrambled eggs"
+  },
+  "description": "My Thermomix take on Gordon Ramsay's famously soft, creamy scrambled eggs.",
+  "image": "food-bread.jpg",
+  "category": "Breakfast",
+  "cuisine": "British",
+  "prepMin": 3,
+  "cookMin": 7,
+  "servings": 2,
+  "keywords": [
+    "thermomix scrambled eggs",
+    "gordon ramsay eggs thermomix",
+    "creamy eggs TM6"
+  ],
+  "datePublished": "2026-06-13",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Ramsay's trick is low heat and pulling the eggs while they're still glossy. The Thermomix's gentle 90°C and butterfly whisk make them silky every time.",
+  "ingredients": [
+    "6 eggs",
+    "30 g butter",
+    "1 tbsp crème fraîche",
+    "1 pinch salt",
+    "Black pepper",
+    "Chives, to serve",
+    "Sourdough, to serve"
+  ],
+  "steps": [
+    "Insert the butterfly whisk. Add the eggs and butter to the mixing bowl. Cook 7 min / 90°C / speed 2, watching closely — stop the moment they're softly set and still glossy.",
+    "Add the crème fraîche, salt and pepper. Mix 15 sec / speed 2 — this stops the cooking and keeps them silky.",
+    "Serve straight away on hot sourdough, scattered with chives."
+  ],
+  "tips": [
+    "Pull them while slightly loose — the residual heat finishes them.",
+    "The low 90°C is the secret to creamy, never rubbery, eggs."
+  ],
+  "faq": [
+    {
+      "q": "Why cook eggs at only 90°C?",
+      "a": "Gentle heat keeps the curds soft and creamy instead of dry and rubbery."
+    },
+    {
+      "q": "Do I need the butterfly?",
+      "a": "Yes — it folds the eggs slowly so they stay silky."
+    }
+  ]
+}

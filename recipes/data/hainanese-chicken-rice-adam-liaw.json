@@ -1,0 +1,53 @@
+{
+  "slug": "hainanese-chicken-rice-adam-liaw",
+  "title": "Hainanese Chicken Rice",
+  "inspiredBy": {
+    "chef": "Adam Liaw",
+    "dish": "Hainanese chicken rice"
+  },
+  "description": "My Thermomix version of Adam Liaw's Hainanese chicken rice — silky poached chicken and fragrant rice, cooked together.",
+  "image": "hero-table.jpg",
+  "category": "Dinner",
+  "cuisine": "Singaporean",
+  "prepMin": 15,
+  "cookMin": 25,
+  "servings": 4,
+  "keywords": [
+    "thermomix chicken rice",
+    "adam liaw hainanese chicken rice thermomix",
+    "varoma chicken rice TM7"
+  ],
+  "datePublished": "2026-06-06",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Adam Liaw's Hainanese chicken rice is comfort food perfected. The Thermomix does the clever bit — the rice cooks in the bowl while the chicken steams above it in the Varoma, soaking up all the flavour.",
+  "ingredients": [
+    "500 g chicken thigh fillets",
+    "20 g fresh ginger",
+    "2 spring onions",
+    "2 garlic cloves",
+    "30 g oil",
+    "300 g jasmine rice, rinsed",
+    "360 g chicken stock",
+    "To serve: soy, sliced cucumber, chilli-ginger sauce"
+  ],
+  "steps": [
+    "Place the garlic and ginger in the bowl and chop 3 sec / speed 7. Add the oil and sauté 3 min / 120°C / speed 1.",
+    "Add the rinsed rice and toast 2 min / 100°C / Reverse / speed 1, then add the stock.",
+    "Rub the chicken with a little ginger and the spring onions and place in the Varoma dish. Set the Varoma in position. Cook 25 min / Varoma / Reverse / speed 1 — the rice cooks below while the chicken steams above.",
+    "Rest the chicken 5 minutes, slice and serve over the rice with soy, cucumber and chilli-ginger sauce."
+  ],
+  "tips": [
+    "Steaming keeps the chicken silky — that's the Hainanese way.",
+    "Check the chicken reaches 75°C in the thickest part."
+  ],
+  "faq": [
+    {
+      "q": "Can the Thermomix cook the chicken and rice together?",
+      "a": "Yes — the rice cooks in the bowl and the chicken steams in the Varoma above, in one 25-minute step."
+    },
+    {
+      "q": "Breast or thigh?",
+      "a": "Thigh stays juicier when steamed."
+    }
+  ]
+}

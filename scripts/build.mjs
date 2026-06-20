@@ -1,7 +1,7 @@
 // Builds all recipe pages, the recipes index, sitemap.xml, llms.txt,
 // and refreshes the latest-recipes block on the homepage.
 // Run: node scripts/build.mjs   (no API key needed)
-import { readFileSync, writeFileSync, readdirSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, unlinkSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { renderRecipePage, renderIndexPage, homepageCards, totalMin } from "./lib/template.mjs";
@@ -25,6 +25,13 @@ function build() {
   // 1. individual recipe pages
   for (const r of recipes) {
     writeFileSync(join(ROOT, "recipes", `${r.slug}.html`), renderRecipePage(r, SITE_URL));
+  }
+  // remove orphan pages whose recipe data was deleted
+  const valid = new Set(recipes.map((r) => `${r.slug}.html`));
+  for (const f of readdirSync(join(ROOT, "recipes"))) {
+    if (f.endsWith(".html") && f !== "index.html" && !valid.has(f)) {
+      try { unlinkSync(join(ROOT, "recipes", f)); } catch (_) {}
+    }
   }
 
   // 2. recipes index

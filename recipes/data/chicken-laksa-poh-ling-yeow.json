@@ -1,0 +1,52 @@
+{
+  "slug": "chicken-laksa-poh-ling-yeow",
+  "title": "Chicken Laksa",
+  "inspiredBy": {
+    "chef": "Poh Ling Yeow",
+    "dish": "chicken laksa"
+  },
+  "description": "My Thermomix version of Poh Ling Yeow's chicken laksa — a fragrant coconut noodle soup from a homemade paste.",
+  "image": "dish-pasta.jpg",
+  "category": "Dinner",
+  "cuisine": "Malaysian",
+  "prepMin": 15,
+  "cookMin": 25,
+  "servings": 4,
+  "keywords": [
+    "thermomix laksa",
+    "poh ling yeow laksa thermomix",
+    "chicken laksa paste TM6"
+  ],
+  "datePublished": "2026-06-02",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Poh Ling Yeow's laksa is a bowl of pure comfort. The Thermomix makes the spice paste from scratch in seconds, then builds the rich coconut broth — restaurant laksa at home.",
+  "ingredients": [
+    "For the paste: 1 onion, 3 garlic cloves, 20 g ginger, 2 chillies, 20 g lemongrass, 1 tsp turmeric",
+    "30 g oil",
+    "400 g coconut milk",
+    "500 g chicken stock",
+    "1 tbsp fish sauce",
+    "400 g chicken thigh, sliced",
+    "To serve: rice noodles, bean sprouts, tofu puffs, lime, coriander"
+  ],
+  "steps": [
+    "Place all the paste ingredients in the bowl and blend 8 sec / speed 8 to a paste. Scrape down.",
+    "Add the oil and fry the paste 5 min / 120°C / speed 1 to release the aroma.",
+    "Add the coconut milk, stock, fish sauce and sliced chicken. Cook 18 min / 100°C / Reverse / speed 1.",
+    "Serve over cooked rice noodles with bean sprouts, tofu puffs, lime and coriander."
+  ],
+  "tips": [
+    "Frying the paste in step 2 is what builds the deep flavour.",
+    "Make a double batch of paste and freeze half."
+  ],
+  "faq": [
+    {
+      "q": "Is there a shortcut?",
+      "a": "Use 3 tablespoons of shop-bought laksa paste and skip step 1."
+    },
+    {
+      "q": "Can I make it vegetarian?",
+      "a": "Swap the chicken for tofu and mushrooms and use vegetable stock."
+    }
+  ]
+}

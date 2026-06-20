@@ -1,0 +1,49 @@
+{
+  "slug": "lemon-curd-ina-garten",
+  "title": "Lemon Curd",
+  "inspiredBy": {
+    "chef": "Ina Garten",
+    "dish": "lemon curd"
+  },
+  "description": "My Thermomix take on Ina Garten's lemon curd — glossy, tangy and impossible to scramble.",
+  "image": "dish-smoothie.jpg",
+  "category": "Snack",
+  "cuisine": "American",
+  "prepMin": 5,
+  "cookMin": 10,
+  "servings": 8,
+  "keywords": [
+    "thermomix lemon curd",
+    "ina garten lemon curd thermomix",
+    "easy lemon curd TM6"
+  ],
+  "datePublished": "2026-06-09",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Lemon curd is one of those things the Thermomix was made for — it stirs and heats gently so the eggs never scramble. Ina's is bright, buttery and just sweet enough.",
+  "ingredients": [
+    "Zest and juice of 3 lemons",
+    "200 g caster sugar",
+    "3 eggs",
+    "90 g butter, cubed",
+    "1 pinch salt"
+  ],
+  "steps": [
+    "Add the lemon zest and sugar to the bowl and mill 10 sec / speed 9 to a fragrant lemon sugar.",
+    "Add the lemon juice, eggs, butter and salt. Cook 8 min / 80°C / speed 4 until thickened and glossy.",
+    "Pour into a sterilised jar and cool. It thickens more as it chills — keeps 2 weeks in the fridge."
+  ],
+  "tips": [
+    "The gentle 80°C is why it never scrambles.",
+    "Spread it on the Mary Berry lemon drizzle cake, scones or yoghurt."
+  ],
+  "faq": [
+    {
+      "q": "Why won't the curd scramble in a Thermomix?",
+      "a": "Constant speed-4 stirring at a low 80°C cooks the eggs gently and evenly."
+    },
+    {
+      "q": "Can I freeze it?",
+      "a": "Yes, up to 3 months."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "fig-vanilla-jam-maggie-beer",
+  "title": "Fig & Vanilla Jam",
+  "inspiredBy": {
+    "chef": "Maggie Beer",
+    "dish": "fig jam"
+  },
+  "description": "My Thermomix take on Maggie Beer's fig & vanilla jam — glossy, not too sweet, perfect with cheese.",
+  "image": "dish-bread2.jpg",
+  "category": "Snack",
+  "cuisine": "Australian",
+  "prepMin": 10,
+  "cookMin": 30,
+  "servings": 16,
+  "keywords": [
+    "thermomix fig jam",
+    "maggie beer fig jam thermomix",
+    "fig vanilla jam TM6"
+  ],
+  "datePublished": "2026-06-05",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Maggie Beer is the queen of figs. This jam is jammy and grown-up — lovely on toast, but unbeatable next to a sharp cheese. The Thermomix stirs it for you so it never catches.",
+  "ingredients": [
+    "600 g fresh figs, chopped",
+    "400 g sugar",
+    "Juice of 1 lemon",
+    "1 vanilla bean, split (or 1 tsp vanilla paste)"
+  ],
+  "steps": [
+    "Place the figs, sugar, lemon juice and vanilla in the mixing bowl. Cook 5 min / 100°C / speed 1 to get it going.",
+    "Cook 25 min / Varoma / Reverse / speed 1, MC off, until thick and jammy.",
+    "Spoon into warm sterilised jars and seal."
+  ],
+  "tips": [
+    "The lemon juice helps the jam set.",
+    "Beautiful with a sharp cheddar or on warm sourdough."
+  ],
+  "faq": [
+    {
+      "q": "How long does the jam keep?",
+      "a": "Sealed jars keep for months; once opened, about 3 weeks in the fridge."
+    },
+    {
+      "q": "Dried figs?",
+      "a": "Use fresh for this — dried will be too dense."
+    }
+  ]
+}
