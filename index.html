@@ -3,8 +3,13 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Chef Aly — Real food, made effortless with Thermomix</title>
-<meta name="description" content="Hundreds of easy Thermomix recipes with Chef Aly. Quick dinners, healthy bowls, breads and sweets — plus how to get your own machine."/>
+<title>ThermieChef — Famous recipes, reimagined for your Thermomix</title>
+<meta name="description" content="ThermieChef by Aly: iconic recipes from the world's best chefs, rebuilt for your Thermomix with exact speeds and steps — plus how to get your own machine."/>
+<link rel="canonical" href="https://thermiechef.com.au/"/>
+<meta property="og:title" content="ThermieChef — Famous recipes, reimagined for your Thermomix"/>
+<meta property="og:description" content="Iconic recipes from the world's best chefs, rebuilt for your Thermomix."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://thermiechef.com.au/"/>
 <!-- Google Analytics (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G1D265RTZ0"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G1D265RTZ0');</script>
@@ -22,14 +27,16 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{background:linear-gradient(180deg,#FFFDF8 0%,#FBF3E7 55%,#F7ECDA 100%);background-attachment:fixed;color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.grain{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E")}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(20px,5vw,40px)}
 h1,h2,h3{font-family:Poppins,system-ui,sans-serif;font-weight:700;line-height:1.08;letter-spacing:-.02em;color:var(--ink)}
 a{text-decoration:none;color:inherit}
 .kicker{font-family:Poppins;font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
-.btn{display:inline-flex;align-items:center;gap:.5em;font-family:Poppins;font-weight:600;font-size:.95rem;padding:.92em 1.7em;border-radius:999px;border:2px solid var(--terra);background:var(--terra);color:#fff;cursor:pointer;transition:transform .18s var(--ease),background .2s,box-shadow .2s}
-.btn:hover{transform:translateY(-2px);background:var(--terra-d);border-color:var(--terra-d);box-shadow:0 12px 26px -10px rgba(220,107,63,.6)}
-.btn-green{background:var(--green);border-color:var(--green)}.btn-green:hover{background:var(--green-d);border-color:var(--green-d);box-shadow:0 12px 26px -10px rgba(47,125,82,.5)}
+.btn{display:inline-flex;align-items:center;gap:.5em;font-family:Poppins;font-weight:600;font-size:.95rem;padding:.92em 1.7em;border-radius:999px;border:2px solid var(--green);background:linear-gradient(135deg,#358a5c,var(--green-d));color:#fff;cursor:pointer;transition:transform .18s var(--ease),filter .2s,box-shadow .2s;box-shadow:0 8px 20px -10px rgba(35,94,61,.5)}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.06);box-shadow:0 14px 30px -10px rgba(47,125,82,.6)}
+.btn-green{background:linear-gradient(135deg,#358a5c,var(--green-d));border-color:var(--green)}
+.btn-wa{background:linear-gradient(135deg,#2bd06f,#1aab53);border-color:#1aab53}.btn-wa:hover{filter:brightness(1.06);box-shadow:0 14px 30px -10px rgba(37,211,102,.6)}
 .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn-ghost:hover{background:#fff;border-color:var(--ink);box-shadow:none}
 .badge{display:inline-flex;align-items:center;gap:.4em;font-family:Poppins;font-weight:600;font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;padding:.32em .72em;border-radius:999px;background:var(--green);color:#fff}
 .badge.time{background:#fff;color:var(--ink);border:1px solid var(--line)}
@@ -37,8 +44,8 @@ a{text-decoration:none;color:inherit}
 /* header */
 header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;height:74px;gap:16px}
-.logo{font-family:Poppins;font-weight:800;font-size:1.4rem;color:var(--ink)}
-.logo span{color:var(--terra)}
+.logo{font-family:Poppins;font-weight:800;font-size:1.4rem;color:var(--ink);letter-spacing:-.02em}
+.logo span{color:var(--green)}
 .nav-links{display:none;gap:28px;margin-left:30px;font-family:Poppins;font-weight:600;font-size:.92rem}
 .nav-links a{color:var(--ink)}.nav-links a:hover{color:var(--terra)}
 .nav-cta{margin-left:auto}
@@ -90,8 +97,10 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop
 .cat .e{font-size:1.1em}
 
 /* section */
-.section{padding:clamp(54px,8vw,96px) 0}
-.bg-warm{background:var(--warm)}
+.section{padding:clamp(54px,8vw,96px) 0;position:relative}
+.section>.wrap{position:relative;z-index:1}
+.bg-warm{background:linear-gradient(180deg,#FCF1E1 0%,#F6E4CD 100%)}
+.bg-warm::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.5;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.3'/%3E%3C/svg%3E")}
 .shead{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:34px}
 .shead.center{flex-direction:column;align-items:center;text-align:center}
 .shead h2{font-size:clamp(2rem,4vw,3rem)}
@@ -143,7 +152,7 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop
 .flist .ck{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;font-size:14px;margin-top:1px}
 
 /* newsletter */
-.news{background:var(--terra);color:#fff;border-radius:28px;padding:clamp(36px,6vw,64px);position:relative;overflow:hidden}
+.news{background:linear-gradient(135deg,#E68A4E 0%,#C2542B 100%);color:#fff;border-radius:28px;padding:clamp(36px,6vw,64px);position:relative;overflow:hidden}
 .news::after{content:"";position:absolute;width:300px;height:300px;background:rgba(255,255,255,.12);border-radius:50%;right:-90px;top:-90px}
 .news .inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
 .news h2{color:#fff;font-size:clamp(1.9rem,3.4vw,2.8rem)}
@@ -197,15 +206,17 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop
 .about p{color:var(--muted);font-size:1.1rem;margin-bottom:14px}
 
 /* offer */
-.offer{background:var(--ink);color:#fff;border-radius:28px;padding:clamp(40px,6vw,72px);text-align:center}
+.offer{background:linear-gradient(160deg,#34291f 0%,#1f1812 100%);color:#fff;border-radius:28px;padding:clamp(40px,6vw,72px);text-align:center;position:relative;overflow:hidden}
+.offer::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;background:radial-gradient(420px 320px at 80% -10%,rgba(220,107,63,.22),transparent 70%)}
+.offer>*{position:relative;z-index:1}
 .offer h2{color:#fff;font-size:clamp(2rem,4vw,3.2rem);margin:14px auto;max-width:18ch}
 .offer p{color:rgba(255,255,255,.78);max-width:48ch;margin:0 auto 28px}
 .offer .row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .offer .finetext{font-size:.72rem;color:rgba(255,255,255,.5);max-width:60ch;margin:18px auto 0;line-height:1.5}
 .btn-xl{font-size:1.08rem;padding:1.05em 2.1em}
 /* floating buy button — keeps the purchase one tap away everywhere */
-.buybar{position:fixed;right:18px;bottom:18px;z-index:90}
-.buybar a{box-shadow:0 16px 34px -10px rgba(220,107,63,.7);animation:bp 2.6s ease-in-out infinite}
+.buybar{position:fixed;right:18px;bottom:18px;z-index:90;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+.buybar a{box-shadow:0 16px 34px -10px rgba(0,0,0,.4);animation:bp 2.8s ease-in-out infinite}
 @keyframes bp{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 @media(max-width:560px){.buybar{right:12px;bottom:12px}.buybar a{padding:.8em 1.3em;font-size:.9rem}}
 /* footer disclaimer */
@@ -214,8 +225,10 @@ footer .disc{max-width:70ch;margin:18px auto 0;font-size:.72rem;line-height:1.55
 /* contact / footer */
 .contact{text-align:center}
 .contact .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
-footer{background:var(--green-d);color:rgba(255,255,255,.7);padding:50px 0;text-align:center}
+footer{background:linear-gradient(180deg,var(--green-d),#1b4a30);color:rgba(255,255,255,.7);padding:50px 0;text-align:center}
 footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
+.foot-links{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin:16px 0 4px;font-family:Poppins;font-weight:600;font-size:.85rem}
+.foot-links a{color:rgba(255,255,255,.85)}.foot-links a:hover{color:#fff}
 
 @media(max-width:860px){
   .hero-grid,.feature,.news .inner,.about{grid-template-columns:1fr;gap:30px}
@@ -230,7 +243,7 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
 <body>
 
 <header><div class="wrap nav">
-  <div class="logo">Chef <span>Aly</span></div>
+  <a class="logo" href="/">Thermie<span>Chef</span></a>
   <nav class="nav-links"><a href="#recipes">Recipes</a><a href="#reels">Videos</a><a href="#thermomix">Thermomix</a><a href="#about">About</a></nav>
   <a class="btn nav-cta" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('nav')">Get your Thermomix</a>
 </div></header>
@@ -258,18 +271,6 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
     <div class="hero-foodcard"><img src="assets/food-risotto.jpg" alt=""/><div class="l">Inspired by the greats</div></div>
   </div>
 </div></section>
-
-<!-- VALUE PROP — famous recipes reimagined -->
-<section class="section" id="how" style="padding-bottom:clamp(20px,4vw,40px)">
-  <div class="wrap">
-    <div class="shead center"><span class="kicker">What makes this different</span><h2>Iconic recipes, reimagined for your Thermomix</h2><p>Tell me your favourite chef or cookbook. I rebuild their most-loved dishes for the Thermomix — so legendary food becomes your easy weeknight dinner.</p></div>
-    <div class="steps3">
-      <div class="step3"><span class="n">1</span><h3>Pick a legend</h3><p>A dish from the chefs and cookbooks you already love.</p></div>
-      <div class="step3"><span class="n">2</span><h3>I reimagine it</h3><p>Rebuilt for your Thermomix — exact speeds, times and steps.</p></div>
-      <div class="step3"><span class="n">3</span><h3>You cook it</h3><p>Restaurant-worthy food, made effortless at home in minutes.</p></div>
-    </div>
-  </div>
-</section>
 
 <!-- REELS (instagram videos of Aly cooking) -->
 <section class="section bg-warm" id="reels">
@@ -393,19 +394,23 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
     <h2 style="margin-top:10px">Come cook with me</h2>
     <p style="color:var(--muted);max-width:40ch;margin:12px auto 0">Questions, recipes, or ready for your Thermomix? I'm one message away.</p>
     <div class="row">
-      <a class="btn btn-green" href="https://wa.me/61424310504" target="_blank" rel="noopener" onclick="track('whatsapp','contact')">WhatsApp Aly</a>
+      <a class="btn btn-wa" href="https://wa.me/61424310504" target="_blank" rel="noopener" onclick="track('whatsapp','contact')">WhatsApp Aly</a>
       <a class="btn btn-ghost" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('social','instagram')">Instagram</a>
       <a class="btn btn-ghost" href="https://www.facebook.com/profile.php?id=61590609142105" target="_blank" rel="noopener" onclick="track('social','facebook')">Facebook</a>
     </div>
   </div>
 </section>
 
-<div class="buybar"><a class="btn" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('floating')">Get your Thermomix →</a></div>
+<div class="buybar">
+  <a class="btn btn-wa" href="https://wa.me/61424310504" target="_blank" rel="noopener" onclick="track('whatsapp','floating')" aria-label="WhatsApp Aly"><span style="font-size:1.15em">✆</span> WhatsApp</a>
+  <a class="btn" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('floating')">Get your Thermomix →</a>
+</div>
 
 <footer><div class="wrap">
-  <div class="logo">Chef <span>Aly</span></div>
-  <p style="font-family:Poppins;font-size:.86rem">Easy Thermomix recipes, made with love 🧡</p>
-  <p class="disc">Aly is an Independent Thermomix Consultant. This is a personal consultant website and is not an official Vorwerk / Thermomix website. Thermomix, Varoma and Cookidoo are trademarks of Vorwerk. All purchases are completed on the official Thermomix store.</p>
+  <div class="logo">Thermie<span>Chef</span></div>
+  <p style="font-family:Poppins;font-size:.86rem">Famous recipes, reimagined for your Thermomix 🧡</p>
+  <nav class="foot-links"><a href="/terms.html">Terms &amp; Conditions</a><a href="/privacy.html">Privacy Policy</a><a href="https://wa.me/61424310504" target="_blank" rel="noopener">Contact</a></nav>
+  <p class="disc">ThermieChef is run by Aly, an Independent Thermomix Consultant. This is a personal consultant website and is not an official Vorwerk / Thermomix website. Thermomix, Varoma and Cookidoo are trademarks of Vorwerk. Recipes are independent reinterpretations and are not affiliated with or endorsed by the chefs mentioned. All purchases are completed on the official Thermomix store.</p>
 </div></footer>
 
 <script>

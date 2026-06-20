@@ -3,16 +3,16 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
-- [Roast Pumpkin Soup](https://www.alydigital.online/recipes/pumpkin-soup-donna-hay.html): My Thermomix take on Donna Hay's pumpkin soup — velvety, warming and on the table in under half an hour. (35 min, serves 4)
-- [Brigadeiro de Colher](https://www.alydigital.online/recipes/brigadeiro-de-colher-rita-lobo.html): My Thermomix version of Rita Lobo's spoonable brigadeiro — soft, glossy Brazilian chocolate fudge you eat with a spoon. (17 min, serves 6)
-- [Ricotta Hotcakes](https://www.alydigital.online/recipes/ricotta-hotcakes-bill-granger.html): My Thermomix take on Bill Granger's legendary ricotta hotcakes — light as a cloud, with honeycomb butter and banana. (25 min, serves 4)
-- [Veg-Packed Bolognese](https://www.alydigital.online/recipes/veg-packed-bolognese-jamie.html): My Thermomix version of Jamie Oliver's veg-packed Bolognese — a rich, sneaky-healthy ragù in one bowl. (60 min, serves 6)
-- [Chocolate Olive Oil Cake](https://www.alydigital.online/recipes/chocolate-olive-oil-cake-nigella.html): My Thermomix reimagining of Nigella's chocolate olive oil cake — dark, damp and dairy-free. (52 min, serves 10)
-- [Silky Hummus](https://www.alydigital.online/recipes/silky-hummus-ottolenghi.html): My Thermomix take on Ottolenghi's famously silky hummus — the smoothest dip you'll ever make. (30 min, serves 6)
+- [Roast Pumpkin Soup](https://thermiechef.com.au/recipes/pumpkin-soup-donna-hay.html): My Thermomix take on Donna Hay's pumpkin soup — velvety, warming and on the table in under half an hour. (35 min, serves 4)
+- [Brigadeiro de Colher](https://thermiechef.com.au/recipes/brigadeiro-de-colher-rita-lobo.html): My Thermomix version of Rita Lobo's spoonable brigadeiro — soft, glossy Brazilian chocolate fudge you eat with a spoon. (17 min, serves 6)
+- [Ricotta Hotcakes](https://thermiechef.com.au/recipes/ricotta-hotcakes-bill-granger.html): My Thermomix take on Bill Granger's legendary ricotta hotcakes — light as a cloud, with honeycomb butter and banana. (25 min, serves 4)
+- [Veg-Packed Bolognese](https://thermiechef.com.au/recipes/veg-packed-bolognese-jamie.html): My Thermomix version of Jamie Oliver's veg-packed Bolognese — a rich, sneaky-healthy ragù in one bowl. (60 min, serves 6)
+- [Chocolate Olive Oil Cake](https://thermiechef.com.au/recipes/chocolate-olive-oil-cake-nigella.html): My Thermomix reimagining of Nigella's chocolate olive oil cake — dark, damp and dairy-free. (52 min, serves 10)
+- [Silky Hummus](https://thermiechef.com.au/recipes/silky-hummus-ottolenghi.html): My Thermomix take on Ottolenghi's famously silky hummus — the smoothest dip you'll ever make. (30 min, serves 6)
 
 ## Tools
-- [Recipe converter](https://www.alydigital.online/index.html#convert): Paste any recipe and get back the Thermomix method.
+- [Recipe converter](https://thermiechef.com.au/index.html#convert): Paste any recipe and get back the Thermomix method.
 
 ## Contact
 - WhatsApp: +61 424 310 504
-- Buy a Thermomix through Chef Aly: https://www.alydigital.online/index.html#offer
+- Buy a Thermomix through Chef Aly: https://thermiechef.com.au/index.html#offer

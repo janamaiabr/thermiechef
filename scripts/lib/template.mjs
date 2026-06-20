@@ -2,7 +2,7 @@
 // A recipe object: { slug,title,description,image,category,cuisine,prepMin,cookMin,
 //   servings,keywords[],datePublished,thermomixModel,intro,ingredients[],steps[],tips[],faq[{q,a}] }
 
-export const SITE_NAME = "Chef Aly";
+export const SITE_NAME = "ThermieChef";
 export const BUY_URL = "https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1";
 export const ALY_WA = "https://wa.me/61424310504";
 
@@ -35,16 +35,17 @@ export const totalMin = (r) => (r.prepMin || 0) + (r.cookMin || 0);
 const HEAD_CSS = `
 :root{--bg:#FFFBF4;--paper:#fff;--warm:#FBEFE0;--warm-2:#F6E4CE;--terra:#DC6B3F;--terra-d:#C2542B;--green:#2F7D52;--green-d:#235E3D;--amber:#ECA23C;--ink:#2A241E;--muted:#7a6f63;--line:#EFE2CE}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+body{background:linear-gradient(180deg,#FFFDF8 0%,#FBF3E7 60%,#F7ECDA 100%);background-attachment:fixed;color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
 .wrap{max-width:820px;margin:0 auto;padding:0 22px}
 h1,h2,h3,h4{font-family:Poppins,system-ui,sans-serif;font-weight:700;line-height:1.12;letter-spacing:-.02em}
 a{color:var(--terra);text-decoration:none}
 header{background:rgba(255,251,244,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
 .nav{max-width:1100px;margin:0 auto;display:flex;align-items:center;height:66px;padding:0 22px;gap:16px}
-.logo{font-family:Poppins;font-weight:800;font-size:1.3rem;color:var(--ink)}.logo span{color:var(--terra)}
+.logo{font-family:Poppins;font-weight:800;font-size:1.3rem;color:var(--ink)}.logo span{color:var(--green)}
 .nav .sp{margin-left:auto;display:flex;gap:20px;font-family:Poppins;font-weight:600;font-size:.9rem}.nav .sp a{color:var(--ink)}
-.btn{display:inline-flex;align-items:center;gap:.5em;font-family:Poppins;font-weight:600;font-size:.93rem;padding:.85em 1.5em;border-radius:999px;border:2px solid var(--terra);background:var(--terra);color:#fff;cursor:pointer}
-.btn.g{background:var(--green);border-color:var(--green)}
+.btn{display:inline-flex;align-items:center;gap:.5em;font-family:Poppins;font-weight:600;font-size:.93rem;padding:.85em 1.5em;border-radius:999px;border:2px solid var(--green);background:linear-gradient(135deg,#358a5c,var(--green-d));color:#fff;cursor:pointer;box-shadow:0 8px 20px -10px rgba(35,94,61,.5)}
+.btn.g{background:linear-gradient(135deg,#358a5c,var(--green-d));border-color:var(--green)}
+.btn.wa{background:linear-gradient(135deg,#2bd06f,#1aab53);border-color:#1aab53}
 .crumb{font-size:.82rem;color:var(--muted);padding:26px 0 0}.crumb a{color:var(--muted)}
 article{padding:14px 0 60px}
 h1{font-size:clamp(2rem,5vw,3rem);margin:10px 0 12px}
@@ -73,6 +74,7 @@ ol.steps li::before{content:counter(s);position:absolute;left:0;top:-3px;width:3
 footer{background:var(--green-d);color:rgba(255,255,255,.75);text-align:center;padding:40px 22px;font-size:.85rem}
 footer .logo{color:#fff}footer .logo span{color:var(--amber)}
 footer .disc{max-width:70ch;margin:14px auto 0;font-size:.72rem;line-height:1.55;color:rgba(255,255,255,.55)}
+.foot-links{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin:12px 0 4px;font-family:Poppins;font-weight:600;font-size:.84rem}.foot-links a{color:rgba(255,255,255,.85)}
 .disc-box{background:var(--warm);border-radius:12px;padding:13px 16px;margin:26px 0 0;font-size:.8rem;color:var(--muted);line-height:1.5}
 .back{display:inline-block;margin-top:26px;font-family:Poppins;font-weight:600}
 `;
@@ -147,7 +149,7 @@ export function renderRecipePage(r, siteUrl) {
 <style>${HEAD_CSS}</style>
 ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n")}
 </head><body>
-<header><div class="nav"><a class="logo" href="../index.html">Chef <span>Aly</span></a><div class="sp"><a href="../index.html#recipes">Recipes</a><a href="./">All recipes</a><a href="../index.html#convert">Recipe converter</a><a href="${BUY_URL}" target="_blank" rel="noopener">Get a Thermomix</a></div></div></header>
+<header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#recipes">Recipes</a><a href="./">All recipes</a><a href="../index.html#convert">Recipe converter</a><a href="${BUY_URL}" target="_blank" rel="noopener">Get a Thermomix</a></div></div></header>
 <div class="wrap">
   <nav class="crumb"><a href="../index.html">Home</a> › <a href="./">Recipes</a> › ${esc(r.title)}</nav>
   <article>
@@ -167,13 +169,13 @@ ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script
     <div class="cta">
       <h3>Want to cook this in minutes?</h3>
       <p>Every recipe here is made for the Thermomix. Get yours through me, or message me and I'll help you choose.</p>
-      <div class="row"><a class="btn" href="${BUY_URL}" target="_blank" rel="noopener" onclick="trackBuy('recipe')">Get your Thermomix →</a><a class="btn g" href="${ALY_WA}" target="_blank" rel="noopener" onclick="track('whatsapp','recipe')">Chat with Aly</a></div>
+      <div class="row"><a class="btn" href="${BUY_URL}" target="_blank" rel="noopener" onclick="trackBuy('recipe')">Get your Thermomix →</a><a class="btn wa" href="${ALY_WA}" target="_blank" rel="noopener" onclick="track('whatsapp','recipe')">Chat with Aly</a></div>
     </div>
     <div class="disc-box">${insp ? `An independent Thermomix reinterpretation inspired by ${esc(insp.chef)}'s ${esc(insp.dish || "dish")}. Not affiliated with, authorised by or endorsed by ${esc(insp.chef)} or any publisher; the method here is Chef Aly's own. ` : "Recipe developed for the Thermomix by Chef Aly. "}Speeds, times and temperatures are a guide — always check your own Thermomix model's manual and use your judgement, especially around hot liquids and food safety. This is independent content and is not official Thermomix content.</div>
     <a class="back" href="./">← All recipes</a>
   </article>
 </div>
-<footer><div class="logo">Chef <span>Aly</span></div><p style="margin-top:6px">Easy Thermomix recipes, a new one every day.</p><p class="disc">Aly is an Independent Thermomix Consultant. This is a personal consultant website and is not an official Vorwerk / Thermomix website. Thermomix, Varoma and Cookidoo are trademarks of Vorwerk. All purchases are completed on the official Thermomix store.</p></footer>
+<footer><div class="logo">Thermie<span>Chef</span></div><p style="margin-top:6px">Famous recipes, reimagined for your Thermomix.</p><nav class="foot-links"><a href="/terms.html">Terms</a><a href="/privacy.html">Privacy</a><a href="/index.html">Home</a></nav><p class="disc">Aly is an Independent Thermomix Consultant. This is a personal consultant website and is not an official Vorwerk / Thermomix website. Thermomix, Varoma and Cookidoo are trademarks of Vorwerk. All purchases are completed on the official Thermomix store.</p></footer>
 <script>${TRACK_JS}</script>
 </body></html>`;
 }
@@ -204,12 +206,12 @@ export function renderIndexPage(recipes, siteUrl) {
 </style>
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org/", "@type": "CollectionPage", name: "Thermomix Recipes", url: `${siteUrl}/recipes/`, hasPart: recipes.map((r) => ({ "@type": "Recipe", name: r.title, url: `${siteUrl}/recipes/${r.slug}.html` })) })}</script>
 </head><body>
-<header><div class="nav"><a class="logo" href="../index.html">Chef <span>Aly</span></a><div class="sp"><a href="../index.html#convert">Recipe converter</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener">Get yours</a></div></div></header>
+<header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#convert">Recipe converter</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener">Get yours</a></div></div></header>
 <div class="wrap">
   <div class="head"><h1>Thermomix recipes</h1><p>A new recipe every day — real food, exact Thermomix speeds, times and temperatures. Made by Chef Aly for the TM6 and TM7.</p></div>
   <div class="rgrid">${cards}</div>
 </div>
-<footer><div class="logo">Chef <span>Aly</span></div><p style="margin-top:6px">Easy Thermomix recipes, a new one every day.</p></footer>
+<footer><div class="logo">Thermie<span>Chef</span></div><p style="margin-top:6px">Famous recipes, reimagined for your Thermomix.</p><nav class="foot-links"><a href="/terms.html">Terms</a><a href="/privacy.html">Privacy</a><a href="/index.html">Home</a></nav></footer>
 <script>${TRACK_JS}</script>
 </body></html>`;
 }

@@ -36,6 +36,8 @@ function build() {
     { loc: `${SITE_URL}/`, lastmod: today, pri: "1.0" },
     { loc: `${SITE_URL}/recipes/`, lastmod: today, pri: "0.9" },
     ...recipes.map((r) => ({ loc: `${SITE_URL}/recipes/${r.slug}.html`, lastmod: r.datePublished, pri: "0.8" })),
+    { loc: `${SITE_URL}/privacy.html`, lastmod: today, pri: "0.2" },
+    { loc: `${SITE_URL}/terms.html`, lastmod: today, pri: "0.2" },
   ];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
     .map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><changefreq>daily</changefreq><priority>${u.pri}</priority></url>`)
