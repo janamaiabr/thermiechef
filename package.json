@@ -2,8 +2,13 @@
   "name": "aly-thermomix",
   "version": "1.0.0",
   "private": true,
-  "description": "Chef Aly — Thermomix landing page + recipe converter widget",
+  "description": "Chef Aly \u2014 Thermomix landing page + recipe converter widget",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.40.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate-site.mjs",
+    "queue": "node scripts/queue-status.mjs --verbose"
   }
 }

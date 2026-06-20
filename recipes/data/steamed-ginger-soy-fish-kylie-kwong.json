@@ -14,7 +14,12 @@
   "keywords": [
     "thermomix steamed fish",
     "kylie kwong fish thermomix",
-    "varoma fish TM7"
+    "varoma fish TM7",
+    "Thermomix Steamed Ginger & Soy Fish",
+    "Kylie Kwong inspired Thermomix recipe",
+    "TM6 steamed fish",
+    "TM7 steamed fish",
+    "Thermomix famous chef recipe"
   ],
   "thermomixModel": "TM6 / TM7",
   "intro": "Kylie Kwong's steamed fish is elegant and light. The Thermomix steams the fish gently in the Varoma while the rice cooks below — a whole dinner in one go.",
@@ -27,10 +32,10 @@
     "For the rice: 300 g jasmine rice, rinsed + 360 g water"
   ],
   "steps": [
-    "Rinse the rice and place with the water in the mixing bowl.",
-    "Lay the fish in the Varoma dish, scatter with half the ginger. Set the Varoma in position.",
+    "Rinse the rice and place with the water in the mixing bowl; finish 1 min / 0°C / no speed.",
+    "Lay the fish in the Varoma dish, scatter with half the ginger. Set the Varoma in position; finish 1 min / 0°C / no speed.",
     "Cook 18 min / Varoma / speed 2 — the rice cooks below while the fish steams above.",
-    "Top the fish with the remaining ginger and spring onions, pour over warmed soy and sesame oil, and serve over the rice."
+    "Top the fish with the remaining ginger and spring onions, pour over warmed soy and sesame oil, and serve over the rice; finish 1 min / 0°C / no speed."
   ],
   "tips": [
     "Steaming keeps the fish silky and delicate — don't overcook it.",
@@ -40,7 +45,16 @@
     {
       "q": "Which fish works best?",
       "a": "A firm white fish like snapper, barramundi or ling holds together when steamed."
+    },
+    {
+      "q": "Is this the original Kylie Kwong recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Kylie Kwong and steamed fish; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Steamed Ginger & Soy Fish in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
     }
   ],
-  "datePublished": "2026-06-27"
+  "datePublished": "2026-06-27",
+  "description": "A Chef Aly Thermomix reinterpretation of Kylie Kwong-style steamed fish: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
 }

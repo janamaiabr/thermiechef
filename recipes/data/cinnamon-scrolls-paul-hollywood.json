@@ -1,0 +1,59 @@
+{
+  "slug": "cinnamon-scrolls-paul-hollywood",
+  "title": "Cinnamon Scrolls",
+  "inspiredBy": {
+    "chef": "Paul Hollywood",
+    "dish": "cinnamon buns"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Paul Hollywood-style cinnamon buns: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "category": "Baking",
+  "cuisine": "British-inspired",
+  "prepMin": 15,
+  "cookMin": 70,
+  "servings": 4,
+  "keywords": [
+    "Thermomix Cinnamon Scrolls",
+    "Paul Hollywood inspired Thermomix recipe",
+    "TM6 cinnamon buns",
+    "TM7 cinnamon buns",
+    "Thermomix famous chef recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Paul Hollywood and the comforting appeal of cinnamon buns. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
+  "ingredients": [
+    "320 g warm water",
+    "7 g dried yeast",
+    "1 tsp sugar",
+    "500 g baker’s flour",
+    "35 g olive oil or softened butter",
+    "1.5 tsp sea salt",
+    "Extra topping ingredients, as needed"
+  ],
+  "steps": [
+    "Add liquid, yeast and sugar to the mixing bowl and warm 2 min / 37°C / speed 2.",
+    "Add flour, fat and salt, then knead 3 min / 0°C / dough mode until elastic.",
+    "Transfer to a bowl, cover and prove until puffy; rest 45 min / 0°C / no speed.",
+    "Shape, add toppings if needed and bake in a preheated oven 20 min / 200°C / no speed, until golden and cooked through."
+  ],
+  "tips": [
+    "Read the full method before starting so the Thermomix settings flow smoothly.",
+    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
+    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Paul Hollywood recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Paul Hollywood and cinnamon buns; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Cinnamon Scrolls in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
+    },
+    {
+      "q": "Can I prepare it ahead?",
+      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
+    }
+  ],
+  "image": "food-bread.jpg",
+  "datePublished": "2026-08-19"
+}

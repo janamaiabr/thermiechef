@@ -1,7 +1,10 @@
 {
   "slug": "pumpkin-soup-donna-hay",
   "title": "Roast Pumpkin Soup",
-  "inspiredBy": { "chef": "Donna Hay", "dish": "pumpkin soup" },
+  "inspiredBy": {
+    "chef": "Donna Hay",
+    "dish": "pumpkin soup"
+  },
   "description": "My Thermomix take on Donna Hay's pumpkin soup — velvety, warming and on the table in under half an hour.",
   "image": "food-soup.jpg",
   "category": "Lunch",
@@ -9,7 +12,16 @@
   "prepMin": 10,
   "cookMin": 25,
   "servings": 4,
-  "keywords": ["thermomix pumpkin soup", "donna hay pumpkin soup thermomix", "easy pumpkin soup", "TM6 soup"],
+  "keywords": [
+    "thermomix pumpkin soup",
+    "donna hay pumpkin soup thermomix",
+    "easy pumpkin soup",
+    "TM6 soup",
+    "Thermomix Roast Pumpkin Soup",
+    "Donna Hay inspired Thermomix recipe",
+    "TM6 pumpkin soup",
+    "TM7 pumpkin soup"
+  ],
   "datePublished": "2026-06-20",
   "thermomixModel": "TM6 / TM7",
   "intro": "Donna Hay's pumpkin soup is a winter staple — simple, silky and comforting. The Thermomix cooks the pumpkin and blends it smooth in the same bowl, so it's barely any work and barely any washing up.",
@@ -25,11 +37,11 @@
     "Pumpkin seeds, to serve"
   ],
   "steps": [
-    "Place onion and garlic in the mixing bowl and chop 4 sec / speed 5. Scrape down.",
+    "Place onion and garlic in the mixing bowl and chop 4 sec / 0°C / speed 5. Scrape down.",
     "Add the olive oil and sauté 3 min / 120°C / speed 1.",
     "Add the pumpkin, stock and nutmeg. Cook 20 min / 100°C / speed 1.",
-    "Blend, increasing slowly 1 min / speed 4 to speed 9, until completely silky.",
-    "Add the coconut milk or cream and mix 20 sec / speed 4. Season and serve topped with pumpkin seeds."
+    "Blend, increasing slowly 1 min / 0°C / speed 9, until completely silky.",
+    "Add the coconut milk or cream and mix 20 sec / 0°C / speed 4. Season and serve topped with pumpkin seeds."
   ],
   "tips": [
     "For Donna's deeper flavour, roast the pumpkin at 200°C for 20 minutes first, then add at step 3 and cut the cook time to 10 minutes.",
@@ -37,7 +49,17 @@
     "A pinch of chilli or grated ginger with the onion is a lovely lift."
   ],
   "faq": [
-    { "q": "Can you cook pumpkin soup entirely in a Thermomix?", "a": "Yes — it softens the pumpkin and blends it silky-smooth in the same bowl, so there's no separate pot or blender." },
-    { "q": "How do I make it richer?", "a": "Use cream instead of coconut milk, or roast the pumpkin first for a deeper, caramelised flavour." }
+    {
+      "q": "Can you cook pumpkin soup entirely in a Thermomix?",
+      "a": "Yes — it softens the pumpkin and blends it silky-smooth in the same bowl, so there's no separate pot or blender."
+    },
+    {
+      "q": "How do I make it richer?",
+      "a": "Use cream instead of coconut milk, or roast the pumpkin first for a deeper, caramelised flavour."
+    },
+    {
+      "q": "Is this the original Donna Hay recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Donna Hay and pumpkin soup; it is not endorsed by or affiliated with the chef."
+    }
   ]
 }

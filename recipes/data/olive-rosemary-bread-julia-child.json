@@ -1,0 +1,59 @@
+{
+  "slug": "olive-rosemary-bread-julia-child",
+  "title": "Olive Rosemary Bread",
+  "inspiredBy": {
+    "chef": "Julia Child",
+    "dish": "country bread"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Julia Child-style country bread: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "category": "Baking",
+  "cuisine": "French-inspired",
+  "prepMin": 15,
+  "cookMin": 70,
+  "servings": 4,
+  "keywords": [
+    "Thermomix Olive Rosemary Bread",
+    "Julia Child inspired Thermomix recipe",
+    "TM6 country bread",
+    "TM7 country bread",
+    "Thermomix famous chef recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Julia Child and the comforting appeal of country bread. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
+  "ingredients": [
+    "320 g warm water",
+    "7 g dried yeast",
+    "1 tsp sugar",
+    "500 g baker’s flour",
+    "35 g olive oil or softened butter",
+    "1.5 tsp sea salt",
+    "Extra topping ingredients, as needed"
+  ],
+  "steps": [
+    "Add liquid, yeast and sugar to the mixing bowl and warm 2 min / 37°C / speed 2.",
+    "Add flour, fat and salt, then knead 3 min / 0°C / dough mode until elastic.",
+    "Transfer to a bowl, cover and prove until puffy; rest 45 min / 0°C / no speed.",
+    "Shape, add toppings if needed and bake in a preheated oven 20 min / 200°C / no speed, until golden and cooked through."
+  ],
+  "tips": [
+    "Read the full method before starting so the Thermomix settings flow smoothly.",
+    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
+    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Julia Child recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Julia Child and country bread; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Olive Rosemary Bread in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
+    },
+    {
+      "q": "Can I prepare it ahead?",
+      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
+    }
+  ],
+  "image": "food-bread.jpg",
+  "datePublished": "2026-07-30"
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "lentil-shepherds-pie-tom-kerridge",
+  "title": "Lentil Shepherd’s Pie",
+  "inspiredBy": {
+    "chef": "Tom Kerridge",
+    "dish": "shepherd’s pie"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Tom Kerridge-style shepherd’s pie: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "category": "Dinner",
+  "cuisine": "British-inspired",
+  "prepMin": 15,
+  "cookMin": 35,
+  "servings": 4,
+  "keywords": [
+    "Thermomix Lentil Shepherd’s Pie",
+    "Tom Kerridge inspired Thermomix recipe",
+    "TM6 shepherd’s pie",
+    "TM7 shepherd’s pie",
+    "Thermomix famous chef recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Tom Kerridge and the comforting appeal of shepherd’s pie. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
+  "ingredients": [
+    "1 brown onion, quartered",
+    "2 garlic cloves",
+    "30 g extra virgin olive oil",
+    "500 g main ingredient prepared for the dish",
+    "1 tsp sea salt",
+    "1/2 tsp freshly ground black pepper",
+    "Fresh herbs or lemon wedges, to serve"
+  ],
+  "steps": [
+    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / 0°C / speed 5, then scrape down.",
+    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
+    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender; finish 1 min / 0°C / no speed.",
+    "If a smoother finish suits the dish, blend 20 sec / 0°C / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
+    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / 0°C / Reverse speed 1 before serving; finish 1 min / 0°C / no speed."
+  ],
+  "tips": [
+    "Read the full method before starting so the Thermomix settings flow smoothly.",
+    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
+    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Tom Kerridge recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Tom Kerridge and shepherd’s pie; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Lentil Shepherd’s Pie in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
+    },
+    {
+      "q": "Can I prepare it ahead?",
+      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
+    }
+  ],
+  "image": "dish-bowl.jpg",
+  "datePublished": "2026-07-23"
+}

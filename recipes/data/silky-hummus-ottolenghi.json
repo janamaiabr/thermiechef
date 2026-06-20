@@ -1,7 +1,10 @@
 {
   "slug": "silky-hummus-ottolenghi",
   "title": "Silky Hummus",
-  "inspiredBy": { "chef": "Yotam Ottolenghi", "dish": "hummus" },
+  "inspiredBy": {
+    "chef": "Yotam Ottolenghi",
+    "dish": "hummus"
+  },
   "description": "My Thermomix take on Ottolenghi's famously silky hummus — the smoothest dip you'll ever make.",
   "image": "dish-bowl.jpg",
   "category": "Snack",
@@ -9,7 +12,16 @@
   "prepMin": 10,
   "cookMin": 20,
   "servings": 6,
-  "keywords": ["thermomix hummus", "ottolenghi hummus thermomix", "silky hummus", "TM6 hummus", "TM7 dip"],
+  "keywords": [
+    "thermomix hummus",
+    "ottolenghi hummus thermomix",
+    "silky hummus",
+    "TM6 hummus",
+    "TM7 dip",
+    "Thermomix Silky Hummus",
+    "Yotam Ottolenghi inspired Thermomix recipe",
+    "TM7 hummus"
+  ],
   "datePublished": "2026-06-15",
   "thermomixModel": "TM6 / TM7",
   "intro": "Ottolenghi's secret to glassy-smooth hummus is overcooked chickpeas and ice-cold water — and the Thermomix nails both. This is the version I make on repeat: rich, lemony and impossibly silky.",
@@ -24,11 +36,11 @@
     "Olive oil and paprika, to serve"
   ],
   "steps": [
-    "Place garlic in the mixing bowl and chop 3 sec / speed 7. Scrape down.",
+    "Place garlic in the mixing bowl and chop 3 sec / 0°C / speed 7. Scrape down.",
     "Add the drained chickpeas, bicarbonate of soda and 600 g water. Cook 20 min / 100°C / speed 1 to soften the chickpeas right down, then drain and return the warm chickpeas to the bowl.",
-    "Add tahini, lemon juice and salt. Blend 1 min / speed 8, scraping once.",
-    "With the blades running on speed 6, pour the iced water through the lid and blend a further 30 sec / speed 7 until pale and silky.",
-    "Spoon into a bowl, swirl with the back of a spoon, drizzle with olive oil and dust with paprika."
+    "Add tahini, lemon juice and salt. Blend 1 min / 0°C / speed 8, scraping once.",
+    "With the blades running on speed 6, pour the iced water through the lid and blend a further 30 sec / 0°C / speed 7 until pale and silky.",
+    "Spoon into a bowl, swirl with the back of a spoon, drizzle with olive oil and dust with paprika; finish 1 min / 0°C / no speed."
   ],
   "tips": [
     "Overcooked chickpeas + iced water is the whole trick to that silky texture.",
@@ -36,7 +48,17 @@
     "Keeps 4 days covered in the fridge — bring to room temp before serving."
   ],
   "faq": [
-    { "q": "How do you make hummus smooth in a Thermomix?", "a": "Soften the chickpeas further with bicarb soda, then blend hot with tahini and finish with iced water at speed 7 — the contrast is what makes it silky." },
-    { "q": "Can I use tinned chickpeas?", "a": "Yes. The extra 20-minute cook with bicarb softens tinned chickpeas enough for a smooth, Ottolenghi-style finish." }
+    {
+      "q": "How do you make hummus smooth in a Thermomix?",
+      "a": "Soften the chickpeas further with bicarb soda, then blend hot with tahini and finish with iced water at speed 7 — the contrast is what makes it silky."
+    },
+    {
+      "q": "Can I use tinned chickpeas?",
+      "a": "Yes. The extra 20-minute cook with bicarb softens tinned chickpeas enough for a smooth, Ottolenghi-style finish."
+    },
+    {
+      "q": "Is this the original Yotam Ottolenghi recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Yotam Ottolenghi and hummus; it is not endorsed by or affiliated with the chef."
+    }
   ]
 }

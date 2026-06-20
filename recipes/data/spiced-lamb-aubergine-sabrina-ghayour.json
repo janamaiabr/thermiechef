@@ -14,7 +14,12 @@
   "keywords": [
     "thermomix lamb aubergine",
     "sabrina ghayour thermomix",
-    "persian lamb stew TM6"
+    "persian lamb stew TM6",
+    "Thermomix Spiced Lamb & Aubergine",
+    "Sabrina Ghayour inspired Thermomix recipe",
+    "TM6 spiced lamb & aubergine",
+    "TM7 spiced lamb & aubergine",
+    "Thermomix famous chef recipe"
   ],
   "thermomixModel": "TM6 / TM7",
   "intro": "Sabrina Ghayour brought Persian flavours to everyone's table. This rich, spiced lamb and aubergine is fragrant with cinnamon and cumin — the Thermomix simmers it tender.",
@@ -32,7 +37,7 @@
     "Salt, pepper, parsley"
   ],
   "steps": [
-    "Chop onion and garlic 4 sec / speed 5. Scrape.",
+    "Chop onion and garlic 4 sec / 0°C / speed 5. Scrape.",
     "Add oil and spices and sauté 3 min / 120°C / speed 1.",
     "Add lamb and sear 5 min / 120°C / Reverse / speed 1.",
     "Add aubergine, tomato paste, tomatoes and stock. Cook 30 min / 100°C / Reverse / speed 1, MC off and basket on the lid. Season and scatter with parsley."
@@ -45,7 +50,16 @@
     {
       "q": "Can I use beef instead of lamb?",
       "a": "Yes — beef chuck works well; keep the slow simmer so it goes tender."
+    },
+    {
+      "q": "Is this the original Sabrina Ghayour recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Sabrina Ghayour and spiced lamb & aubergine; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Spiced Lamb & Aubergine in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
     }
   ],
-  "datePublished": "2026-06-24"
+  "datePublished": "2026-06-24",
+  "description": "A Chef Aly Thermomix reinterpretation of Sabrina Ghayour-style spiced lamb & aubergine: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
 }

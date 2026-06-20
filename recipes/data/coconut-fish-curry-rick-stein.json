@@ -15,7 +15,12 @@
   "keywords": [
     "thermomix fish curry",
     "rick stein fish curry thermomix",
-    "coconut fish curry TM6"
+    "coconut fish curry TM6",
+    "Thermomix Coconut Fish Curry",
+    "Rick Stein inspired Thermomix recipe",
+    "TM6 coconut fish curry",
+    "TM7 coconut fish curry",
+    "Thermomix famous chef recipe"
   ],
   "datePublished": "2026-06-03",
   "thermomixModel": "TM6 / TM7",
@@ -33,7 +38,7 @@
     "Coriander and salt, to finish"
   ],
   "steps": [
-    "Place onion, garlic and ginger in the bowl and chop 4 sec / speed 5. Scrape down.",
+    "Place onion, garlic and ginger in the bowl and chop 4 sec / 0°C / speed 5. Scrape down.",
     "Add the oil and curry paste and sauté 3 min / 120°C / speed 1.",
     "Add the coconut milk, water and tamarind. Cook 8 min / 100°C / speed 2.",
     "Add the fish chunks and cook 8 min / 90°C / Reverse / speed 1 — gentle so the fish stays whole. Finish with coriander, lime and salt. Serve with rice."
@@ -50,6 +55,10 @@
     {
       "q": "Can I use prawns?",
       "a": "Yes — add them for the last 5 minutes."
+    },
+    {
+      "q": "Is this the original Rick Stein recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Rick Stein and coconut fish curry; it is not endorsed by or affiliated with the chef."
     }
   ]
 }

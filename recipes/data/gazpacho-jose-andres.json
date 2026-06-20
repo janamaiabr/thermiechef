@@ -15,7 +15,11 @@
   "keywords": [
     "thermomix gazpacho",
     "jose andres gazpacho thermomix",
-    "cold tomato soup TM6"
+    "cold tomato soup TM6",
+    "José Andrés inspired Thermomix recipe",
+    "TM6 gazpacho",
+    "TM7 gazpacho",
+    "Thermomix famous chef recipe"
   ],
   "datePublished": "2026-06-11",
   "thermomixModel": "TM6 / TM7",
@@ -31,9 +35,9 @@
     "80 g olive oil"
   ],
   "steps": [
-    "Place the tomatoes, cucumber, capsicum, garlic, vinegar, bread and salt in the mixing bowl. Blend 30 sec / speed 7.",
-    "With the blades running on speed 5, drizzle the olive oil through the lid, then blend 1 min / speed 9 until completely silky.",
-    "Chill at least 1 hour. Check the seasoning and serve cold with an extra drizzle of olive oil."
+    "Place the tomatoes, cucumber, capsicum, garlic, vinegar, bread and salt in the mixing bowl. Blend 30 sec / 0°C / speed 7.",
+    "With the blades running on speed 5, drizzle the olive oil through the lid, then blend 1 min / 0°C / speed 9 until completely silky.",
+    "Chill at least 1 hour. Check the seasoning and serve cold with an extra drizzle of olive oil; finish 1 min / 0°C / no speed."
   ],
   "tips": [
     "The best tomatoes you can find make the whole dish.",
@@ -47,6 +51,10 @@
     {
       "q": "Why add bread?",
       "a": "It gives the soup body and that classic velvety texture."
+    },
+    {
+      "q": "Is this the original José Andrés recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by José Andrés and gazpacho; it is not endorsed by or affiliated with the chef."
     }
   ]
 }

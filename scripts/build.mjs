@@ -7,11 +7,11 @@ import { fileURLToPath } from "node:url";
 import { renderRecipePage, renderIndexPage, homepageCards, totalMin } from "./lib/template.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-const SITE_URL = (process.env.SITE_URL || "https://www.alydigital.online").replace(/\/$/, "");
+const SITE_URL = (process.env.SITE_URL || "https://thermiechef.com.au").replace(/\/$/, "");
 const DATA = join(ROOT, "recipes", "data");
 
 function loadRecipes() {
-  const files = readdirSync(DATA).filter((f) => f.endsWith(".json"));
+  const files = readdirSync(DATA).filter((f) => f.endsWith(".json") && !f.startsWith("._"));
   const list = files.map((f) => JSON.parse(readFileSync(join(DATA, f), "utf8")));
   // newest first by datePublished, then title
   list.sort((a, b) => (b.datePublished || "").localeCompare(a.datePublished || "") || a.title.localeCompare(b.title));

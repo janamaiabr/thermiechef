@@ -14,7 +14,12 @@
   "keywords": [
     "thermomix salted caramel",
     "diana henry caramel thermomix",
-    "caramel sauce TM6"
+    "caramel sauce TM6",
+    "Thermomix Salted Caramel Sauce",
+    "Diana Henry inspired Thermomix recipe",
+    "TM6 salted caramel",
+    "TM7 salted caramel",
+    "Thermomix famous chef recipe"
   ],
   "thermomixModel": "TM6 / TM7",
   "intro": "Diana Henry writes some of the most beautiful food books around. This salted caramel is glossy and deep — and the Thermomix makes it without the fear of a burnt pan.",
@@ -38,7 +43,16 @@
     {
       "q": "Is it hard to make caramel in a Thermomix?",
       "a": "No — it cooks at a steady temperature with no stirring, so there's far less risk of burning."
+    },
+    {
+      "q": "Is this the original Diana Henry recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Diana Henry and salted caramel; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Salted Caramel Sauce in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
     }
   ],
-  "datePublished": "2026-07-01"
+  "datePublished": "2026-07-01",
+  "description": "A Chef Aly Thermomix reinterpretation of Diana Henry-style salted caramel: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
 }

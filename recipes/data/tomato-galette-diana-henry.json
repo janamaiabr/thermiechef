@@ -1,0 +1,59 @@
+{
+  "slug": "tomato-galette-diana-henry",
+  "title": "Tomato Galette",
+  "inspiredBy": {
+    "chef": "Diana Henry",
+    "dish": "tomato galette"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Diana Henry-style tomato galette: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "category": "Baking",
+  "cuisine": "French-inspired",
+  "prepMin": 15,
+  "cookMin": 70,
+  "servings": 4,
+  "keywords": [
+    "Thermomix Tomato Galette",
+    "Diana Henry inspired Thermomix recipe",
+    "TM6 tomato galette",
+    "TM7 tomato galette",
+    "Thermomix famous chef recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Diana Henry and the comforting appeal of tomato galette. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
+  "ingredients": [
+    "80 g caster sugar",
+    "120 g plain flour",
+    "30 g extra virgin olive oil",
+    "500 g main ingredient prepared for the dish",
+    "1 tsp sea salt",
+    "1/2 tsp freshly ground black pepper",
+    "Fresh herbs or lemon wedges, to serve"
+  ],
+  "steps": [
+    "Add liquid, yeast and sugar to the mixing bowl and warm 2 min / 37°C / speed 2.",
+    "Add flour, fat and salt, then knead 3 min / 0°C / dough mode until elastic.",
+    "Transfer to a bowl, cover and prove until puffy; rest 45 min / 0°C / no speed.",
+    "Shape, add toppings if needed and bake in a preheated oven 20 min / 200°C / no speed, until golden and cooked through."
+  ],
+  "tips": [
+    "Read the full method before starting so the Thermomix settings flow smoothly.",
+    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
+    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Diana Henry recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Diana Henry and tomato galette; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Tomato Galette in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
+    },
+    {
+      "q": "Can I prepare it ahead?",
+      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
+    }
+  ],
+  "image": "food-bread.jpg",
+  "datePublished": "2026-09-02"
+}

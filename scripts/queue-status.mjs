@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 const DATA = join(dirname(fileURLToPath(import.meta.url)), "..", "recipes", "data");
 const TODAY = process.env.BUILD_DATE || new Date().toISOString().slice(0, 10);
 let remaining = 0, last = "";
-for (const f of readdirSync(DATA).filter((f) => f.endsWith(".json"))) {
+for (const f of readdirSync(DATA).filter((f) => f.endsWith(".json") && !f.startsWith("._"))) {
   const r = JSON.parse(readFileSync(join(DATA, f), "utf8"));
   if ((r.datePublished || "0000-00-00") > TODAY) { remaining++; if (r.datePublished > last) last = r.datePublished; }
 }

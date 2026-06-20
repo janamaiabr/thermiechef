@@ -17,7 +17,7 @@ const IMAGES = [
   "dish-pancakes.jpg", "dish-smoothie.jpg", "food-soup.jpg", "dish-bread2.jpg", "hero-table.jpg",
 ];
 
-const existing = readdirSync(DATA).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(readFileSync(join(DATA, f), "utf8")));
+const existing = readdirSync(DATA).filter((f) => f.endsWith(".json") && !f.startsWith("._")).map((f) => JSON.parse(readFileSync(join(DATA, f), "utf8")));
 const existingTitles = existing.map((r) => r.title);
 const existingInspos = existing.map((r) => (r.inspiredBy ? `${r.inspiredBy.chef} — ${r.inspiredBy.dish}` : r.title));
 const existingSlugs = new Set(existing.map((r) => r.slug));

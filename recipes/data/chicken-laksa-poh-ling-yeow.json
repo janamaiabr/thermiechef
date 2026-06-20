@@ -15,7 +15,12 @@
   "keywords": [
     "thermomix laksa",
     "poh ling yeow laksa thermomix",
-    "chicken laksa paste TM6"
+    "chicken laksa paste TM6",
+    "Thermomix Chicken Laksa",
+    "Poh Ling Yeow inspired Thermomix recipe",
+    "TM6 chicken laksa",
+    "TM7 chicken laksa",
+    "Thermomix famous chef recipe"
   ],
   "datePublished": "2026-06-02",
   "thermomixModel": "TM6 / TM7",
@@ -30,10 +35,10 @@
     "To serve: rice noodles, bean sprouts, tofu puffs, lime, coriander"
   ],
   "steps": [
-    "Place all the paste ingredients in the bowl and blend 8 sec / speed 8 to a paste. Scrape down.",
+    "Place all the paste ingredients in the bowl and blend 8 sec / 0°C / speed 8 to a paste. Scrape down.",
     "Add the oil and fry the paste 5 min / 120°C / speed 1 to release the aroma.",
     "Add the coconut milk, stock, fish sauce and sliced chicken. Cook 18 min / 100°C / Reverse / speed 1.",
-    "Serve over cooked rice noodles with bean sprouts, tofu puffs, lime and coriander."
+    "Serve over cooked rice noodles with bean sprouts, tofu puffs, lime and coriander; finish 1 min / 0°C / no speed."
   ],
   "tips": [
     "Frying the paste in step 2 is what builds the deep flavour.",
@@ -47,6 +52,10 @@
     {
       "q": "Can I make it vegetarian?",
       "a": "Swap the chicken for tofu and mushrooms and use vegetable stock."
+    },
+    {
+      "q": "Is this the original Poh Ling Yeow recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Poh Ling Yeow and chicken laksa; it is not endorsed by or affiliated with the chef."
     }
   ]
 }

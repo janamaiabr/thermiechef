@@ -14,7 +14,12 @@
   "keywords": [
     "thermomix pea and ham soup",
     "marco pierre white soup thermomix",
-    "pea soup TM6"
+    "pea soup TM6",
+    "Thermomix Pea & Ham Soup",
+    "Marco Pierre White inspired Thermomix recipe",
+    "TM6 pea & ham soup",
+    "TM7 pea & ham soup",
+    "Thermomix famous chef recipe"
   ],
   "thermomixModel": "TM6 / TM7",
   "intro": "Marco Pierre White is all about big flavour from simple things. This pea and ham soup is comfort itself — the Thermomix cooks and blends it smooth in one bowl.",
@@ -29,9 +34,9 @@
     "Cream, to finish"
   ],
   "steps": [
-    "Chop onion 4 sec / speed 5. Add butter and sauté 3 min / 120°C / speed 1.",
+    "Chop onion 4 sec / 0°C / speed 5. Add butter and sauté 3 min / 120°C / speed 1.",
     "Add the peas, half the ham, stock and mint. Cook 15 min / 100°C / speed 1.",
-    "Blend 1 min / speed 4 to speed 8 until smooth. Stir the rest of the ham through, season and finish with a swirl of cream."
+    "Blend 1 min / 0°C / speed 8 until smooth. Stir the rest of the ham through, season and finish with a swirl of cream."
   ],
   "tips": [
     "Keep a little ham back to stir through at the end for texture.",
@@ -41,7 +46,16 @@
     {
       "q": "Can I use a ham hock?",
       "a": "Yes — simmer a hock in the stock first for deeper flavour, then shred the meat in."
+    },
+    {
+      "q": "Is this the original Marco Pierre White recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Marco Pierre White and pea & ham soup; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Pea & Ham Soup in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
     }
   ],
-  "datePublished": "2026-07-03"
+  "datePublished": "2026-07-03",
+  "description": "A Chef Aly Thermomix reinterpretation of Marco Pierre White-style pea & ham soup: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
 }

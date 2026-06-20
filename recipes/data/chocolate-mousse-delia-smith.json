@@ -14,7 +14,11 @@
   "keywords": [
     "thermomix chocolate mousse",
     "delia smith mousse thermomix",
-    "easy chocolate mousse TM6"
+    "easy chocolate mousse TM6",
+    "Delia Smith inspired Thermomix recipe",
+    "TM6 chocolate mousse",
+    "TM7 chocolate mousse",
+    "Thermomix famous chef recipe"
   ],
   "thermomixModel": "TM6 / TM7",
   "intro": "Delia Smith taught Britain to cook, and her chocolate mousse is pure, dark and grown-up. The Thermomix melts the chocolate and whips the eggs, so it comes together in minutes.",
@@ -25,10 +29,10 @@
     "1 pinch salt"
   ],
   "steps": [
-    "Place the chocolate in the bowl and chop 8 sec / speed 8. Melt 4 min / 50°C / speed 2, then tip into a bowl.",
-    "Insert the butterfly. Add the egg whites and salt and whip 3 min / speed 4 to firm peaks; set aside.",
-    "Without washing, add the yolks and sugar and mix 30 sec / speed 4. Add the melted chocolate and mix 10 sec / speed 3.",
-    "Fold the whipped whites through by hand, gently. Spoon into glasses and chill 2 hours."
+    "Place the chocolate in the bowl and chop 8 sec / 0°C / speed 8. Melt 4 min / 50°C / speed 2, then tip into a bowl.",
+    "Insert the butterfly. Add the egg whites and salt and whip 3 min / 0°C / speed 4 to firm peaks; set aside.",
+    "Without washing, add the yolks and sugar and mix 30 sec / 0°C / speed 4. Add the melted chocolate and mix 10 sec / 0°C / speed 3.",
+    "Fold the whipped whites through by hand, gently. Spoon into glasses and chill 2 hours; finish 1 min / 0°C / no speed."
   ],
   "tips": [
     "Fold — don't stir — the whites in to keep it airy.",
@@ -38,7 +42,16 @@
     {
       "q": "Why separate the eggs?",
       "a": "Whipped whites give the mousse its light, airy set without any cream."
+    },
+    {
+      "q": "Is this the original Delia Smith recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Delia Smith and chocolate mousse; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Chocolate Mousse in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
     }
   ],
-  "datePublished": "2026-06-22"
+  "datePublished": "2026-06-22",
+  "description": "A Chef Aly Thermomix reinterpretation of Delia Smith-style chocolate mousse: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
 }

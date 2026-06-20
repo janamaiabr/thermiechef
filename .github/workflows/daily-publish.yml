@@ -24,6 +24,10 @@ jobs:
         run: node scripts/build.mjs
         env:
           SITE_URL: https://thermiechef.com.au
+      - name: Validate SEO, LLM and recipe safety
+        run: node scripts/validate-site.mjs
+        env:
+          SITE_URL: https://thermiechef.com.au
       - name: Commit & push if something new went live
         run: |
           git config user.name "ThermieChef Bot"

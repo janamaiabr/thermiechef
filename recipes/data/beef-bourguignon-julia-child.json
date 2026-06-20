@@ -15,7 +15,11 @@
   "keywords": [
     "thermomix beef bourguignon",
     "julia child stew thermomix",
-    "red wine beef TM6"
+    "red wine beef TM6",
+    "Julia Child inspired Thermomix recipe",
+    "TM6 beef bourguignon",
+    "TM7 beef bourguignon",
+    "Thermomix famous chef recipe"
   ],
   "datePublished": "2026-06-12",
   "thermomixModel": "TM6 / TM7",
@@ -37,12 +41,12 @@
     "Salt and pepper"
   ],
   "steps": [
-    "Place onion and garlic in the mixing bowl and chop 4 sec / speed 5. Scrape down.",
+    "Place onion and garlic in the mixing bowl and chop 4 sec / 0°C / speed 5. Scrape down.",
     "Add the olive oil and bacon and sauté 4 min / 120°C / speed 1.",
     "Add the beef and cook 5 min / 120°C / Reverse / speed 1 to seal.",
     "Add the flour and cook 1 min / 100°C / Reverse / speed 1 to coat.",
     "Add the wine, stock, tomato paste, bay and thyme. Cook 60 min / 100°C / Reverse / speed 1, MC off and basket on the lid, adding the mushrooms and baby onions for the last 20 minutes.",
-    "Season and rest. Serve with mash or crusty bread."
+    "Season and rest. Serve with mash or crusty bread; finish 1 min / 0°C / no speed."
   ],
   "tips": [
     "For deeper flavour, brown the beef in a hot pan first if you have time.",
@@ -56,6 +60,10 @@
     {
       "q": "Best cut of beef?",
       "a": "Chuck — its connective tissue melts during the slow cook."
+    },
+    {
+      "q": "Is this the original Julia Child recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Julia Child and beef bourguignon; it is not endorsed by or affiliated with the chef."
     }
   ]
 }

@@ -1,15 +1,27 @@
 {
   "slug": "veg-packed-bolognese-jamie",
   "title": "Veg-Packed Bolognese",
-  "inspiredBy": { "chef": "Jamie Oliver", "dish": "Bolognese" },
-  "description": "My Thermomix version of Jamie Oliver's veg-packed Bolognese — a rich, sneaky-healthy ragù in one bowl.",
+  "inspiredBy": {
+    "chef": "Jamie Oliver",
+    "dish": "Bolognese"
+  },
+  "description": "My Thermomix version of Jamie Oliver's veg-packed Bolognese — a rich, veg-rich ragù in one bowl.",
   "image": "dish-pasta.jpg",
   "category": "Dinner",
   "cuisine": "Italian",
   "prepMin": 15,
   "cookMin": 45,
   "servings": 6,
-  "keywords": ["thermomix bolognese", "jamie oliver bolognese thermomix", "veg packed ragu", "TM6 bolognese", "hidden veg pasta sauce"],
+  "keywords": [
+    "thermomix bolognese",
+    "jamie oliver bolognese thermomix",
+    "veg packed ragu",
+    "TM6 bolognese",
+    "hidden veg pasta sauce",
+    "Thermomix Veg-Packed Bolognese",
+    "Jamie Oliver inspired Thermomix recipe",
+    "TM7 Bolognese"
+  ],
   "datePublished": "2026-06-17",
   "thermomixModel": "TM6 / TM7",
   "intro": "Jamie's trick is a proper soffritto base and a sauce packed with veg the kids never notice. The Thermomix chops the lot and cooks it all in one bowl — just boil your pasta while it simmers.",
@@ -30,12 +42,12 @@
     "Cooked pasta and parmesan, to serve"
   ],
   "steps": [
-    "Place onion, garlic, carrot and celery in the mixing bowl and chop 5 sec / speed 5. Scrape down.",
+    "Place onion, garlic, carrot and celery in the mixing bowl and chop 5 sec / 0°C / speed 5. Scrape down.",
     "Add the olive oil and pancetta and sauté 4 min / 120°C / speed 1.",
     "Add the beef mince and cook 6 min / 100°C / Reverse / speed 1 to brown, breaking it up.",
     "Add the red wine and cook 3 min / 100°C / Reverse / speed 1.",
     "Add the passata, tomato paste, oregano, bay leaf, salt and pepper. Cook 30 min / 100°C / Reverse / speed 1, with the measuring cup off and the simmering basket on the lid to stop splatter.",
-    "Check the seasoning, remove the bay leaf and serve over pasta with plenty of parmesan."
+    "Check the seasoning, remove the bay leaf and serve over pasta with plenty of parmesan; finish 1 min / 0°C / no speed."
   ],
   "tips": [
     "The onion-carrot-celery soffritto is what gives it that slow-cooked depth.",
@@ -43,7 +55,17 @@
     "Stir a parmesan rind in at step 5 for extra savouriness, then remove before serving."
   ],
   "faq": [
-    { "q": "Can I make Bolognese entirely in the Thermomix?", "a": "Yes — it chops the veg, browns the mince on Reverse and simmers the sauce, all in one bowl. You only need to cook the pasta separately." },
-    { "q": "How do I hide vegetables in the sauce?", "a": "Chopping the carrot and celery finely with the onion melts them into the ragù, so they add sweetness and nutrition without anyone spotting them." }
+    {
+      "q": "Can I make Bolognese entirely in the Thermomix?",
+      "a": "Yes — it chops the veg, browns the mince on Reverse and simmers the sauce, all in one bowl. You only need to cook the pasta separately."
+    },
+    {
+      "q": "How do I hide vegetables in the sauce?",
+      "a": "Chopping the carrot and celery finely with the onion melts them into the ragù, so they add sweetness and nutrition without anyone spotting them."
+    },
+    {
+      "q": "Is this the original Jamie Oliver recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Jamie Oliver and Bolognese; it is not endorsed by or affiliated with the chef."
+    }
   ]
 }

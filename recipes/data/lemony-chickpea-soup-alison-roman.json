@@ -1,0 +1,60 @@
+{
+  "slug": "lemony-chickpea-soup-alison-roman",
+  "title": "Lemony Chickpea Soup",
+  "inspiredBy": {
+    "chef": "Alison Roman",
+    "dish": "chickpea soup"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Alison Roman-style chickpea soup: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "category": "Dinner",
+  "cuisine": "Mediterranean-inspired",
+  "prepMin": 15,
+  "cookMin": 35,
+  "servings": 4,
+  "keywords": [
+    "Thermomix Lemony Chickpea Soup",
+    "Alison Roman inspired Thermomix recipe",
+    "TM6 chickpea soup",
+    "TM7 chickpea soup",
+    "Thermomix famous chef recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Alison Roman and the comforting appeal of chickpea soup. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
+  "ingredients": [
+    "1 brown onion, quartered",
+    "2 garlic cloves",
+    "30 g olive oil",
+    "650 g vegetables, chopped",
+    "700 g vegetable or chicken stock",
+    "80 g cream, coconut milk or yoghurt",
+    "Fresh herbs, to serve"
+  ],
+  "steps": [
+    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / 0°C / speed 5, then scrape down.",
+    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
+    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender; finish 1 min / 0°C / no speed.",
+    "If a smoother finish suits the dish, blend 20 sec / 0°C / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
+    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / 0°C / Reverse speed 1 before serving; finish 1 min / 0°C / no speed."
+  ],
+  "tips": [
+    "Read the full method before starting so the Thermomix settings flow smoothly.",
+    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
+    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Alison Roman recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Alison Roman and chickpea soup; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Lemony Chickpea Soup in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
+    },
+    {
+      "q": "Can I prepare it ahead?",
+      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
+    }
+  ],
+  "image": "food-soup.jpg",
+  "datePublished": "2026-07-29"
+}

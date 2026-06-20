@@ -5,7 +5,7 @@
     "chef": "Gordon Ramsay",
     "dish": "scrambled eggs"
   },
-  "description": "My Thermomix take on Gordon Ramsay's famously soft, creamy scrambled eggs.",
+  "description": "A Chef Aly Thermomix reinterpretation of Gordon Ramsay-style creamy scrambled eggs: soft curds, butter, exact TM6 and TM7 settings and a café-worthy breakfast method.",
   "image": "food-bread.jpg",
   "category": "Breakfast",
   "cuisine": "British",
@@ -15,7 +15,12 @@
   "keywords": [
     "thermomix scrambled eggs",
     "gordon ramsay eggs thermomix",
-    "creamy eggs TM6"
+    "creamy eggs TM6",
+    "Thermomix Creamy Scrambled Eggs",
+    "Gordon Ramsay inspired Thermomix recipe",
+    "TM6 scrambled eggs",
+    "TM7 scrambled eggs",
+    "Thermomix famous chef recipe"
   ],
   "datePublished": "2026-06-13",
   "thermomixModel": "TM6 / TM7",
@@ -31,8 +36,8 @@
   ],
   "steps": [
     "Insert the butterfly whisk. Add the eggs and butter to the mixing bowl. Cook 7 min / 90°C / speed 2, watching closely — stop the moment they're softly set and still glossy.",
-    "Add the crème fraîche, salt and pepper. Mix 15 sec / speed 2 — this stops the cooking and keeps them silky.",
-    "Serve straight away on hot sourdough, scattered with chives."
+    "Add the crème fraîche, salt and pepper. Mix 15 sec / 0°C / speed 2 — this stops the cooking and keeps them silky.",
+    "Serve straight away on hot sourdough, scattered with chives; finish 1 min / 0°C / no speed."
   ],
   "tips": [
     "Pull them while slightly loose — the residual heat finishes them.",
@@ -46,6 +51,10 @@
     {
       "q": "Do I need the butterfly?",
       "a": "Yes — it folds the eggs slowly so they stay silky."
+    },
+    {
+      "q": "Is this the original Gordon Ramsay recipe?",
+      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Gordon Ramsay and scrambled eggs; it is not endorsed by or affiliated with the chef."
     }
   ]
 }
