@@ -17,7 +17,7 @@
 <!-- Our own ledger is /api/track → Airtable → /dashboard.html (lead & buy-click attribution). -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet"/>
 <style>
 :root{
   --bg:#FFFBF4; --paper:#FFFFFF; --warm:#FBEFE0; --warm-2:#F6E4CE;
@@ -64,6 +64,8 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop
 .hero h1{font-size:clamp(2.6rem,5.6vw,4.6rem);margin:16px 0}
 .hero h1 .u{color:var(--terra);position:relative}
 .hero h1 .u::after{content:"";position:absolute;left:0;right:0;bottom:.04em;height:.16em;background:rgba(236,162,60,.45);border-radius:6px;z-index:-1}
+.hero h1 .u.tmx{color:var(--green)}
+.hero h1 .u.tmx::after{background:rgba(47,125,82,.22)}
 .hero .lead{font-size:clamp(1.08rem,1.5vw,1.3rem);color:var(--muted);max-width:42ch;margin:6px 0 28px}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
 .hero-stat{margin-top:22px;font-family:Poppins;font-weight:600;font-size:.92rem;color:var(--muted)}
@@ -143,8 +145,9 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop
 
 /* thermomix feature */
 .feature{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:center}
-.feature-art{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/3;box-shadow:0 30px 60px -30px rgba(80,50,20,.45)}
-.feature-art img{width:100%;height:100%;object-fit:cover;display:block}
+.feature-art{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/3;background:linear-gradient(165deg,#F8E7CE,#EAD2AE);box-shadow:0 30px 60px -30px rgba(80,50,20,.45);display:flex;align-items:flex-end;justify-content:center}
+.feature-art::after{content:"";position:absolute;inset:0;opacity:.4;background-image:radial-gradient(rgba(255,255,255,.6) 1.4px,transparent 1.5px);background-size:17px 17px}
+.feature-art img{position:relative;z-index:1;width:auto;height:97%;object-fit:contain;filter:drop-shadow(0 18px 22px rgba(80,50,20,.22))}
 .feature-art .tag{position:absolute;z-index:2;bottom:16px;left:16px;background:rgba(255,255,255,.94);color:var(--ink);font-family:Poppins;font-weight:700;font-size:.82rem;padding:.5em 1em;border-radius:999px}
 .feature h2{font-size:clamp(2rem,4vw,3rem);margin:14px 0 8px}
 .flist{list-style:none;margin:24px 0;display:grid;gap:14px}
@@ -199,11 +202,21 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop
 .cv-cta p{font-family:Poppins;font-weight:600;font-size:.95rem;flex:1;min-width:160px;margin:0}
 
 /* about */
-.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(28px,5vw,60px);align-items:center}
-.about-fig{background:radial-gradient(120% 100% at 50% 0%,var(--warm-2),var(--warm));border-radius:28px;overflow:hidden;aspect-ratio:4/5;display:flex;align-items:flex-end;justify-content:center;box-shadow:0 24px 50px -26px rgba(80,50,20,.4)}
-.about-fig img{width:92%;height:auto;object-fit:contain}
-.about h2{font-size:clamp(2rem,4vw,3rem);margin-bottom:14px}
-.about p{color:var(--muted);font-size:1.1rem;margin-bottom:14px}
+.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,60px);align-items:center}
+.about-fig{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 28px 56px -26px rgba(80,50,20,.55)}
+.about-fig img{width:100%;height:100%;object-fit:cover;object-position:68% 26%}
+.about-fig::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,transparent 48%,rgba(20,12,6,.55))}
+.about-sign{position:absolute;left:20px;bottom:15px;z-index:2;color:#fff}
+.about-sign .nm{font-family:'Caveat',cursive;font-weight:700;font-size:2.5rem;line-height:.8}
+.about-sign .rl{font-family:Poppins;font-weight:600;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;opacity:.92;margin-top:3px}
+.about-fig .rate{position:absolute;top:14px;right:14px;z-index:2;background:rgba(255,255,255,.94);border-radius:999px;padding:.42em .85em;font-family:Poppins;font-weight:700;font-size:.74rem;display:flex;align-items:center;gap:.4em;box-shadow:0 8px 18px -8px rgba(0,0,0,.35)}
+.about-fig .rate .s{color:var(--amber);letter-spacing:1px}
+.about h2{font-size:clamp(2rem,4vw,3rem);margin-bottom:16px}
+.about p{color:var(--ink);font-size:1.08rem;margin-bottom:14px}
+.about p.soft{color:var(--muted)}
+.about-chips{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 24px}
+.about-chip{display:inline-flex;align-items:center;gap:.4em;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-family:Poppins;font-weight:600;font-size:.82rem}
+.about-cta{display:flex;gap:12px;flex-wrap:wrap}
 
 /* offer */
 .offer{background:linear-gradient(160deg,#34291f 0%,#1f1812 100%);color:#fff;border-radius:28px;padding:clamp(40px,6vw,72px);text-align:center;position:relative;overflow:hidden}
@@ -252,7 +265,7 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
 <section class="hero"><div class="wrap hero-grid">
   <div>
     <span class="kicker">Famous recipes · reimagined for Thermomix</span>
-    <h1>The world's best recipes,<br><span class="u">made for your Thermomix.</span></h1>
+    <h1>The world's best recipes,<br>made for your <span class="u tmx">Thermomix.</span></h1>
     <p class="lead">I take iconic dishes from the chefs and cookbooks you love and rebuild them for your Thermomix — exact speeds, times and steps. A legend reimagined, every week.</p>
     <div class="hero-cta">
       <a class="btn" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('hero')">Get your Thermomix →</a>
@@ -281,12 +294,12 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
     </div>
     <!-- Wire each card's href to the real Instagram Reel URL. Posters use food photos for now. -->
     <div class="rgrid">
-      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','ottolenghi-hummus')"><img src="assets/dish-chicken.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Cooking a Jamie classic</b><span>Watch on Instagram</span></span></a>
-      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','nigella-cake')"><img src="assets/dish-salad.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Ottolenghi, Thermomix-style</b><span>Watch on Instagram</span></span></a>
-      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','bill-granger')"><img src="assets/dish-smoothie.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Nigella's chocolate cake</b><span>Watch on Instagram</span></span></a>
-      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','donna-hay')"><img src="assets/dish-dessert.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Bill Granger hotcakes</b><span>Watch on Instagram</span></span></a>
-      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','rita-lobo')"><img src="assets/food-bread.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Fresh bread, the easy way</b><span>Watch on Instagram</span></span></a>
-      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','jamie-bolognese')"><img src="assets/food-risotto.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Risotto, no stirring</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/reel/DY5Qf6Wzr5u/" target="_blank" rel="noopener" onclick="track('reel','DY5Qf6Wzr5u')"><img src="assets/reel-1.jpg" alt="Chef Aly Thermomix reel"/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Dinner that cooks itself</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/reel/DY3NgKIhulC/" target="_blank" rel="noopener" onclick="track('reel','DY3NgKIhulC')"><img src="assets/reel-2.jpg" alt="Chef Aly Thermomix reel"/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>You have to taste this</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/reel/DY0qWqOBHSS/" target="_blank" rel="noopener" onclick="track('reel','DY0qWqOBHSS')"><img src="assets/reel-3.jpg" alt="Chef Aly Thermomix reel"/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Made in the Thermomix</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/reel/DM6HxBSzFd_/" target="_blank" rel="noopener" onclick="track('reel','DM6HxBSzFd_')"><img src="assets/reel-4.jpg" alt="Chef Aly Thermomix reel"/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Dinner, the easy way</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/reel/DMyYPg-zTRd/" target="_blank" rel="noopener" onclick="track('reel','DMyYPg-zTRd')"><img src="assets/reel-5.jpg" alt="Chef Aly Thermomix reel"/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Fresh from scratch</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/reel/DKnSf4zTIxa/" target="_blank" rel="noopener" onclick="track('reel','DKnSf4zTIxa')"><img src="assets/reel-6.jpg" alt="Chef Aly Thermomix reel"/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Cook along with me</b><span>Watch on Instagram</span></span></a>
     </div>
   </div>
 </section>
@@ -314,7 +327,7 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
 <!-- THERMOMIX -->
 <section class="section" id="thermomix">
   <div class="wrap feature">
-    <div class="feature-art"><img src="assets/aly-thermomix-real.jpg" alt="Chef Aly with her Thermomix machines"/><span class="tag">Me &amp; my Thermomix</span></div>
+    <div class="feature-art"><img src="assets/chef-whisk-clean.png" alt="Aly cooking with her Thermomix"/><span class="tag">Cooking with my Thermomix</span></div>
     <div>
       <span class="kicker">The machine behind it all</span>
       <h2>One machine. Your whole kitchen.</h2>
@@ -357,13 +370,19 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
 <!-- ABOUT -->
 <section class="section bg-warm" id="about">
   <div class="wrap about">
-    <div class="about-fig"><img src="assets/chef-arms-clean.png" alt="Chef Aly"/></div>
+    <div class="about-fig">
+      <img src="assets/aly-thermomix-real.jpg" alt="Aly, the cook behind ThermieChef, with her Thermomix"/>
+      <span class="rate"><span class="s">★★★★★</span> Loved by home cooks</span>
+      <div class="about-sign"><div class="nm">Aly</div><div class="rl">ThermieChef</div></div>
+    </div>
     <div>
-      <span class="kicker">Meet Chef Aly</span>
-      <h2>Hi, I'm Aly</h2>
-      <p>I believe good food shouldn't take your whole evening. With the Thermomix, I cook real, fresh meals in minutes, and I love showing other people how easy it can be.</p>
-      <p>Here you'll find my favourite recipes, my honest tips, and a hand if you ever want a Thermomix of your own. Let's cook together.</p>
-      <a class="btn btn-ghost" href="#news">Cook with me</a>
+      <span class="kicker">Meet ThermieChef</span>
+      <h2>Hi, I'm Aly 👋</h2>
+      <p>I'm Brazilian, I live in Australia, and I'm a little obsessed with one thing: making seriously good food ridiculously easy. My Thermomix is my sous-chef — it weighs, blends, steams and cooks — so I get the joy of cooking and skip the fuss and the mountain of pans.</p>
+      <p>My favourite thing? Taking the dishes everyone dreams about — from the world's best chefs to the Brazilian classics I grew up on — and reimagining them for the Thermomix, so you can pull them off on a busy Tuesday and watch the whole table go quiet for a second.</p>
+      <p class="soft">Come cook with me — and whenever you're ready for a Thermomix of your own, I'm right here to help you choose. 🧡</p>
+      <div class="about-chips"><span class="about-chip">🇧🇷 Brazilian roots</span><span class="about-chip">🥄 Thermomix consultant</span><span class="about-chip">📍 Australia</span></div>
+      <div class="about-cta"><a class="btn" href="#news">Cook with me</a><a class="btn btn-wa" href="https://wa.me/61424310504" target="_blank" rel="noopener" onclick="track('whatsapp','about')">Chat with Aly</a></div>
     </div>
   </div>
 </section>
