@@ -4,5 +4,5 @@
   "buildCommand": "node scripts/build.mjs",
   "outputDirectory": ".",
   "cleanUrls": false,
-  "trailingSlash": false
+  "trailingSlash": true
 }

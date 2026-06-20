@@ -136,6 +136,7 @@ export function renderRecipePage(r, siteUrl) {
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G1D265RTZ0"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G1D265RTZ0');</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/><link rel="icon" href="/favicon-32.png" sizes="32x32"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 <title>${esc(r.title)} (Thermomix Recipe) | ${SITE_NAME}</title>
 <meta name="description" content="${esc(r.description)}"/>
 <link rel="canonical" href="${url}"/>
@@ -186,6 +187,7 @@ export function renderIndexPage(recipes, siteUrl) {
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G1D265RTZ0"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G1D265RTZ0');</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/><link rel="icon" href="/favicon-32.png" sizes="32x32"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 <title>Thermomix Recipes | ${SITE_NAME}</title>
 <meta name="description" content="Easy, reliable Thermomix recipes from Chef Aly — a new recipe every day, with exact speeds, times and temperatures for the TM6 and TM7."/>
 <link rel="canonical" href="${siteUrl}/recipes/"/>
