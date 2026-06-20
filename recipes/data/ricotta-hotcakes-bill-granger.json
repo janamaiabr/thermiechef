@@ -1,0 +1,42 @@
+{
+  "slug": "ricotta-hotcakes-bill-granger",
+  "title": "Ricotta Hotcakes",
+  "inspiredBy": { "chef": "Bill Granger", "dish": "ricotta hotcakes" },
+  "description": "My Thermomix take on Bill Granger's legendary ricotta hotcakes — light as a cloud, with honeycomb butter and banana.",
+  "image": "dish-pancakes.jpg",
+  "category": "Breakfast",
+  "cuisine": "Australian",
+  "prepMin": 10,
+  "cookMin": 15,
+  "servings": 4,
+  "keywords": ["thermomix ricotta hotcakes", "bill granger hotcakes thermomix", "fluffy pancakes thermomix", "TM6 pancakes"],
+  "datePublished": "2026-06-18",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Bill Granger made these Sydney-famous, and the secret is whipped egg whites folded through a ricotta batter. The Thermomix whips the whites for you — they come out impossibly light and fluffy.",
+  "ingredients": [
+    "4 eggs, separated",
+    "260 g fresh ricotta",
+    "180 g milk",
+    "150 g plain flour",
+    "1 tsp baking powder",
+    "1 pinch salt",
+    "Butter, for cooking",
+    "Honey and sliced banana, to serve"
+  ],
+  "steps": [
+    "Insert the butterfly whisk. Add the egg whites and whip 3 min / speed 4 until soft peaks form, then tip into a separate bowl.",
+    "Remove the butterfly. Add the ricotta, milk and egg yolks to the bowl and mix 20 sec / speed 4.",
+    "Add the flour, baking powder and salt and mix 15 sec / speed 4 to a smooth batter.",
+    "Gently fold the whipped egg whites through the batter by hand, keeping it airy.",
+    "Cook large spoonfuls in a buttered pan over medium heat, about 2 minutes each side, until golden. Serve with honey and banana. (Cooking the hotcakes is done in a pan.)"
+  ],
+  "tips": [
+    "Folding — not stirring — the whites in is what keeps them cloud-light.",
+    "Keep the heat medium so they cook through without burning.",
+    "A squeeze of lemon over the banana balances the sweetness beautifully."
+  ],
+  "faq": [
+    { "q": "Why whip the egg whites separately?", "a": "Whipped whites folded through the batter trap air, giving Bill Granger's hotcakes their signature fluffy, soufflé-like lift. The Thermomix butterfly does the whipping for you." },
+    { "q": "Can I make the batter ahead?", "a": "Make the base ahead, but whip and fold the egg whites just before cooking so the hotcakes stay light." }
+  ]
+}

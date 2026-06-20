@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<title>Lead & Sales Dashboard — Chef Aly</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#FFFBF4;--paper:#fff;--terra:#DC6B3F;--green:#2F7D52;--amber:#ECA23C;--ink:#2A241E;--muted:#7a6f63;--line:#EFE2CE}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;padding:28px}
+h1,h2,h3{font-family:Poppins,sans-serif}
+.wrap{max-width:1000px;margin:0 auto}
+.head{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:8px}
+h1{font-size:1.6rem}
+.sub{color:var(--muted);margin-bottom:24px}
+.gate{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:26px;max-width:420px;margin:60px auto;text-align:center}
+.gate input{width:100%;padding:.9em 1em;border:1.5px solid var(--line);border-radius:12px;font-size:1rem;margin:14px 0}
+.btn{font-family:Poppins;font-weight:600;border:none;background:var(--terra);color:#fff;padding:.85em 1.5em;border-radius:999px;cursor:pointer;font-size:.95rem}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:22px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card .n{font-family:Poppins;font-weight:800;font-size:2.2rem;line-height:1}
+.card .l{color:var(--muted);font-size:.84rem;margin-top:6px;font-family:Poppins;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.card.lead .n{color:var(--green)}.card.buy .n{color:var(--terra)}.card.conv .n{color:var(--amber)}
+.grid2{display:grid;grid-template-columns:1fr 1.4fr;gap:18px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px}
+.panel h3{font-size:1.05rem;margin-bottom:12px}
+.row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.row:last-child{border:none}
+table{width:100%;border-collapse:collapse;font-size:.86rem}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line)}
+th{font-family:Poppins;font-weight:600;color:var(--muted);font-size:.76rem;text-transform:uppercase}
+.muted{color:var(--muted)}
+.note{font-size:.8rem;color:var(--muted);margin-top:18px}
+@media(max-width:760px){.cards{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="gate" class="gate">
+    <h1>Dashboard</h1>
+    <p class="muted" style="margin-top:8px">Enter your dashboard key to see your leads and buy-now clicks.</p>
+    <input id="key" type="password" placeholder="Dashboard key" onkeydown="if(event.key==='Enter')load()"/>
+    <button class="btn" onclick="load()">View dashboard</button>
+    <p id="err" style="color:#c0392b;margin-top:12px;display:none">Wrong key, or stats aren't configured yet.</p>
+  </div>
+
+  <div id="app" style="display:none">
+    <div class="head">
+      <div><h1>Lead &amp; Sales Dashboard</h1><div class="sub">Your record of every lead and buy-now click — proof of what we send Aly.</div></div>
+      <button class="btn" onclick="load()">↻ Refresh</button>
+    </div>
+    <div class="cards">
+      <div class="card lead"><div class="n" id="t-lead">0</div><div class="l">Leads captured</div></div>
+      <div class="card buy"><div class="n" id="t-buy">0</div><div class="l">Buy-now clicks</div></div>
+      <div class="card conv"><div class="n" id="t-conv">0%</div><div class="l">Click rate</div></div>
+      <div class="card"><div class="n" id="t-wa">0</div><div class="l">WhatsApp clicks</div></div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="n" id="t-reel">0</div><div class="l">Reel clicks</div></div>
+      <div class="card"><div class="n" id="t-social">0</div><div class="l">Social clicks</div></div>
+      <div class="card"><div class="n" id="t-pv">0</div><div class="l">Page views</div></div>
+      <div class="card"><div class="n" id="t-total">0</div><div class="l">Total leads (all time)</div></div>
+    </div>
+    <div class="grid2">
+      <div class="panel"><h3>Buy clicks by source</h3><div id="bysource"></div></div>
+      <div class="panel"><h3>Recent leads</h3><table><thead><tr><th>Name</th><th>Email</th><th>Phone</th><th>Source</th></tr></thead><tbody id="leads"></tbody></table></div>
+    </div>
+    <p class="note">Updated <span id="upd">—</span>. Tip: open the Airtable base for the full, filterable list and to build charts.</p>
+  </div>
+</div>
+
+<script>
+function esc(s){return (s||'').replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
+async function load(){
+  var key=document.getElementById('key').value || localStorage.getItem('aly_dash_key') || '';
+  if(!key){return;}
+  try{
+    var r=await fetch('/api/stats?key='+encodeURIComponent(key));
+    if(!r.ok) throw new Error('auth');
+    var d=await r.json();
+    localStorage.setItem('aly_dash_key', key);
+    document.getElementById('gate').style.display='none';
+    document.getElementById('app').style.display='block';
+    var t=d.totals||{};
+    document.getElementById('t-lead').textContent=t.lead||0;
+    document.getElementById('t-buy').textContent=t.buy_click||0;
+    document.getElementById('t-conv').textContent=(d.conversionPct||0)+'%';
+    document.getElementById('t-wa').textContent=t.whatsapp||0;
+    document.getElementById('t-reel').textContent=t.reel||0;
+    document.getElementById('t-social').textContent=t.social||0;
+    document.getElementById('t-pv').textContent=t.page_view||0;
+    document.getElementById('t-total').textContent=d.totalLeads||0;
+    var bs=d.bySource||{}, html='';
+    Object.keys(bs).sort(function(a,b){return bs[b]-bs[a];}).forEach(function(k){html+='<div class="row"><span>'+esc(k)+'</span><b>'+bs[k]+'</b></div>';});
+    document.getElementById('bysource').innerHTML=html||'<p class="muted">No buy clicks yet.</p>';
+    var lh='';
+    (d.recentLeads||[]).forEach(function(l){lh+='<tr><td>'+esc(l.name)+'</td><td>'+esc(l.email)+'</td><td>'+esc(l.phone)+'</td><td>'+esc(l.source)+'</td></tr>';});
+    document.getElementById('leads').innerHTML=lh||'<tr><td colspan="4" class="muted">No leads yet.</td></tr>';
+    document.getElementById('upd').textContent=new Date(d.updatedAt||Date.now()).toLocaleString();
+  }catch(e){
+    document.getElementById('err').style.display='block';
+  }
+}
+if(localStorage.getItem('aly_dash_key')){load();}
+</script>
+</body>
+</html>

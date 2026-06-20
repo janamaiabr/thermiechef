@@ -1,0 +1,9 @@
+{
+  "name": "aly-thermomix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chef Aly — Thermomix landing page + recipe converter widget",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0"
+  }
+}

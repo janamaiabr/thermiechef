@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Chef Aly — Real food, made effortless with Thermomix</title>
+<meta name="description" content="Hundreds of easy Thermomix recipes with Chef Aly. Quick dinners, healthy bowls, breads and sweets — plus how to get your own machine."/>
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G1D265RTZ0"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G1D265RTZ0');</script>
+<!-- Meta Pixel can be pasted here too. Lead + InitiateCheckout fire automatically. -->
+<!-- Our own ledger is /api/track → Airtable → /dashboard.html (lead & buy-click attribution). -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --bg:#FFFBF4; --paper:#FFFFFF; --warm:#FBEFE0; --warm-2:#F6E4CE;
+  --terra:#DC6B3F; --terra-d:#C2542B; --green:#2F7D52; --green-d:#235E3D;
+  --amber:#ECA23C; --ink:#2A241E; --muted:#7a6f63; --line:#EFE2CE;
+  --maxw:1200px; --ease:cubic-bezier(.22,.61,.36,1); --r:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(20px,5vw,40px)}
+h1,h2,h3{font-family:Poppins,system-ui,sans-serif;font-weight:700;line-height:1.08;letter-spacing:-.02em;color:var(--ink)}
+a{text-decoration:none;color:inherit}
+.kicker{font-family:Poppins;font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
+.btn{display:inline-flex;align-items:center;gap:.5em;font-family:Poppins;font-weight:600;font-size:.95rem;padding:.92em 1.7em;border-radius:999px;border:2px solid var(--terra);background:var(--terra);color:#fff;cursor:pointer;transition:transform .18s var(--ease),background .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);background:var(--terra-d);border-color:var(--terra-d);box-shadow:0 12px 26px -10px rgba(220,107,63,.6)}
+.btn-green{background:var(--green);border-color:var(--green)}.btn-green:hover{background:var(--green-d);border-color:var(--green-d);box-shadow:0 12px 26px -10px rgba(47,125,82,.5)}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn-ghost:hover{background:#fff;border-color:var(--ink);box-shadow:none}
+.badge{display:inline-flex;align-items:center;gap:.4em;font-family:Poppins;font-weight:600;font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;padding:.32em .72em;border-radius:999px;background:var(--green);color:#fff}
+.badge.time{background:#fff;color:var(--ink);border:1px solid var(--line)}
+
+/* header */
+header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;height:74px;gap:16px}
+.logo{font-family:Poppins;font-weight:800;font-size:1.4rem;color:var(--ink)}
+.logo span{color:var(--terra)}
+.nav-links{display:none;gap:28px;margin-left:30px;font-family:Poppins;font-weight:600;font-size:.92rem}
+.nav-links a{color:var(--ink)}.nav-links a:hover{color:var(--terra)}
+.nav-cta{margin-left:auto}
+@media(min-width:860px){.nav-links{display:flex}}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;padding:clamp(30px,5vw,56px) 0 clamp(40px,6vw,70px);
+  background:
+    radial-gradient(1100px 620px at 86% -12%, #FCE7CE 0%, rgba(252,231,206,0) 58%),
+    radial-gradient(900px 520px at -6% 116%, #F2E4CC 0%, rgba(242,228,204,0) 55%),
+    var(--bg)}
+.hero::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.55;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E")}
+.hero .wrap{position:relative;z-index:1}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,5vw,56px);align-items:center}
+.hero h1{font-size:clamp(2.6rem,5.6vw,4.6rem);margin:16px 0}
+.hero h1 .u{color:var(--terra);position:relative}
+.hero h1 .u::after{content:"";position:absolute;left:0;right:0;bottom:.04em;height:.16em;background:rgba(236,162,60,.45);border-radius:6px;z-index:-1}
+.hero .lead{font-size:clamp(1.08rem,1.5vw,1.3rem);color:var(--muted);max-width:42ch;margin:6px 0 28px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.hero-stat{margin-top:22px;font-family:Poppins;font-weight:600;font-size:.92rem;color:var(--muted)}
+.hero-stat b{color:var(--green)}
+.hero-art{position:relative;display:flex;justify-content:center;align-items:flex-end;min-height:600px}
+.hero-disc{position:absolute;left:50%;bottom:1%;transform:translateX(-50%);width:min(430px,86%);aspect-ratio:1/1;border-radius:50%;background:radial-gradient(circle at 50% 36%,#F8E7CE,#ECD3AE);box-shadow:inset 0 4px 18px rgba(255,255,255,.55),0 40px 72px -34px rgba(80,50,20,.5);z-index:0}
+.hero-disc::after{content:"";position:absolute;inset:0;border-radius:50%;opacity:.4;background-image:radial-gradient(rgba(255,255,255,.65) 1.3px,transparent 1.4px);background-size:16px 16px}
+.hero-ring{position:absolute;left:calc(50% + 14px);bottom:5%;transform:translateX(-50%);width:min(472px,94%);aspect-ratio:1/1;border-radius:50%;border:1.5px solid rgba(220,107,63,.3);z-index:0}
+.hero-dots{position:absolute;top:5%;right:1%;width:88px;height:88px;opacity:.45;background-image:radial-gradient(var(--terra) 2px,transparent 2.2px);background-size:18px 18px;z-index:0}
+.hero-floor{position:absolute;left:50%;bottom:3%;transform:translateX(-50%);width:52%;height:26px;background:radial-gradient(ellipse at center,rgba(80,50,20,.3),rgba(80,50,20,0) 72%);filter:blur(5px);z-index:1}
+.hero-cut{position:relative;z-index:2;width:auto;max-height:600px;object-fit:contain;filter:drop-shadow(0 26px 26px rgba(80,50,20,.28))}
+.hero-circle{position:absolute;top:13%;left:-1%;width:118px;height:118px;border-radius:50%;overflow:hidden;border:5px solid #fff;box-shadow:0 20px 38px -14px rgba(80,50,20,.55);z-index:3}
+.hero-circle img{width:100%;height:100%;object-fit:cover}
+.hero-badge{position:absolute;top:2%;right:-1%;width:110px;height:110px;z-index:3}
+.hero-badge .ring-txt{width:100%;height:100%;animation:spin 24s linear infinite;transform-origin:50% 50%}
+.hero-badge .bi{position:absolute;inset:0;display:grid;place-items:center;font-size:1.7rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero-foodcard{z-index:3}
+.hero-trust{display:flex;align-items:center;gap:9px;margin-top:18px;font-family:Poppins;font-weight:600;font-size:.9rem;color:var(--muted)}
+.hero-trust .stars{color:var(--amber);letter-spacing:2px;font-size:.95rem}
+.hero-foodcard{position:absolute;bottom:9%;left:-8px;width:148px;background:#fff;border-radius:16px;padding:8px;box-shadow:0 18px 40px -14px rgba(80,50,20,.4);transform:rotate(-5deg);z-index:2}
+.hero-foodcard img{width:100%;height:96px;object-fit:cover;border-radius:10px;display:block}
+.hero-foodcard .l{font-family:Poppins;font-weight:600;font-size:.74rem;padding:6px 4px 2px}
+.hero-pill{position:absolute;top:8%;right:-6px;background:#fff;border-radius:999px;padding:8px 14px;font-family:Poppins;font-weight:600;font-size:.78rem;box-shadow:0 14px 30px -12px rgba(80,50,20,.4);display:flex;align-items:center;gap:8px;z-index:2}
+.hero-pill .dot{width:9px;height:9px;border-radius:50%;background:var(--green)}
+
+/* categories */
+.cats{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:14px}
+.cat{display:inline-flex;align-items:center;gap:.5em;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.7em 1.2em;font-family:Poppins;font-weight:600;font-size:.92rem;transition:.18s var(--ease);cursor:pointer}
+.cat:hover{border-color:var(--terra);color:var(--terra);transform:translateY(-2px)}
+.cat .e{font-size:1.1em}
+
+/* section */
+.section{padding:clamp(54px,8vw,96px) 0}
+.bg-warm{background:var(--warm)}
+.shead{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:34px}
+.shead.center{flex-direction:column;align-items:center;text-align:center}
+.shead h2{font-size:clamp(2rem,4vw,3rem)}
+.shead p{color:var(--muted);font-size:1.08rem;margin-top:8px;max-width:46ch}
+.link-arrow{font-family:Poppins;font-weight:600;color:var(--terra)}
+
+/* value prop / how it works */
+.steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:8px}
+.step3{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:30px 26px;text-align:center;box-shadow:0 12px 34px -22px rgba(80,50,20,.45)}
+.step3 .n{display:inline-grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--terra);color:#fff;font-family:Poppins;font-weight:700;font-size:1.15rem;margin-bottom:14px}
+.step3 h3{font-size:1.25rem;margin-bottom:8px}
+.step3 p{color:var(--muted);font-size:.97rem}
+@media(max-width:760px){.steps3{grid-template-columns:1fr;max-width:420px;margin:0 auto}}
+
+/* recipe grid */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{background:var(--paper);border-radius:var(--r);overflow:hidden;box-shadow:0 10px 30px -18px rgba(80,50,20,.4);transition:transform .25s var(--ease),box-shadow .25s var(--ease)}
+.card:hover{transform:translateY(-5px);box-shadow:0 26px 46px -22px rgba(80,50,20,.55)}
+.card .ph{position:relative;aspect-ratio:4/3;overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.card:hover .ph img{transform:scale(1.06)}
+.card .ph .badge{position:absolute;top:12px;left:12px}
+.card .cb{padding:18px 20px 22px}
+.card h3{font-size:1.28rem;margin-bottom:10px}
+.card .meta{display:flex;gap:14px;color:var(--muted);font-size:.88rem;font-family:Poppins;font-weight:500}
+
+/* reels (instagram videos) */
+.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.reel{position:relative;display:block;border-radius:20px;overflow:hidden;aspect-ratio:9/16;box-shadow:0 12px 34px -16px rgba(80,50,20,.5);background:#000;transition:transform .25s var(--ease),box-shadow .25s var(--ease)}
+.reel:hover{transform:translateY(-5px);box-shadow:0 28px 50px -22px rgba(80,50,20,.6)}
+.reel img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.reel:hover img{transform:scale(1.06)}
+.reel .play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;box-shadow:0 8px 20px rgba(0,0,0,.3);transition:.2s var(--ease)}
+.reel:hover .play{transform:translate(-50%,-50%) scale(1.1);background:#fff}
+.reel .play::after{content:"";display:block;width:0;height:0;border-left:17px solid var(--terra);border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:4px}
+.reel .ig{position:absolute;top:12px;right:12px;width:30px;height:30px;border-radius:9px;background:rgba(255,255,255,.92);display:grid;place-items:center;font-size:15px}
+.reel .cap{position:absolute;left:0;right:0;bottom:0;padding:38px 16px 16px;background:linear-gradient(transparent,rgba(0,0,0,.78));color:#fff}
+.reel .cap b{font-family:Poppins;font-weight:600;font-size:1.02rem;display:block}
+.reel .cap span{font-size:.82rem;opacity:.85}
+
+/* thermomix feature */
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:center}
+.feature-art{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/3;background:linear-gradient(165deg,#F8E7CE,#EAD2AE);box-shadow:0 30px 60px -30px rgba(80,50,20,.45);display:flex;align-items:flex-end;justify-content:center}
+.feature-art::after{content:"";position:absolute;inset:0;opacity:.4;background-image:radial-gradient(rgba(255,255,255,.6) 1.4px,transparent 1.5px);background-size:17px 17px}
+.feature-art img{position:relative;z-index:1;width:auto;height:97%;object-fit:contain;filter:drop-shadow(0 18px 22px rgba(80,50,20,.22))}
+.feature-art .tag{position:absolute;z-index:2;bottom:16px;left:16px;background:rgba(255,255,255,.94);color:var(--ink);font-family:Poppins;font-weight:700;font-size:.82rem;padding:.5em 1em;border-radius:999px}
+.feature h2{font-size:clamp(2rem,4vw,3rem);margin:14px 0 8px}
+.flist{list-style:none;margin:24px 0;display:grid;gap:14px}
+.flist li{display:flex;gap:12px;align-items:flex-start;font-size:1.04rem;color:var(--ink)}
+.flist .ck{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;font-size:14px;margin-top:1px}
+
+/* newsletter */
+.news{background:var(--terra);color:#fff;border-radius:28px;padding:clamp(36px,6vw,64px);position:relative;overflow:hidden}
+.news::after{content:"";position:absolute;width:300px;height:300px;background:rgba(255,255,255,.12);border-radius:50%;right:-90px;top:-90px}
+.news .inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.news h2{color:#fff;font-size:clamp(1.9rem,3.4vw,2.8rem)}
+.news p{color:rgba(255,255,255,.9);margin-top:10px}
+.form{display:flex;flex-direction:column;gap:12px}
+.form input{padding:1.05em 1.2em;border-radius:14px;border:none;font-size:1rem;font-family:inherit}
+.form input:focus{outline:3px solid rgba(255,255,255,.5)}
+.form .btn{background:#fff;color:var(--terra);border-color:#fff}.form .btn:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.form small{color:rgba(255,255,255,.8);font-size:.82rem}
+.form .ok{display:none;background:var(--green);color:#fff;padding:1.05em;border-radius:14px;font-family:Poppins;font-weight:600;text-align:center}
+
+/* recipe converter widget */
+.convert{background:linear-gradient(160deg,#fff,var(--warm));border:1px solid var(--line);border-radius:28px;padding:clamp(26px,5vw,52px);box-shadow:0 24px 60px -34px rgba(80,50,20,.4)}
+.convert-head{text-align:center;max-width:660px;margin:0 auto 28px}
+.convert-head h2{font-size:clamp(1.9rem,3.6vw,2.8rem);margin-top:10px}
+.convert-head p{color:var(--muted);margin-top:10px;font-size:1.06rem}
+.cv-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}
+.cv-form{display:flex;flex-direction:column;gap:12px}
+.cv-form textarea{min-height:190px;flex:1;resize:vertical;padding:1em 1.1em;border-radius:14px;border:1.5px solid var(--line);font-family:inherit;font-size:.98rem;background:#fff;line-height:1.5}
+.cv-form input{padding:1em 1.1em;border-radius:14px;border:1.5px solid var(--line);font-size:1rem;font-family:inherit;background:#fff}
+.cv-form textarea:focus,.cv-form input:focus{outline:none;border-color:var(--terra)}
+.cv-row{display:flex;gap:12px}.cv-row>*{flex:1;min-width:0}
+.cv-note{font-size:.8rem;color:var(--muted)}
+.cv-out{background:#fff;border:1.5px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column}
+.cv-out .empty,.cv-loading{color:var(--muted);display:flex;flex-direction:column;gap:10px;align-items:center;justify-content:center;flex:1;text-align:center;padding:24px}
+.cv-out .empty .big{font-size:2.6rem}
+.cv-out .empty b{color:var(--ink)}
+.spin{width:34px;height:34px;border-radius:50%;border:3px solid var(--warm-2);border-top-color:var(--terra);animation:sp 1s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.rc h3{font-size:1.45rem;margin-bottom:2px}
+.rc .rmeta{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-family:Poppins;font-weight:500;font-size:.83rem;margin:6px 0 14px}
+.rc .rmeta .tm{color:var(--green);font-weight:700}
+.rc h4{font-family:Poppins;font-weight:700;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--terra);margin:16px 0 8px}
+.rc ul.ing{list-style:none;display:grid;gap:6px}
+.rc ul.ing li{padding-left:18px;position:relative;font-size:.95rem}
+.rc ul.ing li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--green)}
+.rc ol.steps{margin:0;padding:0;list-style:none;counter-reset:s;display:grid;gap:12px}
+.rc ol.steps li{counter-increment:s;position:relative;padding-left:38px;font-size:.96rem}
+.rc ol.steps li::before{content:counter(s);position:absolute;left:0;top:-2px;width:26px;height:26px;border-radius:50%;background:var(--terra);color:#fff;font-family:Poppins;font-weight:700;font-size:.82rem;display:grid;place-items:center}
+.rc .tips{background:var(--warm);border-radius:12px;padding:14px 16px;margin-top:16px}
+.rc .tips ul{margin:0;padding-left:18px}.rc .tips li{font-size:.91rem;margin:4px 0}
+.rc .note{font-size:.89rem;color:var(--muted);margin-top:10px;font-style:italic}
+.cv-cta{margin-top:18px;border-top:1px solid var(--line);padding-top:18px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.cv-cta p{font-family:Poppins;font-weight:600;font-size:.95rem;flex:1;min-width:160px;margin:0}
+
+/* about */
+.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(28px,5vw,60px);align-items:center}
+.about-fig{background:radial-gradient(120% 100% at 50% 0%,var(--warm-2),var(--warm));border-radius:28px;overflow:hidden;aspect-ratio:4/5;display:flex;align-items:flex-end;justify-content:center;box-shadow:0 24px 50px -26px rgba(80,50,20,.4)}
+.about-fig img{width:92%;height:auto;object-fit:contain}
+.about h2{font-size:clamp(2rem,4vw,3rem);margin-bottom:14px}
+.about p{color:var(--muted);font-size:1.1rem;margin-bottom:14px}
+
+/* offer */
+.offer{background:var(--ink);color:#fff;border-radius:28px;padding:clamp(40px,6vw,72px);text-align:center}
+.offer h2{color:#fff;font-size:clamp(2rem,4vw,3.2rem);margin:14px auto;max-width:18ch}
+.offer p{color:rgba(255,255,255,.78);max-width:48ch;margin:0 auto 28px}
+.offer .row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.offer .finetext{font-size:.72rem;color:rgba(255,255,255,.5);max-width:60ch;margin:18px auto 0;line-height:1.5}
+.btn-xl{font-size:1.08rem;padding:1.05em 2.1em}
+/* floating buy button — keeps the purchase one tap away everywhere */
+.buybar{position:fixed;right:18px;bottom:18px;z-index:90}
+.buybar a{box-shadow:0 16px 34px -10px rgba(220,107,63,.7);animation:bp 2.6s ease-in-out infinite}
+@keyframes bp{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media(max-width:560px){.buybar{right:12px;bottom:12px}.buybar a{padding:.8em 1.3em;font-size:.9rem}}
+/* footer disclaimer */
+footer .disc{max-width:70ch;margin:18px auto 0;font-size:.72rem;line-height:1.55;color:rgba(255,255,255,.55)}
+
+/* contact / footer */
+.contact{text-align:center}
+.contact .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+footer{background:var(--green-d);color:rgba(255,255,255,.7);padding:50px 0;text-align:center}
+footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
+
+@media(max-width:860px){
+  .hero-grid,.feature,.news .inner,.about{grid-template-columns:1fr;gap:30px}
+  .hero-art{order:-1;margin:0 auto;min-height:480px}
+  .hero-cut{max-height:460px}
+  .grid{grid-template-columns:1fr 1fr}
+  .cv-grid{grid-template-columns:1fr}
+}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.rgrid{grid-template-columns:1fr 1fr}.hero-cut{max-height:400px}.hero-art{min-height:420px}.cv-row{flex-direction:column}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap nav">
+  <div class="logo">Chef <span>Aly</span></div>
+  <nav class="nav-links"><a href="#recipes">Recipes</a><a href="#reels">Videos</a><a href="#thermomix">Thermomix</a><a href="#about">About</a></nav>
+  <a class="btn nav-cta" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('nav')">Get your Thermomix</a>
+</div></header>
+
+<!-- HERO -->
+<section class="hero"><div class="wrap hero-grid">
+  <div>
+    <span class="kicker">Famous recipes · reimagined for Thermomix</span>
+    <h1>The world's best recipes,<br><span class="u">made for your Thermomix.</span></h1>
+    <p class="lead">I take iconic dishes from the chefs and cookbooks you love and rebuild them for your Thermomix — exact speeds, times and steps. A legend reimagined, every week.</p>
+    <div class="hero-cta">
+      <a class="btn" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('hero')">Get your Thermomix →</a>
+      <a class="btn btn-ghost" href="#recipes">See the recipes</a>
+    </div>
+    <div class="hero-trust"><span class="stars">★★★★★</span> Loved by home cooks across Australia</div>
+  </div>
+  <div class="hero-art">
+    <div class="hero-ring"></div>
+    <div class="hero-disc"></div>
+    <div class="hero-dots"></div>
+    <div class="hero-floor"></div>
+    <img class="hero-cut" src="assets/chef-full-clean.png" alt="Chef Aly, Thermomix consultant"/>
+    <div class="hero-circle"><img src="assets/dish-bowl.jpg" alt=""/></div>
+    <div class="hero-badge"><svg class="ring-txt" viewBox="0 0 100 100"><defs><path id="cr" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs><text font-family="Poppins,sans-serif" font-size="9" font-weight="700" fill="#2A241E" letter-spacing="1.1"><textPath href="#cr" startOffset="0">FAMOUS RECIPES · REIMAGINED · </textPath></text></svg><span class="bi">🌿</span></div>
+    <div class="hero-foodcard"><img src="assets/food-risotto.jpg" alt=""/><div class="l">Inspired by the greats</div></div>
+  </div>
+</div></section>
+
+<!-- VALUE PROP — famous recipes reimagined -->
+<section class="section" id="how" style="padding-bottom:clamp(20px,4vw,40px)">
+  <div class="wrap">
+    <div class="shead center"><span class="kicker">What makes this different</span><h2>Iconic recipes, reimagined for your Thermomix</h2><p>Tell me your favourite chef or cookbook. I rebuild their most-loved dishes for the Thermomix — so legendary food becomes your easy weeknight dinner.</p></div>
+    <div class="steps3">
+      <div class="step3"><span class="n">1</span><h3>Pick a legend</h3><p>A dish from the chefs and cookbooks you already love.</p></div>
+      <div class="step3"><span class="n">2</span><h3>I reimagine it</h3><p>Rebuilt for your Thermomix — exact speeds, times and steps.</p></div>
+      <div class="step3"><span class="n">3</span><h3>You cook it</h3><p>Restaurant-worthy food, made effortless at home in minutes.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REELS (instagram videos of Aly cooking) -->
+<section class="section bg-warm" id="reels">
+  <div class="wrap">
+    <div class="shead">
+      <div><span class="kicker">Watch &amp; cook along</span><h2>Watch Aly cook</h2><p>New videos every week on Instagram &mdash; real dishes, made with the Thermomix. No fuss, just good food.</p></div>
+      <a class="link-arrow" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener">Follow on Instagram →</a>
+    </div>
+    <!-- Wire each card's href to the real Instagram Reel URL. Posters use food photos for now. -->
+    <div class="rgrid">
+      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','ottolenghi-hummus')"><img src="assets/dish-chicken.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Cooking a Jamie classic</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','nigella-cake')"><img src="assets/dish-salad.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Ottolenghi, Thermomix-style</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','bill-granger')"><img src="assets/dish-smoothie.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Nigella's chocolate cake</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','donna-hay')"><img src="assets/dish-dessert.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Bill Granger hotcakes</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','rita-lobo')"><img src="assets/food-bread.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Fresh bread, the easy way</b><span>Watch on Instagram</span></span></a>
+      <a class="reel" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('reel','jamie-bolognese')"><img src="assets/food-risotto.jpg" alt=""/><span class="ig">▶</span><span class="play"></span><span class="cap"><b>Risotto, no stirring</b><span>Watch on Instagram</span></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- RECIPES (generated daily — SEO pages) -->
+<section class="section" id="recipes">
+  <div class="wrap">
+    <div class="shead">
+      <div><span class="kicker">Famous recipes · Thermomix releituras</span><h2>Legends, reimagined for Thermomix</h2><p>Iconic dishes from the world's best chefs — rebuilt for your Thermomix. A new one every day.</p></div>
+      <a class="link-arrow" href="recipes/">All recipes →</a>
+    </div>
+    <div class="grid">
+      <!-- RECIPES:START -->
+      <a class="card" href="recipes/pumpkin-soup-donna-hay.html"><div class="ph"><img src="assets/food-soup.jpg" alt="Roast Pumpkin Soup" loading="lazy"/><span class="badge">Inspired by Donna Hay</span></div><div class="cb"><h3>Roast Pumpkin Soup</h3><div class="meta"><span>⏱️ 35 min</span><span>🍽️ Serves 4</span></div></div></a>
+      <a class="card" href="recipes/brigadeiro-de-colher-rita-lobo.html"><div class="ph"><img src="assets/food-brigadeiro.jpg" alt="Brigadeiro de Colher" loading="lazy"/><span class="badge">Inspired by Rita Lobo</span></div><div class="cb"><h3>Brigadeiro de Colher</h3><div class="meta"><span>⏱️ 17 min</span><span>🍽️ Serves 6</span></div></div></a>
+      <a class="card" href="recipes/ricotta-hotcakes-bill-granger.html"><div class="ph"><img src="assets/dish-pancakes.jpg" alt="Ricotta Hotcakes" loading="lazy"/><span class="badge">Inspired by Bill Granger</span></div><div class="cb"><h3>Ricotta Hotcakes</h3><div class="meta"><span>⏱️ 25 min</span><span>🍽️ Serves 4</span></div></div></a>
+      <a class="card" href="recipes/veg-packed-bolognese-jamie.html"><div class="ph"><img src="assets/dish-pasta.jpg" alt="Veg-Packed Bolognese" loading="lazy"/><span class="badge">Inspired by Jamie Oliver</span></div><div class="cb"><h3>Veg-Packed Bolognese</h3><div class="meta"><span>⏱️ 60 min</span><span>🍽️ Serves 6</span></div></div></a>
+      <a class="card" href="recipes/chocolate-olive-oil-cake-nigella.html"><div class="ph"><img src="assets/food-cake.jpg" alt="Chocolate Olive Oil Cake" loading="lazy"/><span class="badge">Inspired by Nigella Lawson</span></div><div class="cb"><h3>Chocolate Olive Oil Cake</h3><div class="meta"><span>⏱️ 52 min</span><span>🍽️ Serves 10</span></div></div></a>
+      <a class="card" href="recipes/silky-hummus-ottolenghi.html"><div class="ph"><img src="assets/dish-bowl.jpg" alt="Silky Hummus" loading="lazy"/><span class="badge">Inspired by Yotam Ottolenghi</span></div><div class="cb"><h3>Silky Hummus</h3><div class="meta"><span>⏱️ 30 min</span><span>🍽️ Serves 6</span></div></div></a>
+      <!-- RECIPES:END -->
+    </div>
+  </div>
+</section>
+
+<!-- THERMOMIX -->
+<section class="section" id="thermomix">
+  <div class="wrap feature">
+    <!-- COMPLIANCE: do not use product photos scraped from thermomix.com.au. Swap this for your OWN
+         photo of you with your Thermomix, or the official TM7 image from Thermomix Unleashed (you're licensed). -->
+    <div class="feature-art"><img src="assets/chef-whisk-clean.png" alt="Chef Aly cooking with her Thermomix"/><span class="tag">Cooking with my Thermomix</span></div>
+    <div>
+      <span class="kicker">The machine behind it all</span>
+      <h2>One machine. Your whole kitchen.</h2>
+      <p style="color:var(--muted);font-size:1.1rem">Every recipe here is made for the Thermomix, the all-in-one that weighs, blends, cooks and kneads for you.</p>
+      <ul class="flist">
+        <li><span class="ck">✓</span>Cooks, weighs, blends and kneads, all in one bowl</li>
+        <li><span class="ck">✓</span>Less mess, less time, dinner sorted on a weeknight</li>
+        <li><span class="ck">✓</span>Guided step-by-step, so anyone can cook like a chef</li>
+        <li><span class="ck">✓</span>Can become a real side income, I'll show you how</li>
+      </ul>
+      <a class="btn" href="#offer">See how to get yours</a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="section" id="news">
+  <div class="wrap">
+    <div class="news"><div class="inner">
+      <div>
+        <span class="kicker" style="color:#fff">Free · every week</span>
+        <h2>Get new recipes in your inbox</h2>
+        <p>Drop your email and WhatsApp. I'll send the new recipes, and if you'd like, show you how to get your own Thermomix with a special offer.</p>
+      </div>
+      <form class="form" id="leadform" onsubmit="return alySubmit(event)">
+        <input type="hidden" name="access_key" value="REPLACE_WITH_WEB3FORMS_KEY"/>
+        <input type="hidden" name="subject" value="New Thermomix lead (Chef Aly site)"/>
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off"/>
+        <input name="name" placeholder="Your name" required/>
+        <input name="email" type="email" placeholder="Your best email" required/>
+        <input name="phone" type="tel" placeholder="WhatsApp (with country code)" required/>
+        <button class="btn" type="submit" style="justify-content:center">Send me the recipes</button>
+        <small>No spam, just good food. Unsubscribe anytime.</small>
+        <div class="ok" id="alyok">You're in! The first recipe is on its way. 🧡</div>
+      </form>
+    </div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section bg-warm" id="about">
+  <div class="wrap about">
+    <div class="about-fig"><img src="assets/chef-arms-clean.png" alt="Chef Aly"/></div>
+    <div>
+      <span class="kicker">Meet Chef Aly</span>
+      <h2>Hi, I'm Aly</h2>
+      <p>I believe good food shouldn't take your whole evening. With the Thermomix, I cook real, fresh meals in minutes, and I love showing other people how easy it can be.</p>
+      <p>Here you'll find my favourite recipes, my honest tips, and a hand if you ever want a Thermomix of your own. Let's cook together.</p>
+      <a class="btn btn-ghost" href="#news">Cook with me</a>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section class="section" id="offer">
+  <div class="wrap">
+    <div class="offer">
+      <span class="kicker" style="color:var(--amber)">Ready for your own?</span>
+      <!-- OFFICIAL OFFER ONLY: paste the current Thermomix campaign from Unleashed here.
+           Do NOT add your own discount/gift/bonus (against the Consultant policy). -->
+      <h2>Get your Thermomix with Chef Aly</h2>
+      <p>[ Paste the current OFFICIAL Thermomix offer here, copied from Unleashed — e.g. the TM7 with the current gift or interest-free plan. Leave blank if there is no current campaign. ]</p>
+      <div class="row">
+        <a class="btn btn-xl" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('offer')">Buy your Thermomix →</a>
+        <a class="btn btn-ghost" href="#contact" style="color:#fff;border-color:rgba(255,255,255,.35)">Talk to Aly first</a>
+      </div>
+      <!-- If the official offer is interest-free finance, paste the mandatory ACL terms text from Unleashed below. -->
+      <p class="finetext">[ If promoting an interest-free finance offer, paste the required terms &amp; conditions text from Unleashed here. ]</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <span class="kicker">Say hi</span>
+    <h2 style="margin-top:10px">Come cook with me</h2>
+    <p style="color:var(--muted);max-width:40ch;margin:12px auto 0">Questions, recipes, or ready for your Thermomix? I'm one message away.</p>
+    <div class="row">
+      <a class="btn btn-green" href="https://wa.me/61424310504" target="_blank" rel="noopener" onclick="track('whatsapp','contact')">WhatsApp Aly</a>
+      <a class="btn btn-ghost" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('social','instagram')">Instagram</a>
+      <a class="btn btn-ghost" href="https://www.facebook.com/profile.php?id=61590609142105" target="_blank" rel="noopener" onclick="track('social','facebook')">Facebook</a>
+    </div>
+  </div>
+</section>
+
+<div class="buybar"><a class="btn" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('floating')">Get your Thermomix →</a></div>
+
+<footer><div class="wrap">
+  <div class="logo">Chef <span>Aly</span></div>
+  <p style="font-family:Poppins;font-size:.86rem">Easy Thermomix recipes, made with love 🧡</p>
+  <p class="disc">Aly is an Independent Thermomix Consultant. This is a personal consultant website and is not an official Vorwerk / Thermomix website. Thermomix, Varoma and Cookidoo are trademarks of Vorwerk. All purchases are completed on the official Thermomix store.</p>
+</div></footer>
+
+<script>
+// --- our own tracking: every event is logged to OUR store for lead/sale attribution ---
+function track(type, source, data){
+  try{
+    var p=Object.assign({type:type, source:source||'', path:location.pathname, ref:document.referrer||''}, data||{});
+    var blob=new Blob([JSON.stringify(p)],{type:'application/json'});
+    if(navigator.sendBeacon){navigator.sendBeacon('/api/track', blob);}
+    else{fetch('/api/track',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(p),keepalive:true}).catch(function(){});}
+  }catch(_){}
+}
+function trackBuy(w){track('buy_click', w);try{if(window.fbq)fbq('track','InitiateCheckout',{source:w});if(window.gtag)gtag('event','begin_checkout',{source:w});}catch(_){}return true;}
+
+async function alySubmit(e){
+  e.preventDefault();var f=e.target;
+  var name=(f.name&&f.name.value)||'', email=(f.email&&f.email.value)||'', phone=(f.phone&&f.phone.value)||'';
+  track('lead','newsletter',{name:name,email:email,phone:phone});        // OUR record of the lead
+  try{await fetch('https://api.web3forms.com/submit',{method:'POST',body:new FormData(f)});}catch(_){}
+  try{if(window.fbq)fbq('track','Lead');if(window.gtag)gtag('event','generate_lead');}catch(_){}
+  f.querySelectorAll('input,button,small').forEach(function(el){el.style.display='none'});
+  document.getElementById('alyok').style.display='block';return false;
+}
+// count every visit
+track('page_view','home');
+</script>
+</body>
+</html>

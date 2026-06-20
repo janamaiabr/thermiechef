@@ -1,0 +1,43 @@
+{
+  "slug": "chocolate-olive-oil-cake-nigella",
+  "title": "Chocolate Olive Oil Cake",
+  "inspiredBy": { "chef": "Nigella Lawson", "dish": "chocolate olive oil cake" },
+  "description": "My Thermomix reimagining of Nigella's chocolate olive oil cake — dark, damp and dairy-free.",
+  "image": "food-cake.jpg",
+  "category": "Dessert",
+  "cuisine": "Italian",
+  "prepMin": 12,
+  "cookMin": 40,
+  "servings": 10,
+  "keywords": ["thermomix chocolate cake", "nigella olive oil cake thermomix", "dairy free chocolate cake", "TM6 cake"],
+  "datePublished": "2026-06-16",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Nigella's olive oil cake is gloriously dark and grown-up, and there's no butter in sight. The Thermomix makes the batter in one bowl in minutes — then your oven does the rest.",
+  "ingredients": [
+    "150 g olive oil, plus extra for the tin",
+    "50 g cocoa powder, sifted",
+    "125 g boiling water",
+    "2 tsp vanilla extract",
+    "150 g almond meal",
+    "0.5 tsp bicarbonate of soda",
+    "1 pinch salt",
+    "200 g caster sugar",
+    "3 eggs"
+  ],
+  "steps": [
+    "Place the cocoa and boiling water in the mixing bowl with the vanilla. Mix 10 sec / speed 4 to a smooth paste, then tip into a small bowl and set aside.",
+    "Without washing the bowl, add the sugar, olive oil and eggs. Mix 30 sec / speed 4.",
+    "Add the almond meal, bicarbonate of soda, salt and the cocoa paste. Mix 20 sec / speed 4, scrape down, then 10 sec / speed 3.",
+    "Pour into a greased and lined 22 cm tin. Bake in a preheated oven at 170°C for 38–40 minutes, until the top is set and a skewer comes out with a few moist crumbs. (The Thermomix makes the batter; baking is done in your oven.)",
+    "Cool in the tin for 10 minutes before turning out."
+  ],
+  "tips": [
+    "Almond meal keeps it damp and gluten-free; swap for 125 g plain flour if you prefer.",
+    "Don't overbake — a few moist crumbs on the skewer is perfect.",
+    "Beautiful with a spoon of coconut yoghurt and berries."
+  ],
+  "faq": [
+    { "q": "Is this chocolate cake dairy-free?", "a": "Yes — it uses olive oil instead of butter, so it's naturally dairy-free. Serve with coconut yoghurt to keep it that way." },
+    { "q": "Can I make it gluten-free?", "a": "It already is if you use almond meal. Just check your cocoa and baking ingredients are gluten-free too." }
+  ]
+}

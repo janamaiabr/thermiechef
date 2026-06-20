@@ -1,0 +1,39 @@
+{
+  "slug": "brigadeiro-de-colher-rita-lobo",
+  "title": "Brigadeiro de Colher",
+  "inspiredBy": { "chef": "Rita Lobo", "dish": "brigadeiro de colher" },
+  "description": "My Thermomix version of Rita Lobo's spoonable brigadeiro — soft, glossy Brazilian chocolate fudge you eat with a spoon.",
+  "image": "food-brigadeiro.jpg",
+  "category": "Dessert",
+  "cuisine": "Brazilian",
+  "prepMin": 5,
+  "cookMin": 12,
+  "servings": 6,
+  "keywords": ["thermomix brigadeiro", "rita lobo brigadeiro thermomix", "brigadeiro de colher", "brazilian fudge TM6"],
+  "datePublished": "2026-06-19",
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Rita Lobo taught a generation of Brazilians to cook, and her 'brigadeiro de colher' is pure comfort — softer than the rolled kind, scooped warm from the pot. The Thermomix stirs it for you, so it never catches or burns.",
+  "ingredients": [
+    "395 g sweetened condensed milk (1 tin)",
+    "25 g cocoa powder, sifted",
+    "15 g butter",
+    "60 g thickened cream",
+    "1 pinch salt",
+    "Chocolate sprinkles, to top"
+  ],
+  "steps": [
+    "Place the condensed milk, cocoa, butter, cream and salt in the mixing bowl.",
+    "Cook 12 min / 100°C / speed 2, with the measuring cup off and the simmering basket resting on the lid to catch any splatter, until thick and glossy.",
+    "Spoon the warm brigadeiro into little glasses or ramekins.",
+    "Scatter with chocolate sprinkles and serve warm, or chill for a firmer spoonful."
+  ],
+  "tips": [
+    "The 'de colher' style is meant to be soft — stop a minute or two earlier than you would for rolled brigadeiro.",
+    "Add a spoon of cream after cooking for an even silkier texture.",
+    "Use good cocoa — it's the main flavour here."
+  ],
+  "faq": [
+    { "q": "What is brigadeiro de colher?", "a": "It's the spoonable version of Brazil's famous brigadeiro — cooked a touch less so it stays soft and creamy, served in a glass and eaten with a spoon rather than rolled into balls." },
+    { "q": "Why cook it in the Thermomix?", "a": "At speed 2 the blade stirs constantly, so the brigadeiro cooks evenly and never catches on the base — no standing over a hot pot." }
+  ]
+}
