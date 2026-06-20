@@ -29,6 +29,9 @@ const EMOJI = [
   [/tofu/, "🧊"], [/pastry|puff|filo|phyllo/, "🥐"],
 ];
 export const ingredientEmoji = (s) => { const t = String(s || "").toLowerCase(); for (const [re, e] of EMOJI) if (re.test(t)) return e; return "🥄"; };
+
+// initials avatar for a chef name (e.g. "Jamie Oliver" -> "JO")
+export const chefInitials = (n) => { const p = String(n || "").trim().split(/\s+/); return (((p[0] || "")[0] || "") + (p.length > 1 ? (p[p.length - 1][0] || "") : "")).toUpperCase() || "★"; };
 const iso = (min) => `PT${Math.max(0, Math.round(min || 0))}M`;
 export const totalMin = (r) => (r.prepMin || 0) + (r.cookMin || 0);
 
@@ -59,8 +62,11 @@ h2.sec{font-size:1.5rem;margin:30px 0 14px;padding-top:10px}
 ul.ing{list-style:none;display:grid;gap:9px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px}
 ul.ing li{display:flex;gap:11px;align-items:baseline}
 ul.ing li .ie{flex:0 0 auto;width:1.5em;text-align:center;font-size:1.1em}
-.insp{display:inline-block;background:var(--warm);border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-family:Poppins;font-weight:600;font-size:.82rem;color:var(--terra-d);margin-bottom:6px}
-.credit{font-size:1rem;color:var(--muted);font-style:italic;margin-bottom:18px}
+.chefline{display:flex;align-items:center;gap:13px;margin:8px 0 18px}
+.chefline .av{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#358a5c,#235E3D);color:#fff;font-family:Poppins;font-weight:700;font-size:1.1rem;display:grid;place-items:center;flex:0 0 auto;box-shadow:0 8px 18px -8px rgba(35,94,61,.6)}
+.chefline .ct{display:flex;flex-direction:column;line-height:1.3}
+.chefline .ct b{font-family:Poppins;font-weight:700;font-size:1.08rem;color:var(--ink)}
+.chefline .ct span{font-size:.92rem;color:var(--muted)}
 ol.steps{list-style:none;counter-reset:s;display:grid;gap:16px;padding:0}
 ol.steps li{counter-increment:s;position:relative;padding-left:46px}
 ol.steps li::before{content:counter(s);position:absolute;left:0;top:-3px;width:32px;height:32px;border-radius:50%;background:var(--terra);color:#fff;font-family:Poppins;font-weight:700;display:grid;place-items:center}
@@ -150,13 +156,12 @@ export function renderRecipePage(r, siteUrl) {
 <style>${HEAD_CSS}</style>
 ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n")}
 </head><body>
-<header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#recipes">Recipes</a><a href="./">All recipes</a><a href="../index.html#convert">Recipe converter</a><a href="${BUY_URL}" target="_blank" rel="noopener">Get a Thermomix</a></div></div></header>
+<header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#recipes">Recipes</a><a href="./">All recipes</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener" onclick="trackBuy('recipe-nav')">Get a Thermomix</a></div></div></header>
 <div class="wrap">
   <nav class="crumb"><a href="../index.html">Home</a> › <a href="./">Recipes</a> › ${esc(r.title)}</nav>
   <article>
-    ${insp ? `<span class="insp">✦ Inspired by ${esc(insp.chef)}</span>` : ""}
     <h1>${esc(r.title)}</h1>
-    ${insp ? `<p class="credit">My Thermomix reimagining of ${esc(insp.chef)}'s ${esc(insp.dish || "classic")}.</p>` : ""}
+    ${insp ? `<div class="chefline"><span class="av">${chefInitials(insp.chef)}</span><div class="ct"><b>Inspired by ${esc(insp.chef)}</b><span>My Thermomix reimagining of their ${esc(insp.dish || "classic")}</span></div></div>` : ""}
     <p class="lede">${esc(r.description)}</p>
     <div class="rmeta"><span class="tm">${esc(r.thermomixModel || "TM6 / TM7")}</span><span>⏱️ Prep ${r.prepMin} min</span><span>🍳 Cook ${r.cookMin} min</span><span>🍽️ Serves ${r.servings}</span><span>📊 ${esc(r.category || "Main")}</span></div>
     <img class="hero-img" src="../assets/${esc(r.image)}" alt="${esc(r.title)} made in a Thermomix" width="820" height="512"/>
@@ -184,7 +189,7 @@ ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script
 export function renderIndexPage(recipes, siteUrl) {
   const chefsList = [...new Set(recipes.map((r) => r.inspiredBy && r.inspiredBy.chef).filter(Boolean))].sort();
   const catList = [...new Set(recipes.map((r) => r.category).filter(Boolean))];
-  const cards = recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; return `<a class="card" data-cat="${esc((r.category || "").toLowerCase())}" data-chef="${esc(chef)}" data-s="${esc((r.title + " " + chef + " " + (r.cuisine || "") + " " + (r.category || "")).toLowerCase())}" href="${r.slug}.html"><div class="ph"><img src="../assets/${esc(r.image)}" alt="${esc(r.title)}" loading="lazy"/><span class="b">${chef ? "Inspired by " + esc(chef) : "Thermomix"}</span></div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`; }).join("");
+  const cards = recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; return `<a class="card" data-cat="${esc((r.category || "").toLowerCase())}" data-chef="${esc(chef)}" data-s="${esc((r.title + " " + chef + " " + (r.cuisine || "") + " " + (r.category || "")).toLowerCase())}" href="${r.slug}.html"><div class="ph"><img src="../assets/${esc(r.image)}" alt="${esc(r.title)}" loading="lazy"/>${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`; }).join("");
   const filterBar = `<div class="filters">
     <input id="rsearch" class="rsearch" placeholder="Search recipes or chefs…" oninput="filt()" aria-label="Search recipes"/>
     <select id="rchef" class="rchef" onchange="filt()"><option value="">All chefs</option>${chefsList.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select>
@@ -214,7 +219,9 @@ export function renderIndexPage(recipes, siteUrl) {
 .rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:24px 0 60px}
 .card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(80,50,20,.4);display:block}
 .card .ph{position:relative;aspect-ratio:4/3;overflow:hidden}.card .ph img{width:100%;height:100%;object-fit:cover}
-.card .ph .b{position:absolute;top:10px;left:10px;background:var(--green);color:#fff;font-family:Poppins;font-weight:600;font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;padding:.3em .7em;border-radius:999px}
+.card .chef{position:absolute;left:10px;bottom:10px;z-index:2;display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.96);border-radius:999px;padding:4px 12px 4px 4px;box-shadow:0 6px 16px -6px rgba(0,0,0,.45)}
+.card .chef .av{width:27px;height:27px;border-radius:50%;background:linear-gradient(135deg,#358a5c,#235E3D);color:#fff;font-family:Poppins;font-weight:700;font-size:.7rem;display:grid;place-items:center;flex:0 0 auto}
+.card .chef .nm{font-family:Poppins;font-weight:700;font-size:.76rem;color:var(--ink)}
 .card .cb{padding:16px 18px 20px}.card h3{font-size:1.18rem;color:var(--ink);margin-bottom:6px}.card p{color:var(--muted);font-size:.9rem;margin-bottom:10px}
 .card .m{font-family:Poppins;font-weight:600;font-size:.82rem;color:var(--terra)}
 @media(max-width:820px){.rgrid{grid-template-columns:1fr 1fr}}@media(max-width:540px){.rgrid{grid-template-columns:1fr}}
@@ -244,5 +251,5 @@ export function renderIndexPage(recipes, siteUrl) {
 }
 
 export function homepageCards(recipes) {
-  return recipes.map((r) => `      <a class="card" href="recipes/${r.slug}.html"><div class="ph"><img src="assets/${esc(r.image)}" alt="${esc(r.title)}" loading="lazy"/><span class="badge">${r.inspiredBy && r.inspiredBy.chef ? "Inspired by " + esc(r.inspiredBy.chef) : "Thermomix"}</span></div><div class="cb"><h3>${esc(r.title)}</h3><div class="meta"><span>⏱️ ${totalMin(r)} min</span><span>🍽️ Serves ${r.servings}</span></div></div></a>`).join("\n");
+  return recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; return `      <a class="card" href="recipes/${r.slug}.html"><div class="ph"><img src="assets/${esc(r.image)}" alt="${esc(r.title)}" loading="lazy"/>${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><div class="meta"><span>⏱️ ${totalMin(r)} min</span><span>🍽️ Serves ${r.servings}</span></div></div></a>`; }).join("\n");
 }
