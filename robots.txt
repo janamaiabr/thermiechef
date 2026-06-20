@@ -15,4 +15,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://thermiechef.com.au/sitemap.xml
+Sitemap: https://www.alydigital.online/sitemap.xml
