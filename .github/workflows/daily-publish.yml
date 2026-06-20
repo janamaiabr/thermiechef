@@ -1,6 +1,6 @@
 name: Daily recipe publish
 
-on:
+"on":
   schedule:
     # 19:00 UTC = 5:00 AM Australia/Brisbane
     - cron: '0 19 * * *'
