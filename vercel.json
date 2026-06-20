@@ -3,6 +3,6 @@
   "framework": null,
   "buildCommand": "node scripts/build.mjs",
   "outputDirectory": ".",
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": false
 }
