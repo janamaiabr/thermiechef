@@ -31,3 +31,12 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "Publish daily recipe ($(date -u +%F))"
           git push
+      - name: Email an alert when the recipe queue is running low
+        run: |
+          REMAINING=$(node scripts/queue-status.mjs)
+          echo "Recipes still queued: $REMAINING"
+          if [ "$REMAINING" -le 5 ]; then
+            curl -s -X POST https://api.web3forms.com/submit \
+              -H "Content-Type: application/json" \
+              -d "{\"access_key\":\"07fef056-a3d1-4da9-9d7b-423b88fd3e1a\",\"subject\":\"ThermieChef: fila de receitas acabando ($REMAINING restantes)\",\"message\":\"A fila de receitas do ThermieChef está com $REMAINING receita(s) restante(s). Quando chegar a zero, o site para de publicar receita nova. Peça pro Claude: 'gera mais receitas pro ThermieChef'.\"}" || true
+          fi
