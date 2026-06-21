@@ -115,6 +115,9 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,251,244,.9);backdrop
 .shead h2{font-size:clamp(2rem,4vw,3rem)}
 .shead p{color:var(--muted);font-size:1.08rem;margin-top:8px;max-width:46ch}
 .link-arrow{font-family:Poppins;font-weight:600;color:var(--terra)}
+.buynudge{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;background:linear-gradient(135deg,#fff,var(--warm));border:1px solid var(--line);border-radius:16px;padding:15px 22px;margin:0 0 26px;text-align:center}
+.buynudge span{font-family:Poppins;font-weight:600;font-size:.94rem;color:var(--ink)}
+.buynudge .btn{padding:.68em 1.3em;font-size:.86rem;flex:0 0 auto}
 
 /* value prop / how it works */
 .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:8px}
@@ -273,14 +276,14 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
 <!-- HERO -->
 <section class="hero"><div class="wrap hero-grid">
   <div>
-    <span class="kicker">Famous recipes · reimagined for Thermomix</span>
-    <h1>The world's best recipes,<br>made for your <span class="u tmx">Thermomix.</span></h1>
-    <p class="lead">I take iconic dishes from the chefs and cookbooks you love and rebuild them for your Thermomix — exact speeds, times and steps. A legend reimagined, every day.</p>
+    <span class="kicker">The world's best Thermomix recipes, inspired by chefs around the world</span>
+    <h1>Cook like a chef.<br><span class="u tmx">Without being one.</span></h1>
+    <p class="lead">Discover famous recipes adapted for Thermomix — and see why thousands of Australian families are replacing a whole bench of appliances with one machine.</p>
     <div class="hero-cta">
-      <a class="btn" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('hero')">Get your Thermomix →</a>
+      <a class="btn" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('hero')">Get my Thermomix →</a>
       <a class="btn btn-ghost" href="#recipes">See the recipes</a>
     </div>
-    <div class="hero-trust"><span class="stars">★★★★★</span> Loved by home cooks across Australia</div>
+    <div class="hero-trust"><span class="stars">★★★★★</span> Famous recipes. Less effort. Better results — every recipe adapted, tested &amp; ready for your Thermomix.</div>
   </div>
   <div class="hero-art">
     <div class="hero-ring"></div>
@@ -298,7 +301,7 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
 <section class="section bg-warm" id="reels">
   <div class="wrap">
     <div class="shead">
-      <div><span class="kicker">Watch &amp; cook along</span><h2>Watch Aly cook</h2><p>New videos every week on Instagram &mdash; real dishes, made with the Thermomix. No fuss, just good food.</p></div>
+      <div><span class="kicker">Real Thermomix cooking</span><h2>See what Thermomix can really do.</h2><p>Real meals. Real life. Real Thermomix cooking — new videos every week on Instagram.</p></div>
       <a class="link-arrow" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener">Follow on Instagram →</a>
     </div>
     <!-- Wire each card's href to the real Instagram Reel URL. Posters use food photos for now. -->
@@ -317,17 +320,18 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
 <section class="section" id="recipes">
   <div class="wrap">
     <div class="shead">
-      <div><span class="kicker">Famous recipes · Thermomix releituras</span><h2>Legends, reimagined for Thermomix</h2><p>Iconic dishes from the world's best chefs — rebuilt for your Thermomix. A new one every day.</p></div>
+      <div><span class="kicker">Famous recipes · made for Thermomix</span><h2>The world's best recipes, made for Thermomix</h2><p>Famous recipes from the world's best chefs — adapted, tested and simplified for your Thermomix. A new one every day.</p></div>
       <a class="link-arrow" href="recipes/">All recipes →</a>
     </div>
+    <div class="buynudge"><span>⭐ Thinking about getting a Thermomix? Every recipe on this site is written specifically for Thermomix.</span><a class="btn" href="https://thermomix.com.au/cart/update?attributes%5Bconsultant_id%5D=63072158&attributes%5Bsource%5D=online_bb&updates%5B45183405719729%5D=1" target="_blank" rel="noopener" onclick="trackBuy('nudge')">Get your Thermomix</a></div>
     <div class="grid">
       <!-- RECIPES:START -->
+      <a class="card" href="recipes/focaccia-paul-hollywood.html"><div class="ph"><img src="assets/food-bread.jpg" alt="Rosemary Focaccia" loading="lazy"/><span class="chef"><span class="av">PH</span><span class="nm">Paul Hollywood</span></span></div><div class="cb"><h3>Rosemary Focaccia</h3><div class="meta"><span>⏱️ 40 min</span><span>🍽️ Serves 8</span></div></div></a>
       <a class="card" href="recipes/pumpkin-soup-donna-hay.html"><div class="ph"><img src="assets/food-soup.jpg" alt="Roast Pumpkin Soup" loading="lazy"/><span class="chef"><span class="av">DH</span><span class="nm">Donna Hay</span></span></div><div class="cb"><h3>Roast Pumpkin Soup</h3><div class="meta"><span>⏱️ 35 min</span><span>🍽️ Serves 4</span></div></div></a>
       <a class="card" href="recipes/brigadeiro-de-colher-rita-lobo.html"><div class="ph"><img src="assets/food-brigadeiro.jpg" alt="Brigadeiro de Colher" loading="lazy"/><span class="chef"><span class="av">RL</span><span class="nm">Rita Lobo</span></span></div><div class="cb"><h3>Brigadeiro de Colher</h3><div class="meta"><span>⏱️ 17 min</span><span>🍽️ Serves 6</span></div></div></a>
       <a class="card" href="recipes/ricotta-hotcakes-bill-granger.html"><div class="ph"><img src="assets/dish-pancakes.jpg" alt="Ricotta Hotcakes" loading="lazy"/><span class="chef"><span class="av">BG</span><span class="nm">Bill Granger</span></span></div><div class="cb"><h3>Ricotta Hotcakes</h3><div class="meta"><span>⏱️ 25 min</span><span>🍽️ Serves 4</span></div></div></a>
       <a class="card" href="recipes/veg-packed-bolognese-jamie.html"><div class="ph"><img src="assets/dish-pasta.jpg" alt="Veg-Packed Bolognese" loading="lazy"/><span class="chef"><span class="av">JO</span><span class="nm">Jamie Oliver</span></span></div><div class="cb"><h3>Veg-Packed Bolognese</h3><div class="meta"><span>⏱️ 60 min</span><span>🍽️ Serves 6</span></div></div></a>
       <a class="card" href="recipes/chocolate-olive-oil-cake-nigella.html"><div class="ph"><img src="assets/food-cake.jpg" alt="Chocolate Olive Oil Cake" loading="lazy"/><span class="chef"><span class="av">NL</span><span class="nm">Nigella Lawson</span></span></div><div class="cb"><h3>Chocolate Olive Oil Cake</h3><div class="meta"><span>⏱️ 52 min</span><span>🍽️ Serves 10</span></div></div></a>
-      <a class="card" href="recipes/silky-hummus-ottolenghi.html"><div class="ph"><img src="assets/dish-bowl.jpg" alt="Silky Hummus" loading="lazy"/><span class="chef"><span class="av">YO</span><span class="nm">Yotam Ottolenghi</span></span></div><div class="cb"><h3>Silky Hummus</h3><div class="meta"><span>⏱️ 30 min</span><span>🍽️ Serves 6</span></div></div></a>
       <!-- RECIPES:END -->
     </div>
   </div>
@@ -419,8 +423,8 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
 <section class="section contact" id="contact">
   <div class="wrap">
     <span class="kicker">Say hi</span>
-    <h2 style="margin-top:10px">Come cook with me</h2>
-    <p style="color:var(--muted);max-width:40ch;margin:12px auto 0">Questions, recipes, or ready for your Thermomix? I'm one message away.</p>
+    <h2 style="margin-top:10px">Thinking about getting a Thermomix?</h2>
+    <p style="color:var(--muted);max-width:46ch;margin:12px auto 0">I'd love to help. Message me anytime and I'll answer your questions — with no pressure at all.</p>
     <div class="row">
       <a class="btn btn-wa" href="https://wa.me/61424310504" target="_blank" rel="noopener" onclick="track('whatsapp','contact')">WhatsApp Aly</a>
       <a class="btn btn-ghost" href="https://www.instagram.com/alydenesschneider/" target="_blank" rel="noopener" onclick="track('social','instagram')">Instagram</a>
@@ -438,7 +442,8 @@ footer .logo{color:#fff;margin-bottom:8px}footer .logo span{color:var(--amber)}
   <div class="logo">Thermie<span>Chef</span></div>
   <p style="font-family:Poppins;font-size:.86rem">Famous recipes, reimagined for your Thermomix 🧡</p>
   <nav class="foot-links"><a href="/terms.html">Terms &amp; Conditions</a><a href="/privacy.html">Privacy Policy</a><a href="https://wa.me/61424310504" target="_blank" rel="noopener">Contact</a></nav>
-  <p class="disc">ThermieChef is run by Aly, an Independent Thermomix Consultant. This is a personal consultant website and is not an official Vorwerk / Thermomix website. Thermomix, Varoma and Cookidoo are trademarks of Vorwerk. Recipes are independent reinterpretations and are not affiliated with or endorsed by the chefs mentioned. All purchases are completed on the official Thermomix store.</p>
+  <p class="disc"><b>Recipe disclaimer.</b> Every recipe on ThermieChef is independently adapted and tested for Thermomix. References to chefs, cookbooks or original recipes are for inspiration only and do not imply endorsement or affiliation. Always follow official Thermomix safety guidelines when cooking.</p>
+  <p class="disc">ThermieChef is run by Aly, an Independent Thermomix Consultant. This is a personal consultant website and is not an official Vorwerk / Thermomix website. Thermomix, Varoma and Cookidoo are trademarks of Vorwerk. All purchases are completed on the official Thermomix store.</p>
 </div></footer>
 
 <script>

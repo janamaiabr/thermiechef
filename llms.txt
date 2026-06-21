@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Rosemary Focaccia](https://thermiechef.com.au/recipes/focaccia-paul-hollywood.html): A Chef Aly Thermomix reinterpretation of Paul Hollywood-style focaccia: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 8)
 - [Roast Pumpkin Soup](https://thermiechef.com.au/recipes/pumpkin-soup-donna-hay.html): My Thermomix take on Donna Hay's pumpkin soup — velvety, warming and on the table in under half an hour. (35 min, serves 4)
 - [Brigadeiro de Colher](https://thermiechef.com.au/recipes/brigadeiro-de-colher-rita-lobo.html): My Thermomix version of Rita Lobo's spoonable brigadeiro — soft, glossy Brazilian chocolate fudge you eat with a spoon. (17 min, serves 6)
 - [Ricotta Hotcakes](https://thermiechef.com.au/recipes/ricotta-hotcakes-bill-granger.html): My Thermomix take on Bill Granger's legendary ricotta hotcakes — light as a cloud, with honeycomb butter and banana. (25 min, serves 4)
