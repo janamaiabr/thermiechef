@@ -1,14 +1,14 @@
 {
   "slug": "mushroom-barley-soup-marco-pierre-white",
-  "title": "Mushroom Barley Soup",
+  "title": "Mushroom & Barley Soup",
   "inspiredBy": {
     "chef": "Marco Pierre White",
     "dish": "mushroom soup"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Marco Pierre White-style mushroom soup: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "category": "Dinner",
+  "description": "My Thermomix take on a Marco Pierre White-style mushroom barley soup — deep, earthy and nourishing.",
+  "category": "Lunch",
   "cuisine": "French-inspired",
-  "prepMin": 15,
+  "prepMin": 10,
   "cookMin": 35,
   "servings": 4,
   "keywords": [
@@ -21,38 +21,32 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Marco Pierre White and the comforting appeal of mushroom soup. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 brown onion, quartered",
+    "1 onion, halved",
     "2 garlic cloves",
-    "30 g olive oil",
-    "650 g vegetables, chopped",
-    "700 g vegetable or chicken stock",
-    "80 g cream, coconut milk or yoghurt",
-    "Fresh herbs, to serve"
+    "300 g mushrooms",
+    "30 g butter",
+    "100 g pearl barley",
+    "800 g beef or vegetable stock",
+    "1 tsp thyme",
+    "Salt, pepper, parsley"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Chop onion, garlic and mushrooms 5 sec / speed 5. Add butter, sauté 5 min / 120°C / speed 1.",
+    "Add the barley, stock and thyme. Cook 30 min / 100°C / Reverse / speed 1, MC off, until the barley is tender.",
+    "Season and finish with parsley."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Browning the mushrooms well is where the depth comes from.",
+    "A splash of soy adds savoury richness."
   ],
   "faq": [
     {
+      "q": "Can I use another grain?",
+      "a": "Spelt or farro work; adjust the time to the packet."
+    },
+    {
       "q": "Is this the original Marco Pierre White recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Marco Pierre White and mushroom soup; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Mushroom Barley Soup in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "food-soup.jpg",

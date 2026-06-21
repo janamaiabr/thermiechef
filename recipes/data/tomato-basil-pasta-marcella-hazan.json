@@ -1,15 +1,15 @@
 {
   "slug": "tomato-basil-pasta-marcella-hazan",
-  "title": "Tomato Basil Pasta Sauce",
+  "title": "Tomato & Butter Pasta",
   "inspiredBy": {
     "chef": "Marcella Hazan",
     "dish": "tomato pasta sauce"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Marcella Hazan-style tomato pasta sauce: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on Marcella Hazan's famous tomato-butter sauce — three ingredients, pure magic.",
   "category": "Dinner",
   "cuisine": "Italian",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 5,
+  "cookMin": 30,
   "servings": 4,
   "keywords": [
     "Thermomix Tomato Basil Pasta Sauce",
@@ -21,38 +21,30 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Marcella Hazan and the comforting appeal of tomato pasta sauce. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "320 g pasta, noodles or orzo",
-    "1 brown onion, quartered",
-    "2 garlic cloves",
-    "30 g olive oil",
-    "400 g tomatoes, vegetables or sauce base",
-    "600 g water or stock",
-    "40 g parmesan or herbs, to serve"
+    "1 onion, peeled & halved",
+    "800 g whole peeled tomatoes (tin)",
+    "80 g butter",
+    "Salt",
+    "300 g spaghetti, cooked",
+    "Basil, parmesan"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Add the tomatoes, the halved onion and the butter to the bowl with a good pinch of salt.",
+    "Cook 28 min / 100°C / speed 1, MC off, until rich. Remove the onion halves and crush the tomatoes lightly (5 sec / speed 4).",
+    "Toss through the cooked spaghetti with basil and parmesan."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "The onion flavours the sauce then comes out — Marcella's genius.",
+    "Don't rush the simmer; that's where the silkiness comes from."
   ],
   "faq": [
     {
+      "q": "Do I really remove the onion?",
+      "a": "Yes — it gives sweetness, then you lift it out. (Or keep it, your call.)"
+    },
+    {
       "q": "Is this the original Marcella Hazan recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Marcella Hazan and tomato pasta sauce; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Tomato Basil Pasta Sauce in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-pasta.jpg",

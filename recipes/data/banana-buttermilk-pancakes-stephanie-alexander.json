@@ -5,11 +5,11 @@
     "chef": "Stephanie Alexander",
     "dish": "banana pancakes"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Stephanie Alexander-style banana pancakes: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on Stephanie Alexander's pancakes — fluffy buttermilk pancakes with sweet mashed banana.",
   "category": "Breakfast",
   "cuisine": "Australian",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 10,
+  "cookMin": 15,
   "servings": 4,
   "keywords": [
     "Thermomix Banana Buttermilk Pancakes",
@@ -21,38 +21,32 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Stephanie Alexander and the comforting appeal of banana pancakes. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "250 g key fruit, chocolate or dairy ingredient as needed",
-    "120 g caster sugar",
-    "2 eggs or 300 g cream, depending on dish",
-    "80 g butter",
-    "120 g plain flour or almond meal",
-    "1 tsp vanilla extract",
-    "Pinch sea salt"
+    "2 ripe bananas",
+    "2 eggs",
+    "300 g buttermilk",
+    "200 g self-raising flour",
+    "30 g sugar",
+    "1 pinch salt",
+    "Butter, for cooking",
+    "Honey, to serve"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Add the bananas, eggs and buttermilk. Mix 15 sec / speed 5.",
+    "Add the flour, sugar and salt. Mix 15 sec / speed 4 to a smooth batter — don't overmix.",
+    "Rest 5 minutes. Cook spoonfuls in a buttered pan, about 2 minutes each side, until golden. Serve with honey."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "The buttermilk is what makes them tall and fluffy.",
+    "Fold a handful of blueberries through at the end if you like."
   ],
   "faq": [
     {
+      "q": "No buttermilk?",
+      "a": "Stir 1 tbsp lemon juice into 300 g milk and rest 5 minutes."
+    },
+    {
       "q": "Is this the original Stephanie Alexander recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Stephanie Alexander and banana pancakes; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Banana Buttermilk Pancakes in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-pancakes.jpg",

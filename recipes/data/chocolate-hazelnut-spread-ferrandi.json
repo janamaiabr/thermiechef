@@ -5,12 +5,12 @@
     "chef": "Ferrandi Paris",
     "dish": "chocolate hazelnut spread"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Ferrandi Paris-style chocolate hazelnut spread: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix homemade chocolate-hazelnut spread — glossy, rich and far better than the jar.",
   "category": "Snack",
   "cuisine": "French-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
-  "servings": 4,
+  "prepMin": 5,
+  "cookMin": 10,
+  "servings": 12,
   "keywords": [
     "Thermomix Chocolate Hazelnut Spread",
     "Ferrandi Paris inspired Thermomix recipe",
@@ -21,38 +21,30 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Ferrandi Paris and the comforting appeal of chocolate hazelnut spread. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 garlic clove",
-    "20 g lemon juice",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "200 g hazelnuts, roasted",
+    "150 g dark chocolate, broken",
+    "60 g icing sugar",
+    "30 g cocoa",
+    "40 g neutral oil",
+    "1 pinch salt"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Mill the hazelnuts 1 min / speed 9, scraping, until they turn to a smooth butter.",
+    "Add the chocolate and melt 4 min / 50°C / speed 2.",
+    "Add the icing sugar, cocoa, oil and salt. Blend 1 min / speed 6 until glossy. Pour into a jar — it thickens as it cools."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "The longer you mill the hazelnuts, the silkier the spread.",
+    "Warm gently to make it spreadable again after chilling."
   ],
   "faq": [
     {
+      "q": "How long does it keep?",
+      "a": "Up to 3 weeks in a sealed jar at room temperature."
+    },
+    {
       "q": "Is this the original Ferrandi Paris recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Ferrandi Paris and chocolate hazelnut spread; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Chocolate Hazelnut Spread in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-dessert.jpg",

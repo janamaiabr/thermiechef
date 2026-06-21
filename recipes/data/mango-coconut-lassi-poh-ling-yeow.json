@@ -5,12 +5,12 @@
     "chef": "Poh Ling Yeow",
     "dish": "mango lassi"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Poh Ling Yeow-style mango lassi: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Poh-style mango coconut lassi — thick, creamy and ready in one minute.",
   "category": "Drink",
   "cuisine": "Malaysian-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
-  "servings": 4,
+  "prepMin": 5,
+  "cookMin": 0,
+  "servings": 2,
   "keywords": [
     "Thermomix Mango Coconut Lassi",
     "Poh Ling Yeow inspired Thermomix recipe",
@@ -21,37 +21,29 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Poh Ling Yeow and the comforting appeal of mango lassi. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 garlic clove",
-    "20 g lemon juice",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "250 g mango (fresh or frozen)",
+    "150 g yoghurt",
+    "100 g coconut milk",
+    "1 tbsp honey",
+    "1 pinch cardamom",
+    "Ice, to serve"
   ],
   "steps": [
-    "Add fruit and flavourings to the mixing bowl and chop 8 sec / speed 6.",
-    "Add yoghurt, milk or coconut milk and blend 30 sec / speed 8 until smooth.",
-    "Taste and adjust with lemon or a little sugar if needed, then mix 5 sec / speed 4.",
-    "Serve cold over ice immediately"
+    "Place the mango, yoghurt, coconut milk, honey and cardamom in the bowl.",
+    "Blend 1 min / speed 9 until smooth and creamy. Pour over ice."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Frozen mango makes it thick and frosty — skip the ice.",
+    "A squeeze of lime sharpens it beautifully."
   ],
   "faq": [
     {
+      "q": "Dairy-free?",
+      "a": "Use coconut yoghurt and all coconut milk."
+    },
+    {
       "q": "Is this the original Poh Ling Yeow recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Poh Ling Yeow and mango lassi; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Mango Coconut Lassi in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-smoothie.jpg",

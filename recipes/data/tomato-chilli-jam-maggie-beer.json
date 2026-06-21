@@ -5,12 +5,12 @@
     "chef": "Maggie Beer",
     "dish": "tomato chilli jam"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Maggie Beer-style tomato chilli jam: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Maggie Beer-style tomato chilli jam — sweet, sticky and a little fiery.",
   "category": "Snack",
   "cuisine": "Australian",
-  "prepMin": 15,
+  "prepMin": 10,
   "cookMin": 35,
-  "servings": 4,
+  "servings": 16,
   "keywords": [
     "Thermomix Tomato Chilli Jam",
     "Maggie Beer inspired Thermomix recipe",
@@ -21,38 +21,31 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Maggie Beer and the comforting appeal of tomato chilli jam. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 garlic clove",
-    "20 g lemon juice",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "700 g tomatoes, chopped",
+    "2 red chillies",
+    "2 garlic cloves",
+    "20 g ginger",
+    "300 g sugar",
+    "60 g red wine vinegar",
+    "1 tsp salt"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Add the chilli, garlic and ginger, chop 4 sec / speed 7. Add the tomatoes, sugar, vinegar and salt.",
+    "Cook 5 min / 100°C / speed 1 to start, then 30 min / Varoma / Reverse / speed 1, MC off, until thick and jammy.",
+    "Pour into warm sterilised jars and seal."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Adjust the chilli to taste — it mellows as it cooks.",
+    "Incredible with cheese, eggs or grilled meat."
   ],
   "faq": [
     {
+      "q": "How long does it keep?",
+      "a": "Sealed jars keep for months; refrigerate once opened."
+    },
+    {
       "q": "Is this the original Maggie Beer recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Maggie Beer and tomato chilli jam; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Tomato Chilli Jam in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "food-brigadeiro.jpg",

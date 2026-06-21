@@ -1,15 +1,15 @@
 {
   "slug": "miso-butter-corn-adam-liaw",
-  "title": "Miso Butter Corn Rice",
+  "title": "Miso Butter Corn",
   "inspiredBy": {
     "chef": "Adam Liaw",
     "dish": "miso butter corn"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Adam Liaw-style miso butter corn: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "category": "Dinner",
+  "description": "My Thermomix take on an Adam Liaw-style miso butter corn — sweet corn in a rich, savoury miso butter.",
+  "category": "Snack",
   "cuisine": "Japanese-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 5,
+  "cookMin": 15,
   "servings": 4,
   "keywords": [
     "Thermomix Miso Butter Corn Rice",
@@ -21,38 +21,29 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Adam Liaw and the comforting appeal of miso butter corn. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 brown onion, quartered",
-    "2 garlic cloves",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "4 corn cobs (or 400 g kernels)",
+    "40 g butter",
+    "20 g white miso",
+    "1 tsp sugar",
+    "Spring onion, to serve"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Steam the corn: 500 g water in the bowl, corn in the Varoma, 15 min / Varoma / speed 1 (kernels need only 8 min). Set aside. Empty the bowl.",
+    "Add butter, miso and sugar. Warm 3 min / 90°C / speed 2 until smooth.",
+    "Brush or toss the corn in the miso butter. Scatter with spring onion."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Miso + butter is pure umami — don't skip the sugar, it balances the salt.",
+    "Char the cobs on a grill after glazing for smokiness."
   ],
   "faq": [
     {
+      "q": "Cobs or kernels?",
+      "a": "Both work — kernels are quicker and easier to toss."
+    },
+    {
       "q": "Is this the original Adam Liaw recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Adam Liaw and miso butter corn; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Miso Butter Corn Rice in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-bowl.jpg",

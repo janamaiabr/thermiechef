@@ -1,15 +1,15 @@
 {
   "slug": "beetroot-goat-cheese-risotto-maggie-beer",
-  "title": "Beetroot Goat Cheese Risotto",
+  "title": "Beetroot & Goat's Cheese Risotto",
   "inspiredBy": {
     "chef": "Maggie Beer",
     "dish": "beetroot risotto"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Maggie Beer-style beetroot risotto: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Maggie Beer-style beetroot risotto — vivid pink, creamy, with tangy goat's cheese.",
   "category": "Dinner",
   "cuisine": "Australian",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 10,
+  "cookMin": 25,
   "servings": 4,
   "keywords": [
     "Thermomix Beetroot Goat Cheese Risotto",
@@ -21,38 +21,34 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Maggie Beer and the comforting appeal of beetroot risotto. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 brown onion, quartered",
+    "1 onion, halved",
     "2 garlic cloves",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "30 g olive oil",
+    "2 beetroots, grated",
+    "320 g arborio rice",
+    "100 g white wine",
+    "800 g hot vegetable stock",
+    "80 g goat's cheese",
+    "Salt, pepper, dill"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Chop onion and garlic 4 sec / speed 5. Add oil, sauté 3 min / 120°C / speed 1.",
+    "Add the grated beetroot and cook 4 min / 120°C / Reverse / speed 1.",
+    "Add rice and wine, cook 2 min / 100°C / Reverse / speed 1. Add the hot stock, cook 16 min / 100°C / Reverse / speed 1, MC off.",
+    "Stir through the goat's cheese, season and rest 2 minutes. Finish with dill."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Grating the beetroot melts it into the rice for that vivid colour.",
+    "A squeeze of lemon lifts the earthiness."
   ],
   "faq": [
     {
+      "q": "Can I use cooked beetroot?",
+      "a": "Yes — add it grated at step 3 and cut the cook time slightly."
+    },
+    {
       "q": "Is this the original Maggie Beer recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Maggie Beer and beetroot risotto; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Beetroot Goat Cheese Risotto in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "food-risotto.jpg",

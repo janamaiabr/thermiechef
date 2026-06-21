@@ -5,11 +5,11 @@
     "chef": "Anna Del Conte",
     "dish": "minestrone"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Anna Del Conte-style minestrone: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "category": "Dinner",
+  "description": "My Thermomix take on Anna Del Conte's minestrone — a hearty Italian vegetable and white bean soup.",
+  "category": "Lunch",
   "cuisine": "Italian",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 10,
+  "cookMin": 25,
   "servings": 4,
   "keywords": [
     "Thermomix White Bean Minestrone",
@@ -21,38 +21,34 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Anna Del Conte and the comforting appeal of minestrone. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 brown onion, quartered",
+    "1 onion, halved",
     "2 garlic cloves",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "1 carrot",
+    "1 celery stick",
+    "30 g olive oil",
+    "400 g chopped tomatoes",
+    "1 x 400 g tin cannellini beans, drained",
+    "700 g stock",
+    "60 g small pasta",
+    "Parmesan, basil"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Chop onion, garlic, carrot and celery 5 sec / speed 5. Add oil, sauté 5 min / 120°C / speed 1.",
+    "Add the tomatoes, beans and stock. Cook 12 min / 100°C / Reverse / speed 1.",
+    "Add the pasta and cook 8 min / 100°C / Reverse / speed 1 until tender. Season, finish with parmesan and basil."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "A parmesan rind simmered in adds beautiful depth.",
+    "Mash a few beans to thicken the broth."
   ],
   "faq": [
     {
+      "q": "Which pasta?",
+      "a": "Any small shape — ditalini, risoni or broken spaghetti."
+    },
+    {
       "q": "Is this the original Anna Del Conte recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Anna Del Conte and minestrone; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this White Bean Minestrone in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "food-soup.jpg",

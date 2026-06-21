@@ -5,12 +5,12 @@
     "chef": "Diana Henry",
     "dish": "tomato galette"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Diana Henry-style tomato galette: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Diana Henry-style tomato galette — a free-form tart with a buttery pastry. The Thermomix makes the dough.",
   "category": "Baking",
   "cuisine": "French-inspired",
-  "prepMin": 15,
-  "cookMin": 70,
-  "servings": 4,
+  "prepMin": 20,
+  "cookMin": 30,
+  "servings": 6,
   "keywords": [
     "Thermomix Tomato Galette",
     "Diana Henry inspired Thermomix recipe",
@@ -21,37 +21,31 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Diana Henry and the comforting appeal of tomato galette. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "80 g caster sugar",
-    "120 g plain flour",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "200 g plain flour",
+    "120 g cold butter, cubed",
+    "1 pinch salt",
+    "50 g cold water",
+    "60 g ricotta or goat's cheese",
+    "4 tomatoes, sliced",
+    "Thyme, olive oil"
   ],
   "steps": [
-    "Add liquid, yeast and sugar to the mixing bowl and warm 2 min / 37°C / speed 2.",
-    "Add flour, fat and salt, then knead 3 min / dough mode until elastic.",
-    "Transfer to a bowl, cover and prove until puffy; rest 45 min.",
-    "Shape, add toppings if needed and bake in a preheated oven 20 min / 200°C, until golden and cooked through."
+    "Make the pastry: add flour, butter and salt, mix 8 sec / speed 6 to crumbs. Add the cold water, mix 10 sec / speed 5 to a dough. Wrap and chill 30 minutes.",
+    "Roll into a rough circle, spread the cheese, layer the tomatoes, fold the edges over.",
+    "Brush with olive oil, scatter thyme, and bake at 200°C for 30 minutes until golden. (Oven bake.)"
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Keep the butter cold for a flaky pastry.",
+    "Salt the tomatoes and pat dry so the base stays crisp."
   ],
   "faq": [
     {
+      "q": "Can I make the pastry ahead?",
+      "a": "Yes — it keeps 2 days chilled or freezes well."
+    },
+    {
       "q": "Is this the original Diana Henry recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Diana Henry and tomato galette; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Tomato Galette in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "food-bread.jpg",

@@ -1,15 +1,15 @@
 {
   "slug": "ricotta-spinach-gnudi-antonio-carluccio",
-  "title": "Ricotta Spinach Gnudi",
+  "title": "Ricotta & Spinach Gnudi",
   "inspiredBy": {
     "chef": "Antonio Carluccio",
     "dish": "gnudi"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Antonio Carluccio-style gnudi: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Carluccio-style ricotta gnudi — pillowy spinach-ricotta dumplings in sage butter.",
   "category": "Dinner",
   "cuisine": "Italian",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 20,
+  "cookMin": 10,
   "servings": 4,
   "keywords": [
     "Thermomix Ricotta Spinach Gnudi",
@@ -21,38 +21,31 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Antonio Carluccio and the comforting appeal of gnudi. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 brown onion, quartered",
-    "2 garlic cloves",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "200 g spinach",
+    "250 g ricotta",
+    "1 egg",
+    "50 g parmesan",
+    "60 g flour, plus extra",
+    "Nutmeg, salt",
+    "For serving: 60 g butter, sage"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Steam the spinach: 400 g water in the bowl, spinach in the Varoma, 6 min / Varoma / speed 1. Squeeze dry and chop 3 sec / speed 5.",
+    "Add ricotta, egg, parmesan, flour, nutmeg and salt. Mix 15 sec / speed 4 to a soft dough. Chill 20 minutes.",
+    "Roll into small balls, dust with flour, and simmer in salted water 3–4 minutes until they float. Toss in melted sage butter. (Stovetop finish.)"
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Squeeze the spinach really dry or the dough will be wet.",
+    "Don't overcook — they're done when they float."
   ],
   "faq": [
     {
+      "q": "Can I make them ahead?",
+      "a": "Shape and chill on a floured tray; cook just before serving."
+    },
+    {
       "q": "Is this the original Antonio Carluccio recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Antonio Carluccio and gnudi; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Ricotta Spinach Gnudi in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-pasta.jpg",

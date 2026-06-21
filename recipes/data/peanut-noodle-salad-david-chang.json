@@ -5,11 +5,11 @@
     "chef": "David Chang",
     "dish": "peanut noodles"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of David Chang-style peanut noodles: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a David Chang-style peanut noodle salad — nutty, punchy and cold-noodle good.",
   "category": "Lunch",
   "cuisine": "Asian-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 10,
+  "cookMin": 5,
   "servings": 4,
   "keywords": [
     "Thermomix Peanut Noodle Salad",
@@ -21,38 +21,33 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to David Chang and the comforting appeal of peanut noodles. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "320 g pasta, noodles or orzo",
-    "1 brown onion, quartered",
-    "2 garlic cloves",
-    "30 g olive oil",
-    "400 g tomatoes, vegetables or sauce base",
-    "600 g water or stock",
-    "40 g parmesan or herbs, to serve"
+    "3 tbsp peanut butter",
+    "30 g soy sauce",
+    "20 g rice vinegar",
+    "1 tbsp honey",
+    "20 g ginger",
+    "1 garlic clove",
+    "40 g warm water",
+    "300 g noodles, cooked & cooled",
+    "Cucumber, peanuts, coriander"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Add ginger and garlic to the bowl, chop 3 sec / speed 7.",
+    "Add peanut butter, soy, vinegar, honey and warm water. Blend 20 sec / speed 5 to a smooth dressing.",
+    "Toss through the cooled noodles with cucumber, crushed peanuts and coriander."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Loosen the dressing with a little more water if thick.",
+    "Add shredded chicken to make it a meal."
   ],
   "faq": [
     {
+      "q": "Warm or cold?",
+      "a": "Best cold — it's a noodle salad."
+    },
+    {
       "q": "Is this the original David Chang recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by David Chang and peanut noodles; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Peanut Noodle Salad in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-salad.jpg",

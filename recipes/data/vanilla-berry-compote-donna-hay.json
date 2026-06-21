@@ -5,12 +5,12 @@
     "chef": "Donna Hay",
     "dish": "berry compote"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Donna Hay-style berry compote: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Donna Hay-style berry compote — glossy vanilla berries for yoghurt, pancakes or cake.",
   "category": "Dessert",
   "cuisine": "Australian",
-  "prepMin": 15,
-  "cookMin": 35,
-  "servings": 6,
+  "prepMin": 5,
+  "cookMin": 12,
+  "servings": 8,
   "keywords": [
     "Thermomix Vanilla Berry Compote",
     "Donna Hay inspired Thermomix recipe",
@@ -21,37 +21,28 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Donna Hay and the comforting appeal of berry compote. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "80 g caster sugar",
-    "20 g lemon juice",
-    "300 g milk",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "400 g mixed berries (fresh or frozen)",
+    "60 g sugar",
+    "1 tsp vanilla paste",
+    "Juice of 1/2 lemon",
+    "1 tsp cornflour (optional)"
   ],
   "steps": [
-    "Add sugar and any citrus zest or dry flavouring to the mixing bowl and mill 10 sec / speed 9.",
-    "Add dairy, eggs or fruit base as suited to the dessert and cook 7 min / 90°C / speed 3 until smooth and thickened.",
-    "Scrape down, then blend for a silky texture 15 sec / speed 6.",
-    "Pour into dishes or a tin and chill or bake as needed; finish 2 hr before serving"
+    "Add the berries, sugar, vanilla and lemon to the bowl. Cook 10 min / 90°C / Reverse / speed 1, MC off.",
+    "For a thicker compote, add the cornflour slaked in a little water and cook 2 min / 90°C / Reverse / speed 1. Cool — it thickens more."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Reverse blade keeps the berries whole and pretty.",
+    "Spoon over yoghurt, ice cream, pancakes or the Nigella chocolate cake."
   ],
   "faq": [
     {
+      "q": "Frozen berries?",
+      "a": "Perfect — no need to thaw."
+    },
+    {
       "q": "Is this the original Donna Hay recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Donna Hay and berry compote; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Vanilla Berry Compote in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-dessert.jpg",

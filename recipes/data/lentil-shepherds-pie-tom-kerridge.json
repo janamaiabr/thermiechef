@@ -1,11 +1,11 @@
 {
   "slug": "lentil-shepherds-pie-tom-kerridge",
-  "title": "Lentil Shepherd’s Pie",
+  "title": "Lentil Shepherd's Pie",
   "inspiredBy": {
     "chef": "Tom Kerridge",
     "dish": "shepherd’s pie"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Tom Kerridge-style shepherd’s pie: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Tom Kerridge-style lentil shepherd's pie — hearty, meat-free, under fluffy mash.",
   "category": "Dinner",
   "cuisine": "British-inspired",
   "prepMin": 15,
@@ -21,38 +21,35 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Tom Kerridge and the comforting appeal of shepherd’s pie. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 brown onion, quartered",
+    "600 g potatoes, cubed",
+    "40 g butter",
+    "1 onion, halved",
+    "1 carrot",
     "2 garlic cloves",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "30 g oil",
+    "150 g green lentils",
+    "2 tbsp tomato paste",
+    "500 g stock",
+    "1 tsp thyme",
+    "Salt, pepper"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Steam the potatoes: 500 g water in the bowl, potatoes in the Varoma, 20 min / Varoma / speed 1. Mash with butter; set aside. Empty the bowl.",
+    "Chop onion, carrot and garlic 5 sec / speed 5. Add oil, sauté 4 min / 120°C / speed 1.",
+    "Add lentils, tomato paste, stock and thyme. Cook 28 min / 100°C / Reverse / speed 1 until tender. Season, spread in a dish, top with mash and bake 180°C for 15 minutes."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Crush a few lentils to thicken the filling.",
+    "A splash of soy or Worcestershire deepens the flavour."
   ],
   "faq": [
     {
+      "q": "Do the lentils need soaking?",
+      "a": "No — green lentils cook from dry in the sauce."
+    },
+    {
       "q": "Is this the original Tom Kerridge recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Tom Kerridge and shepherd’s pie; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Lentil Shepherd’s Pie in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-bowl.jpg",

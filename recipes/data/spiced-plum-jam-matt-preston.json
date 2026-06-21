@@ -5,12 +5,12 @@
     "chef": "Matt Preston",
     "dish": "plum jam"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Matt Preston-style plum jam: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Matt Preston-style spiced plum jam — deep, glossy and gently spiced.",
   "category": "Snack",
   "cuisine": "Australian",
-  "prepMin": 15,
-  "cookMin": 35,
-  "servings": 4,
+  "prepMin": 10,
+  "cookMin": 30,
+  "servings": 16,
   "keywords": [
     "Thermomix Spiced Plum Jam",
     "Matt Preston inspired Thermomix recipe",
@@ -21,38 +21,29 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Matt Preston and the comforting appeal of plum jam. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 garlic clove",
-    "20 g lemon juice",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "700 g plums, stoned & chopped",
+    "450 g sugar",
+    "Juice of 1 lemon",
+    "1 cinnamon stick",
+    "2 star anise"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Add the plums, sugar, lemon and spices to the bowl. Cook 5 min / 100°C / speed 1 to start.",
+    "Cook 25 min / Varoma / Reverse / speed 1, MC off, until thick and jammy (around 105°C).",
+    "Remove the spices, pour into warm sterilised jars and seal."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "A squeeze of lemon helps the jam set.",
+    "Star anise and cinnamon make it grown-up — lovely with cheese."
   ],
   "faq": [
     {
+      "q": "How long does it keep?",
+      "a": "Sealed jars keep for months; refrigerate once opened."
+    },
+    {
       "q": "Is this the original Matt Preston recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Matt Preston and plum jam; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Spiced Plum Jam in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "food-brigadeiro.jpg",

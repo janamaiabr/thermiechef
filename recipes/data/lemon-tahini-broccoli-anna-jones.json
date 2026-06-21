@@ -5,11 +5,11 @@
     "chef": "Anna Jones",
     "dish": "broccoli with tahini"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Anna Jones-style broccoli with tahini: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on an Anna Jones-style broccoli with lemon tahini — bright, nutty and good warm or cold.",
   "category": "Lunch",
   "cuisine": "Vegetarian",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 8,
+  "cookMin": 12,
   "servings": 4,
   "keywords": [
     "Thermomix Lemon Tahini Broccoli",
@@ -21,38 +21,31 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Anna Jones and the comforting appeal of broccoli with tahini. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
+    "400 g broccoli, in florets",
+    "60 g tahini",
+    "1 lemon (juice)",
     "1 garlic clove",
-    "20 g lemon juice",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "40 g water",
+    "Salt",
+    "Toasted seeds, to serve"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Steam the broccoli: 500 g water in the bowl, florets in the Varoma, 12 min / Varoma / speed 1. Set aside. Empty the bowl.",
+    "Add garlic, tahini, lemon juice, water and salt. Blend 20 sec / speed 6 to a creamy dressing.",
+    "Spoon the dressing over the warm broccoli and scatter with toasted seeds."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Loosen the dressing with more water if it's thick.",
+    "Great over any steamed green — beans, kale, cauliflower."
   ],
   "faq": [
     {
+      "q": "Serve warm or cold?",
+      "a": "Both — it's lovely warm and just as good cold the next day."
+    },
+    {
       "q": "Is this the original Anna Jones recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Anna Jones and broccoli with tahini; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Lemon Tahini Broccoli in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-salad.jpg",

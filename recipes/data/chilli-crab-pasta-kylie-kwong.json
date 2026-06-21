@@ -5,11 +5,11 @@
     "chef": "Kylie Kwong",
     "dish": "chilli crab"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Kylie Kwong-style chilli crab: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Kylie Kwong-style chilli crab — fragrant, gingery and tossed through pasta.",
   "category": "Dinner",
   "cuisine": "Chinese-Australian-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 10,
+  "cookMin": 15,
   "servings": 4,
   "keywords": [
     "Thermomix Chilli Crab Pasta",
@@ -21,38 +21,34 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Kylie Kwong and the comforting appeal of chilli crab. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "320 g pasta, noodles or orzo",
-    "1 brown onion, quartered",
-    "2 garlic cloves",
-    "30 g olive oil",
-    "400 g tomatoes, vegetables or sauce base",
-    "600 g water or stock",
-    "40 g parmesan or herbs, to serve"
+    "3 garlic cloves",
+    "20 g ginger",
+    "1-2 red chillies",
+    "30 g oil",
+    "2 tbsp tomato paste",
+    "200 g passata",
+    "1 tbsp soy sauce",
+    "200 g crab meat",
+    "300 g spaghetti, cooked",
+    "Spring onion, coriander"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Chop garlic, ginger and chilli 4 sec / speed 6. Add oil, sauté 3 min / 120°C / speed 1.",
+    "Add tomato paste, passata and soy. Cook 8 min / 100°C / speed 1.",
+    "Add the crab and warm 2 min / 90°C / Reverse / speed 1. Toss through the cooked spaghetti with spring onion and coriander."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Add the crab gently at the end so it stays in lovely pieces.",
+    "A squeeze of lime brightens it."
   ],
   "faq": [
     {
+      "q": "Fresh or tinned crab?",
+      "a": "Both work — drain tinned crab well first."
+    },
+    {
       "q": "Is this the original Kylie Kwong recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Kylie Kwong and chilli crab; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Chilli Crab Pasta in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-pasta.jpg",

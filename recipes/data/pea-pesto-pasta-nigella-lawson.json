@@ -5,11 +5,11 @@
     "chef": "Nigella Lawson",
     "dish": "pea pesto pasta"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Nigella Lawson-style pea pesto pasta: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Nigella-style pea pesto pasta — sweet, green and on the table in minutes.",
   "category": "Dinner",
   "cuisine": "Italian-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 5,
+  "cookMin": 10,
   "servings": 4,
   "keywords": [
     "Thermomix Pea Pesto Pasta",
@@ -21,38 +21,32 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Nigella Lawson and the comforting appeal of pea pesto pasta. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "320 g pasta, noodles or orzo",
-    "1 brown onion, quartered",
-    "2 garlic cloves",
-    "30 g olive oil",
-    "400 g tomatoes, vegetables or sauce base",
-    "600 g water or stock",
-    "40 g parmesan or herbs, to serve"
+    "250 g peas",
+    "40 g parmesan",
+    "30 g pine nuts",
+    "1 garlic clove",
+    "60 g olive oil",
+    "Handful basil & mint",
+    "Salt",
+    "300 g pasta, cooked"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Add parmesan, pine nuts and garlic to the bowl, mill 8 sec / speed 8.",
+    "Add the peas, herbs, olive oil and salt. Blend 20 sec / speed 6 to a chunky pesto.",
+    "Toss through the cooked pasta with a splash of pasta water."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "A little pasta water makes it glossy and helps it coat.",
+    "Lovely cold as a pasta salad too."
   ],
   "faq": [
     {
+      "q": "Raw or cooked peas?",
+      "a": "Cooked (or thawed frozen) — blanch fresh peas 2 minutes first."
+    },
+    {
       "q": "Is this the original Nigella Lawson recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Nigella Lawson and pea pesto pasta; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Pea Pesto Pasta in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-pasta.jpg",

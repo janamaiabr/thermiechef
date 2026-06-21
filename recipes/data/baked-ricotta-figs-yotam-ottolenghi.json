@@ -1,16 +1,16 @@
 {
   "slug": "baked-ricotta-figs-yotam-ottolenghi",
-  "title": "Baked Ricotta & Figs",
+  "title": "Baked Ricotta with Figs",
   "inspiredBy": {
     "chef": "Yotam Ottolenghi",
     "dish": "baked ricotta with figs"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Yotam Ottolenghi-style baked ricotta with figs: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on an Ottolenghi-style baked ricotta with honeyed figs — creamy, savoury-sweet, for sharing.",
   "category": "Snack",
   "cuisine": "Middle Eastern-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
-  "servings": 4,
+  "prepMin": 10,
+  "cookMin": 25,
+  "servings": 6,
   "keywords": [
     "Thermomix Baked Ricotta & Figs",
     "Yotam Ottolenghi inspired Thermomix recipe",
@@ -21,38 +21,32 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Yotam Ottolenghi and the comforting appeal of baked ricotta with figs. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 garlic clove",
-    "20 g lemon juice",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "500 g ricotta",
+    "2 eggs",
+    "40 g parmesan, grated",
+    "1 lemon, zested",
+    "Salt and pepper",
+    "6 figs, halved",
+    "2 tbsp honey",
+    "Thyme, to serve"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Grate the parmesan 8 sec / speed 8. Add ricotta, eggs, lemon zest, salt and pepper. Mix 20 sec / speed 4.",
+    "Spoon into an oiled dish and bake at 180°C for 25 minutes until just set. (The Thermomix makes the mix; baking is in your oven.)",
+    "Top with the figs, drizzle with honey and scatter thyme. Serve warm with bread."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Drain wet ricotta first so it sets firm.",
+    "Lovely with roasted grapes instead of figs."
   ],
   "faq": [
     {
+      "q": "Sweet or savoury?",
+      "a": "It sits in between — gorgeous as a starter with bread, or as a light dessert."
+    },
+    {
       "q": "Is this the original Yotam Ottolenghi recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Yotam Ottolenghi and baked ricotta with figs; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Baked Ricotta & Figs in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-dessert.jpg",

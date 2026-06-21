@@ -1,15 +1,15 @@
 {
   "slug": "coconut-lime-fish-curry-neil-perry",
-  "title": "Coconut Lime Fish Curry",
+  "title": "Coconut & Lime Fish Curry",
   "inspiredBy": {
     "chef": "Neil Perry",
     "dish": "fish curry"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Neil Perry-style fish curry: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "My Thermomix take on a Neil Perry-style coconut fish curry — light, zingy and the fish stays whole.",
   "category": "Dinner",
   "cuisine": "Asian-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 12,
+  "cookMin": 18,
   "servings": 4,
   "keywords": [
     "Thermomix Coconut Lime Fish Curry",
@@ -21,39 +21,35 @@
   "thermomixModel": "TM6 / TM7",
   "intro": "This is my independent Thermomix homage to Neil Perry and the comforting appeal of fish curry. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
   "ingredients": [
-    "1 onion, quartered",
-    "2 garlic cloves",
-    "20 g fresh ginger",
-    "30 g neutral oil",
-    "500 g protein or vegetables",
+    "1 onion, halved",
+    "3 garlic cloves",
+    "20 g ginger",
+    "2 tbsp green curry paste",
+    "30 g oil",
     "400 g coconut milk",
-    "1 tbsp curry paste or spice blend",
-    "Fresh coriander and lime, to serve"
+    "100 g stock",
+    "1 tbsp fish sauce",
+    "Juice of 1 lime",
+    "600 g firm white fish, in chunks",
+    "Coriander, to serve"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender",
-    "If a smoother finish suits the dish, blend 20 sec / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / Reverse speed 1 before serving"
+    "Chop onion, garlic and ginger 4 sec / speed 5. Add oil and curry paste, sauté 3 min / 120°C / speed 1.",
+    "Add coconut milk, stock, fish sauce. Cook 6 min / 100°C / speed 2.",
+    "Add the fish and cook 8 min / 90°C / Reverse / speed 1 — gentle, so it stays whole. Finish with lime and coriander."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Low 90°C on Reverse keeps the fish in beautiful pieces.",
+    "Add green beans with the fish for crunch."
   ],
   "faq": [
     {
+      "q": "Which fish is best?",
+      "a": "A firm white fish like snapper, ling or barramundi."
+    },
+    {
       "q": "Is this the original Neil Perry recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Neil Perry and fish curry; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Coconut Lime Fish Curry in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
   "image": "dish-bowl.jpg",
