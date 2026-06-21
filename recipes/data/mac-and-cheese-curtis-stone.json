@@ -5,7 +5,7 @@
     "chef": "Curtis Stone",
     "dish": "mac and cheese"
   },
-  "image": "dish-pasta.jpg",
+  "image": "recipes/mac-and-cheese-curtis-stone.jpg",
   "category": "Dinner",
   "cuisine": "American",
   "prepMin": 10,

@@ -5,56 +5,60 @@
     "chef": "Annabel Langbein",
     "dish": "apple porridge"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Annabel Langbein-style apple porridge: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "A Chef Aly Thermomix reinterpretation of Annabel Langbein-style apple cinnamon porridge: creamy oats, grated apple and warm spice with exact TM6 and TM7 settings.",
   "category": "Breakfast",
   "cuisine": "New Zealand-inspired",
-  "prepMin": 15,
-  "cookMin": 35,
+  "prepMin": 8,
+  "cookMin": 14,
   "servings": 4,
   "keywords": [
     "Thermomix Apple Cinnamon Porridge",
     "Annabel Langbein inspired Thermomix recipe",
     "TM6 apple porridge",
     "TM7 apple porridge",
+    "Thermomix breakfast oats",
     "Thermomix famous chef recipe"
   ],
   "thermomixModel": "TM6 / TM7",
-  "intro": "This is my independent Thermomix homage to Annabel Langbein and the comforting appeal of apple porridge. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
+  "intro": "Annabel Langbein does simple comfort beautifully, and this porridge is exactly that kind of breakfast. The Thermomix grates the apple, cooks the oats gently and keeps the texture creamy without you standing at the stove stirring.",
   "ingredients": [
-    "1 garlic clove",
-    "20 g lemon juice",
-    "30 g extra virgin olive oil",
-    "500 g main ingredient prepared for the dish",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "Fresh herbs or lemon wedges, to serve"
+    "2 medium apples, cored and quartered",
+    "160 g rolled oats",
+    "450 g milk",
+    "250 g water",
+    "1 tsp ground cinnamon",
+    "1 tbsp maple syrup or brown sugar, plus extra to serve",
+    "1 pinch fine salt",
+    "30 g sultanas or chopped dates, optional",
+    "40 g toasted walnuts or almonds, to serve",
+    "Extra milk or yoghurt, to serve"
   ],
   "steps": [
-    "Add onion, garlic and olive oil to the mixing bowl, chop 5 sec / 0°C / speed 5, then scrape down.",
-    "Sauté the aromatics 4 min / 120°C / speed 1 with the measuring cup off.",
-    "Add the main vegetables, protein, liquid and seasoning, then cook 18 min / 100°C / Reverse speed 1 until tender; finish 1 min / 0°C / no speed.",
-    "If a smoother finish suits the dish, blend 20 sec / 0°C / speed 5, increasing gradually to speed 8; otherwise keep chunky with Reverse.",
-    "Taste, adjust seasoning and finish with herbs or lemon 10 sec / 0°C / Reverse speed 1 before serving; finish 1 min / 0°C / no speed."
+    "Place the apple quarters in the mixing bowl and grate 3 sec / 0°C / speed 5. Scrape down so the apple sits evenly around the blades.",
+    "Add oats, milk, water, cinnamon, maple syrup, salt and sultanas if using. Cook 12 min / 90°C / Reverse / speed 1, MC on, until the oats are creamy and the apple has softened.",
+    "Rest in the bowl 2 min / 0°C / Reverse / speed 0 so the oats thicken gently without catching.",
+    "Stir 10 sec / 0°C / Reverse / speed 2 to loosen and distribute the apple through the porridge.",
+    "Serve warm 1 min / 0°C / no speed with extra milk or yoghurt, toasted nuts and a little extra maple syrup if you like."
   ],
   "tips": [
-    "Read the full method before starting so the Thermomix settings flow smoothly.",
-    "Keep the measuring cup off when reducing or sautéing so steam can escape.",
-    "Taste at the end and adjust salt, lemon or herbs to suit your ingredients."
+    "Use rolled oats, not instant oats, for the best creamy texture without turning gluey.",
+    "For a softer apple flavour, cook the grated apple with the oats; for freshness, grate half an apple over the top at the end.",
+    "If the porridge thickens as it sits, stir through 30–60 g extra milk before serving."
   ],
   "faq": [
     {
+      "q": "Can I make apple porridge in a Thermomix?",
+      "a": "Yes. The Thermomix grates the apple first, then cooks the oats gently at 90°C on Reverse so the porridge stays creamy rather than blended."
+    },
+    {
+      "q": "Can I make this porridge dairy-free?",
+      "a": "Yes. Use oat milk, almond milk or soy milk in place of dairy milk, keeping the same total liquid quantity."
+    },
+    {
       "q": "Is this the original Annabel Langbein recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Annabel Langbein and apple porridge; it is not endorsed by or affiliated with the chef."
-    },
-    {
-      "q": "Can I make this Apple Cinnamon Porridge in a TM6 or TM7?",
-      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
-    },
-    {
-      "q": "Can I prepare it ahead?",
-      "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
-  "image": "dish-bowl.jpg",
+  "image": "recipes/apple-cinnamon-porridge-annabel-langbein.jpg",
   "datePublished": "2026-08-08"
 }

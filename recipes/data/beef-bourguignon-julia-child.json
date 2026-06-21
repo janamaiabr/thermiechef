@@ -6,7 +6,7 @@
     "dish": "beef bourguignon"
   },
   "description": "My Thermomix version of Julia Child's beef bourguignon — a rich red-wine beef stew, low and slow in one bowl.",
-  "image": "dish-chicken.jpg",
+  "image": "recipes/beef-bourguignon-julia-child.jpg",
   "category": "Dinner",
   "cuisine": "French",
   "prepMin": 20,
