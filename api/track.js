@@ -9,6 +9,12 @@ module.exports = async function handler(req, res) {
   if (req.method === "OPTIONS") return res.status(200).end();
   if (req.method !== "POST") return res.status(200).json({ ok: true });
 
+  // anti-spam: only accept events that actually came from the ThermieChef site.
+  // (Origin/Referer can be spoofed, so this stops casual abuse, not a determined attacker.)
+  const ref = String(req.headers.origin || req.headers.referer || "");
+  const fromSite = /^https:\/\/(www\.)?thermiechef\.com\.au\b/i.test(ref) || /\bthermiechef[\w-]*\.vercel\.app\b/i.test(ref);
+  if (!fromSite) return res.status(200).json({ ok: true, stored: false });
+
   try {
     const b = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body || {});
     const token = process.env.AIRTABLE_TOKEN || process.env.AIRTABLE_ACCESS_TOKEN;
