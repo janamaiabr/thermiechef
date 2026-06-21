@@ -5,7 +5,7 @@
     "chef": "Sabrina Ghayour",
     "dish": "spiced lamb & aubergine"
   },
-  "image": "dish-chicken.jpg",
+  "image": "dish-bowl.jpg",
   "category": "Dinner",
   "cuisine": "Persian",
   "prepMin": 15,
@@ -60,6 +60,6 @@
       "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
     }
   ],
-  "datePublished": "2026-06-24",
+  "datePublished": "2026-06-20",
   "description": "A Chef Aly Thermomix reinterpretation of Sabrina Ghayour-style spiced lamb & aubergine: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
 }

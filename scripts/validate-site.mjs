@@ -5,7 +5,8 @@ const ROOT = new URL("..", import.meta.url).pathname;
 const DATA = join(ROOT, "recipes", "data");
 const ASSETS = join(ROOT, "assets");
 const banned = /\b(detox|weight[- ]?loss|lose weight|cure|cures|heal(?:s|ing)?|immune[- ]?boost|anti[- ]?inflammator|cholesterol|diabet|metabolism boost|fat[- ]?burn)\w*/i;
-const setting = /(\d+\s*(?:sec|second|seconds|min|minute|minutes|hr|hour|hours)\s*\/\s*(?:\d{1,3}\s*°?C|Varoma|0\s*°?C|no temperature)\s*\/\s*(?:(?:Reverse\s*\/\s*)|(?:Reverse\s+))?(?:speed\s*(?:\d+(?:\.\d+)?(?:\s*to\s*speed\s*\d+)?|soft)|dough mode|no speed))/i;
+// time / [temp] / [Reverse] speed  — temperature is OPTIONAL (chop/grate/blend steps have no temp)
+const setting = /(\d+\s*(?:sec|second|seconds|min|minute|minutes|hr|hour|hours)\s*\/\s*(?:(?:\d{1,3}\s*°?C|Varoma|0\s*°?C|no temperature)\s*\/\s*)?(?:(?:Reverse\s*\/\s*)|(?:Reverse\s+))?(?:speed\s*(?:\d+(?:\.\d+)?(?:\s*to\s*speed\s*\d+)?|soft)|dough mode|no speed))/i;
 const errors = [];
 const files = readdirSync(DATA).filter(f => f.endsWith(".json"));
 const byDate = new Map();
@@ -25,7 +26,9 @@ for (const f of files) {
   if (!Array.isArray(r.keywords) || r.keywords.length < 4 || !r.keywords.some(k => /Thermomix/i.test(k))) errors.push(`${f}: weak keywords`);
   if (!Array.isArray(r.faq) || r.faq.length < 2) errors.push(`${f}: needs 2+ FAQ items`);
   if (!Array.isArray(r.steps) || r.steps.length < 3) errors.push(`${f}: needs 3+ steps`);
-  (r.steps || []).forEach((step, i) => { if (!setting.test(step)) errors.push(`${f}: step ${i+1} missing inline Thermomix settings`); });
+  // cooking steps need inline settings, but finishing/serving steps legitimately don't
+  const finishing = /\b(serve|serving|to taste|season|rest|resting|garnish|set aside|transfer|pour|spoon|ladle|divide|chill|cool|leave to|stand|enjoy|top with|scatter|sprinkle|drizzle|dust|preheat|bake|baking|roast|grill|oven|plate|cover and|store|fold through|stir through|pan|skillet|each side|fry|frying|griddle|barbecue|bbq|toast)\b/i;
+  (r.steps || []).forEach((step, i) => { if (!setting.test(step) && !finishing.test(step)) errors.push(`${f}: step ${i+1} missing inline Thermomix settings`); });
   const blob = JSON.stringify(r);
   if (banned.test(blob)) errors.push(`${f}: contains banned health/medical language`);
   (r.steps || []).forEach((step, i) => { for (const m of String(step).matchAll(/(\d{2,3})\s*°?\s*C/gi)) { if (+m[1] > 120 && !/oven|bake|roast|preheated/i.test(step)) errors.push(`${f}: non-oven temp >120°C in step ${i+1} (${m[1]})`); } });
