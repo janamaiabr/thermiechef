@@ -156,7 +156,7 @@ export function renderRecipePage(r, siteUrl) {
 <style>${HEAD_CSS}</style>
 ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n")}
 </head><body>
-<header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#recipes">Recipes</a><a href="./">All recipes</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener" onclick="trackBuy('recipe-nav')">Get a Thermomix</a></div></div></header>
+<header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="/recipes/">Recipes</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener" onclick="trackBuy('recipe-nav')">Get a Thermomix</a></div></div></header>
 <div class="wrap">
   <nav class="crumb"><a href="../index.html">Home</a> › <a href="./">Recipes</a> › ${esc(r.title)}</nav>
   <article>
@@ -193,16 +193,24 @@ export function renderIndexPage(recipes, siteUrl) {
   recipes.forEach((r) => (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean).forEach((t) => tagSet.add(t)));
   const tagList = [...tagSet].sort((a,b) => (tagOrder.indexOf(a) === -1 ? 999 : tagOrder.indexOf(a)) - (tagOrder.indexOf(b) === -1 ? 999 : tagOrder.indexOf(b)) || a.localeCompare(b));
   const cards = recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; const tags = (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean); return `<a class="card" data-tags="${esc(tags.map((t)=>t.toLowerCase()).join('|'))}" data-chef="${esc(chef)}" data-s="${esc((r.title + " " + chef + " " + (r.cuisine || "") + " " + (r.category || "") + " " + tags.join(' ')).toLowerCase())}" href="${r.slug}.html"><div class="ph"><img src="../assets/${esc(r.image)}" alt="${esc(r.title)} Thermomix recipe" loading="lazy"/>${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><div class="tagline">${tags.slice(0,3).map((t)=>`<span>${esc(t)}</span>`).join("")}</div><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`; }).join("");
-  const filterBar = `<div class="filters">
-    <input id="rsearch" class="rsearch" placeholder="Search recipes, chefs, cuisines…" oninput="filt()" aria-label="Search recipes"/>
-    <select id="rchef" class="rchef" onchange="filt()"><option value="">All chefs</option>${chefsList.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select>
-  </div>
-  <div class="chips"><button class="chip on" data-tag="" onclick="setTag(this)">All</button>${tagList.map((c) => `<button class="chip" data-tag="${esc(c.toLowerCase())}" onclick="setTag(this)">${esc(c)}</button>`).join("")}</div>
-  <p class="rcount"><span id="rcount">${recipes.length}</span> recipes · filter by meal, style, chef or search term</p>
-  <script>
-  var curTag="";
-  function setTag(b){curTag=b.getAttribute('data-tag')||"";var cs=document.querySelectorAll('.chip');for(var i=0;i<cs.length;i++)cs[i].classList.toggle('on',cs[i]===b);filt();}
-  function filt(){var q=(document.getElementById('rsearch').value||'').toLowerCase().trim();var chef=document.getElementById('rchef').value||'';var cards=document.querySelectorAll('.rgrid .card'),n=0;for(var i=0;i<cards.length;i++){var c=cards[i];var tags=(c.getAttribute('data-tags')||'').split('|');var ok=(!curTag||tags.indexOf(curTag)>=0)&&(!chef||c.getAttribute('data-chef')===chef)&&(!q||(c.getAttribute('data-s')||'').indexOf(q)>=0);c.classList.toggle('hide',!ok);if(ok)n++;}document.getElementById('rcount').textContent=n;document.getElementById('noRes').style.display=n?'none':'block';}
+  const tagCount = {}; recipes.forEach((r) => { const tags = (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean); tags.forEach((t) => { const k = t.toLowerCase(); tagCount[k] = (tagCount[k] || 0) + 1; }); });
+  const sidebar = `<aside class="r-sidebar">
+    <input id="rsearch" class="r-search" placeholder="Search recipes, chefs…" oninput="filt()" aria-label="Search recipes"/>
+    <div class="r-fgroup"><h3>Filter by</h3><ul class="r-flist">
+      <li><button class="r-fitem on" data-tag="" onclick="setTag(this)">All recipes <span>${recipes.length}</span></button></li>
+      ${tagList.map((c) => `<li><button class="r-fitem" data-tag="${esc(c.toLowerCase())}" onclick="setTag(this)">${esc(c)} <span>${tagCount[c.toLowerCase()] || 0}</span></button></li>`).join("")}
+    </ul></div>
+    <div class="r-fgroup"><h3>Chef</h3><ul class="r-flist r-chefs">
+      <li><button class="r-fitem on" data-chef="" onclick="setChef(this)">All chefs</button></li>
+      ${chefsList.map((c) => `<li><button class="r-fitem" data-chef="${esc(c)}" onclick="setChef(this)">${esc(c)}</button></li>`).join("")}
+    </ul></div>
+  </aside>`;
+  const filterScript = `<script>
+  var curTag="",curChef="";
+  function mark(b){var es=b.closest('.r-flist').querySelectorAll('.r-fitem');for(var i=0;i<es.length;i++)es[i].classList.toggle('on',es[i]===b);}
+  function setTag(b){curTag=b.getAttribute('data-tag')||"";mark(b);filt();}
+  function setChef(b){curChef=b.getAttribute('data-chef')||"";mark(b);filt();}
+  function filt(){var q=(document.getElementById('rsearch').value||'').toLowerCase().trim();var cards=document.querySelectorAll('.rgrid .card'),n=0;for(var i=0;i<cards.length;i++){var c=cards[i];var tags=(c.getAttribute('data-tags')||'').split('|');var ok=(!curTag||tags.indexOf(curTag)>=0)&&(!curChef||c.getAttribute('data-chef')===curChef)&&(!q||(c.getAttribute('data-s')||'').indexOf(q)>=0);c.classList.toggle('hide',!ok);if(ok)n++;}document.getElementById('rcount').textContent=n;document.getElementById('noRes').style.display=n?'none':'block';}
   </script>`;
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -217,9 +225,9 @@ export function renderIndexPage(recipes, siteUrl) {
 <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
 <style>${HEAD_CSS}
-.wrap{max-width:1100px}
+.wrap{max-width:1240px}
 .head{padding:36px 0 8px}.head h1{font-size:clamp(2rem,5vw,3rem)}.head p{color:var(--muted);font-size:1.1rem;margin-top:8px;max-width:54ch}
-.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:24px 0 60px}
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:22px;padding:0 0 40px}
 .card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(80,50,20,.4);display:block}
 .card .ph{position:relative;aspect-ratio:4/3;overflow:hidden}.card .ph img{width:100%;height:100%;object-fit:cover}
 .card .chef{position:absolute;left:10px;bottom:10px;z-index:2;display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.96);border-radius:999px;padding:4px 12px 4px 4px;box-shadow:0 6px 16px -6px rgba(0,0,0,.45)}
@@ -228,14 +236,21 @@ export function renderIndexPage(recipes, siteUrl) {
 .card .cb{padding:16px 18px 20px}.card h3{font-size:1.18rem;color:var(--ink);margin-bottom:6px}.card p{color:var(--muted);font-size:.9rem;margin-bottom:10px}
 .card .m{font-family:Poppins;font-weight:600;font-size:.82rem;color:var(--terra)}
 .tagline{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 10px}.tagline span{font-family:Poppins;font-weight:700;font-size:.68rem;color:var(--green-d);background:var(--warm);border:1px solid var(--line);border-radius:999px;padding:.24em .65em}
-@media(max-width:820px){.rgrid{grid-template-columns:1fr 1fr}}@media(max-width:540px){.rgrid{grid-template-columns:1fr}}
-.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:6px 0 14px}
-.rsearch{flex:1;min-width:200px;padding:.72em 1.1em;border:1.5px solid var(--line);border-radius:999px;font-size:.95rem;font-family:inherit;background:#fff}
-.rsearch:focus{outline:none;border-color:var(--terra)}
-.rchef{padding:.62em 1.1em;border:1.5px solid var(--line);border-radius:999px;font-family:Poppins;font-weight:600;font-size:.85rem;background:#fff;color:var(--ink)}
-.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
-.chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:.5em 1.05em;font-family:Poppins;font-weight:600;font-size:.84rem;cursor:pointer;transition:.15s}
-.chip.on{background:var(--green);color:#fff;border-color:var(--green)}
+@media(max-width:420px){.rgrid{grid-template-columns:1fr}}
+.r-layout{display:grid;grid-template-columns:230px 1fr;gap:32px;align-items:start;padding:10px 0 50px}
+.r-sidebar{position:sticky;top:82px}
+.r-search{width:100%;padding:.7em 1em;border:1.5px solid var(--line);border-radius:12px;font-size:.92rem;font-family:inherit;background:#fff}
+.r-search:focus{outline:none;border-color:var(--terra)}
+.r-fgroup{margin-top:18px;border-top:1px solid var(--line);padding-top:14px}
+.r-fgroup h3{font-family:Poppins;font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin-bottom:8px}
+.r-flist{list-style:none;display:flex;flex-direction:column;gap:2px;margin:0;padding:0}
+.r-chefs{max-height:300px;overflow:auto}
+.r-fitem{width:100%;text-align:left;background:none;border:none;padding:.5em .7em;border-radius:9px;font-family:Inter;font-size:.92rem;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;transition:background .12s,color .12s}
+.r-fitem:hover{background:var(--warm)}
+.r-fitem.on{background:var(--green);color:#fff;font-weight:600}
+.r-fitem span{font-size:.76rem;opacity:.6;font-family:Poppins;font-weight:700}
+.r-fitem.on span{opacity:.9;color:#fff}
+@media(max-width:760px){.r-layout{grid-template-columns:1fr;gap:18px}.r-sidebar{position:static}.r-chefs{max-height:210px}}
 .rcount{color:var(--muted);font-size:.85rem;font-family:Poppins;font-weight:600;margin:4px 0 0}
 .rgrid .card.hide{display:none}
 .no-res{display:none;color:var(--muted);padding:40px 0;text-align:center;font-size:1.05rem}
@@ -245,9 +260,15 @@ export function renderIndexPage(recipes, siteUrl) {
 <header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#recipes">Latest</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener" onclick="trackBuy('recipes-index')">Get yours</a></div></div></header>
 <div class="wrap">
   <div class="head"><h1>Famous recipes, reimagined for Thermomix</h1><p>Iconic dishes from the world's best chefs, rebuilt for your TM6 and TM7 — exact speeds, times and temperatures. Browse by breakfast, dinner, dessert, pasta, seafood, vegetarian, light meals and more.</p></div>
-  ${filterBar}
-  <div class="rgrid">${cards}</div>
-  <p class="no-res" id="noRes">No recipes match — try clearing the filters.</p>
+  <div class="r-layout">
+    ${sidebar}
+    <div class="r-main">
+      <p class="rcount"><span id="rcount">${recipes.length}</span> recipes</p>
+      <div class="rgrid">${cards}</div>
+      <p class="no-res" id="noRes">No recipes match — try clearing the filters.</p>
+    </div>
+  </div>
+  ${filterScript}
 </div>
 <footer><div class="logo">Thermie<span>Chef</span></div><p style="margin-top:6px">Famous recipes, reimagined for your Thermomix.</p><nav class="foot-links"><a href="/terms.html">Terms</a><a href="/privacy.html">Privacy</a><a href="/index.html">Home</a></nav></footer>
 <script>${TRACK_JS}</script>
