@@ -6,7 +6,7 @@
     "dish": "brigadeiro de colher"
   },
   "description": "My Thermomix version of Rita Lobo's spoonable brigadeiro — soft, glossy Brazilian chocolate fudge you eat with a spoon.",
-  "image": "food-brigadeiro.jpg",
+  "image": "recipes/brigadeiro-de-colher-rita-lobo.jpg",
   "category": "Dessert",
   "cuisine": "Brazilian",
   "prepMin": 5,
@@ -34,10 +34,10 @@
     "Chocolate sprinkles, to top"
   ],
   "steps": [
-    "Place the condensed milk, cocoa, butter, cream and salt in the mixing bowl",
-    "Cook 12 min / 100°C / speed 2, with the measuring cup off and the simmering basket resting on the lid to catch any splatter, until thick and glossy.",
-    "Spoon the warm brigadeiro into little glasses or ramekins",
-    "Scatter with chocolate sprinkles and serve warm, or chill for a firmer spoonful"
+    "Place condensed milk, cocoa, butter, cream and salt in the mixing bowl. Mix 10 sec / 0°C / speed 4 until the cocoa is fully combined.",
+    "Cook 12 min / 100°C / speed 2, MC off with the simmering basket on the lid, until thick and glossy.",
+    "Scrape down and cook 2 min / Varoma / speed 2, MC off, for a deeper spoonable brigadeiro texture.",
+    "Spoon into little glasses 1 min / 0°C / no speed, scatter with chocolate sprinkles and serve warm or chilled."
   ],
   "tips": [
     "The 'de colher' style is meant to be soft — stop a minute or two earlier than you would for rolled brigadeiro.",
@@ -57,5 +57,10 @@
       "q": "Is this the original Rita Lobo recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Rita Lobo and brigadeiro de colher; it is not endorsed by or affiliated with the chef."
     }
+  ],
+  "filters": [
+    "Dessert",
+    "Vegetarian",
+    "Under 30 min"
   ]
 }

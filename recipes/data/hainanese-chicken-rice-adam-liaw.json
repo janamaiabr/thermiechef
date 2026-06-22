@@ -6,7 +6,7 @@
     "dish": "Hainanese chicken rice"
   },
   "description": "My Thermomix version of Adam Liaw's Hainanese chicken rice — silky poached chicken and fragrant rice, cooked together.",
-  "image": "hero-table.jpg",
+  "image": "recipes/hainanese-chicken-rice-adam-liaw.jpg",
   "category": "Dinner",
   "cuisine": "Singaporean",
   "prepMin": 15,
@@ -58,5 +58,10 @@
       "q": "Is this the original Adam Liaw recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Adam Liaw and Hainanese chicken rice; it is not endorsed by or affiliated with the chef."
     }
+  ],
+  "filters": [
+    "Dinner",
+    "Meat",
+    "Light"
   ]
 }

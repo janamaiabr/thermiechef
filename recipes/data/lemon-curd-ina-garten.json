@@ -6,7 +6,7 @@
     "dish": "lemon curd"
   },
   "description": "My Thermomix take on Ina Garten's lemon curd — glossy, tangy and impossible to scramble.",
-  "image": "dish-smoothie.jpg",
+  "image": "recipes/lemon-curd-ina-garten.jpg",
   "category": "Snack",
   "cuisine": "American",
   "prepMin": 5,
@@ -53,5 +53,10 @@
       "q": "Is this the original Ina Garten recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Ina Garten and lemon curd; it is not endorsed by or affiliated with the chef."
     }
+  ],
+  "filters": [
+    "Snack",
+    "Vegetarian",
+    "Under 30 min"
   ]
 }

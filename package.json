@@ -9,6 +9,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "validate": "node scripts/validate-site.mjs",
-    "queue": "node scripts/queue-status.mjs --verbose"
+    "queue": "node scripts/queue-status.mjs --verbose",
+    "daily": "node scripts/generate-daily.mjs"
   }
 }

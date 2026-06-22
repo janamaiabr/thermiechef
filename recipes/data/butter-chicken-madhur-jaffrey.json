@@ -54,6 +54,10 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Madhur Jaffrey and butter chicken; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-chicken.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/butter-chicken-madhur-jaffrey.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Meat"
+  ]
 }

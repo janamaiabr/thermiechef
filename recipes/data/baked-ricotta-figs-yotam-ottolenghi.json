@@ -49,6 +49,10 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Yotam Ottolenghi and baked ricotta with figs; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-dessert.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/baked-ricotta-figs-yotam-ottolenghi.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Snack",
+    "Vegetarian"
+  ]
 }

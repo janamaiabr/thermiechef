@@ -30,9 +30,10 @@
     "Yoghurt and nuts, to serve"
   ],
   "steps": [
-    "Place the oats, milk, grated apple, cinnamon, honey and salt in the mixing bowl.",
-    "Cook 10 min / 90°C / speed 1, until creamy and thick.",
-    "Rest 1 minute (it thickens more), then spoon into bowls and top with yoghurt and nuts."
+    "Place oats, milk, grated apple, cinnamon, honey and salt in the mixing bowl. Stir 8 sec / 0°C / Reverse / speed 2 so the oats are evenly wet.",
+    "Cook 10 min / 90°C / Reverse / speed 1, MC on, until creamy and thick.",
+    "Rest 1 min / 0°C / Reverse / speed 0 in the bowl so the porridge settles and thickens gently.",
+    "Loosen 10 sec / 0°C / Reverse / speed 2, then spoon into bowls and top with yoghurt and nuts."
   ],
   "tips": [
     "Like it thicker? Add 10 g more oats. Thinner? A splash more milk.",
@@ -48,6 +49,11 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Annabel Langbein and apple porridge; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-bowl.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/apple-cinnamon-porridge-annabel-langbein.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Breakfast",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

@@ -30,8 +30,10 @@
     "Basil, to serve"
   ],
   "steps": [
-    "Grate the parmesan 8 sec / speed 8. Add ricotta, lemon zest and juice, olive oil, salt and pepper. Mix 20 sec / speed 4 to a smooth sauce.",
-    "Loosen with a little hot pasta water (mix 10 sec / speed 3). Toss through the cooked pasta and finish with basil."
+    "Place parmesan in the mixing bowl and grate 8 sec / 0°C / speed 8. Scrape down.",
+    "Add ricotta, lemon zest, lemon juice, olive oil, salt and pepper. Mix 20 sec / 0°C / speed 4 to a smooth sauce.",
+    "Add 60 g hot pasta water and emulsify 10 sec / 0°C / speed 3 until glossy and loose enough to coat pasta.",
+    "Toss through cooked pasta in a serving bowl 1 min / 0°C / no speed, then finish with basil and extra parmesan."
   ],
   "tips": [
     "A spoon of pasta water makes the sauce cling and gloss.",
@@ -47,6 +49,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Samin Nosrat and lemon ricotta pasta; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-pasta.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/lemon-ricotta-pasta-samin-nosrat.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Pasta",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

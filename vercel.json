@@ -4,5 +4,11 @@
   "buildCommand": "node scripts/build.mjs",
   "outputDirectory": ".",
   "cleanUrls": false,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "crons": [
+    {
+      "path": "/api/cron-recipe",
+      "schedule": "0 20 * * *"
+    }
+  ]
 }

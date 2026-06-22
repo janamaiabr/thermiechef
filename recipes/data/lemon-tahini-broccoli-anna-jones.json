@@ -48,6 +48,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Anna Jones and broccoli with tahini; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-salad.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/lemon-tahini-broccoli-anna-jones.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Lunch",
+    "Vegetarian",
+    "Light",
+    "Under 30 min"
+  ]
 }

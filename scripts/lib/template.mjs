@@ -163,7 +163,7 @@ ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script
     <h1>${esc(r.title)}</h1>
     ${insp ? `<div class="chefline"><span class="av">${chefInitials(insp.chef)}</span><div class="ct"><b>Inspired by ${esc(insp.chef)}</b><span>My Thermomix reimagining of their ${esc(insp.dish || "classic")}</span></div></div>` : ""}
     <p class="lede">${esc(r.description)}</p>
-    <div class="rmeta"><span class="tm">${esc(r.thermomixModel || "TM6 / TM7")}</span><span>⏱️ Prep ${r.prepMin} min</span><span>🍳 Cook ${r.cookMin} min</span><span>🍽️ Serves ${r.servings}</span><span>📊 ${esc(r.category || "Main")}</span></div>
+    <div class="rmeta"><span class="tm">${esc(r.thermomixModel || "TM6 / TM7")}</span><span>⏱️ Prep ${r.prepMin} min</span><span>🍳 Cook ${r.cookMin} min</span><span>🍽️ Serves ${r.servings}</span><span>📊 ${esc(r.category || "Main")}</span>${(r.filters || []).slice(0,3).map((f)=>`<span>🏷️ ${esc(f)}</span>`).join("")}</div>
     <img class="hero-img" src="../assets/${esc(r.image)}" alt="${esc(r.title)} made in a Thermomix" width="820" height="512"/>
     <p class="intro">${esc(r.intro)}</p>
     <h2 class="sec">Ingredients</h2>
@@ -188,18 +188,21 @@ ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script
 
 export function renderIndexPage(recipes, siteUrl) {
   const chefsList = [...new Set(recipes.map((r) => r.inspiredBy && r.inspiredBy.chef).filter(Boolean))].sort();
-  const catList = [...new Set(recipes.map((r) => r.category).filter(Boolean))];
-  const cards = recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; return `<a class="card" data-cat="${esc((r.category || "").toLowerCase())}" data-chef="${esc(chef)}" data-s="${esc((r.title + " " + chef + " " + (r.cuisine || "") + " " + (r.category || "")).toLowerCase())}" href="${r.slug}.html"><div class="ph"><img src="../assets/${esc(r.image)}" alt="${esc(r.title)}" loading="lazy"/>${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`; }).join("");
+  const tagOrder = ["Breakfast", "Lunch", "Dinner", "Dessert", "Baking", "Soup", "Pasta", "Curry", "Seafood", "Meat", "Vegetarian", "Light", "Under 30 min", "Snack", "Drink"];
+  const tagSet = new Set();
+  recipes.forEach((r) => (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean).forEach((t) => tagSet.add(t)));
+  const tagList = [...tagSet].sort((a,b) => (tagOrder.indexOf(a) === -1 ? 999 : tagOrder.indexOf(a)) - (tagOrder.indexOf(b) === -1 ? 999 : tagOrder.indexOf(b)) || a.localeCompare(b));
+  const cards = recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; const tags = (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean); return `<a class="card" data-tags="${esc(tags.map((t)=>t.toLowerCase()).join('|'))}" data-chef="${esc(chef)}" data-s="${esc((r.title + " " + chef + " " + (r.cuisine || "") + " " + (r.category || "") + " " + tags.join(' ')).toLowerCase())}" href="${r.slug}.html"><div class="ph"><img src="../assets/${esc(r.image)}" alt="${esc(r.title)} Thermomix recipe" loading="lazy"/>${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><div class="tagline">${tags.slice(0,3).map((t)=>`<span>${esc(t)}</span>`).join("")}</div><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`; }).join("");
   const filterBar = `<div class="filters">
-    <input id="rsearch" class="rsearch" placeholder="Search recipes or chefs…" oninput="filt()" aria-label="Search recipes"/>
+    <input id="rsearch" class="rsearch" placeholder="Search recipes, chefs, cuisines…" oninput="filt()" aria-label="Search recipes"/>
     <select id="rchef" class="rchef" onchange="filt()"><option value="">All chefs</option>${chefsList.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select>
   </div>
-  <div class="chips"><button class="chip on" data-cat="" onclick="setCat(this)">All</button>${catList.map((c) => `<button class="chip" data-cat="${esc(c.toLowerCase())}" onclick="setCat(this)">${esc(c)}</button>`).join("")}</div>
-  <p class="rcount"><span id="rcount">${recipes.length}</span> recipes</p>
+  <div class="chips"><button class="chip on" data-tag="" onclick="setTag(this)">All</button>${tagList.map((c) => `<button class="chip" data-tag="${esc(c.toLowerCase())}" onclick="setTag(this)">${esc(c)}</button>`).join("")}</div>
+  <p class="rcount"><span id="rcount">${recipes.length}</span> recipes · filter by meal, style, chef or search term</p>
   <script>
-  var curCat="";
-  function setCat(b){curCat=b.getAttribute('data-cat')||"";var cs=document.querySelectorAll('.chip');for(var i=0;i<cs.length;i++)cs[i].classList.toggle('on',cs[i]===b);filt();}
-  function filt(){var q=(document.getElementById('rsearch').value||'').toLowerCase().trim();var chef=document.getElementById('rchef').value||'';var cards=document.querySelectorAll('.rgrid .card'),n=0;for(var i=0;i<cards.length;i++){var c=cards[i];var ok=(!curCat||c.getAttribute('data-cat')===curCat)&&(!chef||c.getAttribute('data-chef')===chef)&&(!q||(c.getAttribute('data-s')||'').indexOf(q)>=0);c.classList.toggle('hide',!ok);if(ok)n++;}document.getElementById('rcount').textContent=n;document.getElementById('noRes').style.display=n?'none':'block';}
+  var curTag="";
+  function setTag(b){curTag=b.getAttribute('data-tag')||"";var cs=document.querySelectorAll('.chip');for(var i=0;i<cs.length;i++)cs[i].classList.toggle('on',cs[i]===b);filt();}
+  function filt(){var q=(document.getElementById('rsearch').value||'').toLowerCase().trim();var chef=document.getElementById('rchef').value||'';var cards=document.querySelectorAll('.rgrid .card'),n=0;for(var i=0;i<cards.length;i++){var c=cards[i];var tags=(c.getAttribute('data-tags')||'').split('|');var ok=(!curTag||tags.indexOf(curTag)>=0)&&(!chef||c.getAttribute('data-chef')===chef)&&(!q||(c.getAttribute('data-s')||'').indexOf(q)>=0);c.classList.toggle('hide',!ok);if(ok)n++;}document.getElementById('rcount').textContent=n;document.getElementById('noRes').style.display=n?'none':'block';}
   </script>`;
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -207,9 +210,9 @@ export function renderIndexPage(recipes, siteUrl) {
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G1D265RTZ0');</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/><link rel="icon" href="/favicon-32.png" sizes="32x32"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 <title>Thermomix Recipes | ${SITE_NAME}</title>
-<meta name="description" content="Easy, reliable Thermomix recipes from Chef Aly — a new recipe every day, with exact speeds, times and temperatures for the TM6 and TM7."/>
+<meta name="description" content="Easy, reliable Thermomix recipes from Chef Aly — filter by breakfast, dinner, dessert, pasta, seafood, vegetarian, light meals and more, with exact speeds, times and temperatures for the TM6 and TM7."/>
 <link rel="canonical" href="${siteUrl}/recipes/"/>
-<meta property="og:title" content="Thermomix Recipes — Chef Aly"/><meta property="og:description" content="A new Thermomix recipe every day."/><meta property="og:image" content="${siteUrl}/assets/hero-table.jpg"/>
+<meta property="og:title" content="Thermomix Recipes — Chef Aly"/><meta property="og:description" content="Thermomix recipes by meal, style and chef."/><meta property="og:image" content="${siteUrl}/assets/hero-table.jpg"/>
 <meta name="robots" content="index,follow,max-image-preview:large"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -224,6 +227,7 @@ export function renderIndexPage(recipes, siteUrl) {
 .card .chef .nm{font-family:Poppins;font-weight:700;font-size:.76rem;color:var(--ink)}
 .card .cb{padding:16px 18px 20px}.card h3{font-size:1.18rem;color:var(--ink);margin-bottom:6px}.card p{color:var(--muted);font-size:.9rem;margin-bottom:10px}
 .card .m{font-family:Poppins;font-weight:600;font-size:.82rem;color:var(--terra)}
+.tagline{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 10px}.tagline span{font-family:Poppins;font-weight:700;font-size:.68rem;color:var(--green-d);background:var(--warm);border:1px solid var(--line);border-radius:999px;padding:.24em .65em}
 @media(max-width:820px){.rgrid{grid-template-columns:1fr 1fr}}@media(max-width:540px){.rgrid{grid-template-columns:1fr}}
 .filters{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:6px 0 14px}
 .rsearch{flex:1;min-width:200px;padding:.72em 1.1em;border:1.5px solid var(--line);border-radius:999px;font-size:.95rem;font-family:inherit;background:#fff}
@@ -240,7 +244,7 @@ export function renderIndexPage(recipes, siteUrl) {
 </head><body>
 <header><div class="nav"><a class="logo" href="../index.html">Thermie<span>Chef</span></a><div class="sp"><a href="../index.html#recipes">Latest</a><a href="../index.html#thermomix">Thermomix</a><a href="${BUY_URL}" target="_blank" rel="noopener" onclick="trackBuy('recipes-index')">Get yours</a></div></div></header>
 <div class="wrap">
-  <div class="head"><h1>Famous recipes, reimagined for Thermomix</h1><p>Iconic dishes from the world's best chefs, rebuilt for your TM6 and TM7 — exact speeds, times and temperatures. A new one every day.</p></div>
+  <div class="head"><h1>Famous recipes, reimagined for Thermomix</h1><p>Iconic dishes from the world's best chefs, rebuilt for your TM6 and TM7 — exact speeds, times and temperatures. Browse by breakfast, dinner, dessert, pasta, seafood, vegetarian, light meals and more.</p></div>
   ${filterBar}
   <div class="rgrid">${cards}</div>
   <p class="no-res" id="noRes">No recipes match — try clearing the filters.</p>

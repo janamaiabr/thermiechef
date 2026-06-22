@@ -5,7 +5,7 @@
     "chef": "David Chang",
     "dish": "ginger scallion noodles"
   },
-  "image": "dish-pasta.jpg",
+  "image": "recipes/ginger-scallion-noodles-david-chang.jpg",
   "category": "Dinner",
   "cuisine": "Korean-American",
   "prepMin": 10,
@@ -57,5 +57,11 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of David Chang-style ginger scallion noodles: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of David Chang-style ginger scallion noodles: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Dinner",
+    "Pasta",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

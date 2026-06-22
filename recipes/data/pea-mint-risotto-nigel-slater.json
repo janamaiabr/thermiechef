@@ -50,6 +50,11 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Nigel Slater and pea risotto; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "food-risotto.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/pea-mint-risotto-nigel-slater.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

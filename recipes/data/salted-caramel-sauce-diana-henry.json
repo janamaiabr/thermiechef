@@ -5,7 +5,7 @@
     "chef": "Diana Henry",
     "dish": "salted caramel"
   },
-  "image": "dish-smoothie.jpg",
+  "image": "recipes/salted-caramel-sauce-diana-henry.jpg",
   "category": "Dessert",
   "cuisine": "International",
   "prepMin": 5,
@@ -54,5 +54,10 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Diana Henry-style salted caramel: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Diana Henry-style salted caramel: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Dessert",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

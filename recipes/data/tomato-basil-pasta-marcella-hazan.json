@@ -29,9 +29,10 @@
     "Basil, parmesan"
   ],
   "steps": [
-    "Add the tomatoes, the halved onion and the butter to the bowl with a good pinch of salt.",
-    "Cook 28 min / 100°C / speed 1, MC off, until rich. Remove the onion halves and crush the tomatoes lightly (5 sec / speed 4).",
-    "Toss through the cooked spaghetti with basil and parmesan."
+    "Add tomatoes, halved onion, butter and salt to the mixing bowl. Stir 8 sec / 0°C / Reverse / speed 1 to settle everything around the blades.",
+    "Cook 28 min / 100°C / Reverse / speed 1, MC off, until rich and glossy.",
+    "Remove the onion halves, then crush the tomatoes 5 sec / 0°C / speed 4 for a rustic sauce.",
+    "Toss through cooked spaghetti 1 min / 0°C / no speed with basil and parmesan."
   ],
   "tips": [
     "The onion flavours the sauce then comes out — Marcella's genius.",
@@ -47,6 +48,11 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Marcella Hazan and tomato pasta sauce; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-pasta.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/tomato-basil-pasta-marcella-hazan.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Pasta",
+    "Vegetarian"
+  ]
 }

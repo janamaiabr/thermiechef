@@ -54,6 +54,10 @@
       "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
-  "image": "dish-dessert.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/lemon-posset-mary-berry.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dessert",
+    "Vegetarian"
+  ]
 }

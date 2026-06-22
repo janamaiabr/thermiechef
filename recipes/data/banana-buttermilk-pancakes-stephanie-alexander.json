@@ -49,6 +49,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Stephanie Alexander and banana pancakes; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-pancakes.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/banana-buttermilk-pancakes-stephanie-alexander.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Breakfast",
+    "Dessert",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

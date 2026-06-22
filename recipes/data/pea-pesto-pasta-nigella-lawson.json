@@ -31,9 +31,10 @@
     "300 g pasta, cooked"
   ],
   "steps": [
-    "Add parmesan, pine nuts and garlic to the bowl, mill 8 sec / speed 8.",
-    "Add the peas, herbs, olive oil and salt. Blend 20 sec / speed 6 to a chunky pesto.",
-    "Toss through the cooked pasta with a splash of pasta water."
+    "Place parmesan, pine nuts and garlic in the mixing bowl and mill 8 sec / 0°C / speed 8. Scrape down.",
+    "Add peas, herbs, olive oil and salt. Blend 20 sec / 0°C / speed 6 to a chunky, bright pesto.",
+    "Add 60 g hot pasta water and mix 10 sec / 0°C / speed 3 to loosen the pesto.",
+    "Toss through cooked pasta in a serving bowl 1 min / 0°C / no speed, adding a little more pasta water if needed."
   ],
   "tips": [
     "A little pasta water makes it glossy and helps it coat.",
@@ -49,6 +50,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Nigella Lawson and pea pesto pasta; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-pasta.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/pea-pesto-pasta-nigella-lawson.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Pasta",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

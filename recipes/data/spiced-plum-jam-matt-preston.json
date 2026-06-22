@@ -46,6 +46,11 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Matt Preston and plum jam; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "food-brigadeiro.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/spiced-plum-jam-matt-preston.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Snack",
+    "Dessert",
+    "Vegetarian"
+  ]
 }

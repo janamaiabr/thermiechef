@@ -49,6 +49,11 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Paul Hollywood and onion tart; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "food-bread.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/caramelised-onion-tart-paul-hollywood.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Baking",
+    "Dessert",
+    "Vegetarian"
+  ]
 }

@@ -46,6 +46,11 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Adam Liaw and miso butter corn; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-bowl.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/miso-butter-corn-adam-liaw.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Snack",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

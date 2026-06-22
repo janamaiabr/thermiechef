@@ -5,7 +5,7 @@
     "chef": "Neil Perry",
     "dish": "chicken congee"
   },
-  "image": "food-soup.jpg",
+  "image": "recipes/ginger-chicken-congee-neil-perry.jpg",
   "category": "Breakfast",
   "cuisine": "Chinese",
   "prepMin": 10,
@@ -54,5 +54,10 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Neil Perry-style chicken congee: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Neil Perry-style chicken congee: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Breakfast",
+    "Soup",
+    "Meat"
+  ]
 }

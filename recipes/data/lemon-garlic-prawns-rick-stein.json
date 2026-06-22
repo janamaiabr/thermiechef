@@ -49,6 +49,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Rick Stein and garlic prawns; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-salad.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/lemon-garlic-prawns-rick-stein.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Baking",
+    "Seafood",
+    "Under 30 min"
+  ]
 }

@@ -5,7 +5,7 @@
     "chef": "Anna Jones",
     "dish": "coconut dal"
   },
-  "image": "dish-bowl.jpg",
+  "image": "recipes/coconut-greens-dal-anna-jones.jpg",
   "category": "Dinner",
   "cuisine": "Indian",
   "prepMin": 10,
@@ -61,5 +61,11 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Anna Jones-style coconut dal: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Anna Jones-style coconut dal: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Dinner",
+    "Curry",
+    "Vegetarian",
+    "Light"
+  ]
 }

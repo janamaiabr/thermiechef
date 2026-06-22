@@ -6,7 +6,7 @@
     "dish": "coconut fish curry"
   },
   "description": "My Thermomix take on Rick Stein's coconut fish curry — fragrant, gentle, and the fish stays whole.",
-  "image": "food-risotto.jpg",
+  "image": "recipes/coconut-fish-curry-rick-stein.jpg",
   "category": "Dinner",
   "cuisine": "Indian",
   "prepMin": 15,
@@ -60,5 +60,10 @@
       "q": "Is this the original Rick Stein recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Rick Stein and coconut fish curry; it is not endorsed by or affiliated with the chef."
     }
+  ],
+  "filters": [
+    "Dinner",
+    "Curry",
+    "Seafood"
   ]
 }

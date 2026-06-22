@@ -5,7 +5,7 @@
     "chef": "Kylie Kwong",
     "dish": "steamed fish"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/steamed-ginger-soy-fish-kylie-kwong.jpg",
   "category": "Dinner",
   "cuisine": "Chinese",
   "prepMin": 10,
@@ -32,10 +32,10 @@
     "For the rice: 300 g jasmine rice, rinsed + 360 g water"
   ],
   "steps": [
-    "Rinse the rice and place with the water in the mixing bowl",
-    "Lay the fish in the Varoma dish, scatter with half the ginger. Set the Varoma in position",
+    "Rinse rice and place it in the mixing bowl with 360 g water. Set the Varoma dish in position 1 min / 0°C / no speed while you arrange the fish.",
+    "Lay fish in the Varoma dish and scatter with half the ginger. Secure the Varoma lid.",
     "Cook 18 min / Varoma / speed 2 — the rice cooks below while the fish steams above.",
-    "Top the fish with the remaining ginger and spring onions, pour over warmed soy and sesame oil, and serve over the rice"
+    "Top fish with remaining ginger and spring onions, then pour over warmed soy and sesame oil 1 min / 0°C / no speed before serving over the rice."
   ],
   "tips": [
     "Steaming keeps the fish silky and delicate — don't overcook it.",
@@ -56,5 +56,10 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Kylie Kwong-style steamed fish: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Kylie Kwong-style steamed fish: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Dinner",
+    "Seafood",
+    "Under 30 min"
+  ]
 }

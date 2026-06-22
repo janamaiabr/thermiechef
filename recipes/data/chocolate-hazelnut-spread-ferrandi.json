@@ -47,6 +47,11 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Ferrandi Paris and chocolate hazelnut spread; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-dessert.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/chocolate-hazelnut-spread-ferrandi.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Snack",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

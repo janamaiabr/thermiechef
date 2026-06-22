@@ -49,6 +49,13 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Jamie Oliver and broccoli orecchiette; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-pasta.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/broccoli-orecchiette-jamie-oliver.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Pasta",
+    "Vegetarian",
+    "Light",
+    "Under 30 min"
+  ]
 }

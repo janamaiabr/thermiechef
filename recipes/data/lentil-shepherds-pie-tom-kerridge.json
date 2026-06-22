@@ -52,6 +52,10 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Tom Kerridge and shepherd’s pie; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-bowl.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/lentil-shepherds-pie-tom-kerridge.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Vegetarian"
+  ]
 }

@@ -6,7 +6,7 @@
     "dish": "Bolognese"
   },
   "description": "My Thermomix version of Jamie Oliver's veg-packed Bolognese — a rich, veg-rich ragù in one bowl.",
-  "image": "dish-pasta.jpg",
+  "image": "recipes/veg-packed-bolognese-jamie.jpg",
   "category": "Dinner",
   "cuisine": "Italian",
   "prepMin": 15,
@@ -67,5 +67,10 @@
       "q": "Is this the original Jamie Oliver recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Jamie Oliver and Bolognese; it is not endorsed by or affiliated with the chef."
     }
+  ],
+  "filters": [
+    "Dinner",
+    "Pasta",
+    "Meat"
   ]
 }

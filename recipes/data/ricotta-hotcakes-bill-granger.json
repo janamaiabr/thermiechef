@@ -6,7 +6,7 @@
     "dish": "ricotta hotcakes"
   },
   "description": "My Thermomix take on Bill Granger's legendary ricotta hotcakes — light as a cloud, with honeycomb butter and banana.",
-  "image": "dish-pancakes.jpg",
+  "image": "recipes/ricotta-hotcakes-bill-granger.jpg",
   "category": "Breakfast",
   "cuisine": "Australian",
   "prepMin": 10,
@@ -36,11 +36,11 @@
     "Honey and sliced banana, to serve"
   ],
   "steps": [
-    "Insert the butterfly whisk. Add the egg whites and whip 3 min / speed 4 until soft peaks form, then tip into a separate bowl.",
-    "Remove the butterfly. Add the ricotta, milk and egg yolks to the bowl and mix 20 sec / speed 4.",
-    "Add the flour, baking powder and salt and mix 15 sec / speed 4 to a smooth batter.",
-    "Gently fold the whipped egg whites through the batter by hand, keeping it airy",
-    "Cook large spoonfuls in a buttered pan over medium heat, about 2 minutes each side, until golden. Serve with honey and banana. (Cooking the hotcakes is done in a pan.)"
+    "Insert the butterfly whisk. Add egg whites and whip 3 min / 0°C / speed 4 until soft peaks form, then tip into a separate bowl.",
+    "Remove the butterfly. Add ricotta, milk and egg yolks to the bowl and mix 20 sec / 0°C / speed 4.",
+    "Add flour, baking powder and salt and mix 15 sec / 0°C / speed 4 to a smooth batter.",
+    "Fold whipped egg whites through by hand 1 min / 0°C / no speed, keeping the batter airy.",
+    "Cook large spoonfuls in a buttered pan about 2 min / medium heat / no speed each side until golden. Serve with honey and banana."
   ],
   "tips": [
     "Folding — not stirring — the whites in is what keeps them cloud-light.",
@@ -60,5 +60,11 @@
       "q": "Is this the original Bill Granger recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Bill Granger and ricotta hotcakes; it is not endorsed by or affiliated with the chef."
     }
+  ],
+  "filters": [
+    "Breakfast",
+    "Dessert",
+    "Vegetarian",
+    "Under 30 min"
   ]
 }

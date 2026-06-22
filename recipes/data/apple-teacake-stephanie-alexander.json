@@ -5,7 +5,7 @@
     "chef": "Stephanie Alexander",
     "dish": "apple teacake"
   },
-  "image": "food-cake.jpg",
+  "image": "recipes/apple-teacake-stephanie-alexander.jpg",
   "category": "Baking",
   "cuisine": "Australian",
   "prepMin": 15,
@@ -57,5 +57,10 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Stephanie Alexander-style apple teacake: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Stephanie Alexander-style apple teacake: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Baking",
+    "Dessert",
+    "Vegetarian"
+  ]
 }

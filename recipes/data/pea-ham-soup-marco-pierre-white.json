@@ -5,7 +5,7 @@
     "chef": "Marco Pierre White",
     "dish": "pea & ham soup"
   },
-  "image": "dish-soup.jpg",
+  "image": "recipes/pea-ham-soup-marco-pierre-white.jpg",
   "category": "Lunch",
   "cuisine": "British",
   "prepMin": 10,
@@ -57,5 +57,11 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Marco Pierre White-style pea & ham soup: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Marco Pierre White-style pea & ham soup: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Lunch",
+    "Soup",
+    "Meat",
+    "Light"
+  ]
 }

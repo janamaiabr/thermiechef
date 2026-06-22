@@ -5,7 +5,7 @@
     "chef": "Curtis Stone",
     "dish": "mac and cheese"
   },
-  "image": "dish-pasta.jpg",
+  "image": "recipes/mac-and-cheese-curtis-stone.jpg",
   "category": "Dinner",
   "cuisine": "American",
   "prepMin": 10,
@@ -58,5 +58,10 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Curtis Stone-style mac and cheese: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Curtis Stone-style mac and cheese: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Dinner",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

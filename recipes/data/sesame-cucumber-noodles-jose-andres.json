@@ -32,8 +32,10 @@
     "Sesame seeds, spring onion"
   ],
   "steps": [
-    "Add the garlic to the bowl, chop 3 sec / speed 7. Add tahini, soy, vinegar, sugar and sesame oil. Blend 15 sec / speed 5.",
-    "Toss the dressing through the cooled noodles and smashed cucumber. Finish with sesame and spring onion."
+    "Place garlic in the mixing bowl and chop 3 sec / 0°C / speed 7. Scrape down.",
+    "Add tahini, soy sauce, rice vinegar, sugar and sesame oil. Blend 15 sec / 0°C / speed 5 until smooth.",
+    "Loosen with 30 g water and mix 8 sec / 0°C / speed 3 so the dressing coats noodles easily.",
+    "Toss through cooled noodles and smashed cucumber 1 min / 0°C / no speed, then finish with sesame seeds and spring onion."
   ],
   "tips": [
     "Smash the cucumber so it drinks up the dressing.",
@@ -49,6 +51,13 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by José Andrés and cold noodle salad; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-salad.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/sesame-cucumber-noodles-jose-andres.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Lunch",
+    "Pasta",
+    "Vegetarian",
+    "Light",
+    "Under 30 min"
+  ]
 }

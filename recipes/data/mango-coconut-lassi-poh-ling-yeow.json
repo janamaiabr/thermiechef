@@ -29,8 +29,9 @@
     "Ice, to serve"
   ],
   "steps": [
-    "Place the mango, yoghurt, coconut milk, honey and cardamom in the bowl.",
-    "Blend 1 min / speed 9 until smooth and creamy. Pour over ice."
+    "Place mango, yoghurt, coconut milk, honey and cardamom in the mixing bowl. Blend 30 sec / 0°C / speed 7.",
+    "Scrape down, add a handful of ice if using, and blend 30 sec / 0°C / speed 9 until silky and cold.",
+    "Pour over ice 1 min / 0°C / no speed and serve straight away with a tiny pinch of cardamom on top."
   ],
   "tips": [
     "Frozen mango makes it thick and frosty — skip the ice.",
@@ -46,6 +47,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Poh Ling Yeow and mango lassi; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-smoothie.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/mango-coconut-lassi-poh-ling-yeow.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Drink",
+    "Breakfast",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

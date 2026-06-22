@@ -5,7 +5,7 @@
     "chef": "Tom Kerridge",
     "dish": "lentil ragù"
   },
-  "image": "food-risotto.jpg",
+  "image": "recipes/lentil-mushroom-ragu-tom-kerridge.jpg",
   "category": "Dinner",
   "cuisine": "Italian",
   "prepMin": 12,
@@ -60,5 +60,10 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Tom Kerridge-style lentil ragù: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Tom Kerridge-style lentil ragù: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Dinner",
+    "Pasta",
+    "Vegetarian"
+  ]
 }

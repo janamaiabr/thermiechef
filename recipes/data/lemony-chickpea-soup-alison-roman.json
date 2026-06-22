@@ -50,6 +50,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Alison Roman and chickpea soup; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "food-soup.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/lemony-chickpea-soup-alison-roman.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Lunch",
+    "Soup",
+    "Vegetarian",
+    "Light"
+  ]
 }

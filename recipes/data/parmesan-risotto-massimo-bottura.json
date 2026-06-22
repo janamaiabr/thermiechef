@@ -5,7 +5,7 @@
     "chef": "Massimo Bottura",
     "dish": "parmesan risotto"
   },
-  "image": "food-risotto.jpg",
+  "image": "recipes/parmesan-risotto-massimo-bottura.jpg",
   "category": "Dinner",
   "cuisine": "Italian",
   "prepMin": 10,
@@ -57,5 +57,10 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Massimo Bottura-style parmesan risotto: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Massimo Bottura-style parmesan risotto: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Dinner",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

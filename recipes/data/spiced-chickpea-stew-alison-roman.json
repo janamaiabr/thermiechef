@@ -6,7 +6,7 @@
     "dish": "spiced chickpea stew (\"The Stew\")"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Alison Roman-style spiced chickpea stew: warming pantry ingredients, metric weights and exact TM6 and TM7 settings for dinner.",
-  "image": "dish-bowl.jpg",
+  "image": "recipes/spiced-chickpea-stew-alison-roman.jpg",
   "category": "Dinner",
   "cuisine": "Mediterranean",
   "prepMin": 10,
@@ -61,5 +61,10 @@
       "q": "Is this the original Alison Roman recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Alison Roman and spiced chickpea stew (\"The Stew\"); it is not endorsed by or affiliated with the chef."
     }
+  ],
+  "filters": [
+    "Dinner",
+    "Vegetarian",
+    "Light"
   ]
 }

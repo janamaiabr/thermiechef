@@ -48,6 +48,11 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Antonio Carluccio and gnudi; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-pasta.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/ricotta-spinach-gnudi-antonio-carluccio.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

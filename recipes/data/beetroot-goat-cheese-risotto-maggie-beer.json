@@ -51,6 +51,10 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Maggie Beer and beetroot risotto; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "food-risotto.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/beetroot-goat-cheese-risotto-maggie-beer.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Vegetarian"
+  ]
 }

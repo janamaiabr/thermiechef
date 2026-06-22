@@ -5,7 +5,7 @@
     "chef": "Sabrina Ghayour",
     "dish": "spiced lamb & aubergine"
   },
-  "image": "dish-bowl.jpg",
+  "image": "recipes/spiced-lamb-aubergine-sabrina-ghayour.jpg",
   "category": "Dinner",
   "cuisine": "Persian",
   "prepMin": 15,
@@ -61,5 +61,9 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Sabrina Ghayour-style spiced lamb & aubergine: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Sabrina Ghayour-style spiced lamb & aubergine: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Dinner",
+    "Meat"
+  ]
 }

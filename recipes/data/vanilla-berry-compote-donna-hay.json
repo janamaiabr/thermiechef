@@ -28,8 +28,10 @@
     "1 tsp cornflour (optional)"
   ],
   "steps": [
-    "Add the berries, sugar, vanilla and lemon to the bowl. Cook 10 min / 90°C / Reverse / speed 1, MC off.",
-    "For a thicker compote, add the cornflour slaked in a little water and cook 2 min / 90°C / Reverse / speed 1. Cool — it thickens more."
+    "Add berries, sugar, vanilla and lemon juice to the mixing bowl. Stir 8 sec / 0°C / Reverse / speed 1 to coat the fruit.",
+    "Cook 10 min / 90°C / Reverse / speed 1, MC off, until juicy and fragrant.",
+    "For a thicker compote, add cornflour slaked in a little water and cook 2 min / 90°C / Reverse / speed 1.",
+    "Cool 10 min / 0°C / no speed before spooning over yoghurt, pancakes or custard."
   ],
   "tips": [
     "Reverse blade keeps the berries whole and pretty.",
@@ -45,6 +47,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Donna Hay and berry compote; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-dessert.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/vanilla-berry-compote-donna-hay.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dessert",
+    "Vegetarian",
+    "Light",
+    "Under 30 min"
+  ]
 }

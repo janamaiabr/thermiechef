@@ -5,7 +5,7 @@
     "chef": "Massimo Bottura",
     "dish": "mashed potato"
   },
-  "description": "My Thermomix take on a Massimo Bottura-style olive oil mash — silky, dairy-free and full of flavour.",
+  "description": "My Thermomix take on a Massimo Bottura-style olive oil mash \u2014 silky, dairy-free and full of flavour.",
   "category": "Snack",
   "cuisine": "Italian-inspired",
   "prepMin": 5,
@@ -28,8 +28,10 @@
     "Salt, pepper"
   ],
   "steps": [
-    "Steam the potatoes: 500 g water in the bowl, potatoes (and the garlic clove) in the Varoma, 25 min / Varoma / speed 1.",
-    "Empty the water. Return the potatoes and garlic to the bowl with the olive oil, milk, salt and pepper. Mix 20 sec / speed 4 until silky — don't over-mix or it turns gluey."
+    "Place 500 g water in the mixing bowl. Put potatoes and garlic in the Varoma and steam 25 min / Varoma / speed 1 until tender.",
+    "Discard the water, fit the butterfly whisk, then add potatoes, garlic, olive oil, warm milk, salt and pepper to the bowl 1 min / 0\u00b0C / no speed.",
+    "Whip 20 sec / 0\u00b0C / speed 3.5 until smooth and glossy \u2014 do not over-mix or the potato can turn gluey.",
+    "Taste and adjust seasoning 10 sec / 0\u00b0C / Reverse / speed 1, then serve warm with a drizzle of olive oil."
   ],
   "tips": [
     "Olive oil instead of butter keeps it light and Italian.",
@@ -38,13 +40,18 @@
   "faq": [
     {
       "q": "Why not blend longer?",
-      "a": "Over-working potato makes it sticky — a short mix keeps it fluffy."
+      "a": "Over-working potato makes it sticky \u2014 a short mix keeps it fluffy."
     },
     {
       "q": "Is this the original Massimo Bottura recipe?",
-      "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Massimo Bottura and mashed potato; it is not endorsed by or affiliated with the chef."
+      "a": "No. This is Chef Aly\u2019s independent Thermomix reinterpretation inspired by Massimo Bottura and mashed potato; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-bowl.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/olive-oil-mashed-potato-massimo-bottura.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Snack",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

@@ -6,7 +6,7 @@
     "dish": "hummus"
   },
   "description": "My Thermomix take on Ottolenghi's famously silky hummus — the smoothest dip you'll ever make.",
-  "image": "dish-bowl.jpg",
+  "image": "recipes/silky-hummus-ottolenghi.jpg",
   "category": "Snack",
   "cuisine": "Middle Eastern",
   "prepMin": 10,
@@ -60,5 +60,11 @@
       "q": "Is this the original Yotam Ottolenghi recipe?",
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Yotam Ottolenghi and hummus; it is not endorsed by or affiliated with the chef."
     }
+  ],
+  "filters": [
+    "Snack",
+    "Vegetarian",
+    "Light",
+    "Under 30 min"
   ]
 }

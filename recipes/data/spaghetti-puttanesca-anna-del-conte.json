@@ -51,6 +51,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Anna Del Conte and puttanesca; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-pasta.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/spaghetti-puttanesca-anna-del-conte.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Dinner",
+    "Pasta",
+    "Vegetarian",
+    "Under 30 min"
+  ]
 }

@@ -32,9 +32,10 @@
     "Cucumber, peanuts, coriander"
   ],
   "steps": [
-    "Add ginger and garlic to the bowl, chop 3 sec / speed 7.",
-    "Add peanut butter, soy, vinegar, honey and warm water. Blend 20 sec / speed 5 to a smooth dressing.",
-    "Toss through the cooled noodles with cucumber, crushed peanuts and coriander."
+    "Place ginger and garlic in the mixing bowl and chop 3 sec / 0°C / speed 7. Scrape down.",
+    "Add peanut butter, soy sauce, rice vinegar, honey and warm water. Blend 20 sec / 0°C / speed 5 to a smooth dressing.",
+    "Taste and balance with a splash more vinegar or water, then mix 8 sec / 0°C / speed 3.",
+    "Toss through cooled noodles 1 min / 0°C / no speed with cucumber, crushed peanuts and coriander."
   ],
   "tips": [
     "Loosen the dressing with a little more water if thick.",
@@ -50,6 +51,13 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by David Chang and peanut noodles; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "dish-salad.jpg",
-  "datePublished": "2026-06-20"
+  "image": "recipes/peanut-noodle-salad-david-chang.jpg",
+  "datePublished": "2026-06-20",
+  "filters": [
+    "Lunch",
+    "Pasta",
+    "Vegetarian",
+    "Light",
+    "Under 30 min"
+  ]
 }

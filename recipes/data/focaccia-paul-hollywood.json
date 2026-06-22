@@ -5,7 +5,7 @@
     "chef": "Paul Hollywood",
     "dish": "focaccia"
   },
-  "image": "food-bread.jpg",
+  "image": "recipes/focaccia-paul-hollywood.jpg",
   "category": "Baking",
   "cuisine": "Italian",
   "prepMin": 15,
@@ -58,5 +58,9 @@
     }
   ],
   "datePublished": "2026-06-20",
-  "description": "A Chef Aly Thermomix reinterpretation of Paul Hollywood-style focaccia: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks."
+  "description": "A Chef Aly Thermomix reinterpretation of Paul Hollywood-style focaccia: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "filters": [
+    "Baking",
+    "Vegetarian"
+  ]
 }
