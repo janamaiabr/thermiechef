@@ -1,7 +1,7 @@
 // Vercel Cron endpoint that generates one new ThermieChef recipe, creates a matching image,
-// and commits both files to GitHub main via the Contents API. This avoids GitHub Actions billing.
-// Required env: CRON_SECRET, ANTHROPIC_API_KEY, GOOGLE_AI_STUDIO_API_KEY, GITHUB_TOKEN.
-// Optional env: GITHUB_REPOSITORY=janamaiabr/thermiechef, GITHUB_BRANCH=main, ANTHROPIC_MODEL.
+// and commits both files to GitHub main via the Contents API.
+// Required env: CRON_SECRET, GOOGLE_AI_STUDIO_API_KEY, GITHUB_TOKEN.
+// Optional env: GITHUB_REPOSITORY=janamaiabr/thermiechef, GITHUB_BRANCH=main, GEMINI_IMAGE_MODEL.
 
 const fs = require('node:fs');
 const path = require('node:path');
@@ -55,33 +55,41 @@ function validate(r, existing) {
   if (existing.some((x) => String(x.inspiredBy?.chef || '').toLowerCase() === chef)) e.push(`chef already used: ${r.inspiredBy?.chef}`);
   return e;
 }
-async function anthropicRecipe(target, existing, errors = []) {
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
+
+async function geminiRecipe(target, existing, errors = []) {
+  const key = process.env.GOOGLE_AI_STUDIO_API_KEY;
+  if (!key) throw new Error('Missing GOOGLE_AI_STUDIO_API_KEY');
+  const model = process.env.GEMINI_TEXT_MODEL || 'gemini-2.5-flash';
+  const systemPrompt = 'You are Chef Aly, an independent Thermomix consultant in Australia. Write one original Thermomix TM6/TM7 recipe as an independent homage to a famous chef/cookbook author. Never imply endorsement. Warm, simple, encouraging voice. No health, medical, detox, weight-loss or diet-benefit claims. Metric weights. Every method step MUST include inline settings: time / temperature / speed. Use max 120°C or Varoma, speeds 0-10, Reverse, dough mode, MC off + basket as appropriate. If oven/pan is required, say so and still include time / oven temperature / no speed. Output only valid JSON.';
+  const userPrompt = `Use this unused chef and dish only: ${target.chef} — ${target.dish}. Existing chefs: ${existing.map((r) => r.inspiredBy?.chef).filter(Boolean).join(', ')}. Date: ${TODAY}. JSON shape exactly: {"slug":"kebab-case","title":"","inspiredBy":{"chef":"${target.chef}","dish":"${target.dish}"},"description":"80+ chars with Thermomix","image":"","category":"Breakfast|Lunch|Dinner|Dessert|Baking|Snack|Drink","cuisine":"","prepMin":0,"cookMin":0,"servings":0,"keywords":["",""],"thermomixModel":"TM6 / TM7","datePublished":"${TODAY}","intro":"2-3 warm sentences","ingredients":[""],"steps":[""],"tips":[""],"faq":[{"q":"","a":""}]}. ${errors.length ? `Fix previous errors: ${errors.join('; ')}` : ''}`;
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json', 'x-api-key': process.env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' },
+    headers: { 'content-type': 'application/json' },
     body: JSON.stringify({
-      model: process.env.ANTHROPIC_MODEL || 'claude-3-5-sonnet-latest', max_tokens: 3600,
-      system: 'You are Chef Aly, an independent Thermomix consultant in Australia. Write one original Thermomix TM6/TM7 recipe as an independent homage to a famous chef/cookbook author. Never imply endorsement. Warm, simple, encouraging voice. No health, medical, detox, weight-loss or diet-benefit claims. Metric weights. Every method step MUST include inline settings: time / temperature / speed. Use max 120°C or Varoma, speeds 0-10, Reverse, dough mode, MC off + basket as appropriate. If oven/pan is required, say so and still include time / oven temperature / no speed. Output only valid JSON.',
-      messages: [{ role: 'user', content: `Use this unused chef and dish only: ${target.chef} — ${target.dish}. Existing chefs: ${existing.map((r) => r.inspiredBy?.chef).filter(Boolean).join(', ')}. Date: ${TODAY}. JSON shape exactly: {"slug":"kebab-case","title":"","inspiredBy":{"chef":"${target.chef}","dish":"${target.dish}"},"description":"80+ chars with Thermomix","image":"","category":"Breakfast|Lunch|Dinner|Dessert|Baking|Snack|Drink","cuisine":"","prepMin":0,"cookMin":0,"servings":0,"keywords":["",""],"thermomixModel":"TM6 / TM7","datePublished":"${TODAY}","intro":"2-3 warm sentences","ingredients":[""],"steps":[""],"tips":[""],"faq":[{"q":"","a":""}]}. ${errors.length ? `Fix previous errors: ${errors.join('; ')}` : ''}` }]
+      contents: [{ role: 'user', parts: [{ text: `${systemPrompt}\n\n${userPrompt}` }] }],
+      generationConfig: { responseMimeType: 'application/json', temperature: 0.8 }
     })
   });
   const text = await res.text();
-  if (!res.ok) throw new Error(`Anthropic ${res.status}: ${text.slice(0,500)}`);
+  if (!res.ok) throw new Error(`Gemini text ${res.status}: ${text.slice(0, 500)}`);
   const j = JSON.parse(text);
-  const body = (j.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('').trim();
+  const body = (j.candidates || []).flatMap((c) => c.content?.parts || []).map((p) => p.text || '').join('').trim();
   return JSON.parse(body.slice(body.indexOf('{'), body.lastIndexOf('}') + 1));
 }
+
 async function geminiImage(prompt) {
-  const key = process.env.GOOGLE_AI_STUDIO_API_KEY || process.env.GEMINI_API_KEY;
+  const key = process.env.GOOGLE_AI_STUDIO_API_KEY;
+  if (!key) throw new Error('Missing GOOGLE_AI_STUDIO_API_KEY');
   const model = process.env.GEMINI_IMAGE_MODEL || 'gemini-2.5-flash-image-preview';
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ contents:[{ role:'user', parts:[{ text: prompt }]}], generationConfig:{ responseModalities:['TEXT','IMAGE'] } }) });
   const text = await res.text();
-  if (!res.ok) throw new Error(`Gemini ${res.status}: ${text.slice(0,500)}`);
+  if (!res.ok) throw new Error(`Gemini image ${res.status}: ${text.slice(0,500)}`);
   const j = JSON.parse(text);
   const part = j.candidates?.flatMap((c) => c.content?.parts || []).find((p) => p.inlineData?.data || p.inline_data?.data);
   if (!part) throw new Error('Gemini returned no image');
   return Buffer.from((part.inlineData || part.inline_data).data, 'base64').toString('base64');
 }
+
 async function putFile(repo, branch, filePath, contentBase64, message) {
   const headers = { Authorization: `Bearer ${process.env.GITHUB_TOKEN}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
   const get = await fetch(`https://api.github.com/repos/${repo}/contents/${encodeURIComponent(filePath).replace(/%2F/g,'/')}?ref=${branch}`, { headers });
@@ -91,12 +99,13 @@ async function putFile(repo, branch, filePath, contentBase64, message) {
   if (!res.ok) throw new Error(`GitHub put ${filePath} ${res.status}: ${text.slice(0,500)}`);
   return JSON.parse(text);
 }
+
 module.exports = async function handler(req, res) {
   try {
     const auth = req.headers.authorization || '';
     const secret = req.query?.secret || '';
     if (!process.env.CRON_SECRET || (auth !== `Bearer ${process.env.CRON_SECRET}` && secret !== process.env.CRON_SECRET)) return res.status(401).json({ error: 'unauthorized' });
-    for (const k of ['ANTHROPIC_API_KEY','GOOGLE_AI_STUDIO_API_KEY','GITHUB_TOKEN']) if (!process.env[k]) throw new Error(`Missing ${k}`);
+    for (const k of ['GOOGLE_AI_STUDIO_API_KEY','GITHUB_TOKEN']) if (!process.env[k]) throw new Error(`Missing ${k}`);
     const repo = process.env.GITHUB_REPOSITORY || 'janamaiabr/thermiechef';
     const branch = process.env.GITHUB_BRANCH || 'main';
     const existing = localRecipes();
@@ -106,7 +115,7 @@ module.exports = async function handler(req, res) {
     const target = { chef: pick[0], dish: pick[1] };
     let recipe, errs = [];
     for (let i = 0; i < 3; i++) {
-      recipe = await anthropicRecipe(target, existing, errs);
+      recipe = await geminiRecipe(target, existing, errs);
       recipe.slug = slugify(`${recipe.title}-${target.chef}`);
       recipe.inspiredBy = target;
       recipe.datePublished = TODAY;
