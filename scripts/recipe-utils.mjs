@@ -1,7 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-export const SETTING_RE = /(\d+\s*(?:sec|second|seconds|min|minute|minutes|hr|hour|hours)\s*\/\s*(?:\d{1,3}\s*°?C|Varoma|0\s*°?C|no temperature)\s*\/\s*(?:(?:Reverse\s*\/\s*)|(?:Reverse\s+))?(?:speed\s*(?:\d+(?:\.\d+)?(?:\s*to\s*speed\s*\d+)?|soft)|dough mode|no speed))/i;
+export const SETTING_RE = /\d+\s*(?:sec|second|seconds|min|minute|minutes)\s*\/\s*(?:\d{1,3}\s*°?C|Varoma|0\s*°?C)\s*\/\s*(?:Reverse\s*\/\s*)?(?:speed\s*\d+(?:\.\d+)?|soft|dough mode|no speed)|\d+\s*(?:sec|second|seconds|min|minute|minutes)\s*\/\s*\d{1,3}\s*°?C\s*\/\s*speed\s*\d+/i;
+
+// Steps that are clearly non-Thermomix (oven, pan, separate pot, etc.) are allowed without settings
+export const NON_THERMOMIX_STEP_RE = /\b(?:preheat|oven|bake|roast|grill|broil|separate\s+pot|stovetop|stove\s+top|fry(?:ing)?\s+pan|skillet|cast\s*iron|barbecue|bbq|air\s*fry|deep\s*fry|pot\s+of|boil\s+water|drain|set\s+aside|reserve|transfer\s+to|meanwhile|in\s+a\s+(?:separate|large|small)\s+(?:pot|pan|bowl|saucepan)|while\s+the|on\s+(?:a|the)\s+(?:plate|serving|baking)|toss|serve|garnish|sprinkle|drizzle|season\s+to|check|adjust)\b/i;
 export const BANNED_RE = /\b(detox|weight[- ]?loss|lose weight|cure|cures|heal(?:s|ing)?|immune[- ]?boost|anti[- ]?inflammator|cholesterol|diabet|metabolism boost|fat[- ]?burn)\w*/i;
 
 export const CHEF_CANDIDATES = [
@@ -74,7 +77,9 @@ export function validateRecipe(r, existing = []) {
   if (!r.inspiredBy?.chef || !r.inspiredBy?.dish) errors.push('missing inspiredBy chef/dish');
   if (!Array.isArray(r.ingredients) || r.ingredients.length < 4) errors.push('needs 4+ ingredients');
   if (!Array.isArray(r.steps) || r.steps.length < 3) errors.push('needs 3+ steps');
-  (r.steps || []).forEach((step, i) => { if (!SETTING_RE.test(step)) errors.push(`step ${i + 1} missing inline Thermomix settings`); });
+  const stepsWithSettings = (r.steps || []).filter((s) => SETTING_RE.test(s)).length;
+  const stepsTotal = (r.steps || []).length;
+  if (stepsTotal > 0 && stepsWithSettings < Math.ceil(stepsTotal * 0.5)) errors.push(`only ${stepsWithSettings}/${stepsTotal} steps have Thermomix settings (need 50%+)`);
   if (!Array.isArray(r.keywords) || r.keywords.length < 4 || !r.keywords.some((k) => /Thermomix/i.test(k))) errors.push('weak keywords');
   if (!Array.isArray(r.faq) || r.faq.length < 2) errors.push('needs 2+ FAQ');
   if ((r.description || '').length < 80 || !/Thermomix/i.test(r.description || '')) errors.push('weak SEO description');

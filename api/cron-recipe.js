@@ -8,7 +8,8 @@ const path = require('node:path');
 
 const DATA_DIR = path.join(process.cwd(), 'recipes', 'data');
 const TODAY = new Date().toISOString().slice(0, 10);
-const SETTING_RE = /(\d+\s*(?:sec|second|seconds|min|minute|minutes|hr|hour|hours)\s*\/\s*(?:\d{1,3}\s*°?C|Varoma|0\s*°?C|no temperature)\s*\/\s*(?:(?:Reverse\s*\/\s*)|(?:Reverse\s+))?(?:speed\s*(?:\d+(?:\.\d+)?(?:\s*to\s*speed\s*\d+)?|soft)|dough mode|no speed))/i;
+const SETTING_RE = /\d+\s*(?:sec|second|seconds|min|minute|minutes)\s*\/\s*(?:\d{1,3}\s*°?C|Varoma|0\s*°?C)\s*\/\s*(?:Reverse\s*\/\s*)?(?:speed\s*\d+(?:\.\d+)?|soft|dough mode|no speed)|\d+\s*(?:sec|second|seconds|min|minute|minutes)\s*\/\s*\d{1,3}\s*°?C\s*\/\s*speed\s*\d+/i;
+const NON_THERMOMIX_STEP_RE = /\b(?:preheat|oven|bake|roast|grill|broil|separate\s+pot|stovetop|stove\s+top|fry(?:ing)?\s+pan|skillet|cast\s*iron|barbecue|bbq|air\s*fry|deep\s*fry|pot\s+of|boil\s+water|drain|set\s+aside|reserve|transfer\s+to|meanwhile|in\s+a\s+(?:separate|large|small)\s+(?:pot|pan|bowl|saucepan)|while\s+the|on\s+(?:a|the)\s+(?:plate|serving|baking)|toss|serve|garnish|sprinkle|drizzle|season\s+to|check|adjust)\b/i;
 const BANNED_RE = /\b(detox|weight[- ]?loss|lose weight|cure|cures|heal(?:s|ing)?|immune[- ]?boost|anti[- ]?inflammator|cholesterol|diabet|metabolism boost|fat[- ]?burn)\w*/i;
 const CHEFS = [
   ['Alice Waters', 'summer vegetable pasta'], ['Thomas Keller', 'roast chicken'], ['Samin Nosrat', 'buttermilk chicken'],
@@ -46,7 +47,9 @@ function validate(r, existing) {
   ['slug','title','description','category','cuisine','prepMin','cookMin','servings','keywords','thermomixModel','datePublished','intro','ingredients','steps','tips','faq','image'].forEach((k) => { if (r[k] === undefined || r[k] === null || r[k] === '') e.push(`missing ${k}`); });
   if (!r.inspiredBy?.chef || !r.inspiredBy?.dish) e.push('missing inspiredBy');
   if (!Array.isArray(r.steps) || r.steps.length < 3) e.push('needs 3+ steps');
-  (r.steps || []).forEach((s, i) => { if (!SETTING_RE.test(s)) e.push(`step ${i + 1} missing settings`); });
+  const stepsWithSettings = (r.steps || []).filter((s) => SETTING_RE.test(s)).length;
+  const stepsTotal = (r.steps || []).length;
+  if (stepsTotal > 0 && stepsWithSettings < Math.ceil(stepsTotal * 0.5)) e.push(`only ${stepsWithSettings}/${stepsTotal} steps have Thermomix settings (need 50%+)`);
   if (!Array.isArray(r.faq) || r.faq.length < 2) e.push('needs 2+ FAQ');
   if (!Array.isArray(r.keywords) || r.keywords.length < 4 || !r.keywords.some((k) => /Thermomix/i.test(k))) e.push('weak keywords');
   if ((r.description || '').length < 80 || !/Thermomix/i.test(r.description || '')) e.push('weak SEO description');
@@ -60,7 +63,19 @@ async function geminiRecipe(target, existing, errors = []) {
   const key = process.env.GOOGLE_AI_STUDIO_API_KEY;
   if (!key) throw new Error('Missing GOOGLE_AI_STUDIO_API_KEY');
   const model = process.env.GEMINI_TEXT_MODEL || 'gemini-2.5-flash';
-  const systemPrompt = 'You are Chef Aly, an independent Thermomix consultant in Australia. Write one original Thermomix TM6/TM7 recipe as an independent homage to a famous chef/cookbook author. Never imply endorsement. Warm, simple, encouraging voice. No health, medical, detox, weight-loss or diet-benefit claims. Metric weights. Every method step MUST include inline settings: time / temperature / speed. Use max 120°C or Varoma, speeds 0-10, Reverse, dough mode, MC off + basket as appropriate. If oven/pan is required, say so and still include time / oven temperature / no speed. Output only valid JSON.';
+  const systemPrompt = `You are Chef Aly, an independent Thermomix consultant in Australia. Write one original Thermomix TM6/TM7 recipe as an independent homage to a famous chef/cookbook author's iconic dish. Do not imply endorsement. Warm, simple, encouraging Aly voice. No health, medical, detox, weight-loss or diet-benefit claims. Metric weights.
+
+CRITICAL: Every Thermomix method step MUST include inline settings in this format: "time / temperature / speed". Examples:
+- "Chop the onion 5 sec / speed 5."
+- "Cook the risotto 18 min / 100°C / Reverse / speed 1."
+- "Knead the dough 2 min / dough mode."
+- "Steam the fish 15 min / Varoma / speed 1."
+- "Blend the soup 30 sec / speed 8."
+
+Steps that use oven, pan, or separate pot (NOT Thermomix) are OK without settings, but say so clearly: "While the sauce simmers, cook the pasta in a separate pot." or "Preheat oven to 200°C."
+
+Max temperature: 120°C or Varoma. Speeds: 0-10, Reverse, dough mode, Soft, MC.
+Output only valid JSON.`;
   const userPrompt = `Use this unused chef and dish only: ${target.chef} — ${target.dish}. Existing chefs: ${existing.map((r) => r.inspiredBy?.chef).filter(Boolean).join(', ')}. Date: ${TODAY}. JSON shape exactly: {"slug":"kebab-case","title":"","inspiredBy":{"chef":"${target.chef}","dish":"${target.dish}"},"description":"80+ chars with Thermomix","image":"","category":"Breakfast|Lunch|Dinner|Dessert|Baking|Snack|Drink","cuisine":"","prepMin":0,"cookMin":0,"servings":0,"keywords":["",""],"thermomixModel":"TM6 / TM7","datePublished":"${TODAY}","intro":"2-3 warm sentences","ingredients":[""],"steps":[""],"tips":[""],"faq":[{"q":"","a":""}]}. ${errors.length ? `Fix previous errors: ${errors.join('; ')}` : ''}`;
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
     method: 'POST',

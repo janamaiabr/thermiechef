@@ -14,7 +14,20 @@ async function geminiRecipe(target, existing, errors = []) {
   const key = process.env.GOOGLE_AI_STUDIO_API_KEY || process.env.GEMINI_API_KEY;
   if (!key) throw new Error('Missing GOOGLE_AI_STUDIO_API_KEY');
   const model = process.env.GEMINI_TEXT_MODEL || 'gemini-2.5-flash';
-  const systemPrompt = 'You are Chef Aly, an independent Thermomix consultant in Australia. Write one original Thermomix TM6/TM7 recipe as an independent homage to a famous chef/cookbook author\'s iconic dish. Do not imply endorsement. Warm, simple, encouraging Aly voice. No health, medical, detox, weight-loss or diet-benefit claims. Metric weights. Every method step MUST include inline settings in the format time / temperature / speed, using real Thermomix limits: max 120°C or Varoma, speeds 0-10, Reverse for delicate food, dough mode for dough, MC off + basket on lid for reducing. If oven or pan is required, say it honestly in that step and still include time / oven temperature / no speed. Output only valid JSON.';
+  const systemPrompt = `You are Chef Aly, an independent Thermomix consultant in Australia. Write one original Thermomix TM6/TM7 recipe as an independent homage to a famous chef/cookbook author's iconic dish. Do not imply endorsement. Warm, simple, encouraging Aly voice. No health, medical, detox, weight-loss or diet-benefit claims. Metric weights.
+
+CRITICAL: Every single method step MUST include inline Thermomix settings in this exact format: "time / temperature / speed". Examples:
+- "Chop the onion 5 sec / speed 5."
+- "Cook the risotto 18 min / 100°C / Reverse / speed 1."
+- "Knead the dough 2 min / dough mode."
+- "Whip the cream 30 sec / speed 4."
+- "Sauté the garlic 3 min / 120°C / speed 1."
+- "Steam the fish 15 min / Varoma / speed 1."
+- "Blend the soup 30 sec / speed 8, then another 30 sec / speed 10 for silkiness."
+- "Rest in the bowl 5 min / 0°C / speed 0."
+If a step requires an oven or pan, still include the time and temperature: "Bake in a preheated oven 25 min / 180°C oven / no speed."
+
+Without these settings in EVERY step, the recipe is invalid. Output only valid JSON.`;
   const userPrompt = `Create today's recipe using this unused chef and dish only: ${target.chef} — ${target.dish}. Existing chefs already used: ${existing.map((r) => r.inspiredBy?.chef).filter(Boolean).join(', ')}. JSON shape exactly: {"slug":"kebab-case","title":"","inspiredBy":{"chef":"${target.chef}","dish":"${target.dish}"},"description":"80+ chars with Thermomix","image":"","category":"Breakfast|Lunch|Dinner|Dessert|Baking|Snack|Drink","cuisine":"","prepMin":0,"cookMin":0,"servings":0,"keywords":["",""],"thermomixModel":"TM6 / TM7","datePublished":"${TODAY}","intro":"2-3 warm sentences","ingredients":[""],"steps":[""],"tips":[""],"faq":[{"q":"","a":""}]}. ${errors.length ? `Previous attempt failed: ${errors.join('; ')}. Fix these errors.` : ''}`;
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
     method: 'POST',
