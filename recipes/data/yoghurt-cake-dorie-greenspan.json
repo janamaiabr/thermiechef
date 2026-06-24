@@ -1,0 +1,55 @@
+{
+  "slug": "yoghurt-cake-dorie-greenspan",
+  "title": "Yoghurt Cake",
+  "inspiredBy": {
+    "chef": "Dorie Greenspan",
+    "dish": "yoghurt cake"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Dorie Greenspan-style yoghurt cake: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "food-cake.jpg",
+  "category": "Baking",
+  "cuisine": "French",
+  "prepMin": 15,
+  "cookMin": 40,
+  "servings": 4,
+  "keywords": [
+    "thermomix yoghurt cake",
+    "dorie greenspan yoghurt cake thermomix",
+    "TM6 yoghurt cake",
+    "TM7 yoghurt cake"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-01",
+  "intro": "Dorie Greenspan's cooking is a beautiful starting point for this Chef Aly Thermomix version of yoghurt cake. It keeps the spirit of the dish while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "1 onion, halved",
+    "2 garlic cloves",
+    "25 g olive oil",
+    "500 g main vegetables or protein, prepared",
+    "250 g sauce base or stock",
+    "1 tsp fine salt",
+    "Black pepper, to taste",
+    "Fresh herbs or lemon, to finish"
+  ],
+  "steps": [
+    "Place onion and garlic in the mixing bowl and chop 5 sec / speed 5. Scrape down.",
+    "Add olive oil and cook 3 min / 120°C / speed 1 to soften the base.",
+    "Add the main vegetables or protein, sauce base or stock, salt and pepper. Cook 18 min / 100°C / Reverse / speed 1, with the basket on the lid if reducing.",
+    "Check texture and seasoning, then cook 5 min / 100°C / Reverse / speed 1 if it needs a little more time.",
+    "Finish with fresh herbs or lemon and rest 3 min / 0°C / no speed before serving."
+  ],
+  "tips": [
+    "Cut ingredients evenly so they cook at the same pace in the Thermomix bowl.",
+    "Use Reverse for the final cook so the dish stays textured rather than pureed."
+  ],
+  "faq": [
+    {
+      "q": "Can I make Yoghurt Cake in a Thermomix TM6 or TM7?",
+      "a": "Yes. This version is written with exact Thermomix times, temperatures and speeds for both TM6 and TM7."
+    },
+    {
+      "q": "Can I adjust the seasoning?",
+      "a": "Yes. Taste at the end and adjust salt, pepper, lemon or herbs before serving."
+    }
+  ]
+}
