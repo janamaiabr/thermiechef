@@ -5,7 +5,7 @@
     "chef": "Alice Waters",
     "dish": "summer vegetable pasta"
   },
-  "description": "A Chef Aly Thermomix reinterpretation of Alice Waters-style summer vegetable pasta: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "description": "A bright Chef Aly Thermomix reinterpretation of Alice Waters-style summer vegetable pasta with zucchini, cherry tomatoes, basil and a light olive-oil sauce.",
   "image": "dish-pasta.jpg",
   "category": "Dinner",
   "cuisine": "Californian",
@@ -25,31 +25,38 @@
     "1 onion, halved",
     "2 garlic cloves",
     "25 g olive oil",
-    "500 g main vegetables or protein, prepared",
-    "250 g sauce base or stock",
-    "1 tsp fine salt",
+    "300 g dried short pasta, such as fusilli or penne",
+    "1 zucchini, cut into 2 cm pieces",
+    "1 red capsicum, deseeded and cut into 2 cm pieces",
+    "250 g cherry tomatoes, halved",
+    "80 g water",
+    "1 tsp fine salt, plus extra for pasta water",
     "Black pepper, to taste",
-    "Fresh herbs or lemon, to finish"
+    "20 g lemon juice",
+    "30 g parmesan, finely grated, plus extra to serve",
+    "1 small handful basil leaves, torn"
   ],
   "steps": [
+    "Cook the pasta in a large saucepan of salted boiling water until just al dente. Reserve 120 g pasta water, then drain and set aside.",
     "Place onion and garlic in the mixing bowl and chop 5 sec / speed 5. Scrape down.",
     "Add olive oil and cook 3 min / 120°C / speed 1 to soften the base.",
-    "Add the main vegetables or protein, sauce base or stock, salt and pepper. Cook 18 min / 100°C / Reverse / speed 1, with the basket on the lid if reducing.",
-    "Check texture and seasoning, then cook 5 min / 100°C / Reverse / speed 1 if it needs a little more time.",
-    "Finish with fresh herbs or lemon and rest 3 min / 0°C / no speed before serving."
+    "Add zucchini, capsicum, cherry tomatoes, water, salt and pepper. Cook 10 min / 100°C / Reverse / speed soft, with the measuring cup off and the simmering basket on the lid.",
+    "Add lemon juice and 60 g reserved pasta water. Mix 10 sec / Reverse / speed 1.",
+    "Toss the sauce through the warm pasta in a serving bowl with parmesan and basil. Add a splash more pasta water if needed, then serve with extra parmesan."
   ],
   "tips": [
-    "Cut ingredients evenly so they cook at the same pace in the Thermomix bowl.",
-    "Use Reverse for the final cook so the dish stays textured rather than pureed."
+    "Keep the vegetables chunky and use Reverse so the sauce stays fresh and textured.",
+    "The pasta is cooked separately because it gives better texture and keeps the Thermomix sauce bright rather than starchy.",
+    "Use the best tomatoes you can find. This simple pasta depends on the vegetables."
   ],
   "faq": [
     {
       "q": "Can I make Summer Vegetable Pasta in a Thermomix TM6 or TM7?",
-      "a": "Yes. This version is written with exact Thermomix times, temperatures and speeds for both TM6 and TM7."
+      "a": "Yes. The sauce is written with exact Thermomix times, temperatures and speeds for both TM6 and TM7, while the pasta is cooked separately for better texture."
     },
     {
-      "q": "Can I adjust the seasoning?",
-      "a": "Yes. Taste at the end and adjust salt, pepper, lemon or herbs before serving."
+      "q": "Can I use different summer vegetables?",
+      "a": "Yes. Eggplant, asparagus, yellow squash or green beans can replace part of the zucchini or capsicum. Keep the total vegetable weight close to 500 g."
     }
   ]
 }
