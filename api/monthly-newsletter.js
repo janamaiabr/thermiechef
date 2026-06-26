@@ -84,27 +84,61 @@ function renderEmail({ email, date = new Date() }) {
   const month = new Intl.DateTimeFormat("en-AU", { month: "long", year: "numeric", timeZone: "Australia/Brisbane" }).format(date);
   return `<!doctype html>
 <html><head><meta charset="utf-8"><title>ThermieChef monthly recipes</title></head>
-<body style="margin:0;background:#fffaf3;color:#2d2418;font-family:Arial,sans-serif;">
-  <div style="max-width:640px;margin:0 auto;padding:34px 22px;">
-    <p style="color:#d5752b;letter-spacing:2px;font-size:12px;text-transform:uppercase;margin:0 0 18px;font-weight:700;">ThermieChef · Monthly recipes</p>
-    <img src="${SITE_URL}/assets/hero-table.jpg" alt="ThermieChef recipes" style="display:block;width:100%;max-width:640px;border:0;border-radius:18px;margin:0 0 24px;">
-    <h1 style="font-size:34px;line-height:1.12;margin:0 0 10px;color:#2d2418;">Three easy Thermomix dinners for ${month}</h1>
-    <p style="font-size:18px;line-height:1.65;color:#5f5042;margin:0 0 24px;">A small monthly edit from Aly: practical recipes, simple Thermomix settings, and one useful kitchen rhythm to make dinner feel lighter.</p>
-    <div style="background:#ffffff;border:1px solid #f0dfcc;border-radius:14px;padding:20px;margin:20px 0;">
-      <h2 style="font-size:22px;margin:0 0 12px;color:#2d2418;">Cook this month</h2>
-      <ul style="font-size:16px;line-height:1.7;color:#4e4135;margin:0;padding-left:20px;">
-        <li>One quick pasta for a tired weeknight.</li>
-        <li>One soup or curry you can batch for leftovers.</li>
-        <li>One sweet bake for the weekend bench.</li>
-      </ul>
-      <p style="margin:18px 0 0;"><a href="${SITE_URL}/recipes/?utm_source=newsletter&utm_medium=email&utm_campaign=${campaign}" style="display:inline-block;background:#e87d2f;color:white;text-decoration:none;padding:13px 20px;border-radius:999px;font-weight:700;">Browse this month's recipes</a></p>
-    </div>
-    <div style="background:#fff3e5;border-radius:14px;padding:18px;margin:24px 0;">
-      <strong style="display:block;margin-bottom:8px;color:#2d2418;">Aly's Thermomix tip</strong>
-      <p style="font-size:16px;line-height:1.65;margin:0;color:#5f5042;">Save your most-used base steps as a tiny routine: chop aromatics, scrape down, saute, then build the sauce. The machine feels faster when your brain is not deciding from scratch every night.</p>
-    </div>
-    <p style="font-size:13px;line-height:1.6;color:#8b7a68;margin:28px 0 0;">You received this because you asked ThermieChef for recipes or updates. <a href="${unsubscribe}" style="color:#d5752b;">Unsubscribe</a>.</p>
-  </div>
+<body style="margin:0;background:#f6efe6;color:#2d2418;font-family:Arial,'Helvetica Neue',sans-serif;">
+  <div style="display:none;max-height:0;overflow:hidden;">Aly's monthly Thermomix edit: three recipes, one useful rhythm, and no weeknight fuss.</div>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f6efe6;">
+    <tr><td align="center" style="padding:32px 14px;">
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:660px;background:#fffaf3;border-radius:24px;overflow:hidden;border:1px solid #ead8c3;">
+        <tr><td>
+          <img src="${SITE_URL}/assets/hero-table.jpg" alt="ThermieChef recipes" width="660" style="display:block;width:100%;height:auto;border:0;">
+        </td></tr>
+        <tr><td style="padding:32px 32px 16px;">
+          <p style="color:#c76824;letter-spacing:2.4px;font-size:12px;text-transform:uppercase;margin:0 0 14px;font-weight:700;">ThermieChef · ${month}</p>
+          <h1 style="font-size:38px;line-height:1.08;margin:0 0 14px;color:#2d2418;letter-spacing:0;">Three recipes for a calmer Thermomix month.</h1>
+          <p style="font-size:18px;line-height:1.62;color:#675647;margin:0;">A small edit from Aly: one quick dinner, one batch-friendly bowl, and one sweet thing for the weekend bench.</p>
+        </td></tr>
+        <tr><td style="padding:10px 32px 8px;">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="32%" valign="top" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;">
+                <img src="${SITE_URL}/assets/recipes/broccoli-orecchiette-jamie-oliver.jpg" alt="Broccoli orecchiette" width="188" style="display:block;width:100%;height:auto;border:0;">
+                <div style="padding:14px 13px 16px;">
+                  <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Weeknight</p>
+                  <p style="font-size:16px;line-height:1.3;margin:0;color:#2d2418;font-weight:700;">Broccoli Orecchiette</p>
+                </div>
+              </td>
+              <td width="2%"></td>
+              <td width="32%" valign="top" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;">
+                <img src="${SITE_URL}/assets/recipes/coconut-pumpkin-curry-madhur-jaffrey.jpg" alt="Coconut pumpkin curry" width="188" style="display:block;width:100%;height:auto;border:0;">
+                <div style="padding:14px 13px 16px;">
+                  <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Batch cook</p>
+                  <p style="font-size:16px;line-height:1.3;margin:0;color:#2d2418;font-weight:700;">Coconut Pumpkin Curry</p>
+                </div>
+              </td>
+              <td width="2%"></td>
+              <td width="32%" valign="top" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;">
+                <img src="${SITE_URL}/assets/recipes/chocolate-olive-oil-cake-nigella.jpg" alt="Chocolate olive oil cake" width="188" style="display:block;width:100%;height:auto;border:0;">
+                <div style="padding:14px 13px 16px;">
+                  <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Weekend</p>
+                  <p style="font-size:16px;line-height:1.3;margin:0;color:#2d2418;font-weight:700;">Chocolate Olive Oil Cake</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td></tr>
+        <tr><td style="padding:24px 32px 34px;">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#2d2418;border-radius:18px;">
+            <tr><td style="padding:24px 26px;">
+              <p style="font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#f2b36f;margin:0 0 10px;font-weight:700;">Aly's Thermomix rhythm</p>
+              <p style="font-size:17px;line-height:1.58;color:#fffaf3;margin:0 0 20px;">Chop aromatics, scrape down, saute, then build the sauce. Once that base feels automatic, dinner stops feeling like a fresh decision every night.</p>
+              <a href="${SITE_URL}/recipes/?utm_source=newsletter&utm_medium=email&utm_campaign=${campaign}" style="display:inline-block;background:#e87d2f;color:#ffffff;text-decoration:none;padding:14px 22px;border-radius:999px;font-weight:700;">Browse this month's recipes</a>
+            </td></tr>
+          </table>
+          <p style="font-size:12px;line-height:1.6;color:#8b7a68;margin:24px 0 0;text-align:center;">You received this because you asked ThermieChef for recipes or updates. <a href="${unsubscribe}" style="color:#c76824;">Unsubscribe</a>.</p>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
 </body></html>`;
 }
 
