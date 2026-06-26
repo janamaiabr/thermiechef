@@ -101,30 +101,30 @@ function renderEmail({ email, date = new Date() }) {
           <p style="font-size:18px;line-height:1.62;color:#675647;margin:0;">A small edit from Aly: one quick dinner, one batch-friendly bowl, and one sweet thing for the weekend bench.</p>
         </td></tr>
         <tr><td style="padding:10px 32px 8px;">
-          <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;margin-bottom:12px;">
             <tr>
-              <td width="32%" valign="top" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;">
-                <img src="${SITE_URL}/assets/recipes/broccoli-orecchiette-jamie-oliver.jpg" alt="Broccoli orecchiette" width="188" style="display:block;width:100%;height:auto;border:0;">
-                <div style="padding:14px 13px 16px;">
-                  <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Weeknight</p>
-                  <p style="font-size:16px;line-height:1.3;margin:0;color:#2d2418;font-weight:700;">Broccoli Orecchiette</p>
-                </div>
+              <td width="34%" valign="top"><img src="${SITE_URL}/assets/recipes/broccoli-orecchiette-jamie-oliver.jpg" alt="Broccoli orecchiette" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
+              <td valign="middle" style="padding:16px 18px;">
+                <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Weeknight</p>
+                <p style="font-size:20px;line-height:1.25;margin:0;color:#2d2418;font-weight:700;">Broccoli Orecchiette</p>
               </td>
-              <td width="2%"></td>
-              <td width="32%" valign="top" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;">
-                <img src="${SITE_URL}/assets/recipes/coconut-pumpkin-curry-madhur-jaffrey.jpg" alt="Coconut pumpkin curry" width="188" style="display:block;width:100%;height:auto;border:0;">
-                <div style="padding:14px 13px 16px;">
-                  <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Batch cook</p>
-                  <p style="font-size:16px;line-height:1.3;margin:0;color:#2d2418;font-weight:700;">Coconut Pumpkin Curry</p>
-                </div>
+            </tr>
+          </table>
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;margin-bottom:12px;">
+            <tr>
+              <td width="34%" valign="top"><img src="${SITE_URL}/assets/recipes/coconut-pumpkin-curry-madhur-jaffrey.jpg" alt="Coconut pumpkin curry" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
+              <td valign="middle" style="padding:16px 18px;">
+                <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Batch cook</p>
+                <p style="font-size:20px;line-height:1.25;margin:0;color:#2d2418;font-weight:700;">Coconut Pumpkin Curry</p>
               </td>
-              <td width="2%"></td>
-              <td width="32%" valign="top" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;">
-                <img src="${SITE_URL}/assets/recipes/chocolate-olive-oil-cake-nigella.jpg" alt="Chocolate olive oil cake" width="188" style="display:block;width:100%;height:auto;border:0;">
-                <div style="padding:14px 13px 16px;">
-                  <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Weekend</p>
-                  <p style="font-size:16px;line-height:1.3;margin:0;color:#2d2418;font-weight:700;">Chocolate Olive Oil Cake</p>
-                </div>
+            </tr>
+          </table>
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;">
+            <tr>
+              <td width="34%" valign="top"><img src="${SITE_URL}/assets/recipes/chocolate-olive-oil-cake-nigella.jpg" alt="Chocolate olive oil cake" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
+              <td valign="middle" style="padding:16px 18px;">
+                <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Weekend</p>
+                <p style="font-size:20px;line-height:1.25;margin:0;color:#2d2418;font-weight:700;">Chocolate Olive Oil Cake</p>
               </td>
             </tr>
           </table>
@@ -134,14 +134,14 @@ function renderEmail({ email, date = new Date() }) {
             <tr><td style="padding:24px 26px;">
               <p style="font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#f2b36f;margin:0 0 10px;font-weight:700;">Aly's Thermomix rhythm</p>
               <p style="font-size:17px;line-height:1.58;color:#fffaf3;margin:0 0 20px;">Chop aromatics, scrape down, saute, then build the sauce. Once that base feels automatic, dinner stops feeling like a fresh decision every night.</p>
-              <a href="${SITE_URL}/recipes/?utm_source=newsletter&utm_medium=email&utm_campaign=${campaign}" style="display:inline-block;background:#e87d2f;color:#ffffff;text-decoration:none;padding:14px 22px;border-radius:999px;font-weight:700;">Browse this month's recipes</a>
+              <a href="${SITE_URL}/recipes/?utm_source=newsletter&utm_medium=email&utm_campaign=${campaign}" style="display:block;background:#e87d2f;color:#ffffff;text-decoration:none;padding:15px 18px;border-radius:999px;font-weight:700;text-align:center;">Browse this month's recipes</a>
             </td></tr>
           </table>
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#fff3e5;border:1px solid #ead8c3;border-radius:18px;margin-top:18px;">
             <tr><td style="padding:22px 24px;">
               <p style="font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#c76824;margin:0 0 9px;font-weight:700;">Ready for your own Thermomix?</p>
               <p style="font-size:17px;line-height:1.55;color:#4e4135;margin:0 0 18px;">Buy through Aly's official consultant link, or reply and ask her which option makes sense for your kitchen.</p>
-              <a href="${buyUrl}" style="display:inline-block;background:#e87d2f;color:#ffffff;text-decoration:none;padding:14px 22px;border-radius:999px;font-weight:700;">Buy your Thermomix</a>
+              <a href="${buyUrl}" style="display:block;background:#e87d2f;color:#ffffff;text-decoration:none;padding:15px 18px;border-radius:999px;font-weight:700;text-align:center;">Buy your Thermomix</a>
             </td></tr>
           </table>
           <p style="font-size:12px;line-height:1.6;color:#8b7a68;margin:24px 0 0;text-align:center;">You received this because you asked ThermieChef for recipes or updates. <a href="${unsubscribe}" style="color:#c76824;">Unsubscribe</a>.</p>
