@@ -115,11 +115,25 @@ async function putFile(repo, branch, filePath, contentBase64, message) {
   return JSON.parse(text);
 }
 
+async function runMonthlyNewsletter(req) {
+  if (new Date().getUTCDate() !== 1) return { skipped: true, reason: 'not first day of month' };
+  const host = req.headers['x-forwarded-host'] || req.headers.host || 'thermiechef.com.au';
+  const proto = req.headers['x-forwarded-proto'] || 'https';
+  const auth = req.headers.authorization || '';
+  try {
+    const r = await fetch(`${proto}://${host}/api/monthly-newsletter`, { headers: { Authorization: auth } });
+    return await r.json().catch(() => ({ ok: r.ok, status: r.status }));
+  } catch (e) {
+    return { ok: false, error: e.message };
+  }
+}
+
 module.exports = async function handler(req, res) {
   try {
     const auth = req.headers.authorization || '';
     const secret = req.query?.secret || '';
     if (!process.env.CRON_SECRET || (auth !== `Bearer ${process.env.CRON_SECRET}` && secret !== process.env.CRON_SECRET)) return res.status(401).json({ error: 'unauthorized' });
+    const newsletter = await runMonthlyNewsletter(req);
     for (const k of ['GOOGLE_AI_STUDIO_API_KEY','GITHUB_TOKEN']) if (!process.env[k]) throw new Error(`Missing ${k}`);
     const repo = process.env.GITHUB_REPOSITORY || 'janamaiabr/thermiechef';
     const branch = process.env.GITHUB_BRANCH || 'main';
@@ -146,7 +160,7 @@ module.exports = async function handler(req, res) {
     const image64 = await geminiImage(prompt);
     await putFile(repo, branch, `recipes/data/${recipe.slug}.json`, Buffer.from(`${JSON.stringify(recipe, null, 2)}\n`).toString('base64'), `Add daily ThermieChef recipe: ${recipe.title}`);
     await putFile(repo, branch, `assets/recipes/${recipe.slug}.jpg`, image64, `Add image for ${recipe.title}`);
-    return res.status(200).json({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, filters: recipe.filters });
+    return res.status(200).json({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, filters: recipe.filters, newsletter });
   } catch (e) {
     return res.status(500).json({ ok: false, error: e.message });
   }
