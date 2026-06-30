@@ -3,6 +3,9 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Mapo Tofu](https://thermiechef.com.au/recipes/mapo-tofu-fuchsia-dunlop.html): A Chef Aly Thermomix reinterpretation of Fuchsia Dunlop-style mapo tofu: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
+- [Prawn Toast](https://thermiechef.com.au/recipes/prawn-toast-dan-hong.html): A Chef Aly Thermomix reinterpretation of Dan Hong-style prawn toast: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 6)
+- [Pasta e Ceci](https://thermiechef.com.au/recipes/pasta-e-ceci-rachel-roddy.html): A Chef Aly Thermomix reinterpretation of Rachel Roddy-style pasta e ceci: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
 - [Aubergine Curry](https://thermiechef.com.au/recipes/aubergine-curry-meera-sodha.html): A Chef Aly Thermomix reinterpretation of Meera Sodha-style aubergine curry: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
 - [Crispy Potatoes](https://thermiechef.com.au/recipes/crispy-potatoes-j-kenji-lopez-alt.html): A Chef Aly Thermomix reinterpretation of J. Kenji Lopez-Alt-style crispy potatoes: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
 - [Summer Vegetable Pasta](https://thermiechef.com.au/recipes/summer-vegetable-pasta-alice-waters.html): A bright Chef Aly Thermomix reinterpretation of Alice Waters-style summer vegetable pasta with zucchini, cherry tomatoes, basil and a light olive-oil sauce. (40 min, serves 4)
