@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Yoghurt Cake](https://thermiechef.com.au/recipes/yoghurt-cake-dorie-greenspan.html): A Chef Aly Thermomix reinterpretation of Dorie Greenspan-style yoghurt cake: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (55 min, serves 4)
 - [Mapo Tofu](https://thermiechef.com.au/recipes/mapo-tofu-fuchsia-dunlop.html): A Chef Aly Thermomix reinterpretation of Fuchsia Dunlop-style mapo tofu: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
 - [Prawn Toast](https://thermiechef.com.au/recipes/prawn-toast-dan-hong.html): A Chef Aly Thermomix reinterpretation of Dan Hong-style prawn toast: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 6)
 - [Pasta e Ceci](https://thermiechef.com.au/recipes/pasta-e-ceci-rachel-roddy.html): A Chef Aly Thermomix reinterpretation of Rachel Roddy-style pasta e ceci: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)

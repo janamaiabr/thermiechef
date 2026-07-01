@@ -6,7 +6,7 @@
     "dish": "ratatouille"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Elizabeth David-style ratatouille: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "dish-salad.jpg",
+  "image": "recipes/ratatouille-elizabeth-david.jpg",
   "category": "Dinner",
   "cuisine": "French",
   "prepMin": 12,

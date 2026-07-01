@@ -6,7 +6,7 @@
     "dish": "lemongrass chicken"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Luke Nguyen-style lemongrass chicken: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "dish-chicken.jpg",
+  "image": "recipes/lemongrass-chicken-luke-nguyen.jpg",
   "category": "Dinner",
   "cuisine": "Vietnamese",
   "prepMin": 12,
