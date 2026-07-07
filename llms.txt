@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Summer Vegetable Pasta](https://thermiechef.com.au/recipes/summer-vegetable-pasta-alice-waters.html): A bright Chef Aly Thermomix reinterpretation of Alice Waters-style summer vegetable pasta with zucchini, cherry tomatoes, basil and a light olive-oil sauce. (40 min, serves 4)
 - [Apple & Cinnamon Porridge](https://thermiechef.com.au/recipes/apple-cinnamon-porridge-annabel-langbein.html): My Thermomix take on Annabel Langbein's apple porridge — creamy oats with soft cinnamon apple, made in minutes. (17 min, serves 2)
 - [Apple Teacake](https://thermiechef.com.au/recipes/apple-teacake-stephanie-alexander.html): A Chef Aly Thermomix reinterpretation of Stephanie Alexander-style apple teacake: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (55 min, serves 8)
 - [Baked Ricotta with Figs](https://thermiechef.com.au/recipes/baked-ricotta-figs-yotam-ottolenghi.html): My Thermomix take on an Ottolenghi-style baked ricotta with honeyed figs — creamy, savoury-sweet, for sharing. (35 min, serves 6)
