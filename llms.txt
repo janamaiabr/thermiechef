@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Ratatouille](https://thermiechef.com.au/recipes/ratatouille-elizabeth-david.html): A Chef Aly Thermomix reinterpretation of Elizabeth David-style ratatouille: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
 - [Lentil Soup](https://thermiechef.com.au/recipes/lentil-soup-anissa-helou.html): A Chef Aly Thermomix reinterpretation of Anissa Helou-style lentil soup: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
 - [Yoghurt Cake](https://thermiechef.com.au/recipes/yoghurt-cake-dorie-greenspan.html): A Chef Aly Thermomix reinterpretation of Dorie Greenspan-style yoghurt cake: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (55 min, serves 4)
 - [Mapo Tofu](https://thermiechef.com.au/recipes/mapo-tofu-fuchsia-dunlop.html): A Chef Aly Thermomix reinterpretation of Fuchsia Dunlop-style mapo tofu: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
