@@ -1,0 +1,42 @@
+{
+  "slug": "focaccia-samrin-nosrat",
+  "title": "Focaccia",
+  "inspiredBy": { "chef": "Samin Nosrat", "dish": "focaccia" },
+  "description": "A Chef Aly Thermomix reinterpretation of Samin Nosrat-style focaccia: pillowy, olive-oil-rich, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "dish-bread2.jpg",
+  "category": "Baking",
+  "cuisine": "Italian",
+  "prepMin": 20,
+  "cookMin": 25,
+  "servings": 8,
+  "keywords": ["thermomix focaccia", "Samin Nosrat focaccia thermomix", "TM6 focaccia", "TM7 focaccia"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-19",
+  "intro": "Samin Nosrat taught a generation that fat carries flavour, and her focaccia proves it. This Chef Aly Thermomix version captures that olive-oil richness while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "500 g bread flour",
+    "7 g instant dried yeast",
+    "350 g warm water (37°C)",
+    "60 g extra virgin olive oil, plus extra for the tin",
+    "10 g fine salt",
+    "3 sprigs fresh rosemary",
+    "Flaky sea salt, to finish"
+  ],
+  "steps": [
+    "Place warm water and yeast in the mixing bowl. Warm 2 min / 37°C / speed 1 to activate.",
+    "Add flour, 40 g of the olive oil and salt. Knead 3 min / dough mode. The dough will be very soft and sticky — that's correct.",
+    "Oil a large bowl with a little olive oil. Transfer the dough, cover with a damp tea towel and set aside in a warm spot for 1 hour until doubled.",
+    "Oil a 30 × 40 cm baking tray generously with olive oil. Transfer the risen dough to the tray and stretch it gently to fill the corners. Dimple the surface with oiled fingers.",
+    "Drizzle the remaining 20 g olive oil over the top. Press rosemary sprigs into the dimples. Sprinkle with flaky sea salt.",
+    "Bake in a preheated oven at 220°C for 22–25 min until golden on top and underneath. Cool in the tray for 5 min, then transfer to a rack."
+  ],
+  "tips": [
+    "The dough is meant to be very wet and sticky — resist adding more flour. The high hydration is what makes the crumb open and pillowy.",
+    "Use the best olive oil you have. Focaccia is as much about the oil as the bread.",
+    "You can top with halved cherry tomatoes, olives or thinly sliced onion instead of rosemary."
+  ],
+  "faq": [
+    { "q": "Can I make Focaccia in a Thermomix TM6 or TM7?", "a": "Yes. The dough is kneaded in the Thermomix, then shaped and baked in a conventional oven. The kneading time and speed are set for both models." },
+    { "q": "Can I make the dough ahead?", "a": "Yes. After step 2, refrigerate the dough in the oiled bowl for up to 24 hours. The slow cold rise develops even more flavour." }
+  ]
+}

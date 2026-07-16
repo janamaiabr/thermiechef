@@ -1,0 +1,48 @@
+{
+  "slug": "shakshuka-ottolenghi",
+  "title": "Shakshuka",
+  "inspiredBy": { "chef": "Yotam Ottolenghi", "dish": "shakshuka" },
+  "description": "A Chef Aly Thermomix reinterpretation of Ottolenghi-style shakshuka: spiced, saucy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "dish-bowl.jpg",
+  "category": "Breakfast",
+  "cuisine": "Middle Eastern",
+  "prepMin": 10,
+  "cookMin": 20,
+  "servings": 4,
+  "keywords": ["thermomix shakshuka", "Ottolenghi shakshuka thermomix", "TM6 shakshuka", "TM7 shakshuka"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-22",
+  "intro": "Ottolenghi's shakshuka is the dish that made spiced tomato eggs a global obsession. This Chef Aly Thermomix version keeps the bold, warm spices while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "1 onion, quartered",
+    "3 garlic cloves",
+    "1 red capsicum, deseeded and cut into chunks",
+    "30 g olive oil",
+    "1 tsp ground cumin",
+    "1 tsp ground coriander",
+    "½ tsp smoked paprika",
+    "¼ tsp chilli flakes",
+    "400 g canned crushed tomatoes",
+    "1 tsp sugar",
+    "1 tsp salt",
+    "4 eggs",
+    "Fresh parsley and crusty bread, to serve"
+  ],
+  "steps": [
+    "Place onion, garlic and capsicum in the mixing bowl. Chop 5 sec / speed 5. Scrape down.",
+    "Add olive oil, cumin, coriander, smoked paprika and chilli flakes. Cook 5 min / 120°C / speed 2 to soften and bloom the spices.",
+    "Add canned tomatoes, sugar and salt. Cook 10 min / 100°C / speed 2, with the simmering basket on the lid.",
+    "Transfer the sauce to a wide ovenproof dish or divide among 4 small skillets. Make 4 wells in the sauce with the back of a spoon.",
+    "Crack an egg into each well. Bake in a preheated oven at 180°C for 8–10 min until the whites are set but the yolks are still runny.",
+    "Scatter with fresh parsley and serve immediately with crusty bread."
+  ],
+  "tips": [
+    "The sauce can be made entirely in the Thermomix, but the eggs need an oven — the sauce-to-oven method gives the best result.",
+    "For a richer sauce, add 50 g crumbled feta before baking.",
+    "Don't overcook the eggs — the runny yolk mixing into the sauce is the whole point."
+  ],
+  "faq": [
+    { "q": "Can I make Shakshuka in a Thermomix TM6 or TM7?", "a": "Yes. The sauce is built in the Thermomix with exact times and temperatures, then transferred to an oven dish for the eggs. Both models work identically." },
+    { "q": "Can I make the sauce ahead?", "a": "Yes. The sauce keeps refrigerated for 3 days or frozen for 2 months. Reheat, make wells, add eggs and bake." }
+  ]
+}

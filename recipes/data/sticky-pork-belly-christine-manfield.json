@@ -1,0 +1,47 @@
+{
+  "slug": "sticky-pork-belly-christine-manfield",
+  "title": "Sticky Pork Belly",
+  "inspiredBy": { "chef": "Christine Manfield", "dish": "sticky pork belly" },
+  "description": "A Chef Aly Thermomix reinterpretation of Christine Manfield-style sticky pork belly: caramelised, deeply flavoured, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "dish-bowl.jpg",
+  "category": "Dinner",
+  "cuisine": "Australian-Asian",
+  "prepMin": 15,
+  "cookMin": 90,
+  "servings": 4,
+  "keywords": ["thermomix sticky pork belly", "Christine Manfield pork belly thermomix", "TM6 pork belly", "TM7 pork belly"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-24",
+  "intro": "Christine Manfield's cooking bridges Australian produce and Asian technique with bold confidence. This Chef Aly Thermomix version of sticky pork belly captures that caramelised, melting texture while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "800 g pork belly, skin scored, cut into 4 cm pieces",
+    "2 onions, quartered",
+    "4 garlic cloves",
+    "30 g fresh ginger, sliced",
+    "2 star anise",
+    "1 cinnamon stick",
+    "40 g soy sauce",
+    "40 g rice vinegar",
+    "50 g brown sugar",
+    "20 g hoisin sauce",
+    "600 g water",
+    "1 tsp salt"
+  ],
+  "steps": [
+    "Place onion, garlic and ginger in the mixing bowl. Chop 5 sec / speed 5. Scrape down.",
+    "Add star anise, cinnamon stick, soy sauce, rice vinegar, brown sugar, hoisin sauce and water. Cook 5 min / 100°C / speed 2 to dissolve the sugar and bring the braising liquid together.",
+    "Add pork belly pieces and salt. Cook 60 min / 100°C / Reverse / speed soft, with the simmering basket on the lid.",
+    "Check the pork — it should be very tender but not falling apart. If needed, cook another 15 min / 100°C / Reverse / speed soft.",
+    "Transfer the pork to a serving dish. Strain the braising liquid into a small saucepan and boil on the stovetop for 5 min until reduced to a glossy, sticky glaze.",
+    "Pour the sticky glaze over the pork and serve with steamed rice and Asian greens."
+  ],
+  "tips": [
+    "Ask your butcher to score the pork belly skin — it helps the glaze penetrate and gives you those irresistible sticky edges.",
+    "The Thermomix braises the pork gently at 100°C; the stovetop reduction is essential for the sticky glaze.",
+    "This tastes even better the next day. Make it ahead and reheat gently."
+  ],
+  "faq": [
+    { "q": "Can I make Sticky Pork Belly in a Thermomix TM6 or TM7?", "a": "Yes. The long braise at 100°C with Reverse stirring keeps the pork pieces intact. The glaze reduction happens on the stovetop for best results. Both TM6 and TM7 work identically." },
+    { "q": "Can I use pork shoulder instead of belly?", "a": "Yes. Cut into 4 cm pieces and add 10 min to the cooking time. Shoulder is leaner but still becomes very tender." }
+  ]
+}

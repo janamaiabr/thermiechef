@@ -1,0 +1,43 @@
+{
+  "slug": "chocolate-mousse-julia-child",
+  "title": "Chocolate Mousse",
+  "inspiredBy": { "chef": "Julia Child", "dish": "chocolate mousse" },
+  "description": "A Chef Aly Thermomix reinterpretation of Julia Child-style chocolate mousse: silken, bittersweet, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "food-cake.jpg",
+  "category": "Dessert",
+  "cuisine": "French",
+  "prepMin": 15,
+  "cookMin": 5,
+  "servings": 6,
+  "keywords": ["thermomix chocolate mousse", "Julia Child chocolate mousse thermomix", "TM6 chocolate mousse", "TM7 chocolate mousse"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-21",
+  "intro": "Julia Child's chocolate mousse is the one every home cook should attempt at least once — rich, airy and unapologetically indulgent. This Chef Aly Thermomix version makes it achievable while keeping the spirit of the dish, with metric measurements and exact settings for TM6 and TM7.",
+  "ingredients": [
+    "200 g dark chocolate (70%), broken into pieces",
+    "30 g strong coffee, warm",
+    "30 g unsalted butter, cubed",
+    "4 eggs, separated",
+    "60 g sugar",
+    "1 tsp vanilla extract",
+    "1 pinch salt",
+    "200 g thickened cream, cold"
+  ],
+  "steps": [
+    "Place chocolate and coffee in the mixing bowl. Melt 5 min / 50°C / speed 2 until smooth. Scrape down halfway.",
+    "Add butter and mix 30 sec / 50°C / speed 3 until glossy and combined. Transfer the chocolate mixture to a large bowl and let cool slightly for 5 min.",
+    "Clean and dry the mixing bowl. Insert the butterfly whisk. Place egg whites and a pinch of salt in the bowl. Whip 3 min / speed 4 until stiff peaks form. Transfer to a separate bowl.",
+    "Clean and dry the bowl. Insert the butterfly whisk. Place thickened cream in the bowl. Whip 1 min / speed 4 until soft peaks form. Transfer to another bowl.",
+    "Place egg yolks, sugar and vanilla in the clean mixing bowl. Mix 10 sec / speed 3 until pale and combined. Transfer to the cooled chocolate mixture and stir until smooth. Fold in one third of the egg whites to lighten the mixture, then gently fold in the remaining whites and the whipped cream.",
+    "Divide among 6 serving glasses. Refrigerate for at least 3 hours or overnight. Serve with a dollop of extra cream if desired."
+  ],
+  "tips": [
+    "Use the best chocolate you can afford — it is the star ingredient. 70% cocoa is ideal.",
+    "The coffee doesn't make it taste like coffee; it deepens the chocolate flavour.",
+    "Fold gently. The mousse's magic is the air you whip in — don't knock it out."
+  ],
+  "faq": [
+    { "q": "Can I make Chocolate Mousse in a Thermomix TM6 or TM7?", "a": "Yes. The Thermomix melts the chocolate perfectly and whips the egg whites and cream with the butterfly whisk. Timing and speeds are exact for both models." },
+    { "q": "Can I use milk chocolate instead of dark?", "a": "Yes, but reduce the sugar to 30 g — milk chocolate is already much sweeter. The mousse will be softer and less intense." }
+  ]
+}

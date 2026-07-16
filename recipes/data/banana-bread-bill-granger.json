@@ -1,0 +1,44 @@
+{
+  "slug": "banana-bread-bill-granger",
+  "title": "Banana Bread",
+  "inspiredBy": { "chef": "Bill Granger", "dish": "banana bread" },
+  "description": "A Chef Aly Thermomix reinterpretation of Bill Granger-style banana bread: moist, golden, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "food-cake.jpg",
+  "category": "Baking",
+  "cuisine": "Australian",
+  "prepMin": 10,
+  "cookMin": 55,
+  "servings": 8,
+  "keywords": ["thermomix banana bread", "Bill Granger banana bread thermomix", "TM6 banana bread", "TM7 banana bread"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-26",
+  "intro": "Bill Granger's banana bread is the recipe that launched a thousand brunches — moist, not too sweet, perfect toasted the next day. This Chef Aly Thermomix version captures that effortless comfort while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "3 very ripe bananas (about 300 g peeled weight)",
+    "80 g melted butter, cooled slightly",
+    "100 g brown sugar",
+    "2 eggs",
+    "1 tsp vanilla extract",
+    "200 g self-raising flour",
+    "1 tsp ground cinnamon",
+    "1 pinch salt",
+    "50 g walnuts, roughly chopped (optional)"
+  ],
+  "steps": [
+    "Preheat oven to 170°C. Line a 22 cm loaf tin with baking paper.",
+    "Place bananas in the mixing bowl. Mash 5 sec / speed 4.",
+    "Add melted butter, brown sugar, eggs and vanilla extract. Mix 10 sec / speed 4 until combined.",
+    "Add self-raising flour, cinnamon and salt. Mix 10 sec / speed 3 until just combined. Do not overmix. Fold through walnuts with the spatula if using.",
+    "Pour into the prepared tin and smooth the top. Bake for 50–55 min until a skewer inserted in the centre comes out clean.",
+    "Cool in the tin for 10 min, then turn out onto a rack. Serve warm with butter, or toast the next day."
+  ],
+  "tips": [
+    "The riper the bananas, the sweeter and more flavourful the bread. Black spots on the skin are perfect.",
+    "Do not overmix after adding the flour — a few lumps are fine and the bread will be lighter for it.",
+    "This freezes beautifully. Slice first, then wrap individual slices for quick breakfasts."
+  ],
+  "faq": [
+    { "q": "Can I make Banana Bread in a Thermomix TM6 or TM7?", "a": "Yes. The wet ingredients are mixed in the Thermomix bowl, then the dry ingredients are folded in. The bread bakes in a conventional oven. Both models work identically for the mixing." },
+    { "q": "Can I make this gluten-free?", "a": "Yes. Replace the self-raising flour with 200 g gluten-free self-raising flour. Add an extra ½ tsp baking powder for lift." }
+  ]
+}

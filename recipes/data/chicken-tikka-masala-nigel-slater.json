@@ -1,0 +1,49 @@
+{
+  "slug": "chicken-tikka-masala-nigel-slater",
+  "title": "Chicken Tikka Masala",
+  "inspiredBy": { "chef": "Nigel Slater", "dish": "chicken tikka masala" },
+  "description": "A Chef Aly Thermomix reinterpretation of Nigel Slater-style chicken tikka masala: aromatic, comforting, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "dish-chicken.jpg",
+  "category": "Dinner",
+  "cuisine": "British-Indian",
+  "prepMin": 15,
+  "cookMin": 35,
+  "servings": 4,
+  "keywords": ["thermomix chicken tikka masala", "Nigel Slater chicken tikka masala thermomix", "TM6 chicken tikka masala", "TM7 chicken tikka masala"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-18",
+  "intro": "Nigel Slater's approach to chicken tikka masala is all about warmth and comfort without fuss. This Chef Aly Thermomix version keeps the soul of the dish while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "600 g chicken thigh, boneless, cut into 3 cm pieces",
+    "150 g yoghurt",
+    "1 tsp garam masala",
+    "1 tsp ground cumin",
+    "½ tsp ground turmeric",
+    "1 onion, quartered",
+    "3 garlic cloves",
+    "20 g fresh ginger, sliced",
+    "30 g butter",
+    "400 g canned crushed tomatoes",
+    "150 g thickened cream",
+    "1 tsp sugar",
+    "1 tsp salt",
+    "Fresh coriander and naan, to serve"
+  ],
+  "steps": [
+    "Place chicken in a bowl with yoghurt, garam masala, cumin and turmeric. Toss to coat and set aside to marinate while you prepare the sauce.",
+    "Place onion, garlic and ginger in the mixing bowl and chop 5 sec / speed 7. Scrape down.",
+    "Add butter and cook 3 min / 120°C / speed 2 to soften.",
+    "Add the marinated chicken pieces (without excess yoghurt — reserve 2 tbsp for the sauce). Cook 5 min / 120°C / Reverse / speed 1 to seal.",
+    "Add canned tomatoes, cream, sugar, salt and reserved yoghurt. Cook 25 min / 100°C / Reverse / speed soft, with the simmering basket on the lid.",
+    "Check the chicken is cooked through and the sauce is rich and creamy. Stir with the spatula and rest 3 min before serving with naan and coriander."
+  ],
+  "tips": [
+    "Thigh fillets stay juicier than breast in the long cook — don't substitute unless you reduce the time.",
+    "The yoghurt marinade tenderises the chicken and adds depth — don't skip it.",
+    "For a smokier flavour, add ½ tsp smoked paprika with the spices."
+  ],
+  "faq": [
+    { "q": "Can I make Chicken Tikka Masala in a Thermomix TM6 or TM7?", "a": "Yes. The sauce and chicken cook together with Reverse stirring to keep the pieces whole. Times and temperatures are exact for both models." },
+    { "q": "Can I make this milder?", "a": "Yes. The recipe as written is mild. To make it even milder, reduce the garam masala to ½ tsp. For more heat, add 1 tsp chilli powder to the marinade." }
+  ]
+}

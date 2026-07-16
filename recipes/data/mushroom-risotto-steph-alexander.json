@@ -1,0 +1,47 @@
+{
+  "slug": "mushroom-risotto-steph-alexander",
+  "title": "Mushroom Risotto",
+  "inspiredBy": { "chef": "Stephanie Alexander", "dish": "mushroom risotto" },
+  "description": "A Chef Aly Thermomix reinterpretation of Stephanie Alexander-style mushroom risotto: creamy, earthy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "food-risotto.jpg",
+  "category": "Dinner",
+  "cuisine": "Italian-Australian",
+  "prepMin": 10,
+  "cookMin": 30,
+  "servings": 4,
+  "keywords": ["thermomix mushroom risotto", "Stephanie Alexander mushroom risotto thermomix", "TM6 mushroom risotto", "TM7 mushroom risotto"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-27",
+  "intro": "Stephanie Alexander's mushroom risotto is a masterclass in patience and restraint — let the rice do the work. This Chef Aly Thermomix version captures that creamy, earthy depth while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "1 onion, quartered",
+    "2 garlic cloves",
+    "40 g butter",
+    "300 g arborio rice",
+    "200 g mixed mushrooms (swiss brown, oyster, shiitake), sliced",
+    "150 g dry white wine",
+    "800 g vegetable stock, hot",
+    "30 g parmesan, finely grated",
+    "1 tsp salt",
+    "Black pepper, to taste",
+    "Fresh parsley, chopped, to serve"
+  ],
+  "steps": [
+    "Place onion and garlic in the mixing bowl. Chop 5 sec / speed 5. Scrape down.",
+    "Add butter and cook 3 min / 120°C / speed 2 to soften.",
+    "Add mushrooms and cook 3 min / 120°C / Reverse / speed 1 to release their moisture.",
+    "Add arborio rice and stir 2 min / 100°C / Reverse / speed 1 to toast the grains and coat in butter.",
+    "Add white wine and cook 2 min / 100°C / Reverse / speed 1 until the wine is absorbed.",
+    "Add hot vegetable stock and salt. Cook 18 min / 100°C / Reverse / speed soft, with the simmering basket on the lid instead of the measuring cup. Stir once halfway through with the spatula.",
+    "Add parmesan and pepper. Stir gently with the spatula, then rest 2 min before serving. The risotto should be creamy and flow slightly — not stiff."
+  ],
+  "tips": [
+    "The Thermomix makes risotto hands-free — no standing at the stove stirring. But do stir once at the halfway mark to prevent any rice sticking to the base.",
+    "Use a mix of mushrooms for depth. Swiss brown for earthiness, oyster for texture, shiitake for umami.",
+    "The risotto is ready when it flows like lava. If it's too thick, add a splash of hot water and stir."
+  ],
+  "faq": [
+    { "q": "Can I make Mushroom Risotto in a Thermomix TM6 or TM7?", "a": "Yes. The entire risotto cooks in the Thermomix bowl with Reverse stirring to keep the rice grains whole. Times and temperatures are exact for both models." },
+    { "q": "Can I use dried mushrooms?", "a": "Yes. Soak 20 g dried porcini in 150 g hot water for 10 min. Add the soaked mushrooms with the fresh ones, and use the soaking liquid as part of the stock." }
+  ]
+}

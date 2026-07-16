@@ -1,0 +1,46 @@
+{
+  "slug": "dhal-naomi-duguid",
+  "title": "Dhal",
+  "inspiredBy": { "chef": "Naomi Duguid", "dish": "dhal" },
+  "description": "A Chef Aly Thermomix reinterpretation of Naomi Duguid-style dhal: warming, earthy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "food-soup.jpg",
+  "category": "Lunch",
+  "cuisine": "Indian",
+  "prepMin": 10,
+  "cookMin": 30,
+  "servings": 4,
+  "keywords": ["thermomix dhal", "Naomi Duguid dhal thermomix", "TM6 dhal", "TM7 dhal"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-23",
+  "intro": "Naomi Duguid's dhal is a quiet revelation — simple ingredients transformed by patience and spice. This Chef Aly Thermomix version keeps the comforting soul of the dish while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "250 g red lentils (masoor dhal), rinsed",
+    "1 onion, quartered",
+    "3 garlic cloves",
+    "20 g fresh ginger, sliced",
+    "1 tsp ground cumin",
+    "1 tsp ground turmeric",
+    "½ tsp mustard seeds",
+    "30 g ghee or vegetable oil",
+    "800 g water",
+    "1 tsp salt",
+    "1 tomato, diced",
+    "Fresh coriander and lemon wedges, to serve"
+  ],
+  "steps": [
+    "Place onion, garlic and ginger in the mixing bowl. Chop 5 sec / speed 6. Scrape down.",
+    "Add ghee, cumin, turmeric and mustard seeds. Cook 3 min / 120°C / speed 2 to bloom the spices.",
+    "Add lentils, water, salt and tomato. Cook 25 min / 100°C / speed 2, with the simmering basket on the lid.",
+    "Stir gently with the spatula. The lentils should be completely broken down and creamy. If too thick, add 50 g more water and stir 1 min / speed 2.",
+    "Taste and adjust salt. Serve in bowls topped with fresh coriander and a squeeze of lemon, with rice or flatbread on the side."
+  ],
+  "tips": [
+    "Red lentils break down naturally — no need to blend. The Thermomix stirring keeps them moving without turning to glue.",
+    "Mustard seeds pop in the hot ghee, adding texture and a nutty flavour. Don't skip them.",
+    "For extra richness, finish with a swirl of ghee and a pinch of garam masala in each bowl."
+  ],
+  "faq": [
+    { "q": "Can I make Dhal in a Thermomix TM6 or TM7?", "a": "Yes. Red lentils cook beautifully in the Thermomix at 100°C. No soaking needed. Times and temperatures are exact for both models." },
+    { "q": "Can I use yellow or green lentils instead?", "a": "Yes. Yellow split peas need 10 min longer. Green or brown lentils need 15 min longer and will hold their shape rather than breaking down." }
+  ]
+}

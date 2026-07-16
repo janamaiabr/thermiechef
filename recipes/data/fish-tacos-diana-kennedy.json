@@ -1,0 +1,46 @@
+{
+  "slug": "fish-tacos-diana-kennedy",
+  "title": "Fish Tacos",
+  "inspiredBy": { "chef": "Diana Kennedy", "dish": "fish tacos" },
+  "description": "A Chef Aly Thermomix reinterpretation of Diana Kennedy-style fish tacos: bright, crisp, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "dish-chicken.jpg",
+  "category": "Dinner",
+  "cuisine": "Mexican",
+  "prepMin": 15,
+  "cookMin": 15,
+  "servings": 4,
+  "keywords": ["thermomix fish tacos", "Diana Kennedy fish tacos thermomix", "TM6 fish tacos", "TM7 fish tacos"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-25",
+  "intro": "Diana Kennedy spent a lifetime documenting real Mexican cooking with the precision of a scholar and the passion of a local. These fish tacos honour her insistence on fresh, bright flavours, made achievable in the Thermomix with metric measurements and exact settings for TM6 and TM7.",
+  "ingredients": [
+    "500 g white fish fillets (barramundi or snapper), cut into 3 cm pieces",
+    "1 lime, juice only",
+    "1 tsp ground cumin",
+    "½ tsp smoked paprika",
+    "1 tsp salt",
+    "1 avocado, diced",
+    "1 cup shredded cabbage",
+    "1 tomato, diced",
+    "1 jalapeño, thinly sliced",
+    "8 small corn tortillas",
+    "Fresh coriander and lime wedges, to serve"
+  ],
+  "steps": [
+    "Place fish pieces in a bowl with lime juice, cumin, smoked paprika and ½ tsp salt. Toss gently and set aside for 10 min to marinate.",
+    "Place avocado, a pinch of salt and a squeeze of lime in a small bowl. Mash roughly with a fork. Set aside.",
+    "Place cabbage in the mixing bowl. Chop 2 sec / speed 4. Transfer to a bowl.",
+    "Clean the bowl. Place marinated fish pieces in the mixing bowl. Cook 8 min / 100°C / Reverse / speed soft, with the simmering basket on the lid.",
+    "Warm tortillas in a dry frying pan or directly over a gas flame for 30 seconds each side.",
+    "Spread avocado on each tortilla, top with fish, shredded cabbage, diced tomato and jalapeño. Finish with coriander and a squeeze of lime."
+  ],
+  "tips": [
+    "Barramundi or snapper hold up well in the Thermomix. Avoid delicate flathead — it will fall apart.",
+    "The cabbage chop is quick — 2 seconds at speed 4 gives a fine slaw. Don't over-process.",
+    "For a crema, mix 80 g sour cream with 1 tbsp lime juice and ½ tsp chipotle paste."
+  ],
+  "faq": [
+    { "q": "Can I make Fish Tacos in a Thermomix TM6 or TM7?", "a": "Yes. The fish cooks gently at 100°C with Reverse stirring so the pieces stay whole. The cabbage slaw is prepped in seconds. Both models work identically." },
+    { "q": "Can I use frozen fish?", "a": "Yes. Thaw completely and pat dry before marinating. Frozen fish releases more water, so the cook time is the same." }
+  ]
+}

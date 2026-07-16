@@ -1,0 +1,50 @@
+{
+  "slug": "beef-rendang-tan-hsueh-yun",
+  "title": "Beef Rendang",
+  "inspiredBy": { "chef": "Tan Hsueh Yun", "dish": "beef rendang" },
+  "description": "A Chef Aly Thermomix reinterpretation of Tan Hsueh Yun-style beef rendang: rich, aromatic, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "dish-bowl.jpg",
+  "category": "Dinner",
+  "cuisine": "Malaysian",
+  "prepMin": 15,
+  "cookMin": 60,
+  "servings": 4,
+  "keywords": ["thermomix beef rendang", "Tan Hsueh Yun beef rendang thermomix", "TM6 beef rendang", "TM7 beef rendang"],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-17",
+  "intro": "Tan Hsueh Yun's rendition of beef rendang is a masterclass in patience and spice. This Chef Aly Thermomix version captures the deep, complex flavours while making the method simple, metric and practical for TM6 and TM7 home cooks.",
+  "ingredients": [
+    "3 shallots, halved",
+    "4 garlic cloves",
+    "20 g fresh ginger, sliced",
+    "3 lemongrass stalks, white part only, cut into 3 cm pieces",
+    "3 dried chillies, soaked in warm water 10 min, drained",
+    "1 tsp ground coriander",
+    "½ tsp ground cumin",
+    "½ tsp ground turmeric",
+    "30 g vegetable oil",
+    "600 g beef chuck, cut into 3 cm pieces",
+    "200 g coconut cream",
+    "200 g water",
+    "1 kaffir lime leaf, torn",
+    "1 tsp salt",
+    "1 tsp sugar"
+  ],
+  "steps": [
+    "Place shallots, garlic, ginger, lemongrass, soaked chillies, coriander, cumin and turmeric in the mixing bowl. Chop 10 sec / speed 7. Scrape down and repeat if needed to form a rough paste.",
+    "Add vegetable oil and cook 3 min / 120°C / speed 2 to bloom the spices.",
+    "Add beef pieces and stir 2 min / Reverse / speed 1 to coat in the paste.",
+    "Add coconut cream, water, kaffir lime leaf, salt and sugar. Cook 50 min / 100°C / Reverse / speed soft, with the simmering basket on the lid instead of the measuring cup.",
+    "Remove the simmering basket and continue cooking 10 min / Varoma / Reverse / speed 1 to reduce and intensify the sauce, stirring occasionally with the spatula if needed.",
+    "Check the beef is tender and the sauce has thickened to a rich, dark coating. Rest 5 min before serving with steamed rice."
+  ],
+  "tips": [
+    "Chuck or gravy beef works best — the long cook breaks down the connective tissue into silky richness.",
+    "The simmering basket on the lid prevents splatter while allowing evaporation, which is key to a proper rendang.",
+    "For an even darker, drier rendang, add an extra 10 min at Varoma temperature in the final step."
+  ],
+  "faq": [
+    { "q": "Can I make Beef Rendang in a Thermomix TM6 or TM7?", "a": "Yes. The times, temperatures and speeds are specified for both TM6 and TM7. Use Reverse stirring throughout to keep the beef pieces intact." },
+    { "q": "Can I use beef brisket instead of chuck?", "a": "Yes. Brisket works well but may need 5–10 min longer. Check tenderness at the 50 min mark." }
+  ]
+}
