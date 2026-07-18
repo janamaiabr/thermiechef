@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Chicken Tikka Masala](https://thermiechef.com.au/recipes/chicken-tikka-masala-nigel-slater.html): A Chef Aly Thermomix reinterpretation of Nigel Slater-style chicken tikka masala: aromatic, comforting, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (50 min, serves 4)
 - [Beef Rendang](https://thermiechef.com.au/recipes/beef-rendang-tan-hsueh-yun.html): A Chef Aly Thermomix reinterpretation of Tan Hsueh Yun-style beef rendang: rich, aromatic, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (75 min, serves 4)
 - [Lemongrass Chicken](https://thermiechef.com.au/recipes/lemongrass-chicken-luke-nguyen.html): A Chef Aly Thermomix reinterpretation of Luke Nguyen-style lemongrass chicken: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
 - [Ratatouille](https://thermiechef.com.au/recipes/ratatouille-elizabeth-david.html): A Chef Aly Thermomix reinterpretation of Elizabeth David-style ratatouille: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
