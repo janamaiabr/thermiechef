@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Sticky Pork Belly](https://thermiechef.com.au/recipes/sticky-pork-belly-christine-manfield.html): A Chef Aly Thermomix reinterpretation of Christine Manfield-style sticky pork belly: caramelised, deeply flavoured, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (105 min, serves 4)
 - [Dhal](https://thermiechef.com.au/recipes/dhal-naomi-duguid.html): A Chef Aly Thermomix reinterpretation of Naomi Duguid-style dhal: warming, earthy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (40 min, serves 4)
 - [Shakshuka](https://thermiechef.com.au/recipes/shakshuka-ottolenghi.html): A Chef Aly Thermomix reinterpretation of Ottolenghi-style shakshuka: spiced, saucy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (30 min, serves 4)
 - [Chocolate Mousse](https://thermiechef.com.au/recipes/chocolate-mousse-julia-child.html): A Chef Aly Thermomix reinterpretation of Julia Child-style chocolate mousse: silken, bittersweet, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (20 min, serves 6)
