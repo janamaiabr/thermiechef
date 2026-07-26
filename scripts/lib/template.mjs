@@ -10,6 +10,14 @@ export const ALY_WA = "https://wa.me/61424310504";
 const TRACK_JS = `function track(t,s){try{var p=JSON.stringify({type:t,source:s||'',path:location.pathname,ref:document.referrer||''});var b=new Blob([p],{type:'application/json'});navigator.sendBeacon?navigator.sendBeacon('/api/track',b):fetch('/api/track',{method:'POST',headers:{'Content-Type':'application/json'},body:p,keepalive:true});}catch(e){}}function trackBuy(w){track('buy_click',w);try{if(window.fbq)fbq('track','InitiateCheckout',{source:w});}catch(e){}return true;}track('page_view','recipe');`;
 
 export const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const isPhotoApproved = (r) => r.imageApproved === true || r.photoStatus === "approved";
+const fallbackImage = (siteUrl) => `${siteUrl}/assets/hero-table.jpg`;
+const recipeVisual = (r, prefix = "../assets/") => isPhotoApproved(r)
+  ? `<img class="hero-img" src="${prefix}${esc(r.image)}" alt="${esc(r.title)} made in a Thermomix" width="820" height="512"/>`
+  : `<div class="hero-img recipe-art" role="img" aria-label="${esc(r.title)} Thermomix recipe"><span>${esc(r.category || "Thermomix")}</span><strong>${esc(r.title)}</strong></div>`;
+const cardVisual = (r, prefix = "../assets/") => isPhotoApproved(r)
+  ? `<img src="${prefix}${esc(r.image)}" alt="${esc(r.title)} Thermomix recipe" loading="lazy"/>`
+  : `<div class="ph-art" aria-label="${esc(r.title)} Thermomix recipe"><span>${esc(r.category || "Thermomix")}</span><strong>${esc(r.title)}</strong></div>`;
 
 // pick an emoji for an ingredient line (first keyword match wins)
 const EMOJI = [
@@ -57,6 +65,9 @@ h1{font-size:clamp(2rem,5vw,3rem);margin:10px 0 12px}
 .rmeta span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:.4em .9em;font-family:Poppins;font-weight:600;font-size:.82rem}
 .rmeta .tm{background:var(--green);color:#fff;border-color:var(--green)}
 .hero-img{width:100%;border-radius:22px;aspect-ratio:16/10;object-fit:cover;margin:8px 0 26px;box-shadow:0 24px 50px -28px rgba(80,50,20,.5)}
+.recipe-art{display:grid;place-content:center;text-align:center;padding:28px;background:radial-gradient(circle at 18% 20%,rgba(236,162,60,.28),transparent 24%),radial-gradient(circle at 82% 14%,rgba(47,125,82,.22),transparent 22%),linear-gradient(135deg,#fff7ea,#f3dfc4);border:1px solid var(--line)}
+.recipe-art span,.ph-art span{font-family:Poppins;font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--green-d)}
+.recipe-art strong{display:block;max-width:14ch;margin:8px auto 0;font-family:Poppins;font-size:clamp(1.9rem,5vw,3.2rem);line-height:1.04;color:var(--ink)}
 .intro{font-size:1.08rem;margin-bottom:26px}
 h2.sec{font-size:1.5rem;margin:30px 0 14px;padding-top:10px}
 ul.ing{list-style:none;display:grid;gap:9px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px}
@@ -87,7 +98,7 @@ footer .disc{max-width:70ch;margin:14px auto 0;font-size:.72rem;line-height:1.55
 
 function recipeJsonLd(r, siteUrl) {
   const url = `${siteUrl}/recipes/${r.slug}.html`;
-  const img = `${siteUrl}/assets/${r.image}`;
+  const img = isPhotoApproved(r) ? `${siteUrl}/assets/${r.image}` : fallbackImage(siteUrl);
   return {
     "@context": "https://schema.org/",
     "@type": "Recipe",
@@ -131,7 +142,7 @@ function breadcrumbJsonLd(r, siteUrl) {
 
 export function renderRecipePage(r, siteUrl) {
   const url = `${siteUrl}/recipes/${r.slug}.html`;
-  const img = `${siteUrl}/assets/${r.image}`;
+  const img = isPhotoApproved(r) ? `${siteUrl}/assets/${r.image}` : fallbackImage(siteUrl);
   const ld = [recipeJsonLd(r, siteUrl), faqJsonLd(r), breadcrumbJsonLd(r, siteUrl)].filter(Boolean);
   const ings = r.ingredients.map((i) => `<li><span class="ie">${ingredientEmoji(i)}</span><span>${esc(i)}</span></li>`).join("");
   const insp = r.inspiredBy && r.inspiredBy.chef ? r.inspiredBy : null;
@@ -164,7 +175,7 @@ ${ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script
     ${insp ? `<div class="chefline"><span class="av">${chefInitials(insp.chef)}</span><div class="ct"><b>Inspired by ${esc(insp.chef)}</b><span>My Thermomix reimagining of their ${esc(insp.dish || "classic")}</span></div></div>` : ""}
     <p class="lede">${esc(r.description)}</p>
     <div class="rmeta"><span class="tm">${esc(r.thermomixModel || "TM6 / TM7")}</span><span>⏱️ Prep ${r.prepMin} min</span><span>🍳 Cook ${r.cookMin} min</span><span>🍽️ Serves ${r.servings}</span><span>📊 ${esc(r.category || "Main")}</span>${(r.filters || []).slice(0,3).map((f)=>`<span>🏷️ ${esc(f)}</span>`).join("")}</div>
-    <img class="hero-img" src="../assets/${esc(r.image)}" alt="${esc(r.title)} made in a Thermomix" width="820" height="512"/>
+    ${recipeVisual(r)}
     <p class="intro">${esc(r.intro)}</p>
     <h2 class="sec">Ingredients</h2>
     <ul class="ing">${ings}</ul>
@@ -192,7 +203,7 @@ export function renderIndexPage(recipes, siteUrl) {
   const tagSet = new Set();
   recipes.forEach((r) => (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean).forEach((t) => tagSet.add(t)));
   const tagList = [...tagSet].sort((a,b) => (tagOrder.indexOf(a) === -1 ? 999 : tagOrder.indexOf(a)) - (tagOrder.indexOf(b) === -1 ? 999 : tagOrder.indexOf(b)) || a.localeCompare(b));
-  const cards = recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; const tags = (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean); return `<a class="card" data-tags="${esc(tags.map((t)=>t.toLowerCase()).join('|'))}" data-chef="${esc(chef)}" data-s="${esc((r.title + " " + chef + " " + (r.cuisine || "") + " " + (r.category || "") + " " + tags.join(' ')).toLowerCase())}" href="${r.slug}.html"><div class="ph"><img src="../assets/${esc(r.image)}" alt="${esc(r.title)} Thermomix recipe" loading="lazy"/>${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><div class="tagline">${tags.slice(0,3).map((t)=>`<span>${esc(t)}</span>`).join("")}</div><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`; }).join("");
+  const cards = recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; const tags = (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean); return `<a class="card" data-tags="${esc(tags.map((t)=>t.toLowerCase()).join('|'))}" data-chef="${esc(chef)}" data-s="${esc((r.title + " " + chef + " " + (r.cuisine || "") + " " + (r.category || "") + " " + tags.join(' ')).toLowerCase())}" href="${r.slug}.html"><div class="ph">${cardVisual(r)}${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p><div class="tagline">${tags.slice(0,3).map((t)=>`<span>${esc(t)}</span>`).join("")}</div><span class="m">⏱️ ${totalMin(r)} min · Serves ${r.servings}</span></div></a>`; }).join("");
   const tagCount = {}; recipes.forEach((r) => { const tags = (r.filters && r.filters.length ? r.filters : [r.category]).filter(Boolean); tags.forEach((t) => { const k = t.toLowerCase(); tagCount[k] = (tagCount[k] || 0) + 1; }); });
   const sidebar = `<aside class="r-sidebar">
     <input id="rsearch" class="r-search" placeholder="Search recipes, chefs…" oninput="filt()" aria-label="Search recipes"/>
@@ -230,6 +241,8 @@ export function renderIndexPage(recipes, siteUrl) {
 .rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:22px;padding:0 0 40px}
 .card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(80,50,20,.4);display:block}
 .card .ph{position:relative;aspect-ratio:4/3;overflow:hidden}.card .ph img{width:100%;height:100%;object-fit:cover}
+.ph-art{width:100%;height:100%;display:grid;place-content:center;text-align:center;padding:18px;background:radial-gradient(circle at 18% 18%,rgba(236,162,60,.25),transparent 26%),radial-gradient(circle at 86% 20%,rgba(47,125,82,.2),transparent 24%),linear-gradient(135deg,#fff8ec,#f3dfc4)}
+.ph-art strong{display:block;max-width:13ch;margin:6px auto 0;font-family:Poppins;font-weight:800;font-size:1.18rem;line-height:1.08;color:var(--ink)}
 .card .chef{position:absolute;left:10px;bottom:10px;z-index:2;display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.96);border-radius:999px;padding:4px 12px 4px 4px;box-shadow:0 6px 16px -6px rgba(0,0,0,.45)}
 .card .chef .av{width:27px;height:27px;border-radius:50%;background:linear-gradient(135deg,#358a5c,#235E3D);color:#fff;font-family:Poppins;font-weight:700;font-size:.7rem;display:grid;place-items:center;flex:0 0 auto}
 .card .chef .nm{font-family:Poppins;font-weight:700;font-size:.76rem;color:var(--ink)}
@@ -276,5 +289,5 @@ export function renderIndexPage(recipes, siteUrl) {
 }
 
 export function homepageCards(recipes) {
-  return recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; return `      <a class="card" href="recipes/${r.slug}.html"><div class="ph"><img src="assets/${esc(r.image)}" alt="${esc(r.title)}" loading="lazy"/>${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><div class="meta"><span>⏱️ ${totalMin(r)} min</span><span>🍽️ Serves ${r.servings}</span></div></div></a>`; }).join("\n");
+  return recipes.map((r) => { const chef = (r.inspiredBy && r.inspiredBy.chef) || ""; return `      <a class="card" href="recipes/${r.slug}.html"><div class="ph">${cardVisual(r, "assets/")}${chef ? `<span class="chef"><span class="av">${chefInitials(chef)}</span><span class="nm">${esc(chef)}</span></span>` : ""}</div><div class="cb"><h3>${esc(r.title)}</h3><div class="meta"><span>⏱️ ${totalMin(r)} min</span><span>🍽️ Serves ${r.servings}</span></div></div></a>`; }).join("\n");
 }

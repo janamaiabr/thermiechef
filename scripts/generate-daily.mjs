@@ -94,18 +94,15 @@ async function main() {
     recipe.inspiredBy = { chef: target.chef, dish: target.dish };
     recipe.datePublished = TODAY;
     recipe.thermomixModel = 'TM6 / TM7';
-    recipe.image = `recipes/${recipe.slug}.jpg`;
+    recipe.image = 'hero-table.jpg';
+    recipe.photoStatus = 'needs_review';
+    recipe.imageApproved = false;
     recipe.filters = classifyRecipe(recipe);
     lastErrors = validateRecipe(recipe, existing);
     if (!lastErrors.length) break;
     recipe = null;
   }
   if (!recipe) throw new Error(`Could not generate valid recipe: ${lastErrors.join('; ')}`);
-  const prompt = imagePrompt(recipe);
-  let image;
-  try { image = await imageWithGemini(prompt); }
-  catch (e) { console.warn(`Gemini image failed (${e.message}); falling back to Pollinations`); image = await imageWithPollinations(prompt, recipe.slug); }
-  writeJpg(image.data, image.mimeType, path.join(ASSET_DIR, `${recipe.slug}.jpg`));
   fs.writeFileSync(path.join(DATA_DIR, `${recipe.slug}.json`), `${JSON.stringify(recipe, null, 2)}\n`);
   execFileSync('node', ['scripts/build.mjs'], { cwd: ROOT, stdio: 'inherit' });
   execFileSync('node', ['scripts/validate-site.mjs'], { cwd: ROOT, stdio: 'inherit' });
@@ -114,7 +111,7 @@ async function main() {
     execFileSync('git', ['commit', '-m', `Add daily ThermieChef recipe: ${recipe.title}`], { cwd: ROOT, stdio: 'inherit' });
     execFileSync('git', ['push'], { cwd: ROOT, stdio: 'inherit' });
   }
-  console.log(JSON.stringify({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, image: recipe.image }, null, 2));
+  console.log(JSON.stringify({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, photoStatus: recipe.photoStatus }, null, 2));
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

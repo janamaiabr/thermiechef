@@ -149,18 +149,17 @@ module.exports = async function handler(req, res) {
       recipe.inspiredBy = target;
       recipe.datePublished = TODAY;
       recipe.thermomixModel = 'TM6 / TM7';
-      recipe.image = `recipes/${recipe.slug}.jpg`;
+      recipe.image = 'hero-table.jpg';
+      recipe.photoStatus = 'needs_review';
+      recipe.imageApproved = false;
       recipe.filters = classify(recipe);
       errs = validate(recipe, existing);
       if (!errs.length) break;
       recipe = null;
     }
     if (!recipe) throw new Error(`Invalid recipe after retries: ${errs.join('; ')}`);
-    const prompt = `Professional editorial food photography of "${recipe.title}", a Thermomix reinterpretation of ${recipe.inspiredBy.dish}. Cuisine: ${recipe.cuisine}. Key ingredients: ${(recipe.ingredients || []).slice(0,8).join(', ')}. Natural soft daylight, realistic appetising finished dish, ceramic plate or bowl, rustic wood or linen surface, warm premium cookbook style. Show only the finished dish. No text, no logos, no hands, no people, no Thermomix machine. Square 1:1 high resolution.`;
-    const image64 = await geminiImage(prompt);
     await putFile(repo, branch, `recipes/data/${recipe.slug}.json`, Buffer.from(`${JSON.stringify(recipe, null, 2)}\n`).toString('base64'), `Add daily ThermieChef recipe: ${recipe.title}`);
-    await putFile(repo, branch, `assets/recipes/${recipe.slug}.jpg`, image64, `Add image for ${recipe.title}`);
-    return res.status(200).json({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, filters: recipe.filters, newsletter });
+    return res.status(200).json({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, filters: recipe.filters, photoStatus: recipe.photoStatus, newsletter });
   } catch (e) {
     return res.status(500).json({ ok: false, error: e.message });
   }
