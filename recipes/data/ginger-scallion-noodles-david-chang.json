@@ -5,7 +5,7 @@
     "chef": "David Chang",
     "dish": "ginger scallion noodles"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/ginger-scallion-noodles-david-chang.jpg",
   "category": "Dinner",
   "cuisine": "Korean-American",
   "prepMin": 10,
@@ -64,6 +64,6 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

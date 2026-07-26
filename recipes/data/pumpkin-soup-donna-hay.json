@@ -6,7 +6,7 @@
     "dish": "pumpkin soup"
   },
   "description": "My Thermomix take on Donna Hay's pumpkin soup — velvety, warming and on the table in under half an hour.",
-  "image": "hero-table.jpg",
+  "image": "recipes/pumpkin-soup-donna-hay.jpg",
   "category": "Lunch",
   "cuisine": "Australian",
   "prepMin": 10,
@@ -68,6 +68,6 @@
     "Vegetarian",
     "Light"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

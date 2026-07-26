@@ -5,7 +5,7 @@
     "chef": "Massimo Bottura",
     "dish": "parmesan risotto"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/parmesan-risotto-massimo-bottura.jpg",
   "category": "Dinner",
   "cuisine": "Italian",
   "prepMin": 10,
@@ -63,6 +63,6 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

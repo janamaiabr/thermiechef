@@ -50,7 +50,7 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Nigella Lawson and pea pesto pasta; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/pea-pesto-pasta-nigella-lawson.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
@@ -58,6 +58,6 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

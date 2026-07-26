@@ -52,13 +52,13 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Madhur Jaffrey and pumpkin curry; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/coconut-pumpkin-curry-madhur-jaffrey.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
     "Curry",
     "Vegetarian"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

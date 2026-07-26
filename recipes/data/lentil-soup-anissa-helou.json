@@ -6,7 +6,7 @@
     "dish": "lentil soup"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Anissa Helou-style lentil soup: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/lentil-soup-anissa-helou.jpg",
   "category": "Lunch",
   "cuisine": "Middle Eastern",
   "prepMin": 12,
@@ -52,6 +52,6 @@
       "a": "Yes. Taste at the end and adjust salt, pepper, lemon or herbs before serving."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

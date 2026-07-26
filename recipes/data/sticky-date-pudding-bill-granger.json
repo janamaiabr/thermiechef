@@ -54,12 +54,12 @@
       "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/sticky-date-pudding-bill-granger.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dessert",
     "Vegetarian"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

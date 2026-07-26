@@ -6,7 +6,7 @@
     "dish": "coconut fish curry"
   },
   "description": "My Thermomix take on Rick Stein's coconut fish curry — fragrant, gentle, and the fish stays whole.",
-  "image": "hero-table.jpg",
+  "image": "recipes/coconut-fish-curry-rick-stein.jpg",
   "category": "Dinner",
   "cuisine": "Indian",
   "prepMin": 15,
@@ -66,6 +66,6 @@
     "Curry",
     "Seafood"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

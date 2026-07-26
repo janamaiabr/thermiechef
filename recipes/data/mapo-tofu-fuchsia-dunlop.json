@@ -6,7 +6,7 @@
     "dish": "mapo tofu"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Fuchsia Dunlop-style mapo tofu: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/mapo-tofu-fuchsia-dunlop.jpg",
   "category": "Dinner",
   "cuisine": "Sichuan",
   "prepMin": 12,
@@ -52,6 +52,6 @@
       "a": "Yes. Taste at the end and adjust salt, pepper, lemon or herbs before serving."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

@@ -5,7 +5,7 @@
     "chef": "Stephanie Alexander",
     "dish": "apple teacake"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/apple-teacake-stephanie-alexander.jpg",
   "category": "Baking",
   "cuisine": "Australian",
   "prepMin": 15,
@@ -63,6 +63,6 @@
     "Dessert",
     "Vegetarian"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

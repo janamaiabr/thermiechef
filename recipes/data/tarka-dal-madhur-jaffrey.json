@@ -6,7 +6,7 @@
     "dish": "tarka dal"
   },
   "description": "My Thermomix take on Madhur Jaffrey's tarka dal — creamy lentils with a sizzling spiced topping.",
-  "image": "hero-table.jpg",
+  "image": "recipes/tarka-dal-madhur-jaffrey.jpg",
   "category": "Dinner",
   "cuisine": "Indian",
   "prepMin": 10,
@@ -66,6 +66,6 @@
     "Curry",
     "Vegetarian"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

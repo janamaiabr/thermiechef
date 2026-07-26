@@ -51,7 +51,7 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by David Chang and peanut noodles; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/peanut-noodle-salad-david-chang.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Lunch",
@@ -60,6 +60,6 @@
     "Light",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

@@ -5,7 +5,7 @@
     "chef": "Nigel Slater",
     "dish": "carrot & coriander soup"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/carrot-coriander-soup-nigel-slater.jpg",
   "category": "Lunch",
   "cuisine": "British",
   "prepMin": 10,
@@ -66,6 +66,6 @@
     "Vegetarian",
     "Light"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

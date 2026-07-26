@@ -6,7 +6,7 @@
     "dish": "crispy rice salad"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Hetty McKinnon-style crispy rice salad: crunchy rice, bright herbs, sesame dressing and exact TM6 and TM7 settings.",
-  "image": "hero-table.jpg",
+  "image": "recipes/crispy-rice-salad-hetty-mckinnon.jpg",
   "category": "Lunch",
   "cuisine": "Asian-Australian",
   "prepMin": 15,
@@ -62,8 +62,7 @@
       "a": "Yes. Cook and chill the rice ahead, then crisp it in the oven just before serving."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false,
-  "pendingImage": "recipes/crispy-rice-salad-hetty-mckinnon.jpg",
+  "photoStatus": "approved",
+  "imageApproved": true,
   "photoPrompt": "Professional editorial food photography of \"Crispy Rice Salad\" (crispy rice salad, Asian-Australian Lunch). Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate: crispy rice salad."
 }

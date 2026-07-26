@@ -49,7 +49,7 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Bill Granger and corn fritters; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/corn-fritters-bill-granger.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Breakfast",
@@ -57,6 +57,6 @@
     "Light",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

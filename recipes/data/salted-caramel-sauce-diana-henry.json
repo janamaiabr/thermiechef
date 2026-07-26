@@ -5,7 +5,7 @@
     "chef": "Diana Henry",
     "dish": "salted caramel"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/salted-caramel-sauce-diana-henry.jpg",
   "category": "Dessert",
   "cuisine": "International",
   "prepMin": 5,
@@ -60,6 +60,6 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

@@ -5,7 +5,7 @@
     "chef": "Curtis Stone",
     "dish": "mac and cheese"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/mac-and-cheese-curtis-stone.jpg",
   "category": "Dinner",
   "cuisine": "American",
   "prepMin": 10,
@@ -64,6 +64,6 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

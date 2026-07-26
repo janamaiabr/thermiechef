@@ -49,13 +49,13 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Claudia Roden and tomato rice; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/saffron-tomato-rice-claudia-roden.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

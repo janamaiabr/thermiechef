@@ -6,7 +6,7 @@
     "dish": "brigadeiro de colher"
   },
   "description": "My Thermomix version of Rita Lobo's spoonable brigadeiro — soft, glossy Brazilian chocolate fudge you eat with a spoon.",
-  "image": "hero-table.jpg",
+  "image": "recipes/brigadeiro-de-colher-rita-lobo.jpg",
   "category": "Dessert",
   "cuisine": "Brazilian",
   "prepMin": 5,
@@ -63,6 +63,6 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

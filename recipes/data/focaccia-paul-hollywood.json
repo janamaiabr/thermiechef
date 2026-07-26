@@ -5,7 +5,7 @@
     "chef": "Paul Hollywood",
     "dish": "focaccia"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/focaccia-paul-hollywood.jpg",
   "category": "Baking",
   "cuisine": "Italian",
   "prepMin": 15,
@@ -63,6 +63,6 @@
     "Baking",
     "Vegetarian"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

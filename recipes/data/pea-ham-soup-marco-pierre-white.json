@@ -5,7 +5,7 @@
     "chef": "Marco Pierre White",
     "dish": "pea & ham soup"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/pea-ham-soup-marco-pierre-white.jpg",
   "category": "Lunch",
   "cuisine": "British",
   "prepMin": 10,
@@ -64,6 +64,6 @@
     "Meat",
     "Light"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

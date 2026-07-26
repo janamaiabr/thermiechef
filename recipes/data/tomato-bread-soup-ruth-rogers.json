@@ -48,7 +48,7 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Ruth Rogers and pappa al pomodoro; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/tomato-bread-soup-ruth-rogers.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Lunch",
@@ -57,6 +57,6 @@
     "Vegetarian",
     "Light"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }

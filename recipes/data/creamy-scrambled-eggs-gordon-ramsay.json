@@ -6,7 +6,7 @@
     "dish": "scrambled eggs"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Gordon Ramsay-style creamy scrambled eggs: soft curds, butter, exact TM6 and TM7 settings and a café-worthy breakfast method.",
-  "image": "hero-table.jpg",
+  "image": "recipes/creamy-scrambled-eggs-gordon-ramsay.jpg",
   "category": "Breakfast",
   "cuisine": "British",
   "prepMin": 3,
@@ -62,6 +62,6 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "approved",
+  "imageApproved": true
 }
