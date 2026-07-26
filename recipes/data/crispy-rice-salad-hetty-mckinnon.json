@@ -1,0 +1,69 @@
+{
+  "slug": "crispy-rice-salad-hetty-mckinnon",
+  "title": "Crispy Rice Salad",
+  "inspiredBy": {
+    "chef": "Hetty McKinnon",
+    "dish": "crispy rice salad"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Hetty McKinnon-style crispy rice salad: crunchy rice, bright herbs, sesame dressing and exact TM6 and TM7 settings.",
+  "image": "hero-table.jpg",
+  "category": "Lunch",
+  "cuisine": "Asian-Australian",
+  "prepMin": 15,
+  "cookMin": 25,
+  "servings": 4,
+  "keywords": [
+    "thermomix crispy rice salad",
+    "Hetty McKinnon crispy rice salad Thermomix",
+    "TM6 crispy rice salad",
+    "TM7 crispy rice salad",
+    "Thermomix lunch salad"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-28",
+  "intro": "This is the kind of salad that eats like a proper meal: warm crispy rice, cool herbs, crunchy vegetables and a savoury sesame-lime dressing. The Thermomix handles the rice, chops the aromatics and blends the dressing so the final bowl still feels fresh and hand-tossed.",
+  "ingredients": [
+    "250 g jasmine rice, rinsed",
+    "320 g water",
+    "20 g neutral oil, plus extra for crisping",
+    "1 cucumber, diced",
+    "1 carrot, julienned",
+    "3 spring onions, sliced",
+    "1 small bunch coriander leaves",
+    "1 small bunch mint leaves",
+    "60 g roasted peanuts, roughly chopped",
+    "For the dressing: 25 g lime juice",
+    "20 g soy sauce",
+    "15 g sesame oil",
+    "15 g maple syrup or brown sugar",
+    "10 g fresh ginger",
+    "1 small garlic clove",
+    "1 tsp chilli crisp or chilli oil, optional"
+  ],
+  "steps": [
+    "Place the rinsed rice, water and 20 g neutral oil in the mixing bowl. Cook 18 min / 100°C / Reverse / speed 1, then rest 5 min / 0°C / no speed with the lid on.",
+    "Spread the cooked rice on a lined tray and let it steam-dry for 10 minutes. Drizzle with a little extra oil, then bake in a preheated oven 18 min / 210°C oven / no speed until the edges are crisp and golden.",
+    "Place ginger and garlic in the mixing bowl and chop 4 sec / speed 7. Scrape down.",
+    "Add lime juice, soy sauce, sesame oil, maple syrup and chilli crisp. Mix 10 sec / 0°C / speed 4 until glossy.",
+    "Add cucumber, carrot, spring onion, coriander, mint and peanuts to a large serving bowl. Add the warm crispy rice, pour over the dressing and toss by hand just before serving."
+  ],
+  "tips": [
+    "The rice crisps best when it has had a few minutes to steam-dry before baking.",
+    "Keep the herbs and dressing separate until the last minute so the salad stays bright and crunchy.",
+    "Add shredded roast chicken or tofu if you want it to be a bigger dinner bowl."
+  ],
+  "faq": [
+    {
+      "q": "Can I make crispy rice salad in a Thermomix?",
+      "a": "Yes. The Thermomix cooks the rice and blends the dressing; the oven gives the rice its crunchy texture."
+    },
+    {
+      "q": "Can I make the rice ahead?",
+      "a": "Yes. Cook and chill the rice ahead, then crisp it in the oven just before serving."
+    }
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false,
+  "pendingImage": "recipes/crispy-rice-salad-hetty-mckinnon.jpg",
+  "photoPrompt": "Professional editorial food photography of \"Crispy Rice Salad\" (crispy rice salad, Asian-Australian Lunch). Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate: crispy rice salad."
+}

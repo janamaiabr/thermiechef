@@ -204,6 +204,18 @@ function updateRecipeImage(slug, prompt = '') {
 const manifest = loadManifest().filter(Boolean);
 let selected = manifest;
 if (onlySlug) selected = selected.filter((i) => i.slug === onlySlug);
+if (onlySlug && selected.length === 0 && fs.existsSync(recipeFileForSlug(onlySlug))) {
+  const recipe = readJson(recipeFileForSlug(onlySlug));
+  selected = [{
+    slug: recipe.slug,
+    title: recipe.title,
+    chef: recipe.inspiredBy?.chef || '',
+    dish: recipe.inspiredBy?.dish || recipe.title,
+    category: recipe.category || '',
+    cuisine: recipe.cuisine || '',
+    target: `assets/recipes/${recipe.slug}.jpg`,
+  }];
+}
 selected = selected.slice(0, limit);
 
 console.log(`Manifest items: ${manifest.length}; selected: ${selected.length}; provider: ${PROVIDER}; gemini: ${GEMINI_MODEL}; openai: ${OPENAI_MODEL}`);
