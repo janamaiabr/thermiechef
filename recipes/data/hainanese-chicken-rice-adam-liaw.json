@@ -64,6 +64,7 @@
     "Meat",
     "Light"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Hainanese Chicken Rice\" (Hainanese chicken rice, Singaporean Dinner). Key ingredients that must visually guide the dish: 500 g chicken thigh fillets, 20 g fresh ginger, 2 spring onions, 2 garlic cloves, 30 g oil, 300 g jasmine rice, rinsed, 360 g chicken stock, To serve: soy, sliced cucumber, chilli-ginger sauce. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Hainanese Chicken Rice."
 }

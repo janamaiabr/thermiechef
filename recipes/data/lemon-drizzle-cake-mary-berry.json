@@ -61,6 +61,7 @@
     "Dessert",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Lemon Drizzle Cake\" (lemon drizzle cake, British Baking). Key ingredients that must visually guide the dish: 225 g butter, soft, 225 g caster sugar, 4 eggs, 225 g self-raising flour, 1 tsp baking powder, Zest of 2 lemons, For the drizzle: juice of 2 lemons + 85 g caster sugar. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Lemon Drizzle Cake."
 }

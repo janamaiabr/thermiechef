@@ -73,6 +73,7 @@
     "Pasta",
     "Meat"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Veg-Packed Bolognese\" (Bolognese, Italian Dinner). Key ingredients that must visually guide the dish: 1 brown onion, halved, 2 garlic cloves, 1 carrot, 1 celery stick, 30 g olive oil, 100 g pancetta or bacon, 500 g beef mince, 100 g red wine, 700 g tomato passata, 2 tbsp tomato paste. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Veg-Packed Bolognese."
 }

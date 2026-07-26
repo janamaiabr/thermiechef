@@ -6,7 +6,7 @@
     "dish": "Thai green curry"
   },
   "description": "A Chef Aly Thermomix reinterpretation of David Thompson-style Thai green curry: fragrant, layered, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/thai-green-curry-david-thompson.jpg",
   "category": "Dinner",
   "cuisine": "Thai",
   "prepMin": 12,
@@ -63,6 +63,7 @@
       "a": "Yes. Double the paste ingredients, freeze half in an ice cube tray, and pop out a cube whenever you need a quick curry."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Thai Green Curry\" (Thai green curry, Thai Dinner). Key ingredients that must visually guide the dish: 4 green bird's eye chillies, stems removed, 3 shallots, quartered, 3 garlic cloves, 20 g fresh ginger, sliced, 2 lemongrass stalks, white part only, sliced, 1 tsp ground coriander, 1 tsp ground cumin, ½ tsp white pepper, 30 g vegetable oil, 500 g chicken thigh, boneless, cut into 3 cm pieces. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Thai Green Curry."
 }

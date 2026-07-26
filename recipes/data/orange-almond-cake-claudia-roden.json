@@ -60,6 +60,7 @@
     "Dessert",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Orange & Almond Cake\" (orange & almond cake, Middle Eastern Dessert). Key ingredients that must visually guide the dish: 2 whole oranges, 250 g almond meal, 250 g caster sugar, 6 eggs, 1 tsp baking powder. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Orange & Almond Cake."
 }

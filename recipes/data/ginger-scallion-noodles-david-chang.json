@@ -64,6 +64,7 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Ginger Scallion Noodles\" (ginger scallion noodles, Korean-American Dinner). Key ingredients that must visually guide the dish: 6 spring onions, 40 g ginger, 60 g neutral oil, 20 g soy sauce, 15 g rice vinegar, 1 tsp sesame oil, 1 tsp sugar, 400 g cooked noodles. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Ginger Scallion Noodles."
 }

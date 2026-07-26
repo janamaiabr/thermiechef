@@ -54,6 +54,7 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Olive Oil Mashed Potato\" (mashed potato, Italian-inspired Snack). Key ingredients that must visually guide the dish: 800 g potatoes, cubed, 80 g good olive oil, 60 g warm milk (or water), 1 garlic clove, Salt, pepper. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Olive Oil Mashed Potato."
 }

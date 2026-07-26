@@ -1,12 +1,12 @@
 {
   "slug": "chocolate-mousse-julia-child",
-  "title": "Chocolate Mousse",
+  "title": "Bittersweet Chocolate Mousse",
   "inspiredBy": {
     "chef": "Julia Child",
     "dish": "chocolate mousse"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Julia Child-style chocolate mousse: silken, bittersweet, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/chocolate-mousse-julia-child.jpg",
   "category": "Dessert",
   "cuisine": "French",
   "prepMin": 15,
@@ -54,6 +54,7 @@
       "a": "Yes, but reduce the sugar to 30 g — milk chocolate is already much sweeter. The mousse will be softer and less intense."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Bittersweet Chocolate Mousse\" (chocolate mousse, French Dessert). Key ingredients that must visually guide the dish: 200 g dark chocolate (70%), broken into pieces, 30 g strong coffee, warm, 30 g unsalted butter, cubed, 4 eggs, separated, 60 g sugar, 1 tsp vanilla extract, 1 pinch salt, 200 g thickened cream, cold. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Bittersweet Chocolate Mousse."
 }

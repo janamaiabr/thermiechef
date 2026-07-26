@@ -153,9 +153,9 @@ module.exports = async function handler(req, res) {
       recipe.inspiredBy = target;
       recipe.datePublished = TODAY;
       recipe.thermomixModel = 'TM6 / TM7';
-      recipe.image = 'hero-table.jpg';
-      recipe.photoStatus = 'needs_review';
-      recipe.imageApproved = false;
+      recipe.image = `recipes/${recipe.slug}.jpg`;
+      recipe.photoStatus = 'auto_generated';
+      recipe.imageApproved = true;
       recipe.filters = classify(recipe);
       errs = validate(recipe, existing);
       if (!errs.length) break;
@@ -164,11 +164,11 @@ module.exports = async function handler(req, res) {
     if (!recipe) throw new Error(`Invalid recipe after retries: ${errs.join('; ')}`);
     const photoPrompt = photoPromptForRecipe(recipe);
     const photoBase64 = await geminiImage(photoPrompt);
-    recipe.image = 'hero-table.jpg';
-    recipe.pendingImage = `recipes/${recipe.slug}.jpg`;
+    recipe.image = `recipes/${recipe.slug}.jpg`;
+    delete recipe.pendingImage;
     recipe.photoPrompt = photoPrompt;
-    recipe.photoStatus = 'needs_review';
-    recipe.imageApproved = false;
+    recipe.photoStatus = 'auto_generated';
+    recipe.imageApproved = true;
     await putFile(repo, branch, `assets/recipes/${recipe.slug}.jpg`, photoBase64, `Add draft recipe photo: ${recipe.title}`);
     await putFile(repo, branch, `recipes/data/${recipe.slug}.json`, Buffer.from(`${JSON.stringify(recipe, null, 2)}\n`).toString('base64'), `Add daily ThermieChef recipe: ${recipe.title}`);
     return res.status(200).json({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, filters: recipe.filters, photoStatus: recipe.photoStatus, newsletter });

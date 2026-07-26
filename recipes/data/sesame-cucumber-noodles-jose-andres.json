@@ -60,6 +60,7 @@
     "Light",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Sesame Cucumber Noodles\" (cold noodle salad, Spanish-Asian-inspired Lunch). Key ingredients that must visually guide the dish: 30 g tahini or sesame paste, 30 g soy sauce, 20 g rice vinegar, 1 tsp sugar, 1 garlic clove, 20 g sesame oil, 300 g noodles, cooked & cooled, 1 cucumber, smashed, Sesame seeds, spring onion. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Sesame Cucumber Noodles."
 }

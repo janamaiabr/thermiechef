@@ -58,6 +58,7 @@
     "Dinner",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Lentil Shepherd's Pie\" (shepherd’s pie, British-inspired Dinner). Key ingredients that must visually guide the dish: 600 g potatoes, cubed, 40 g butter, 1 onion, halved, 1 carrot, 2 garlic cloves, 30 g oil, 150 g green lentils, 2 tbsp tomato paste, 500 g stock, 1 tsp thyme. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Lentil Shepherd's Pie."
 }

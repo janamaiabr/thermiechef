@@ -10,7 +10,7 @@ export const ALY_WA = "https://wa.me/61424310504";
 const TRACK_JS = `function track(t,s){try{var p=JSON.stringify({type:t,source:s||'',path:location.pathname,ref:document.referrer||''});var b=new Blob([p],{type:'application/json'});navigator.sendBeacon?navigator.sendBeacon('/api/track',b):fetch('/api/track',{method:'POST',headers:{'Content-Type':'application/json'},body:p,keepalive:true});}catch(e){}}function trackBuy(w){track('buy_click',w);try{if(window.fbq)fbq('track','InitiateCheckout',{source:w});}catch(e){}return true;}track('page_view','recipe');`;
 
 export const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const isPhotoApproved = (r) => r.imageApproved === true || r.photoStatus === "approved";
+const isPhotoApproved = (r) => r.imageApproved === true || r.photoStatus === "approved" || r.photoStatus === "auto_generated";
 const fallbackImage = (siteUrl) => `${siteUrl}/assets/hero-table.jpg`;
 const recipeVisual = (r, prefix = "../assets/") => isPhotoApproved(r)
   ? `<img class="hero-img" src="${prefix}${esc(r.image)}" alt="${esc(r.title)} made in a Thermomix" width="820" height="512"/>`

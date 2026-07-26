@@ -49,13 +49,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Gordon Ramsay and pepper steak sauce; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/pepper-steak-sauce-gordon-ramsay.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Snack",
     "Meat",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Peppercorn Sauce\" (pepper steak sauce, British-inspired Snack). Key ingredients that must visually guide the dish: 1 shallot, 20 g butter, 1 tbsp crushed peppercorns, 50 g brandy (or stock), 150 g beef stock, 150 g cream, 1 tsp Dijon mustard, Salt. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Peppercorn Sauce."
 }

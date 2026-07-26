@@ -63,6 +63,7 @@
     "Dessert",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Apple Teacake\" (apple teacake, Australian Baking). Key ingredients that must visually guide the dish: 125 g butter, soft, 150 g caster sugar, 2 eggs, 225 g self-raising flour, 100 g milk, 1 tsp vanilla, 1 apple, thinly sliced, Butter, cinnamon and sugar, to top. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Apple Teacake."
 }

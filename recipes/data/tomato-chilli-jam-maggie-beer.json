@@ -55,6 +55,7 @@
     "Dessert",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Tomato Chilli Jam\" (tomato chilli jam, Australian Snack). Key ingredients that must visually guide the dish: 700 g tomatoes, chopped, 2 red chillies, 2 garlic cloves, 20 g ginger, 300 g sugar, 60 g red wine vinegar, 1 tsp salt. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Tomato Chilli Jam."
 }

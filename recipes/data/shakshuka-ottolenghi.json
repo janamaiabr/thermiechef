@@ -6,7 +6,7 @@
     "dish": "shakshuka"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Ottolenghi-style shakshuka: spiced, saucy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/shakshuka-ottolenghi.jpg",
   "category": "Breakfast",
   "cuisine": "Middle Eastern",
   "prepMin": 10,
@@ -59,6 +59,7 @@
       "a": "Yes. The sauce keeps refrigerated for 3 days or frozen for 2 months. Reheat, make wells, add eggs and bake."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Shakshuka\" (shakshuka, Middle Eastern Breakfast). Key ingredients that must visually guide the dish: 1 onion, quartered, 3 garlic cloves, 1 red capsicum, deseeded and cut into chunks, 30 g olive oil, 1 tsp ground cumin, 1 tsp ground coriander, ½ tsp smoked paprika, ¼ tsp chilli flakes, 400 g canned crushed tomatoes, 1 tsp sugar. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Shakshuka."
 }

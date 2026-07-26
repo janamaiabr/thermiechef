@@ -54,6 +54,7 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Chocolate Hazelnut Spread\" (chocolate hazelnut spread, French-inspired Snack). Key ingredients that must visually guide the dish: 200 g hazelnuts, roasted, 150 g dark chocolate, broken, 60 g icing sugar, 30 g cocoa, 40 g neutral oil, 1 pinch salt. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Chocolate Hazelnut Spread."
 }

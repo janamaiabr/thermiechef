@@ -60,6 +60,7 @@
     "Dinner",
     "Meat"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Butter Chicken\" (butter chicken, Indian-inspired Dinner). Key ingredients that must visually guide the dish: 1 onion, halved, 3 garlic cloves, 20 g ginger, 30 g butter, 2 tbsp tomato paste, 1 tbsp garam masala, 1 tsp cumin, 1 tsp paprika, 400 g chopped tomatoes, 100 g cream. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Butter Chicken."
 }

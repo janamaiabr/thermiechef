@@ -57,6 +57,7 @@
     "Dinner",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Beetroot & Goat's Cheese Risotto\" (beetroot risotto, Australian Dinner). Key ingredients that must visually guide the dish: 1 onion, halved, 2 garlic cloves, 30 g olive oil, 2 beetroots, grated, 320 g arborio rice, 100 g white wine, 800 g hot vegetable stock, 80 g goat's cheese, Salt, pepper, dill. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Beetroot & Goat's Cheese Risotto."
 }

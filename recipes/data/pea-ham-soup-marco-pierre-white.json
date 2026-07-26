@@ -64,6 +64,7 @@
     "Meat",
     "Light"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Pea & Ham Soup\" (pea & ham soup, British Lunch). Key ingredients that must visually guide the dish: 1 onion, halved, 20 g butter, 500 g frozen peas, 150 g cooked ham, diced, 700 g chicken stock, 1 sprig mint, Salt and pepper, Cream, to finish. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Pea & Ham Soup."
 }

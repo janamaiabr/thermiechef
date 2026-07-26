@@ -55,6 +55,7 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Ricotta & Spinach Gnudi\" (gnudi, Italian Dinner). Key ingredients that must visually guide the dish: 200 g spinach, 250 g ricotta, 1 egg, 50 g parmesan, 60 g flour, plus extra, Nutmeg, salt, For serving: 60 g butter, sage. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Ricotta & Spinach Gnudi."
 }

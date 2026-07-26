@@ -6,7 +6,7 @@
     "dish": "chicken tikka masala"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Nigel Slater-style chicken tikka masala: aromatic, comforting, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/chicken-tikka-masala-nigel-slater.jpg",
   "category": "Dinner",
   "cuisine": "British-Indian",
   "prepMin": 15,
@@ -60,6 +60,7 @@
       "a": "Yes. The recipe as written is mild. To make it even milder, reduce the garam masala to ½ tsp. For more heat, add 1 tsp chilli powder to the marinade."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Chicken Tikka Masala\" (chicken tikka masala, British-Indian Dinner). Key ingredients that must visually guide the dish: 600 g chicken thigh, boneless, cut into 3 cm pieces, 150 g yoghurt, 1 tsp garam masala, 1 tsp ground cumin, ½ tsp ground turmeric, 1 onion, quartered, 3 garlic cloves, 20 g fresh ginger, sliced, 30 g butter, 400 g canned crushed tomatoes. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Chicken Tikka Masala."
 }

@@ -6,7 +6,7 @@
     "dish": "banana bread"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Bill Granger-style banana bread: moist, golden, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/banana-bread-bill-granger.jpg",
   "category": "Baking",
   "cuisine": "Australian",
   "prepMin": 10,
@@ -55,6 +55,7 @@
       "a": "Yes. Replace the self-raising flour with 200 g gluten-free self-raising flour. Add an extra ½ tsp baking powder for lift."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Banana Bread\" (banana bread, Australian Baking). Key ingredients that must visually guide the dish: 3 very ripe bananas (about 300 g peeled weight), 80 g melted butter, cooled slightly, 100 g brown sugar, 2 eggs, 1 tsp vanilla extract, 200 g self-raising flour, 1 tsp ground cinnamon, 1 pinch salt, 50 g walnuts, roughly chopped (optional). Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Banana Bread."
 }

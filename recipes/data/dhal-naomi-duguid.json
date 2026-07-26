@@ -6,7 +6,7 @@
     "dish": "dhal"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Naomi Duguid-style dhal: warming, earthy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/dhal-naomi-duguid.jpg",
   "category": "Lunch",
   "cuisine": "Indian",
   "prepMin": 10,
@@ -57,6 +57,7 @@
       "a": "Yes. Yellow split peas need 10 min longer. Green or brown lentils need 15 min longer and will hold their shape rather than breaking down."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Dhal\" (dhal, Indian Lunch). Key ingredients that must visually guide the dish: 250 g red lentils (masoor dhal), rinsed, 1 onion, quartered, 3 garlic cloves, 20 g fresh ginger, sliced, 1 tsp ground cumin, 1 tsp ground turmeric, ½ tsp mustard seeds, 30 g ghee or vegetable oil, 800 g water, 1 tsp salt. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Dhal."
 }

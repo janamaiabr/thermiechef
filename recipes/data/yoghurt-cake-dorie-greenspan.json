@@ -6,7 +6,7 @@
     "dish": "yoghurt cake"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Dorie Greenspan-style yoghurt cake: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/yoghurt-cake-dorie-greenspan.jpg",
   "category": "Baking",
   "cuisine": "French",
   "prepMin": 15,
@@ -52,6 +52,7 @@
       "a": "Yes. Taste at the end and adjust salt, pepper, lemon or herbs before serving."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Yoghurt Cake\" (yoghurt cake, French Baking). Key ingredients that must visually guide the dish: 1 onion, halved, 2 garlic cloves, 25 g olive oil, 500 g main vegetables or protein, prepared, 250 g sauce base or stock, 1 tsp fine salt, Black pepper, to taste, Fresh herbs or lemon, to finish. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Yoghurt Cake."
 }

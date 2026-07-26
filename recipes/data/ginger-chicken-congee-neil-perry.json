@@ -5,7 +5,7 @@
     "chef": "Neil Perry",
     "dish": "chicken congee"
   },
-  "image": "hero-table.jpg",
+  "image": "recipes/ginger-chicken-congee-neil-perry.jpg",
   "category": "Breakfast",
   "cuisine": "Chinese",
   "prepMin": 10,
@@ -60,6 +60,7 @@
     "Soup",
     "Meat"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Ginger Chicken Congee\" (chicken congee, Chinese Breakfast). Key ingredients that must visually guide the dish: 200 g jasmine rice, rinsed, 20 g ginger, sliced, 1200 g chicken stock, 300 g chicken thigh, Soy, sesame oil, spring onion and coriander, to serve. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Ginger Chicken Congee."
 }

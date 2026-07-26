@@ -46,13 +46,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Matt Preston and plum jam; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/spiced-plum-jam-matt-preston.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Snack",
     "Dessert",
     "Vegetarian"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Spiced Plum Jam\" (plum jam, Australian Snack). Key ingredients that must visually guide the dish: 700 g plums, stoned & chopped, 450 g sugar, Juice of 1 lemon, 1 cinnamon stick, 2 star anise. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Spiced Plum Jam."
 }

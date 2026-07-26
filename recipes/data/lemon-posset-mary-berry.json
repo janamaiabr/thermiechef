@@ -60,6 +60,7 @@
     "Dessert",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Lemon Posset\" (lemon posset, British Dessert). Key ingredients that must visually guide the dish: 250 g key fruit, chocolate or dairy ingredient as needed, 120 g caster sugar, 2 eggs or 300 g cream, depending on dish, 80 g butter, 120 g plain flour or almond meal, 1 tsp vanilla extract, Pinch sea salt. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Lemon Posset."
 }

@@ -59,6 +59,7 @@
     "Seafood",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Chilli Crab Pasta\" (chilli crab, Chinese-Australian-inspired Dinner). Key ingredients that must visually guide the dish: 3 garlic cloves, 20 g ginger, 1-2 red chillies, 30 g oil, 2 tbsp tomato paste, 200 g passata, 1 tbsp soy sauce, 200 g crab meat, 300 g spaghetti, cooked, Spring onion, coriander. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Chilli Crab Pasta."
 }

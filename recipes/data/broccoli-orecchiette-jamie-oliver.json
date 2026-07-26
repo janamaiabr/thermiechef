@@ -58,6 +58,7 @@
     "Light",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Broccoli Orecchiette\" (broccoli orecchiette, Italian-inspired Dinner). Key ingredients that must visually guide the dish: 3 garlic cloves, 1 red chilli, 30 g olive oil, 2 anchovy fillets (optional), 400 g broccoli, chopped, 100 g vegetable stock, Parmesan, to serve, 300 g orecchiette, cooked. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Broccoli Orecchiette."
 }

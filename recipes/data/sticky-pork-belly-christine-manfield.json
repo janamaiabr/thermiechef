@@ -6,7 +6,7 @@
     "dish": "sticky pork belly"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Christine Manfield-style sticky pork belly: caramelised, deeply flavoured, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/sticky-pork-belly-christine-manfield.jpg",
   "category": "Dinner",
   "cuisine": "Australian-Asian",
   "prepMin": 15,
@@ -58,6 +58,7 @@
       "a": "Yes. Cut into 4 cm pieces and add 10 min to the cooking time. Shoulder is leaner but still becomes very tender."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Sticky Pork Belly\" (sticky pork belly, Australian-Asian Dinner). Key ingredients that must visually guide the dish: 800 g pork belly, skin scored, cut into 4 cm pieces, 2 onions, quartered, 4 garlic cloves, 30 g fresh ginger, sliced, 2 star anise, 1 cinnamon stick, 40 g soy sauce, 40 g rice vinegar, 50 g brown sugar, 20 g hoisin sauce. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Sticky Pork Belly."
 }

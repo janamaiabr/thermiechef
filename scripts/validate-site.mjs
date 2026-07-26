@@ -1,4 +1,5 @@
-import { readFileSync, readdirSync, existsSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const ROOT = new URL("..", import.meta.url).pathname;
@@ -11,6 +12,10 @@ const errors = [];
 const files = readdirSync(DATA).filter(f => f.endsWith(".json"));
 const byDate = new Map();
 const byInspo = new Map();
+const bySlug = new Map();
+const byTitle = new Map();
+const byImage = new Map();
+const byImageHash = new Map();
 let future = 0;
 const today = process.env.BUILD_DATE || new Date().toISOString().slice(0,10);
 for (const f of files) {
@@ -21,6 +26,16 @@ for (const f of files) {
   }
   if (!r.inspiredBy?.chef || !r.inspiredBy?.dish) errors.push(`${f}: missing inspiredBy chef/dish`);
   if (r.slug && `${r.slug}.json` !== f) errors.push(`${f}: filename does not match slug`);
+  const slugKey = String(r.slug || "").toLowerCase();
+  const titleKey = String(r.title || "").trim().toLowerCase();
+  if (slugKey) {
+    if (bySlug.has(slugKey)) errors.push(`${f}: duplicate slug with ${bySlug.get(slugKey)}`);
+    else bySlug.set(slugKey, f);
+  }
+  if (titleKey) {
+    if (byTitle.has(titleKey)) errors.push(`${f}: duplicate title with ${byTitle.get(titleKey)}`);
+    else byTitle.set(titleKey, f);
+  }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(r.datePublished || "")) errors.push(`${f}: bad datePublished`);
   if ((r.description || "").length < 80 || !/Thermomix/i.test(r.description || "")) errors.push(`${f}: weak SEO description`);
   if (!Array.isArray(r.keywords) || r.keywords.length < 4 || !r.keywords.some(k => /Thermomix/i.test(k))) errors.push(`${f}: weak keywords`);
@@ -33,27 +48,40 @@ for (const f of files) {
   if (banned.test(blob)) errors.push(`${f}: contains banned health/medical language`);
   (r.steps || []).forEach((step, i) => { for (const m of String(step).matchAll(/(\d{2,3})\s*°?\s*C/gi)) { if (+m[1] > 120 && !/oven|bake|roast|preheated/i.test(step)) errors.push(`${f}: non-oven temp >120°C in step ${i+1} (${m[1]})`); } });
   for (const m of blob.matchAll(/speed\s*(\d{1,2}(?:\.\d+)?)/gi)) if (+m[1] > 10) errors.push(`${f}: speed >10 (${m[1]})`);
-  if (!existsSync(join(ASSETS, r.image || ""))) errors.push(`${f}: image not found (${r.image})`);
-  const approvedPhoto = r.imageApproved === true || r.photoStatus === "approved";
-  if (!approvedPhoto && r.image !== "hero-table.jpg") {
-    errors.push(`${f}: unapproved recipe photo must use hero-table.jpg`);
+  const expectedImage = `recipes/${r.slug}.jpg`;
+  const imagePath = join(ASSETS, r.image || "");
+  if (r.image !== expectedImage) {
+    errors.push(`${f}: recipe must use a unique generated photo (${expectedImage}), not ${r.image}`);
   }
-  if (r.imageApproved === true && r.photoStatus !== "approved") {
-    errors.push(`${f}: imageApproved requires photoStatus approved`);
+  if (!existsSync(imagePath)) {
+    errors.push(`${f}: image not found (${r.image})`);
+  } else {
+    const size = statSync(imagePath).size;
+    if (size < 10_000) errors.push(`${f}: image too small (${r.image}, ${size} bytes)`);
+    const imageKey = String(r.image || "").toLowerCase();
+    if (byImage.has(imageKey)) errors.push(`${f}: duplicate image path with ${byImage.get(imageKey)}`);
+    else byImage.set(imageKey, f);
+    const digest = createHash("sha256").update(readFileSync(imagePath)).digest("hex");
+    if (byImageHash.has(digest)) errors.push(`${f}: duplicate image file content with ${byImageHash.get(digest)}`);
+    else byImageHash.set(digest, f);
   }
-  if (r.photoStatus === "approved" && !String(r.image || "").startsWith("recipes/")) {
-    errors.push(`${f}: approved photo must point to assets/recipes/`);
+  const generatedPhoto = r.imageApproved === true && (r.photoStatus === "auto_generated" || r.photoStatus === "approved");
+  if (!generatedPhoto) {
+    errors.push(`${f}: recipe photo must be auto_generated and imageApproved true`);
+  }
+  if (!r.photoPrompt || !String(r.photoPrompt).includes(r.title)) {
+    errors.push(`${f}: missing recipe-specific photoPrompt`);
+  }
+  const promptText = String(r.photoPrompt || "").toLowerCase();
+  const ingredientHits = (r.ingredients || [])
+    .map((i) => String(i).toLowerCase().replace(/^\d+(?:\.\d+)?\s*(?:g|ml|tbsp|tsp|cup|cups)?\s*/i, "").split(/[,()]/)[0].trim())
+    .filter((i) => i.length >= 4)
+    .filter((i) => promptText.includes(i.split(/\s+/).slice(-1)[0] || i));
+  if (ingredientHits.length < 2) {
+    errors.push(`${f}: photoPrompt must include at least 2 recipe ingredients`);
   }
   if (r.pendingImage) {
-    if (!String(r.pendingImage).startsWith("recipes/")) {
-      errors.push(`${f}: pendingImage must point to assets/recipes/`);
-    }
-    if (!existsSync(join(ASSETS, r.pendingImage))) {
-      errors.push(`${f}: pendingImage not found (${r.pendingImage})`);
-    }
-    if (approvedPhoto) {
-      errors.push(`${f}: approved recipes must not keep pendingImage`);
-    }
+    errors.push(`${f}: pendingImage is not allowed; daily photos must be final generated assets`);
   }
   const inspo = `${(r.inspiredBy?.chef||"").toLowerCase()}|${(r.inspiredBy?.dish||"").toLowerCase()}`;
   if (byInspo.has(inspo)) errors.push(`${f}: duplicate inspiredBy with ${byInspo.get(inspo)}`); else byInspo.set(inspo, f);

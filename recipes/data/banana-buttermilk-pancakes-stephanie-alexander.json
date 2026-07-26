@@ -57,6 +57,7 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Banana Buttermilk Pancakes\" (banana pancakes, Australian Breakfast). Key ingredients that must visually guide the dish: 2 ripe bananas, 2 eggs, 300 g buttermilk, 200 g self-raising flour, 30 g sugar, 1 pinch salt, Butter, for cooking, Honey, to serve. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Banana Buttermilk Pancakes."
 }

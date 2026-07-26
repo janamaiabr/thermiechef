@@ -66,6 +66,7 @@
     "Pasta",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Lentil & Mushroom Ragù\" (lentil ragù, Italian Dinner). Key ingredients that must visually guide the dish: 1 onion, halved, 2 garlic cloves, 1 carrot, 250 g mushrooms, 30 g olive oil, 150 g dried green lentils, 2 tbsp tomato paste, 700 g passata, 100 g red wine, 1 tsp dried oregano. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Lentil & Mushroom Ragù."
 }

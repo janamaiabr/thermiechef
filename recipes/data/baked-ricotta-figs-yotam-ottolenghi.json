@@ -55,6 +55,7 @@
     "Snack",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Baked Ricotta with Figs\" (baked ricotta with figs, Middle Eastern-inspired Snack). Key ingredients that must visually guide the dish: 500 g ricotta, 2 eggs, 40 g parmesan, grated, 1 lemon, zested, Salt and pepper, 6 figs, halved, 2 tbsp honey, Thyme, to serve. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Baked Ricotta with Figs."
 }

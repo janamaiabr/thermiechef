@@ -6,7 +6,7 @@
     "dish": "fish tacos"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Diana Kennedy-style fish tacos: bright, crisp, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/fish-tacos-diana-kennedy.jpg",
   "category": "Dinner",
   "cuisine": "Mexican",
   "prepMin": 15,
@@ -57,6 +57,7 @@
       "a": "Yes. Thaw completely and pat dry before marinating. Frozen fish releases more water, so the cook time is the same."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Fish Tacos\" (fish tacos, Mexican Dinner). Key ingredients that must visually guide the dish: 500 g white fish fillets (barramundi or snapper), cut into 3 cm pieces, 1 lime, juice only, 1 tsp ground cumin, ½ tsp smoked paprika, 1 tsp salt, 1 avocado, diced, 1 cup shredded cabbage, 1 tomato, diced, 1 jalapeño, thinly sliced, 8 small corn tortillas. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Fish Tacos."
 }

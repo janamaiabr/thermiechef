@@ -74,13 +74,20 @@ async function main() {
   let slug = (r.slug || r.title || "recipe").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   while (existingSlugs.has(slug)) slug = `${slug}-${today.slice(5)}`;
   r.slug = slug;
-  r.image = "hero-table.jpg";
-  r.photoStatus = "needs_review";
-  r.imageApproved = false;
+  r.image = `recipes/${slug}.jpg`;
+  r.photoStatus = "auto_generated";
+  r.imageApproved = true;
   r.datePublished = today;
 
   writeFileSync(join(DATA, `${slug}.json`), JSON.stringify(r, null, 2) + "\n");
   console.log(`Generated recipe: ${r.title} (${slug})`);
+
+  // Generate the matching recipe-specific photo before the recipe can build.
+  execSync(`node scripts/gen-recipe-photos.mjs --slug=${slug} --force`, {
+    cwd: ROOT,
+    stdio: "inherit",
+    env: { ...process.env, IMAGE_PROVIDER: process.env.IMAGE_PROVIDER || "pollinations" },
+  });
 
   // rebuild the site
   execSync("node scripts/build.mjs", { cwd: ROOT, stdio: "inherit", env: process.env });

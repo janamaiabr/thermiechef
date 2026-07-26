@@ -55,6 +55,7 @@
     "Baking",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Tomato Galette\" (tomato galette, French-inspired Baking). Key ingredients that must visually guide the dish: 200 g plain flour, 120 g cold butter, cubed, 1 pinch salt, 50 g cold water, 60 g ricotta or goat's cheese, 4 tomatoes, sliced, Thyme, olive oil. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Tomato Galette."
 }

@@ -56,6 +56,7 @@
     "Dinner",
     "Seafood"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Fish Pie\" (fish pie, British-seafood Dinner). Key ingredients that must visually guide the dish: 600 g potatoes, cubed, 40 g butter, 40 g plain flour, 500 g milk, 1 tsp Dijon mustard, 500 g mixed fish & prawns, in chunks, Handful parsley, Salt, pepper, 50 g cheddar, grated. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Fish Pie."
 }

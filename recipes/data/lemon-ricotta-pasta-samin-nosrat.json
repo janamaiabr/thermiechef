@@ -57,6 +57,7 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Lemon Ricotta Pasta\" (lemon ricotta pasta, Italian-inspired Dinner). Key ingredients that must visually guide the dish: 250 g ricotta, 1 lemon (juice + zest), 40 g parmesan, grated, 30 g olive oil, Salt, pepper, 300 g pasta, cooked, Basil, to serve. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Lemon Ricotta Pasta."
 }

@@ -66,6 +66,7 @@
     "Dinner",
     "Meat"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Spiced Lamb & Aubergine\" (spiced lamb & aubergine, Persian Dinner). Key ingredients that must visually guide the dish: 1 onion, halved, 3 garlic cloves, 30 g olive oil, 500 g lamb, diced, 1 aubergine, cubed, 1 tsp cumin, 1 tsp cinnamon, 2 tbsp tomato paste, 400 g chopped tomatoes, 200 g stock. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Spiced Lamb & Aubergine."
 }

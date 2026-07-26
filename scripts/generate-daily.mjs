@@ -83,7 +83,7 @@ function imagePrompt(r) {
   return `Professional editorial food photography of "${r.title}", a Thermomix reinterpretation of ${r.inspiredBy?.dish || r.title}. Cuisine: ${r.cuisine}. Key ingredients: ${(r.ingredients || []).slice(0, 8).join(', ')}. Natural soft daylight, realistic appetising finished dish, beautiful ceramic plate or bowl, rustic wood or linen surface, warm premium cookbook style, shallow depth of field, 45-degree or overhead angle. Show only the finished dish. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square 1:1 high resolution.`;
 }
 
-async function generateDraftImage(recipe) {
+async function generateRecipeImage(recipe) {
   const prompt = imagePrompt(recipe);
   const outPath = path.join(ASSET_DIR, `${recipe.slug}.jpg`);
   const provider = process.env.RECIPE_IMAGE_PROVIDER || 'auto';
@@ -102,11 +102,11 @@ async function generateDraftImage(recipe) {
     }
   }
   writeJpg(image.data, image.mimeType, outPath);
-  recipe.image = 'hero-table.jpg';
-  recipe.pendingImage = `recipes/${recipe.slug}.jpg`;
+  recipe.image = `recipes/${recipe.slug}.jpg`;
+  delete recipe.pendingImage;
   recipe.photoPrompt = prompt;
-  recipe.photoStatus = 'needs_review';
-  recipe.imageApproved = false;
+  recipe.photoStatus = 'auto_generated';
+  recipe.imageApproved = true;
 }
 
 async function main() {
@@ -120,16 +120,16 @@ async function main() {
     recipe.inspiredBy = { chef: target.chef, dish: target.dish };
     recipe.datePublished = TODAY;
     recipe.thermomixModel = 'TM6 / TM7';
-    recipe.image = 'hero-table.jpg';
-    recipe.photoStatus = 'needs_review';
-    recipe.imageApproved = false;
+    recipe.image = `recipes/${recipe.slug}.jpg`;
+    recipe.photoStatus = 'auto_generated';
+    recipe.imageApproved = true;
     recipe.filters = classifyRecipe(recipe);
     lastErrors = validateRecipe(recipe, existing);
     if (!lastErrors.length) break;
     recipe = null;
   }
   if (!recipe) throw new Error(`Could not generate valid recipe: ${lastErrors.join('; ')}`);
-  await generateDraftImage(recipe);
+  await generateRecipeImage(recipe);
   fs.writeFileSync(path.join(DATA_DIR, `${recipe.slug}.json`), `${JSON.stringify(recipe, null, 2)}\n`);
   execFileSync('node', ['scripts/build.mjs'], { cwd: ROOT, stdio: 'inherit' });
   execFileSync('node', ['scripts/validate-site.mjs'], { cwd: ROOT, stdio: 'inherit' });
@@ -138,7 +138,7 @@ async function main() {
     execFileSync('git', ['commit', '-m', `Add daily ThermieChef recipe: ${recipe.title}`], { cwd: ROOT, stdio: 'inherit' });
     execFileSync('git', ['push'], { cwd: ROOT, stdio: 'inherit' });
   }
-  console.log(JSON.stringify({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, photoStatus: recipe.photoStatus }, null, 2));
+  console.log(JSON.stringify({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, image: recipe.image, photoStatus: recipe.photoStatus }, null, 2));
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

@@ -62,6 +62,7 @@
     "Seafood",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Steamed Ginger & Soy Fish\" (steamed fish, Chinese Dinner). Key ingredients that must visually guide the dish: 4 white fish fillets, 20 g ginger, julienned, 3 spring onions, sliced, 30 g soy sauce, 15 g sesame oil, For the rice: 300 g jasmine rice, rinsed + 360 g water. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Steamed Ginger & Soy Fish."
 }

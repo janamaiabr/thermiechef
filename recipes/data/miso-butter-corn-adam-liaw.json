@@ -53,6 +53,7 @@
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Miso Butter Corn\" (miso butter corn, Japanese-inspired Snack). Key ingredients that must visually guide the dish: 4 corn cobs (or 400 g kernels), 40 g butter, 20 g white miso, 1 tsp sugar, Spring onion, to serve. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Miso Butter Corn."
 }

@@ -70,6 +70,7 @@
     "Dinner",
     "Meat"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Beef Bourguignon\" (beef bourguignon, French Dinner). Key ingredients that must visually guide the dish: 1 brown onion, halved, 2 garlic cloves, 150 g bacon lardons, 30 g olive oil, 800 g beef chuck, cubed, 30 g plain flour, 300 g red wine, 300 g beef stock, 1 tbsp tomato paste, 1 bay leaf. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Beef Bourguignon."
 }

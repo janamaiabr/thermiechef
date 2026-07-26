@@ -51,13 +51,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Yotam Ottolenghi and green shakshuka; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "hero-table.jpg",
+  "image": "recipes/green-shakshuka-ottolenghi.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Breakfast",
     "Vegetarian",
     "Under 30 min"
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Green Shakshuka\" (green shakshuka, Middle Eastern-inspired Breakfast). Key ingredients that must visually guide the dish: 1 onion, halved, 3 garlic cloves, 30 g olive oil, 1 tsp cumin, 200 g spinach, 100 g kale, 100 g stock, 50 g feta, 4 eggs, Salt, pepper. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Green Shakshuka."
 }

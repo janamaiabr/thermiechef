@@ -60,6 +60,7 @@
     "Baking",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Cinnamon Scrolls\" (cinnamon buns, British-inspired Baking). Key ingredients that must visually guide the dish: 320 g warm water, 7 g dried yeast, 1 tsp sugar, 500 g baker’s flour, 35 g olive oil or softened butter, 1.5 tsp sea salt, Extra topping ingredients, as needed. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Cinnamon Scrolls."
 }

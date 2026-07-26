@@ -6,7 +6,7 @@
     "dish": "mushroom risotto"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Stephanie Alexander-style mushroom risotto: creamy, earthy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "hero-table.jpg",
+  "image": "recipes/mushroom-risotto-steph-alexander.jpg",
   "category": "Dinner",
   "cuisine": "Italian-Australian",
   "prepMin": 10,
@@ -58,6 +58,7 @@
       "a": "Yes. Soak 20 g dried porcini in 150 g hot water for 10 min. Add the soaked mushrooms with the fresh ones, and use the soaking liquid as part of the stock."
     }
   ],
-  "photoStatus": "needs_review",
-  "imageApproved": false
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Mushroom Risotto\" (mushroom risotto, Italian-Australian Dinner). Key ingredients that must visually guide the dish: 1 onion, quartered, 2 garlic cloves, 40 g butter, 300 g arborio rice, 200 g mixed mushrooms (swiss brown, oyster, shiitake), sliced, 150 g dry white wine, 800 g vegetable stock, hot, 30 g parmesan, finely grated, 1 tsp salt, Black pepper, to taste. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Mushroom Risotto."
 }

@@ -67,6 +67,7 @@
     "Light",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Silky Hummus\" (hummus, Middle Eastern Snack). Key ingredients that must visually guide the dish: 2 x 400 g tins chickpeas, drained, 1 tsp bicarbonate of soda, 2 garlic cloves, 150 g hulled tahini, 90 g lemon juice, 100 g iced water, 1 tsp salt, Olive oil and paprika, to serve. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Silky Hummus."
 }

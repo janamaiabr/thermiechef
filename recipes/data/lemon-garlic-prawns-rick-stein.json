@@ -57,6 +57,7 @@
     "Seafood",
     "Under 30 min"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Lemon Garlic Prawns\" (garlic prawns, Seafood Dinner). Key ingredients that must visually guide the dish: 4 garlic cloves, 60 g butter, 30 g olive oil, 1 lemon (juice + zest), 1 pinch chilli flakes, 600 g raw prawns, peeled, Salt, parsley, Crusty bread, to serve. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Lemon Garlic Prawns."
 }

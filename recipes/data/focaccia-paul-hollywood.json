@@ -63,6 +63,7 @@
     "Baking",
     "Vegetarian"
   ],
-  "photoStatus": "approved",
-  "imageApproved": true
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Rosemary Focaccia\" (focaccia, Italian Baking). Key ingredients that must visually guide the dish: 350 g warm water, 7 g dried yeast, 1 tsp sugar, 500 g baker's flour, 1.5 tsp salt, 40 g olive oil, plus extra, Rosemary and flaky salt, to top. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Rosemary Focaccia."
 }

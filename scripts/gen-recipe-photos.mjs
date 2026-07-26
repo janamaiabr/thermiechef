@@ -6,7 +6,6 @@ import { execFileSync } from 'node:child_process';
 const ROOT = process.cwd();
 const DATA_DIR = path.join(ROOT, 'recipes', 'data');
 const ASSET_DIR = path.join(ROOT, 'assets', 'recipes');
-const MANIFEST_PATH = path.join(ROOT, 'recipes', 'PHOTO-MANIFEST.json');
 const PROVIDER = process.env.IMAGE_PROVIDER || 'auto';
 const GEMINI_MODEL = process.env.GEMINI_IMAGE_MODEL || 'gemini-2.5-flash-image-preview';
 const OPENAI_MODEL = process.env.OPENAI_IMAGE_MODEL || 'gpt-image-1-mini';
@@ -22,7 +21,6 @@ const args = new Set(process.argv.slice(2));
 const force = args.has('--force');
 const dryRun = args.has('--dry-run');
 const updateOnly = args.has('--update-only');
-const approve = args.has('--approve');
 const limitArg = process.argv.find((a) => a.startsWith('--limit='));
 const limit = limitArg ? Number(limitArg.split('=')[1]) : Infinity;
 const slugArg = process.argv.find((a) => a.startsWith('--slug='));
@@ -39,11 +37,6 @@ function recipeFileForSlug(slug) {
 }
 
 function loadManifest() {
-  if (fs.existsSync(MANIFEST_PATH)) {
-    const parsed = readJson(MANIFEST_PATH);
-    return Array.isArray(parsed) ? parsed : parsed.recipes;
-  }
-
   return fs.readdirSync(DATA_DIR)
     .filter((f) => f.endsWith('.json'))
     .sort()
@@ -56,13 +49,15 @@ function loadManifest() {
         dish: recipe.inspiredBy?.dish || recipe.title,
         category: recipe.category || '',
         cuisine: recipe.cuisine || '',
+        ingredients: recipe.ingredients || [],
         target: `assets/recipes/${recipe.slug}.jpg`,
       };
     });
 }
 
 function promptFor(item) {
-  return `Professional editorial food photography of "${item.title}" (${item.dish}, ${item.cuisine} ${item.category}). Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate: ${item.dish}.`;
+  const ingredients = (item.ingredients || []).slice(0, 10).join(', ');
+  return `Professional editorial food photography of "${item.title}" (${item.dish}, ${item.cuisine} ${item.category}). Key ingredients that must visually guide the dish: ${ingredients}. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: ${item.title}.`;
 }
 
 async function generateWithGemini(prompt) {
@@ -126,16 +121,17 @@ function hashSeed(text) {
     h ^= ch.charCodeAt(0);
     h = Math.imul(h, 16777619);
   }
-  return Math.abs(h >>> 0);
+  return (h >>> 0) % 2147483647;
 }
 
 async function generateWithPollinations(prompt, slug = '') {
+  const seedSalt = process.env.IMAGE_SEED_SALT || '';
   const params = new URLSearchParams({
     width: '1024',
     height: '1024',
     model: process.env.POLLINATIONS_MODEL || 'flux',
     nologo: 'true',
-    seed: String(hashSeed(slug || prompt)),
+    seed: String(hashSeed(`${seedSalt}:${slug || prompt}`)),
   });
   const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?${params}`;
   const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 ThermieChef image generator' } });
@@ -186,17 +182,10 @@ function saveAsJpg(buffer, mimeType, outPath) {
 function updateRecipeImage(slug, prompt = '') {
   const file = recipeFileForSlug(slug);
   const recipe = readJson(file);
-  if (approve) {
-    recipe.image = `recipes/${slug}.jpg`;
-    recipe.photoStatus = 'approved';
-    recipe.imageApproved = true;
-    delete recipe.pendingImage;
-  } else {
-    recipe.image = 'hero-table.jpg';
-    recipe.pendingImage = `recipes/${slug}.jpg`;
-    recipe.photoStatus = 'needs_review';
-    recipe.imageApproved = false;
-  }
+  recipe.image = `recipes/${slug}.jpg`;
+  recipe.photoStatus = 'auto_generated';
+  recipe.imageApproved = true;
+  delete recipe.pendingImage;
   if (prompt) recipe.photoPrompt = prompt;
   fs.writeFileSync(file, `${JSON.stringify(recipe, null, 2)}\n`);
 }
@@ -213,6 +202,7 @@ if (onlySlug && selected.length === 0 && fs.existsSync(recipeFileForSlug(onlySlu
     dish: recipe.inspiredBy?.dish || recipe.title,
     category: recipe.category || '',
     cuisine: recipe.cuisine || '',
+    ingredients: recipe.ingredients || [],
     target: `assets/recipes/${recipe.slug}.jpg`,
   }];
 }
@@ -226,7 +216,7 @@ for (const item of selected) {
   const exists = fs.existsSync(outPath) && fs.statSync(outPath).size > 10_000;
   if (!force && exists) {
     updateRecipeImage(item.slug, promptFor(item));
-    console.log(`✓ exists ${item.slug} (${approve ? 'approved' : 'pending review'})`);
+    console.log(`✓ exists ${item.slug} (auto-generated)`);
     continue;
   }
 
@@ -237,7 +227,7 @@ for (const item of selected) {
 
   if (updateOnly) {
     updateRecipeImage(item.slug, promptFor(item));
-    console.log(`✓ updated JSON only ${item.slug} (${approve ? 'approved' : 'pending review'})`);
+    console.log(`✓ updated JSON only ${item.slug} (auto-generated)`);
     continue;
   }
 
