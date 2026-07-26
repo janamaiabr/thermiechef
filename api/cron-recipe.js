@@ -105,6 +105,10 @@ async function geminiImage(prompt) {
   return Buffer.from((part.inlineData || part.inline_data).data, 'base64').toString('base64');
 }
 
+function photoPromptForRecipe(r) {
+  return `Professional editorial food photography of "${r.title}", a Thermomix reinterpretation of ${r.inspiredBy?.dish || r.title}. Cuisine: ${r.cuisine}. Key ingredients: ${(r.ingredients || []).slice(0, 8).join(', ')}. Natural soft daylight, realistic appetising finished dish, beautiful ceramic plate or bowl, rustic wood or linen surface, warm premium cookbook style, shallow depth of field, 45-degree or overhead angle. Show only the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image.`;
+}
+
 async function putFile(repo, branch, filePath, contentBase64, message) {
   const headers = { Authorization: `Bearer ${process.env.GITHUB_TOKEN}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
   const get = await fetch(`https://api.github.com/repos/${repo}/contents/${encodeURIComponent(filePath).replace(/%2F/g,'/')}?ref=${branch}`, { headers });
@@ -158,6 +162,14 @@ module.exports = async function handler(req, res) {
       recipe = null;
     }
     if (!recipe) throw new Error(`Invalid recipe after retries: ${errs.join('; ')}`);
+    const photoPrompt = photoPromptForRecipe(recipe);
+    const photoBase64 = await geminiImage(photoPrompt);
+    recipe.image = 'hero-table.jpg';
+    recipe.pendingImage = `recipes/${recipe.slug}.jpg`;
+    recipe.photoPrompt = photoPrompt;
+    recipe.photoStatus = 'needs_review';
+    recipe.imageApproved = false;
+    await putFile(repo, branch, `assets/recipes/${recipe.slug}.jpg`, photoBase64, `Add draft recipe photo: ${recipe.title}`);
     await putFile(repo, branch, `recipes/data/${recipe.slug}.json`, Buffer.from(`${JSON.stringify(recipe, null, 2)}\n`).toString('base64'), `Add daily ThermieChef recipe: ${recipe.title}`);
     return res.status(200).json({ ok: true, slug: recipe.slug, title: recipe.title, chef: recipe.inspiredBy.chef, filters: recipe.filters, photoStatus: recipe.photoStatus, newsletter });
   } catch (e) {

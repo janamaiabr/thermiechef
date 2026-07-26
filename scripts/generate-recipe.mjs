@@ -10,19 +10,11 @@ import { execSync } from "node:child_process";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(ROOT, "recipes", "data");
 
-// images to rotate through as recipe photos (must exist in /assets)
-const IMAGES = [
-  "dish-pasta.jpg", "dish-bowl.jpg", "dish-salad.jpg", "dish-chicken.jpg", "dish-soup.jpg",
-  "food-risotto.jpg", "food-bread.jpg", "food-cake.jpg", "food-brigadeiro.jpg", "dish-dessert.jpg",
-  "dish-pancakes.jpg", "dish-smoothie.jpg", "food-soup.jpg", "dish-bread2.jpg", "hero-table.jpg",
-];
-
 const existing = readdirSync(DATA).filter((f) => f.endsWith(".json") && !f.startsWith("._")).map((f) => JSON.parse(readFileSync(join(DATA, f), "utf8")));
 const existingTitles = existing.map((r) => r.title);
 const existingInspos = existing.map((r) => (r.inspiredBy ? `${r.inspiredBy.chef} — ${r.inspiredBy.dish}` : r.title));
 const existingSlugs = new Set(existing.map((r) => r.slug));
 const today = (process.env.RECIPE_DATE || new Date().toISOString().slice(0, 10));
-const image = IMAGES[existing.length % IMAGES.length];
 
 const SYSTEM = `You are Chef Aly, a top Australian Thermomix consultant. Write ONE new Thermomix RE-INTERPRETATION ("releitura") of an iconic dish made famous by a well-known chef or cookbook author (for example: Yotam Ottolenghi, Nigella Lawson, Jamie Oliver, Donna Hay, Bill Granger, Maggie Beer, Rita Lobo, Gordon Ramsay, Massimo Bottura, Adam Liaw, Matt Preston, Julia Child). Credit the chef in the "inspiredBy" field. Write your OWN original Thermomix method, in your own words — NEVER copy the original recipe's wording. This is an independent homage and is NOT endorsed by or affiliated with the chef.
 
@@ -82,7 +74,9 @@ async function main() {
   let slug = (r.slug || r.title || "recipe").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   while (existingSlugs.has(slug)) slug = `${slug}-${today.slice(5)}`;
   r.slug = slug;
-  r.image = image;
+  r.image = "hero-table.jpg";
+  r.photoStatus = "needs_review";
+  r.imageApproved = false;
   r.datePublished = today;
 
   writeFileSync(join(DATA, `${slug}.json`), JSON.stringify(r, null, 2) + "\n");

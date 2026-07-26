@@ -83,6 +83,32 @@ function imagePrompt(r) {
   return `Professional editorial food photography of "${r.title}", a Thermomix reinterpretation of ${r.inspiredBy?.dish || r.title}. Cuisine: ${r.cuisine}. Key ingredients: ${(r.ingredients || []).slice(0, 8).join(', ')}. Natural soft daylight, realistic appetising finished dish, beautiful ceramic plate or bowl, rustic wood or linen surface, warm premium cookbook style, shallow depth of field, 45-degree or overhead angle. Show only the finished dish. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square 1:1 high resolution.`;
 }
 
+async function generateDraftImage(recipe) {
+  const prompt = imagePrompt(recipe);
+  const outPath = path.join(ASSET_DIR, `${recipe.slug}.jpg`);
+  const provider = process.env.RECIPE_IMAGE_PROVIDER || 'auto';
+  let image;
+  if (provider === 'pollinations') {
+    image = await imageWithPollinations(prompt, recipe.slug);
+  } else if (provider === 'gemini') {
+    image = await imageWithGemini(prompt);
+  } else {
+    try {
+      image = await imageWithGemini(prompt);
+    } catch (err) {
+      if (!/Missing GOOGLE_AI_STUDIO_API_KEY|API_KEY_INVALID|API key expired/i.test(String(err.message || err))) throw err;
+      console.warn('Gemini image unavailable; falling back to Pollinations draft image');
+      image = await imageWithPollinations(prompt, recipe.slug);
+    }
+  }
+  writeJpg(image.data, image.mimeType, outPath);
+  recipe.image = 'hero-table.jpg';
+  recipe.pendingImage = `recipes/${recipe.slug}.jpg`;
+  recipe.photoPrompt = prompt;
+  recipe.photoStatus = 'needs_review';
+  recipe.imageApproved = false;
+}
+
 async function main() {
   const existing = loadRecipes(DATA_DIR);
   const target = nextChef(existing);
@@ -103,6 +129,7 @@ async function main() {
     recipe = null;
   }
   if (!recipe) throw new Error(`Could not generate valid recipe: ${lastErrors.join('; ')}`);
+  await generateDraftImage(recipe);
   fs.writeFileSync(path.join(DATA_DIR, `${recipe.slug}.json`), `${JSON.stringify(recipe, null, 2)}\n`);
   execFileSync('node', ['scripts/build.mjs'], { cwd: ROOT, stdio: 'inherit' });
   execFileSync('node', ['scripts/validate-site.mjs'], { cwd: ROOT, stdio: 'inherit' });

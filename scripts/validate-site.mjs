@@ -44,6 +44,17 @@ for (const f of files) {
   if (r.photoStatus === "approved" && !String(r.image || "").startsWith("recipes/")) {
     errors.push(`${f}: approved photo must point to assets/recipes/`);
   }
+  if (r.pendingImage) {
+    if (!String(r.pendingImage).startsWith("recipes/")) {
+      errors.push(`${f}: pendingImage must point to assets/recipes/`);
+    }
+    if (!existsSync(join(ASSETS, r.pendingImage))) {
+      errors.push(`${f}: pendingImage not found (${r.pendingImage})`);
+    }
+    if (approvedPhoto) {
+      errors.push(`${f}: approved recipes must not keep pendingImage`);
+    }
+  }
   const inspo = `${(r.inspiredBy?.chef||"").toLowerCase()}|${(r.inspiredBy?.dish||"").toLowerCase()}`;
   if (byInspo.has(inspo)) errors.push(`${f}: duplicate inspiredBy with ${byInspo.get(inspo)}`); else byInspo.set(inspo, f);
   if ((r.datePublished || "") > today) future++;

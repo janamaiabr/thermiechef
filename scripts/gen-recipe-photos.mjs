@@ -22,6 +22,7 @@ const args = new Set(process.argv.slice(2));
 const force = args.has('--force');
 const dryRun = args.has('--dry-run');
 const updateOnly = args.has('--update-only');
+const approve = args.has('--approve');
 const limitArg = process.argv.find((a) => a.startsWith('--limit='));
 const limit = limitArg ? Number(limitArg.split('=')[1]) : Infinity;
 const slugArg = process.argv.find((a) => a.startsWith('--slug='));
@@ -182,10 +183,21 @@ function saveAsJpg(buffer, mimeType, outPath) {
   }
 }
 
-function updateRecipeImage(slug) {
+function updateRecipeImage(slug, prompt = '') {
   const file = recipeFileForSlug(slug);
   const recipe = readJson(file);
-  recipe.image = `recipes/${slug}.jpg`;
+  if (approve) {
+    recipe.image = `recipes/${slug}.jpg`;
+    recipe.photoStatus = 'approved';
+    recipe.imageApproved = true;
+    delete recipe.pendingImage;
+  } else {
+    recipe.image = 'hero-table.jpg';
+    recipe.pendingImage = `recipes/${slug}.jpg`;
+    recipe.photoStatus = 'needs_review';
+    recipe.imageApproved = false;
+  }
+  if (prompt) recipe.photoPrompt = prompt;
   fs.writeFileSync(file, `${JSON.stringify(recipe, null, 2)}\n`);
 }
 
@@ -201,8 +213,8 @@ for (const item of selected) {
   const outPath = path.join(ROOT, 'assets', 'recipes', `${item.slug}.jpg`);
   const exists = fs.existsSync(outPath) && fs.statSync(outPath).size > 10_000;
   if (!force && exists) {
-    updateRecipeImage(item.slug);
-    console.log(`✓ exists ${item.slug}`);
+    updateRecipeImage(item.slug, promptFor(item));
+    console.log(`✓ exists ${item.slug} (${approve ? 'approved' : 'pending review'})`);
     continue;
   }
 
@@ -212,8 +224,8 @@ for (const item of selected) {
   }
 
   if (updateOnly) {
-    updateRecipeImage(item.slug);
-    console.log(`✓ updated JSON only ${item.slug}`);
+    updateRecipeImage(item.slug, promptFor(item));
+    console.log(`✓ updated JSON only ${item.slug} (${approve ? 'approved' : 'pending review'})`);
     continue;
   }
 
@@ -224,7 +236,7 @@ for (const item of selected) {
     try {
       const { mimeType, data } = await generateImage(prompt, item.slug);
       saveAsJpg(data, mimeType, outPath);
-      updateRecipeImage(item.slug);
+      updateRecipeImage(item.slug, prompt);
       done++;
       console.log(`✓ saved ${path.relative(ROOT, outPath)} (${mimeType}, ${fs.statSync(outPath).size} bytes)`);
       lastErr = null;

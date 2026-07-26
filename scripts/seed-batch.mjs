@@ -7,7 +7,7 @@ const DATA = join(dirname(fileURLToPath(import.meta.url)), "..", "recipes", "dat
 
 const R = [
 { slug:"creamy-scrambled-eggs-gordon-ramsay", title:"Creamy Scrambled Eggs", inspiredBy:{chef:"Gordon Ramsay",dish:"scrambled eggs"},
-  description:"My Thermomix take on Gordon Ramsay's famously soft, creamy scrambled eggs.", image:"food-bread.jpg", category:"Breakfast", cuisine:"British",
+  description:"My Thermomix take on Gordon Ramsay's famously soft, creamy scrambled eggs.", image:"hero-table.jpg", category:"Breakfast", cuisine:"British",
   prepMin:3, cookMin:7, servings:2, keywords:["thermomix scrambled eggs","gordon ramsay eggs thermomix","creamy eggs TM6"], datePublished:"2026-06-13", thermomixModel:"TM6 / TM7",
   intro:"Ramsay's trick is low heat and pulling the eggs while they're still glossy. The Thermomix's gentle 90°C and butterfly whisk make them silky every time.",
   ingredients:["6 eggs","30 g butter","1 tbsp crème fraîche","1 pinch salt","Black pepper","Chives, to serve","Sourdough, to serve"],
@@ -16,7 +16,7 @@ const R = [
   faq:[{q:"Why cook eggs at only 90°C?",a:"Gentle heat keeps the curds soft and creamy instead of dry and rubbery."},{q:"Do I need the butterfly?",a:"Yes — it folds the eggs slowly so they stay silky."}] },
 
 { slug:"beef-bourguignon-julia-child", title:"Beef Bourguignon", inspiredBy:{chef:"Julia Child",dish:"beef bourguignon"},
-  description:"My Thermomix version of Julia Child's beef bourguignon — a rich red-wine beef stew, low and slow in one bowl.", image:"dish-chicken.jpg", category:"Dinner", cuisine:"French",
+  description:"My Thermomix version of Julia Child's beef bourguignon — a rich red-wine beef stew, low and slow in one bowl.", image:"hero-table.jpg", category:"Dinner", cuisine:"French",
   prepMin:20, cookMin:70, servings:5, keywords:["thermomix beef bourguignon","julia child stew thermomix","red wine beef TM6"], datePublished:"2026-06-12", thermomixModel:"TM6 / TM7",
   intro:"Julia made this French classic the dish everyone wants to master. The Thermomix simmers it low and slow on Reverse so the beef goes meltingly tender — no babysitting the pot.",
   ingredients:["1 brown onion, halved","2 garlic cloves","150 g bacon lardons","30 g olive oil","800 g beef chuck, cubed","30 g plain flour","300 g red wine","300 g beef stock","1 tbsp tomato paste","1 bay leaf","2 sprigs thyme","200 g mushrooms","200 g baby onions","Salt and pepper"],
@@ -25,7 +25,7 @@ const R = [
   faq:[{q:"Can the Thermomix make beef bourguignon?",a:"Yes — it sautés, seals and simmers low-and-slow on Reverse so the beef turns tender without stirring."},{q:"Best cut of beef?",a:"Chuck — its connective tissue melts during the slow cook."}] },
 
 { slug:"gazpacho-jose-andres", title:"Gazpacho", inspiredBy:{chef:"José Andrés",dish:"gazpacho"},
-  description:"My Thermomix take on José Andrés' silky Spanish gazpacho — a cold soup blitzed in seconds.", image:"dish-soup.jpg", category:"Lunch", cuisine:"Spanish",
+  description:"My Thermomix take on José Andrés' silky Spanish gazpacho — a cold soup blitzed in seconds.", image:"hero-table.jpg", category:"Lunch", cuisine:"Spanish",
   prepMin:10, cookMin:0, servings:4, keywords:["thermomix gazpacho","jose andres gazpacho thermomix","cold tomato soup TM6"], datePublished:"2026-06-11", thermomixModel:"TM6 / TM7",
   intro:"No cooking at all — just ripe summer veg blitzed until glassy and smooth. The Thermomix turns a handful of tomatoes into the silkiest cold soup.",
   ingredients:["700 g ripe tomatoes","1 cucumber, peeled","1 red capsicum, deseeded","1 garlic clove","30 g sherry vinegar","40 g stale bread","1 tsp salt","80 g olive oil"],
@@ -34,7 +34,7 @@ const R = [
   faq:[{q:"Do you cook gazpacho?",a:"No — it's a raw, cold soup. The Thermomix just blends it silky."},{q:"Why add bread?",a:"It gives the soup body and that classic velvety texture."}] },
 
 { slug:"lemon-drizzle-cake-mary-berry", title:"Lemon Drizzle Cake", inspiredBy:{chef:"Mary Berry",dish:"lemon drizzle cake"},
-  description:"My Thermomix version of Mary Berry's lemon drizzle cake — tender crumb, crunchy lemon top.", image:"food-cake.jpg", category:"Baking", cuisine:"British",
+  description:"My Thermomix version of Mary Berry's lemon drizzle cake — tender crumb, crunchy lemon top.", image:"hero-table.jpg", category:"Baking", cuisine:"British",
   prepMin:15, cookMin:35, servings:10, keywords:["thermomix lemon drizzle cake","mary berry cake thermomix","lemon cake TM6"], datePublished:"2026-06-10", thermomixModel:"TM6 / TM7",
   intro:"Mary Berry's lemon drizzle is the cake everyone asks for. The Thermomix makes the batter in one bowl, and the warm lemon-sugar drizzle gives it that signature crackly top.",
   ingredients:["225 g butter, soft","225 g caster sugar","4 eggs","225 g self-raising flour","1 tsp baking powder","Zest of 2 lemons","For the drizzle: juice of 2 lemons + 85 g caster sugar"],
@@ -43,7 +43,7 @@ const R = [
   faq:[{q:"No self-raising flour?",a:"Use plain flour plus 2 tsp baking powder."},{q:"Why drizzle while warm?",a:"A warm cake drinks up the lemon syrup and sets a crunchy top."}] },
 
 { slug:"lemon-curd-ina-garten", title:"Lemon Curd", inspiredBy:{chef:"Ina Garten",dish:"lemon curd"},
-  description:"My Thermomix take on Ina Garten's lemon curd — glossy, tangy and impossible to scramble.", image:"dish-smoothie.jpg", category:"Snack", cuisine:"American",
+  description:"My Thermomix take on Ina Garten's lemon curd — glossy, tangy and impossible to scramble.", image:"hero-table.jpg", category:"Snack", cuisine:"American",
   prepMin:5, cookMin:10, servings:8, keywords:["thermomix lemon curd","ina garten lemon curd thermomix","easy lemon curd TM6"], datePublished:"2026-06-09", thermomixModel:"TM6 / TM7",
   intro:"Lemon curd is one of those things the Thermomix was made for — it stirs and heats gently so the eggs never scramble. Ina's is bright, buttery and just sweet enough.",
   ingredients:["Zest and juice of 3 lemons","200 g caster sugar","3 eggs","90 g butter, cubed","1 pinch salt"],
@@ -52,7 +52,7 @@ const R = [
   faq:[{q:"Why won't the curd scramble in a Thermomix?",a:"Constant speed-4 stirring at a low 80°C cooks the eggs gently and evenly."},{q:"Can I freeze it?",a:"Yes, up to 3 months."}] },
 
 { slug:"spiced-chickpea-stew-alison-roman", title:"Spiced Chickpea Stew", inspiredBy:{chef:"Alison Roman",dish:"spiced chickpea stew (\"The Stew\")"},
-  description:"My Thermomix version of Alison Roman's viral spiced chickpea & coconut stew.", image:"dish-bowl.jpg", category:"Dinner", cuisine:"Mediterranean",
+  description:"My Thermomix version of Alison Roman's viral spiced chickpea & coconut stew.", image:"hero-table.jpg", category:"Dinner", cuisine:"Mediterranean",
   prepMin:10, cookMin:30, servings:4, keywords:["thermomix chickpea stew","alison roman the stew thermomix","coconut chickpea curry TM6"], datePublished:"2026-06-08", thermomixModel:"TM6 / TM7",
   intro:"Alison Roman's 'The Stew' broke the internet for good reason — turmeric, chickpeas and coconut, rich and golden. The Thermomix builds the whole thing in one bowl.",
   ingredients:["1 brown onion, halved","4 garlic cloves","30 g fresh ginger","30 g olive oil","1.5 tsp ground turmeric","1 tsp ground cumin","2 x 400 g tins chickpeas, drained","400 g coconut milk","200 g vegetable stock","100 g greens (kale or spinach)","Salt and lemon, to finish"],
@@ -61,7 +61,7 @@ const R = [
   faq:[{q:"Is this vegan?",a:"Yes — it's naturally vegan and gluten-free."},{q:"Can I add protein?",a:"Stir through shredded chicken at the end, or keep it as is."}] },
 
 { slug:"tarka-dal-madhur-jaffrey", title:"Tarka Dal", inspiredBy:{chef:"Madhur Jaffrey",dish:"tarka dal"},
-  description:"My Thermomix take on Madhur Jaffrey's tarka dal — creamy lentils with a sizzling spiced topping.", image:"food-soup.jpg", category:"Dinner", cuisine:"Indian",
+  description:"My Thermomix take on Madhur Jaffrey's tarka dal — creamy lentils with a sizzling spiced topping.", image:"hero-table.jpg", category:"Dinner", cuisine:"Indian",
   prepMin:10, cookMin:30, servings:4, keywords:["thermomix dal","madhur jaffrey tarka dal thermomix","red lentil dal TM6"], datePublished:"2026-06-07", thermomixModel:"TM6 / TM7",
   intro:"Madhur Jaffrey taught the world to cook Indian food at home. Her tarka dal is pure comfort — soft lentils finished with a fragrant tempered-spice topping. The Thermomix cooks the lentils hands-free.",
   ingredients:["250 g red lentils, rinsed","800 g water","1 tsp ground turmeric","1 tsp salt","For the tarka: 30 g ghee or oil","1 brown onion, halved","3 garlic cloves","1 tsp cumin seeds","1 dried chilli","1 tomato, quartered"],
@@ -79,7 +79,7 @@ const R = [
   faq:[{q:"Can the Thermomix cook the chicken and rice together?",a:"Yes — the rice cooks in the bowl and the chicken steams in the Varoma above, in one 25-minute step."},{q:"Breast or thigh?",a:"Thigh stays juicier when steamed."}] },
 
 { slug:"fig-vanilla-jam-maggie-beer", title:"Fig & Vanilla Jam", inspiredBy:{chef:"Maggie Beer",dish:"fig jam"},
-  description:"My Thermomix take on Maggie Beer's fig & vanilla jam — glossy, not too sweet, perfect with cheese.", image:"dish-bread2.jpg", category:"Snack", cuisine:"Australian",
+  description:"My Thermomix take on Maggie Beer's fig & vanilla jam — glossy, not too sweet, perfect with cheese.", image:"hero-table.jpg", category:"Snack", cuisine:"Australian",
   prepMin:10, cookMin:30, servings:16, keywords:["thermomix fig jam","maggie beer fig jam thermomix","fig vanilla jam TM6"], datePublished:"2026-06-05", thermomixModel:"TM6 / TM7",
   intro:"Maggie Beer is the queen of figs. This jam is jammy and grown-up — lovely on toast, but unbeatable next to a sharp cheese. The Thermomix stirs it for you so it never catches.",
   ingredients:["600 g fresh figs, chopped","400 g sugar","Juice of 1 lemon","1 vanilla bean, split (or 1 tsp vanilla paste)"],
@@ -88,7 +88,7 @@ const R = [
   faq:[{q:"How long does the jam keep?",a:"Sealed jars keep for months; once opened, about 3 weeks in the fridge."},{q:"Dried figs?",a:"Use fresh for this — dried will be too dense."}] },
 
 { slug:"orange-almond-cake-claudia-roden", title:"Orange & Almond Cake", inspiredBy:{chef:"Claudia Roden",dish:"orange & almond cake"},
-  description:"My Thermomix version of Claudia Roden's famous flourless orange & almond cake — impossibly moist and gluten-free.", image:"dish-dessert.jpg", category:"Dessert", cuisine:"Middle Eastern",
+  description:"My Thermomix version of Claudia Roden's famous flourless orange & almond cake — impossibly moist and gluten-free.", image:"hero-table.jpg", category:"Dessert", cuisine:"Middle Eastern",
   prepMin:15, cookMin:50, servings:10, keywords:["thermomix orange almond cake","claudia roden orange cake thermomix","flourless cake TM6"], datePublished:"2026-06-04", thermomixModel:"TM6 / TM7",
   intro:"Claudia Roden's whole-orange almond cake is a legend — flourless, fragrant and so moist it barely keeps. The Thermomix softens the oranges and makes the batter, skin and all.",
   ingredients:["2 whole oranges","250 g almond meal","250 g caster sugar","6 eggs","1 tsp baking powder"],
@@ -97,7 +97,7 @@ const R = [
   faq:[{q:"Is this cake really flourless?",a:"Yes — almond meal replaces flour, so it's gluten-free and beautifully moist."},{q:"Why boil the oranges first?",a:"Softening them mellows the bitterness of the peel."}] },
 
 { slug:"coconut-fish-curry-rick-stein", title:"Coconut Fish Curry", inspiredBy:{chef:"Rick Stein",dish:"coconut fish curry"},
-  description:"My Thermomix take on Rick Stein's coconut fish curry — fragrant, gentle, and the fish stays whole.", image:"food-risotto.jpg", category:"Dinner", cuisine:"Indian",
+  description:"My Thermomix take on Rick Stein's coconut fish curry — fragrant, gentle, and the fish stays whole.", image:"hero-table.jpg", category:"Dinner", cuisine:"Indian",
   prepMin:15, cookMin:20, servings:4, keywords:["thermomix fish curry","rick stein fish curry thermomix","coconut fish curry TM6"], datePublished:"2026-06-03", thermomixModel:"TM6 / TM7",
   intro:"Rick Stein has spent a lifetime chasing the perfect fish curry. This one is light and aromatic, and the Thermomix cooks the fish so gently it stays in beautiful whole pieces.",
   ingredients:["1 brown onion, halved","3 garlic cloves","20 g fresh ginger","2 tbsp mild curry paste","30 g oil","400 g coconut milk","100 g water","1 tbsp tamarind paste (or lime juice)","600 g firm white fish, in chunks","Coriander and salt, to finish"],
@@ -106,7 +106,7 @@ const R = [
   faq:[{q:"Won't the fish fall apart in the Thermomix?",a:"No — cooking at 90°C on Reverse speed 1 is gentle enough to keep the pieces whole."},{q:"Can I use prawns?",a:"Yes — add them for the last 5 minutes."}] },
 
 { slug:"chicken-laksa-poh-ling-yeow", title:"Chicken Laksa", inspiredBy:{chef:"Poh Ling Yeow",dish:"chicken laksa"},
-  description:"My Thermomix version of Poh Ling Yeow's chicken laksa — a fragrant coconut noodle soup from a homemade paste.", image:"dish-pasta.jpg", category:"Dinner", cuisine:"Malaysian",
+  description:"My Thermomix version of Poh Ling Yeow's chicken laksa — a fragrant coconut noodle soup from a homemade paste.", image:"hero-table.jpg", category:"Dinner", cuisine:"Malaysian",
   prepMin:15, cookMin:25, servings:4, keywords:["thermomix laksa","poh ling yeow laksa thermomix","chicken laksa paste TM6"], datePublished:"2026-06-02", thermomixModel:"TM6 / TM7",
   intro:"Poh Ling Yeow's laksa is a bowl of pure comfort. The Thermomix makes the spice paste from scratch in seconds, then builds the rich coconut broth — restaurant laksa at home.",
   ingredients:["For the paste: 1 onion, 3 garlic cloves, 20 g ginger, 2 chillies, 20 g lemongrass, 1 tsp turmeric","30 g oil","400 g coconut milk","500 g chicken stock","1 tbsp fish sauce","400 g chicken thigh, sliced","To serve: rice noodles, bean sprouts, tofu puffs, lime, coriander"],
@@ -117,6 +117,9 @@ const R = [
 
 let written = 0, skipped = 0;
 for (const r of R) {
+  r.image = "hero-table.jpg";
+  r.photoStatus = "needs_review";
+  r.imageApproved = false;
   const f = join(DATA, `${r.slug}.json`);
   if (existsSync(f)) { skipped++; continue; }
   writeFileSync(f, JSON.stringify(r, null, 2) + "\n");

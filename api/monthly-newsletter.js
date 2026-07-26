@@ -103,7 +103,7 @@ function renderEmail({ email, date = new Date() }) {
         <tr><td style="padding:10px 32px 8px;">
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;margin-bottom:12px;">
             <tr>
-              <td width="34%" valign="top"><img src="${SITE_URL}/assets/recipes/broccoli-orecchiette-jamie-oliver.jpg" alt="Broccoli orecchiette" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
+              <td width="34%" valign="top"><img src="${SITE_URL}/assets/hero-table.jpg" alt="ThermieChef recipe collection" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
               <td valign="middle" style="padding:16px 18px;">
                 <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Weeknight</p>
                 <p style="font-size:20px;line-height:1.25;margin:0;color:#2d2418;font-weight:700;">Broccoli Orecchiette</p>
@@ -112,7 +112,7 @@ function renderEmail({ email, date = new Date() }) {
           </table>
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;margin-bottom:12px;">
             <tr>
-              <td width="34%" valign="top"><img src="${SITE_URL}/assets/recipes/coconut-pumpkin-curry-madhur-jaffrey.jpg" alt="Coconut pumpkin curry" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
+              <td width="34%" valign="top"><img src="${SITE_URL}/assets/hero-table.jpg" alt="ThermieChef recipe collection" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
               <td valign="middle" style="padding:16px 18px;">
                 <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Batch cook</p>
                 <p style="font-size:20px;line-height:1.25;margin:0;color:#2d2418;font-weight:700;">Coconut Pumpkin Curry</p>
@@ -121,7 +121,7 @@ function renderEmail({ email, date = new Date() }) {
           </table>
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#ffffff;border:1px solid #ead8c3;border-radius:16px;overflow:hidden;">
             <tr>
-              <td width="34%" valign="top"><img src="${SITE_URL}/assets/recipes/chocolate-olive-oil-cake-nigella.jpg" alt="Chocolate olive oil cake" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
+              <td width="34%" valign="top"><img src="${SITE_URL}/assets/hero-table.jpg" alt="ThermieChef recipe collection" width="200" style="display:block;width:100%;height:auto;border:0;"></td>
               <td valign="middle" style="padding:16px 18px;">
                 <p style="font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#c76824;margin:0 0 8px;font-weight:700;">Weekend</p>
                 <p style="font-size:20px;line-height:1.25;margin:0;color:#2d2418;font-weight:700;">Chocolate Olive Oil Cake</p>
