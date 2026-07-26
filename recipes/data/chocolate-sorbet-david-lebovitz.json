@@ -1,0 +1,64 @@
+{
+  "slug": "chocolate-sorbet-david-lebovitz",
+  "title": "Chocolate Sorbet",
+  "inspiredBy": {
+    "chef": "David Lebovitz",
+    "dish": "chocolate sorbet"
+  },
+  "description": "My Thermomix take on David Lebovitz's legendary chocolate sorbet — deeply chocolatey, silky smooth, and dairy-free. The Thermomix churns it effortlessly into a luscious frozen dessert.",
+  "category": "Dessert",
+  "cuisine": "French",
+  "prepMin": 10,
+  "cookMin": 10,
+  "servings": 6,
+  "keywords": [
+    "Thermomix chocolate sorbet",
+    "David Lebovitz inspired Thermomix recipe",
+    "TM6 chocolate sorbet",
+    "TM7 chocolate sorbet",
+    "dairy-free Thermomix dessert",
+    "Thermomix famous chef recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "David Lebovitz proved that a sorbet can be every bit as indulgent as ice cream — no cream required. The Thermomix dissolves the cocoa and sugar into a glossy base, then the cook-churn cycle delivers that velvety texture without an ice-cream maker.",
+  "ingredients": [
+    "750 g water",
+    "150 g caster sugar",
+    "50 g cocoa powder",
+    "1 pinch salt",
+    "200 g dark chocolate (70%), chopped",
+    "1 tsp vanilla extract"
+  ],
+  "steps": [
+    "Place the sugar, cocoa powder and salt in the mixing bowl. Mix 10 sec / speed 3 to combine and remove any lumps.",
+    "Add the water and vanilla extract. Cook 8 min / 100°C / speed 2 until the sugar and cocoa are fully dissolved into a smooth syrup.",
+    "Add the chopped dark chocolate. Stir 2 min / 80°C / speed 3 until the chocolate is melted and the mixture is glossy and emulsified.",
+    "Transfer the sorbet base to a container and refrigerate for at least 4 hours or overnight until completely chilled.",
+    "Pour the chilled base back into the clean mixing bowl. Blend 30 sec / speed 4 to recombine, then churn using the Thermomix ice-cream setting or freeze in a shallow container, stirring every 30 minutes for 2 hours until firm."
+  ],
+  "tips": [
+    "The better the chocolate, the better the sorbet — use at least 70% cocoa solids.",
+    "Let the sorbet sit at room temperature for 5 minutes before scooping for the best texture.",
+    "For an extra hit, add a tablespoon of espresso powder with the cocoa."
+  ],
+  "faq": [
+    {
+      "q": "Can I make sorbet in the Thermomix?",
+      "a": "Yes — dissolve and cook the base in the bowl, then freeze and re-blend, or use the TM6 ice-cream mode for a semi-soft churn."
+    },
+    {
+      "q": "Is this the original David Lebovitz recipe?",
+      "a": "No. This is Chef Aly's independent Thermomix reinterpretation inspired by David Lebovitz and chocolate sorbet; it is not endorsed by or affiliated with the chef."
+    }
+  ],
+  "image": "recipes/chocolate-sorbet-david-lebovitz.jpg",
+  "datePublished": "2026-07-27",
+  "filters": [
+    "Dessert",
+    "Vegetarian",
+    "Light"
+  ],
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Chocolate Sorbet\" (chocolate sorbet, French Dessert). Key ingredients that must visually guide the dish: 750 g water, 150 g caster sugar, 50 g cocoa powder, 1 pinch salt, 200 g dark chocolate (70%), chopped, 1 tsp vanilla extract. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Chocolate Sorbet."
+}
