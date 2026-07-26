@@ -6,7 +6,7 @@
     "dish": "gazpacho"
   },
   "description": "My Thermomix take on José Andrés' silky Spanish gazpacho — a cold soup blitzed in seconds.",
-  "image": "recipes/gazpacho-jose-andres.jpg",
+  "image": "hero-table.jpg",
   "category": "Lunch",
   "cuisine": "Spanish",
   "prepMin": 10,
@@ -64,5 +64,7 @@
     "Vegetarian",
     "Light",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

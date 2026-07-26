@@ -6,7 +6,7 @@
     "dish": "Bolognese"
   },
   "description": "My Thermomix version of Jamie Oliver's veg-packed Bolognese — a rich, veg-rich ragù in one bowl.",
-  "image": "recipes/veg-packed-bolognese-jamie.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Italian",
   "prepMin": 15,
@@ -72,5 +72,7 @@
     "Dinner",
     "Pasta",
     "Meat"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

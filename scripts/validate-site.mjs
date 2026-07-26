@@ -34,6 +34,16 @@ for (const f of files) {
   (r.steps || []).forEach((step, i) => { for (const m of String(step).matchAll(/(\d{2,3})\s*°?\s*C/gi)) { if (+m[1] > 120 && !/oven|bake|roast|preheated/i.test(step)) errors.push(`${f}: non-oven temp >120°C in step ${i+1} (${m[1]})`); } });
   for (const m of blob.matchAll(/speed\s*(\d{1,2}(?:\.\d+)?)/gi)) if (+m[1] > 10) errors.push(`${f}: speed >10 (${m[1]})`);
   if (!existsSync(join(ASSETS, r.image || ""))) errors.push(`${f}: image not found (${r.image})`);
+  const approvedPhoto = r.imageApproved === true || r.photoStatus === "approved";
+  if (!approvedPhoto && r.image !== "hero-table.jpg") {
+    errors.push(`${f}: unapproved recipe photo must use hero-table.jpg`);
+  }
+  if (r.imageApproved === true && r.photoStatus !== "approved") {
+    errors.push(`${f}: imageApproved requires photoStatus approved`);
+  }
+  if (r.photoStatus === "approved" && !String(r.image || "").startsWith("recipes/")) {
+    errors.push(`${f}: approved photo must point to assets/recipes/`);
+  }
   const inspo = `${(r.inspiredBy?.chef||"").toLowerCase()}|${(r.inspiredBy?.dish||"").toLowerCase()}`;
   if (byInspo.has(inspo)) errors.push(`${f}: duplicate inspiredBy with ${byInspo.get(inspo)}`); else byInspo.set(inspo, f);
   if ((r.datePublished || "") > today) future++;

@@ -54,10 +54,12 @@
       "a": "Yes. Most components can be prepared earlier the same day, then reheated or finished just before serving for the best texture."
     }
   ],
-  "image": "recipes/olive-rosemary-bread-julia-child.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Baking",
     "Vegetarian"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

@@ -1,15 +1,23 @@
 {
   "slug": "chocolate-mousse-julia-child",
   "title": "Chocolate Mousse",
-  "inspiredBy": { "chef": "Julia Child", "dish": "chocolate mousse" },
+  "inspiredBy": {
+    "chef": "Julia Child",
+    "dish": "chocolate mousse"
+  },
   "description": "A Chef Aly Thermomix reinterpretation of Julia Child-style chocolate mousse: silken, bittersweet, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "food-cake.jpg",
+  "image": "hero-table.jpg",
   "category": "Dessert",
   "cuisine": "French",
   "prepMin": 15,
   "cookMin": 5,
   "servings": 6,
-  "keywords": ["thermomix chocolate mousse", "Julia Child chocolate mousse thermomix", "TM6 chocolate mousse", "TM7 chocolate mousse"],
+  "keywords": [
+    "thermomix chocolate mousse",
+    "Julia Child chocolate mousse thermomix",
+    "TM6 chocolate mousse",
+    "TM7 chocolate mousse"
+  ],
   "thermomixModel": "TM6 / TM7",
   "datePublished": "2026-07-21",
   "intro": "Julia Child's chocolate mousse is the one every home cook should attempt at least once — rich, airy and unapologetically indulgent. This Chef Aly Thermomix version makes it achievable while keeping the spirit of the dish, with metric measurements and exact settings for TM6 and TM7.",
@@ -37,7 +45,15 @@
     "Fold gently. The mousse's magic is the air you whip in — don't knock it out."
   ],
   "faq": [
-    { "q": "Can I make Chocolate Mousse in a Thermomix TM6 or TM7?", "a": "Yes. The Thermomix melts the chocolate perfectly and whips the egg whites and cream with the butterfly whisk. Timing and speeds are exact for both models." },
-    { "q": "Can I use milk chocolate instead of dark?", "a": "Yes, but reduce the sugar to 30 g — milk chocolate is already much sweeter. The mousse will be softer and less intense." }
-  ]
+    {
+      "q": "Can I make Chocolate Mousse in a Thermomix TM6 or TM7?",
+      "a": "Yes. The Thermomix melts the chocolate perfectly and whips the egg whites and cream with the butterfly whisk. Timing and speeds are exact for both models."
+    },
+    {
+      "q": "Can I use milk chocolate instead of dark?",
+      "a": "Yes, but reduce the sugar to 30 g — milk chocolate is already much sweeter. The mousse will be softer and less intense."
+    }
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

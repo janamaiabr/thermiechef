@@ -6,7 +6,7 @@
     "dish": "fig jam"
   },
   "description": "My Thermomix take on Maggie Beer's fig & vanilla jam — glossy, not too sweet, perfect with cheese.",
-  "image": "recipes/fig-vanilla-jam-maggie-beer.jpg",
+  "image": "hero-table.jpg",
   "category": "Snack",
   "cuisine": "Australian",
   "prepMin": 10,
@@ -58,5 +58,7 @@
     "Snack",
     "Dessert",
     "Vegetarian"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

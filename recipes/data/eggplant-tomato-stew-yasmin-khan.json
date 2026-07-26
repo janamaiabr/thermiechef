@@ -50,10 +50,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Yasmin Khan and eggplant stew; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/eggplant-tomato-stew-yasmin-khan.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
     "Vegetarian"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

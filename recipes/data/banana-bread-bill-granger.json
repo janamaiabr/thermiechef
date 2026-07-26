@@ -1,15 +1,23 @@
 {
   "slug": "banana-bread-bill-granger",
   "title": "Banana Bread",
-  "inspiredBy": { "chef": "Bill Granger", "dish": "banana bread" },
+  "inspiredBy": {
+    "chef": "Bill Granger",
+    "dish": "banana bread"
+  },
   "description": "A Chef Aly Thermomix reinterpretation of Bill Granger-style banana bread: moist, golden, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "food-cake.jpg",
+  "image": "hero-table.jpg",
   "category": "Baking",
   "cuisine": "Australian",
   "prepMin": 10,
   "cookMin": 55,
   "servings": 8,
-  "keywords": ["thermomix banana bread", "Bill Granger banana bread thermomix", "TM6 banana bread", "TM7 banana bread"],
+  "keywords": [
+    "thermomix banana bread",
+    "Bill Granger banana bread thermomix",
+    "TM6 banana bread",
+    "TM7 banana bread"
+  ],
   "thermomixModel": "TM6 / TM7",
   "datePublished": "2026-07-26",
   "intro": "Bill Granger's banana bread is the recipe that launched a thousand brunches — moist, not too sweet, perfect toasted the next day. This Chef Aly Thermomix version captures that effortless comfort while making the method simple, metric and practical for TM6 and TM7 home cooks.",
@@ -38,7 +46,15 @@
     "This freezes beautifully. Slice first, then wrap individual slices for quick breakfasts."
   ],
   "faq": [
-    { "q": "Can I make Banana Bread in a Thermomix TM6 or TM7?", "a": "Yes. The wet ingredients are mixed in the Thermomix bowl, then the dry ingredients are folded in. The bread bakes in a conventional oven. Both models work identically for the mixing." },
-    { "q": "Can I make this gluten-free?", "a": "Yes. Replace the self-raising flour with 200 g gluten-free self-raising flour. Add an extra ½ tsp baking powder for lift." }
-  ]
+    {
+      "q": "Can I make Banana Bread in a Thermomix TM6 or TM7?",
+      "a": "Yes. The wet ingredients are mixed in the Thermomix bowl, then the dry ingredients are folded in. The bread bakes in a conventional oven. Both models work identically for the mixing."
+    },
+    {
+      "q": "Can I make this gluten-free?",
+      "a": "Yes. Replace the self-raising flour with 200 g gluten-free self-raising flour. Add an extra ½ tsp baking powder for lift."
+    }
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

@@ -6,7 +6,7 @@
     "dish": "pasta e ceci"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Rachel Roddy-style pasta e ceci: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "recipes/pasta-e-ceci-rachel-roddy.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Italian",
   "prepMin": 12,
@@ -51,5 +51,7 @@
       "q": "Can I adjust the seasoning?",
       "a": "Yes. Taste at the end and adjust salt, pepper, lemon or herbs before serving."
     }
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

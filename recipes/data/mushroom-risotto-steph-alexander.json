@@ -1,15 +1,23 @@
 {
   "slug": "mushroom-risotto-steph-alexander",
   "title": "Mushroom Risotto",
-  "inspiredBy": { "chef": "Stephanie Alexander", "dish": "mushroom risotto" },
+  "inspiredBy": {
+    "chef": "Stephanie Alexander",
+    "dish": "mushroom risotto"
+  },
   "description": "A Chef Aly Thermomix reinterpretation of Stephanie Alexander-style mushroom risotto: creamy, earthy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "food-risotto.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Italian-Australian",
   "prepMin": 10,
   "cookMin": 30,
   "servings": 4,
-  "keywords": ["thermomix mushroom risotto", "Stephanie Alexander mushroom risotto thermomix", "TM6 mushroom risotto", "TM7 mushroom risotto"],
+  "keywords": [
+    "thermomix mushroom risotto",
+    "Stephanie Alexander mushroom risotto thermomix",
+    "TM6 mushroom risotto",
+    "TM7 mushroom risotto"
+  ],
   "thermomixModel": "TM6 / TM7",
   "datePublished": "2026-07-27",
   "intro": "Stephanie Alexander's mushroom risotto is a masterclass in patience and restraint — let the rice do the work. This Chef Aly Thermomix version captures that creamy, earthy depth while making the method simple, metric and practical for TM6 and TM7 home cooks.",
@@ -41,7 +49,15 @@
     "The risotto is ready when it flows like lava. If it's too thick, add a splash of hot water and stir."
   ],
   "faq": [
-    { "q": "Can I make Mushroom Risotto in a Thermomix TM6 or TM7?", "a": "Yes. The entire risotto cooks in the Thermomix bowl with Reverse stirring to keep the rice grains whole. Times and temperatures are exact for both models." },
-    { "q": "Can I use dried mushrooms?", "a": "Yes. Soak 20 g dried porcini in 150 g hot water for 10 min. Add the soaked mushrooms with the fresh ones, and use the soaking liquid as part of the stock." }
-  ]
+    {
+      "q": "Can I make Mushroom Risotto in a Thermomix TM6 or TM7?",
+      "a": "Yes. The entire risotto cooks in the Thermomix bowl with Reverse stirring to keep the rice grains whole. Times and temperatures are exact for both models."
+    },
+    {
+      "q": "Can I use dried mushrooms?",
+      "a": "Yes. Soak 20 g dried porcini in 150 g hot water for 10 min. Add the soaked mushrooms with the fresh ones, and use the soaking liquid as part of the stock."
+    }
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

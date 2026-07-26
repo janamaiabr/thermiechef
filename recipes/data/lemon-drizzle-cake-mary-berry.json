@@ -6,7 +6,7 @@
     "dish": "lemon drizzle cake"
   },
   "description": "My Thermomix version of Mary Berry's lemon drizzle cake — tender crumb, crunchy lemon top.",
-  "image": "recipes/lemon-drizzle-cake-mary-berry.jpg",
+  "image": "hero-table.jpg",
   "category": "Baking",
   "cuisine": "British",
   "prepMin": 15,
@@ -60,5 +60,7 @@
     "Baking",
     "Dessert",
     "Vegetarian"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

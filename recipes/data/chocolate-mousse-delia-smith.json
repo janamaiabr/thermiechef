@@ -5,7 +5,7 @@
     "chef": "Delia Smith",
     "dish": "chocolate mousse"
   },
-  "image": "recipes/chocolate-mousse-delia-smith.jpg",
+  "image": "hero-table.jpg",
   "category": "Dessert",
   "cuisine": "French",
   "prepMin": 15,
@@ -58,5 +58,7 @@
     "Dessert",
     "Vegetarian",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

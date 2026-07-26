@@ -49,12 +49,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Marco Pierre White and mushroom soup; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/mushroom-barley-soup-marco-pierre-white.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Lunch",
     "Soup",
     "Meat",
     "Light"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

@@ -6,7 +6,7 @@
     "dish": "ricotta hotcakes"
   },
   "description": "My Thermomix take on Bill Granger's legendary ricotta hotcakes — light as a cloud, with honeycomb butter and banana.",
-  "image": "recipes/ricotta-hotcakes-bill-granger.jpg",
+  "image": "hero-table.jpg",
   "category": "Breakfast",
   "cuisine": "Australian",
   "prepMin": 10,
@@ -66,5 +66,7 @@
     "Dessert",
     "Vegetarian",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

@@ -6,7 +6,7 @@
     "dish": "prawn toast"
   },
   "description": "A Chef Aly Thermomix reinterpretation of Dan Hong-style prawn toast: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "recipes/prawn-toast-dan-hong.jpg",
+  "image": "hero-table.jpg",
   "category": "Snack",
   "cuisine": "Chinese-Australian",
   "prepMin": 12,
@@ -51,5 +51,7 @@
       "q": "Can I adjust the seasoning?",
       "a": "Yes. Taste at the end and adjust salt, pepper, lemon or herbs before serving."
     }
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

@@ -49,12 +49,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Jamie Oliver and tomato orzo; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/one-pot-tomato-orzo-jamie-oliver.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
     "Pasta",
     "Vegetarian",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

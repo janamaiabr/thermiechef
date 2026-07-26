@@ -1,15 +1,23 @@
 {
   "slug": "thai-green-curry-david-thompson",
   "title": "Thai Green Curry",
-  "inspiredBy": { "chef": "David Thompson", "dish": "Thai green curry" },
+  "inspiredBy": {
+    "chef": "David Thompson",
+    "dish": "Thai green curry"
+  },
   "description": "A Chef Aly Thermomix reinterpretation of David Thompson-style Thai green curry: fragrant, layered, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "dish-bowl.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Thai",
   "prepMin": 12,
   "cookMin": 25,
   "servings": 4,
-  "keywords": ["thermomix Thai green curry", "David Thompson Thai green curry thermomix", "TM6 Thai green curry", "TM7 Thai green curry"],
+  "keywords": [
+    "thermomix Thai green curry",
+    "David Thompson Thai green curry thermomix",
+    "TM6 Thai green curry",
+    "TM7 Thai green curry"
+  ],
   "thermomixModel": "TM6 / TM7",
   "datePublished": "2026-07-20",
   "intro": "David Thompson's Thai green curry is a study in balance — heat, sweetness, salt and freshness in every spoonful. This Chef Aly Thermomix version captures that layered complexity while making the method simple, metric and practical for TM6 and TM7 home cooks.",
@@ -46,7 +54,15 @@
     "Balance is everything: taste at the end and adjust fish sauce (salt), sugar (sweet), or a squeeze of lime (sour)."
   ],
   "faq": [
-    { "q": "Can I make Thai Green Curry in a Thermomix TM6 or TM7?", "a": "Yes. The paste grinds in the bowl, then the curry cooks with Reverse stirring to keep the chicken and eggplant whole. Times and temperatures are exact for both models." },
-    { "q": "Can I make the paste ahead?", "a": "Yes. Double the paste ingredients, freeze half in an ice cube tray, and pop out a cube whenever you need a quick curry." }
-  ]
+    {
+      "q": "Can I make Thai Green Curry in a Thermomix TM6 or TM7?",
+      "a": "Yes. The paste grinds in the bowl, then the curry cooks with Reverse stirring to keep the chicken and eggplant whole. Times and temperatures are exact for both models."
+    },
+    {
+      "q": "Can I make the paste ahead?",
+      "a": "Yes. Double the paste ingredients, freeze half in an ice cube tray, and pop out a cube whenever you need a quick curry."
+    }
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

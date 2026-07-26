@@ -47,12 +47,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Donna Hay and berry compote; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/vanilla-berry-compote-donna-hay.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dessert",
     "Vegetarian",
     "Light",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

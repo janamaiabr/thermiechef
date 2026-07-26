@@ -5,7 +5,7 @@
     "chef": "Neil Perry",
     "dish": "chicken congee"
   },
-  "image": "recipes/ginger-chicken-congee-neil-perry.jpg",
+  "image": "hero-table.jpg",
   "category": "Breakfast",
   "cuisine": "Chinese",
   "prepMin": 10,
@@ -59,5 +59,7 @@
     "Breakfast",
     "Soup",
     "Meat"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

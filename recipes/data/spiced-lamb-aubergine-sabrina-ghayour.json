@@ -5,7 +5,7 @@
     "chef": "Sabrina Ghayour",
     "dish": "spiced lamb & aubergine"
   },
-  "image": "recipes/spiced-lamb-aubergine-sabrina-ghayour.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Persian",
   "prepMin": 15,
@@ -65,5 +65,7 @@
   "filters": [
     "Dinner",
     "Meat"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

@@ -47,12 +47,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Poh Ling Yeow and mango lassi; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/mango-coconut-lassi-poh-ling-yeow.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Drink",
     "Breakfast",
     "Vegetarian",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

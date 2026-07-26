@@ -49,7 +49,7 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Jamie Oliver and broccoli orecchiette; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/broccoli-orecchiette-jamie-oliver.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
@@ -57,5 +57,7 @@
     "Vegetarian",
     "Light",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

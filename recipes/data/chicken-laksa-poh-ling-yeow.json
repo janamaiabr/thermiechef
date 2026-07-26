@@ -6,7 +6,7 @@
     "dish": "chicken laksa"
   },
   "description": "My Thermomix version of Poh Ling Yeow's chicken laksa — a fragrant coconut noodle soup from a homemade paste.",
-  "image": "recipes/chicken-laksa-poh-ling-yeow.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Malaysian",
   "prepMin": 15,
@@ -64,5 +64,7 @@
     "Curry",
     "Seafood",
     "Meat"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

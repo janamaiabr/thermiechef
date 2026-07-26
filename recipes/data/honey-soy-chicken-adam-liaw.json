@@ -49,10 +49,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Adam Liaw and honey soy chicken; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/honey-soy-chicken-adam-liaw.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
     "Meat"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

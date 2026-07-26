@@ -5,7 +5,7 @@
     "chef": "Tom Kerridge",
     "dish": "lentil ragù"
   },
-  "image": "recipes/lentil-mushroom-ragu-tom-kerridge.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Italian",
   "prepMin": 12,
@@ -65,5 +65,7 @@
     "Dinner",
     "Pasta",
     "Vegetarian"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

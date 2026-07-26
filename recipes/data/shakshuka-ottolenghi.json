@@ -1,15 +1,23 @@
 {
   "slug": "shakshuka-ottolenghi",
   "title": "Shakshuka",
-  "inspiredBy": { "chef": "Yotam Ottolenghi", "dish": "shakshuka" },
+  "inspiredBy": {
+    "chef": "Yotam Ottolenghi",
+    "dish": "shakshuka"
+  },
   "description": "A Chef Aly Thermomix reinterpretation of Ottolenghi-style shakshuka: spiced, saucy, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "dish-bowl.jpg",
+  "image": "hero-table.jpg",
   "category": "Breakfast",
   "cuisine": "Middle Eastern",
   "prepMin": 10,
   "cookMin": 20,
   "servings": 4,
-  "keywords": ["thermomix shakshuka", "Ottolenghi shakshuka thermomix", "TM6 shakshuka", "TM7 shakshuka"],
+  "keywords": [
+    "thermomix shakshuka",
+    "Ottolenghi shakshuka thermomix",
+    "TM6 shakshuka",
+    "TM7 shakshuka"
+  ],
   "thermomixModel": "TM6 / TM7",
   "datePublished": "2026-07-22",
   "intro": "Ottolenghi's shakshuka is the dish that made spiced tomato eggs a global obsession. This Chef Aly Thermomix version keeps the bold, warm spices while making the method simple, metric and practical for TM6 and TM7 home cooks.",
@@ -42,7 +50,15 @@
     "Don't overcook the eggs — the runny yolk mixing into the sauce is the whole point."
   ],
   "faq": [
-    { "q": "Can I make Shakshuka in a Thermomix TM6 or TM7?", "a": "Yes. The sauce is built in the Thermomix with exact times and temperatures, then transferred to an oven dish for the eggs. Both models work identically." },
-    { "q": "Can I make the sauce ahead?", "a": "Yes. The sauce keeps refrigerated for 3 days or frozen for 2 months. Reheat, make wells, add eggs and bake." }
-  ]
+    {
+      "q": "Can I make Shakshuka in a Thermomix TM6 or TM7?",
+      "a": "Yes. The sauce is built in the Thermomix with exact times and temperatures, then transferred to an oven dish for the eggs. Both models work identically."
+    },
+    {
+      "q": "Can I make the sauce ahead?",
+      "a": "Yes. The sauce keeps refrigerated for 3 days or frozen for 2 months. Reheat, make wells, add eggs and bake."
+    }
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

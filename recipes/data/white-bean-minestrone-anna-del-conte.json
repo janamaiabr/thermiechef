@@ -51,12 +51,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Anna Del Conte and minestrone; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/white-bean-minestrone-anna-del-conte.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Lunch",
     "Soup",
     "Pasta",
     "Vegetarian"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

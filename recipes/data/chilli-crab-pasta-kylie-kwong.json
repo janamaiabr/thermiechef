@@ -51,12 +51,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Kylie Kwong and chilli crab; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/chilli-crab-pasta-kylie-kwong.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
     "Pasta",
     "Seafood",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

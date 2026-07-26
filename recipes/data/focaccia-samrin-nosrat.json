@@ -1,15 +1,23 @@
 {
   "slug": "focaccia-samrin-nosrat",
   "title": "Focaccia",
-  "inspiredBy": { "chef": "Samin Nosrat", "dish": "focaccia" },
+  "inspiredBy": {
+    "chef": "Samin Nosrat",
+    "dish": "focaccia"
+  },
   "description": "A Chef Aly Thermomix reinterpretation of Samin Nosrat-style focaccia: pillowy, olive-oil-rich, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
-  "image": "dish-bread2.jpg",
+  "image": "hero-table.jpg",
   "category": "Baking",
   "cuisine": "Italian",
   "prepMin": 20,
   "cookMin": 25,
   "servings": 8,
-  "keywords": ["thermomix focaccia", "Samin Nosrat focaccia thermomix", "TM6 focaccia", "TM7 focaccia"],
+  "keywords": [
+    "thermomix focaccia",
+    "Samin Nosrat focaccia thermomix",
+    "TM6 focaccia",
+    "TM7 focaccia"
+  ],
   "thermomixModel": "TM6 / TM7",
   "datePublished": "2026-07-19",
   "intro": "Samin Nosrat taught a generation that fat carries flavour, and her focaccia proves it. This Chef Aly Thermomix version captures that olive-oil richness while making the method simple, metric and practical for TM6 and TM7 home cooks.",
@@ -36,7 +44,15 @@
     "You can top with halved cherry tomatoes, olives or thinly sliced onion instead of rosemary."
   ],
   "faq": [
-    { "q": "Can I make Focaccia in a Thermomix TM6 or TM7?", "a": "Yes. The dough is kneaded in the Thermomix, then shaped and baked in a conventional oven. The kneading time and speed are set for both models." },
-    { "q": "Can I make the dough ahead?", "a": "Yes. After step 2, refrigerate the dough in the oiled bowl for up to 24 hours. The slow cold rise develops even more flavour." }
-  ]
+    {
+      "q": "Can I make Focaccia in a Thermomix TM6 or TM7?",
+      "a": "Yes. The dough is kneaded in the Thermomix, then shaped and baked in a conventional oven. The kneading time and speed are set for both models."
+    },
+    {
+      "q": "Can I make the dough ahead?",
+      "a": "Yes. After step 2, refrigerate the dough in the oiled bowl for up to 24 hours. The slow cold rise develops even more flavour."
+    }
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

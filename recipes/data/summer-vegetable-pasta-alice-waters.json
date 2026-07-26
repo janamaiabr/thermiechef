@@ -6,7 +6,7 @@
     "dish": "summer vegetable pasta"
   },
   "description": "A bright Chef Aly Thermomix reinterpretation of Alice Waters-style summer vegetable pasta with zucchini, cherry tomatoes, basil and a light olive-oil sauce.",
-  "image": "recipes/summer-vegetable-pasta-alice-waters.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Californian",
   "prepMin": 12,
@@ -58,5 +58,7 @@
       "q": "Can I use different summer vegetables?",
       "a": "Yes. Eggplant, asparagus, yellow squash or green beans can replace part of the zucchini or capsicum. Keep the total vegetable weight close to 500 g."
     }
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

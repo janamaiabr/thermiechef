@@ -5,7 +5,7 @@
     "chef": "Kylie Kwong",
     "dish": "steamed fish"
   },
-  "image": "recipes/steamed-ginger-soy-fish-kylie-kwong.jpg",
+  "image": "hero-table.jpg",
   "category": "Dinner",
   "cuisine": "Chinese",
   "prepMin": 10,
@@ -61,5 +61,7 @@
     "Dinner",
     "Seafood",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

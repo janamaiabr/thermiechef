@@ -49,10 +49,12 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Diana Henry and tomato galette; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/tomato-galette-diana-henry.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Baking",
     "Vegetarian"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

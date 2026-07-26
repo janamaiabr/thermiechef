@@ -48,11 +48,13 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Marcella Hazan and tomato pasta sauce; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/tomato-basil-pasta-marcella-hazan.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
     "Pasta",
     "Vegetarian"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

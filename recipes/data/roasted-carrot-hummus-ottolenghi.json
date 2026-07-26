@@ -49,12 +49,14 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Yotam Ottolenghi and carrot hummus; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/roasted-carrot-hummus-ottolenghi.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Snack",
     "Vegetarian",
     "Light",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }

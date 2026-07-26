@@ -47,11 +47,13 @@
       "a": "No. This is Chef Aly’s independent Thermomix reinterpretation inspired by Nobu Matsuhisa and miso eggplant; it is not endorsed by or affiliated with the chef."
     }
   ],
-  "image": "recipes/miso-eggplant-nobu-matsuhisa.jpg",
+  "image": "hero-table.jpg",
   "datePublished": "2026-06-20",
   "filters": [
     "Dinner",
     "Vegetarian",
     "Under 30 min"
-  ]
+  ],
+  "photoStatus": "needs_review",
+  "imageApproved": false
 }
