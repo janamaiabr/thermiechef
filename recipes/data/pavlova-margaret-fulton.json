@@ -1,0 +1,71 @@
+{
+  "slug": "pavlova-margaret-fulton",
+  "title": "Pavlova",
+  "inspiredBy": {
+    "chef": "Margaret Fulton",
+    "dish": "pavlova"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Margaret Fulton-style pavlova: a crisp meringue shell with marshmallow centre, topped with billowing cream and fresh fruit, with metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "recipes/pavlova-margaret-fulton.jpg",
+  "category": "Dessert",
+  "cuisine": "Australian",
+  "prepMin": 20,
+  "cookMin": 90,
+  "servings": 8,
+  "keywords": [
+    "thermomix pavlova",
+    "Margaret Fulton pavlova thermomix",
+    "TM6 pavlova",
+    "TM7 pavlova",
+    "Australian pavlova recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-28",
+  "intro": "Margaret Fulton taught generations of Australians that pavlova was the centrepiece of every celebration — crisp on the outside, marshmallow-soft within, crowned with cream and whatever fruit is in season. This Chef Aly Thermomix version gives you the same iconic dessert with perfectly whisked meringue, every time.",
+  "ingredients": [
+    "6 egg whites (about 210 g), room temperature",
+    "300 g caster sugar",
+    "1 tsp white vinegar",
+    "2 tsp cornflour",
+    "1 tsp vanilla extract",
+    "300 mL thickened cream, chilled",
+    "2 tbsp icing sugar",
+    "1 punnet strawberries (about 250 g), hulled and halved",
+    "1 kiwi fruit, peeled and sliced",
+    "2 passionfruit, pulp scooped out"
+  ],
+  "steps": [
+    "Preheat oven to 120°C. Line a large baking tray with baking paper and draw a 22 cm circle as a guide.",
+    "Insert the butterfly whisk into the spotlessly clean, dry mixing bowl. Place egg whites in the bowl. Whip 4 min / speed 4 until soft peaks form.",
+    "With the blades running on speed 4, add caster sugar 1 tablespoon at a time through the hole in the lid, waiting about 10 seconds between each spoonful. This should take roughly 5 minutes in total. Continue whipping 2 min / speed 4 after the last sugar is added until the meringue is thick, glossy and holds stiff peaks.",
+    "Add white vinegar, cornflour and vanilla extract. Whip 10 sec / speed 4 to fold through. Remove the butterfly whisk.",
+    "Spoon the meringue onto the prepared tray, shaping it into a 22 cm round with a slight dip in the centre and higher edges. Smooth the sides with a palette knife.",
+    "Bake for 90 minutes until the outside is crisp and dry. Turn the oven off, prop the door slightly ajar with a wooden spoon, and leave the pavlova inside to cool completely for at least 2 hours (or overnight). This prevents cracking.",
+    "To assemble: Place thickened cream and icing sugar in the clean mixing bowl. Insert the butterfly whisk. Whip 1–2 min / speed 4 until soft peaks form — watch carefully to avoid overwhipping. Remove the butterfly whisk.",
+    "Pile the whipped cream onto the centre of the cooled pavlova. Arrange strawberries, kiwi fruit and passionfruit pulp over the cream. Serve immediately."
+  ],
+  "tips": [
+    "Room-temperature egg whites whip to a greater volume than cold ones. Separate eggs while cold, then let the whites sit for 30 minutes.",
+    "Adding sugar slowly is the single most important step. Rush it and the meringue will weep and collapse.",
+    "Cornflour and vinegar are the secret to the marshmallow interior — never skip them.",
+    "A completely dry mixing bowl and butterfly whisk are essential. Even a trace of yolk or grease will prevent the whites from whipping.",
+    "Pavlova can be made a day ahead and stored in an airtight container. Add the cream and fruit just before serving."
+  ],
+  "faq": [
+    {
+      "q": "Can I make Pavlova in a Thermomix TM6 or TM7?",
+      "a": "Yes. The Thermomix whips the egg whites and cream perfectly using the butterfly whisk. The pavlova itself bakes in a conventional oven. Both models work identically for the whisking steps."
+    },
+    {
+      "q": "Why did my pavlova crack or weep?",
+      "a": "The most common cause is adding the sugar too quickly. Add it one tablespoon at a time with the blades running. Also ensure the meringue reaches stiff glossy peaks before shaping, and cool the pavlova slowly in the oven with the door ajar."
+    },
+    {
+      "q": "Can I use frozen fruit for the topping?",
+      "a": "Fresh fruit is best for the topping as frozen fruit releases water as it thaws, which can make the cream soggy. If using frozen, thaw and drain well first."
+    }
+  ],
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Pavlova\" (pavlova, Australian Dessert). Key ingredients that must visually guide the dish: 6 egg whites (about 210 g), room temperature, 300 g caster sugar, 1 tsp white vinegar, 2 tsp cornflour, 1 tsp vanilla extract, 300 mL thickened cream, chilled, 2 tbsp icing sugar, 1 punnet strawberries (about 250 g), hulled and halved, 1 kiwi fruit, peeled and sliced, 2 passionfruit, pulp scooped out. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Pavlova."
+}
