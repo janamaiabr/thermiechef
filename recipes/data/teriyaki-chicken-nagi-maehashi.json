@@ -1,0 +1,64 @@
+{
+  "slug": "teriyaki-chicken-nagi-maehashi",
+  "title": "Teriyaki Chicken",
+  "inspiredBy": {
+    "chef": "Nagi Maehashi",
+    "dish": "teriyaki chicken"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Nagi Maehashi-style teriyaki chicken: glossy, caramelised chicken thigh pieces in a sweet-savoury sauce, with exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "category": "Dinner",
+  "cuisine": "Japanese",
+  "prepMin": 10,
+  "cookMin": 20,
+  "servings": 4,
+  "keywords": [
+    "Thermomix teriyaki chicken",
+    "Nagi Maehashi teriyaki Thermomix",
+    "TM6 teriyaki chicken",
+    "TM7 teriyaki chicken",
+    "Thermomix Japanese dinner"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-29",
+  "intro": "This is my independent Thermomix homage to Nagi Maehashi and the crowd-pleasing appeal of teriyaki chicken. The sauce simmers in the bowl while the chicken sears to a glossy finish — sticky, caramelised and impossible to stop eating.",
+  "ingredients": [
+    "600 g boneless chicken thigh, cut into 3 cm pieces",
+    "1 tbsp neutral oil",
+    "80 g soy sauce",
+    "60 g mirin",
+    "40 g sake or dry white wine",
+    "30 g brown sugar",
+    "1 tsp freshly grated ginger",
+    "2 garlic cloves",
+    "1 tsp sesame oil",
+    "1 tbsp cornflour mixed with 2 tbsp cold water",
+    "Steamed rice and sesame seeds, to serve"
+  ],
+  "steps": [
+    "Place garlic and ginger in the mixing bowl and chop 5 sec / speed 7. Scrape down.",
+    "Add soy sauce, mirin, sake, brown sugar and sesame oil. Heat the sauce 3 min / 100°C / speed 2 until the sugar dissolves.",
+    "Transfer the sauce to a separate container and set aside. Wipe the bowl dry. Add the neutral oil and chicken pieces. Sauté 8 min / 120°C / Reverse / speed 1 until the chicken is sealed and lightly golden.",
+    "Pour the reserved sauce over the chicken. Cook 10 min / 100°C / Reverse / speed 1, with the measuring cup off so the sauce reduces and thickens.",
+    "Add the cornflour slurry through the lid opening. Cook a further 2 min / 100°C / Reverse / speed 1 until the sauce is glossy and clings to the chicken.",
+    "Rest 2 min / 0°C / no speed, then serve over steamed rice scattered with sesame seeds."
+  ],
+  "tips": [
+    "Chicken thigh stays juicier than breast — don't substitute if you want that classic sticky texture.",
+    "The measuring cup stays off during the final cook so steam escapes and the sauce concentrates.",
+    "Double the sauce if you like extra to drizzle over rice."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Nagi Maehashi recipe?",
+      "a": "No. This is Chef Aly's independent Thermomix reinterpretation inspired by Nagi Maehashi and teriyaki chicken; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I use chicken breast instead of thigh?",
+      "a": "You can, but breast dries out more easily. Reduce the sauté time to 6 min / 120°C / Reverse / speed 1 and check the chicken is just cooked through before adding sauce."
+    }
+  ],
+  "image": "recipes/teriyaki-chicken-nagi-maehashi.jpg",
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Teriyaki Chicken\" (teriyaki chicken, Japanese Dinner). Key ingredients that must visually guide the dish: 600 g boneless chicken thigh, cut into 3 cm pieces, 1 tbsp neutral oil, 80 g soy sauce, 60 g mirin, 40 g sake or dry white wine, 30 g brown sugar, 1 tsp freshly grated ginger, 2 garlic cloves, 1 tsp sesame oil, 1 tbsp cornflour mixed with 2 tbsp cold water. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Teriyaki Chicken."
+}
