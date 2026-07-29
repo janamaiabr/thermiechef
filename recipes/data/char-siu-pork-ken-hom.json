@@ -1,0 +1,75 @@
+{
+  "slug": "char-siu-pork-ken-hom",
+  "title": "Char Siu Pork",
+  "inspiredBy": {
+    "chef": "Ken Hom",
+    "dish": "char siu pork"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Ken Hom-style char siu pork: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "category": "Dinner",
+  "cuisine": "Chinese",
+  "prepMin": 15,
+  "cookMin": 40,
+  "servings": 4,
+  "keywords": [
+    "Thermomix Char Siu Pork",
+    "Ken Hom inspired Thermomix recipe",
+    "TM6 char siu pork",
+    "TM7 char siu pork",
+    "Thermomix Chinese barbecue pork"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Ken Hom and the irresistible appeal of char siu pork. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a glossy, caramelised result.",
+  "ingredients": [
+    "600 g pork shoulder, cut into 3 cm strips",
+    "3 tbsp honey",
+    "2 tbsp light soy sauce",
+    "1 tbsp dark soy sauce",
+    "1 tbsp hoisin sauce",
+    "1 tbsp Shaoxing wine",
+    "1 tbsp oyster sauce",
+    "1 tsp sesame oil",
+    "3 cloves garlic",
+    "1 tsp five-spice powder",
+    "1 tbsp cornflour + 1 tbsp water (for glaze)",
+    "Steamed rice and pickled cucumber to serve"
+  ],
+  "steps": [
+    "Place garlic in the mixing bowl and chop 5 sec / speed 7. Scrape down.",
+    "Add honey, light soy sauce, dark soy sauce, hoisin sauce, Shaoxing wine, oyster sauce, sesame oil and five-spice powder. Mix 10 sec / speed 4 until combined. Transfer half the marinade to a bowl and set aside for glazing later.",
+    "Place pork strips in the Varoma dish, pour the remaining marinade over and toss to coat. Leave to marinate 20 minutes at room temperature.",
+    "Pour 500 g water into the mixing bowl. Place the Varoma with the marinated pork on top. Steam 30 min / Varoma / speed 2.",
+    "Remove the Varoma. Transfer the pork to a lined baking tray. Preheat oven to 220°C.",
+    "Mix the reserved marinade with cornflour and water. Brush generously over the pork strips. Bake 10 minutes, basting halfway, until sticky and caramelised.",
+    "Slice the char siu pork and serve with steamed rice and pickled cucumber."
+  ],
+  "tips": [
+    "Pork shoulder works best — the fat renders into the glaze and keeps the meat juicy.",
+    "For deeper colour, flip the pork halfway through the oven step.",
+    "The cornflour glaze thickens the leftover marinade into a glossy baste.",
+    "Let the pork rest 3 minutes before slicing so the juices redistribute."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Ken Hom recipe?",
+      "a": "No. This is Chef Aly's independent Thermomix reinterpretation inspired by Ken Hom and char siu pork; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Char Siu Pork in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
+    },
+    {
+      "q": "Can I skip the oven step?",
+      "a": "The oven step gives the characteristic sticky, caramelised glaze. You can finish under a hot grill instead, but the direct heat is essential for the authentic char siu look and texture."
+    }
+  ],
+  "image": "recipes/char-siu-pork-ken-hom.jpg",
+  "datePublished": "2026-07-30",
+  "filters": [
+    "Dinner",
+    "Gluten-free option"
+  ],
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Char Siu Pork\" (char siu pork, Chinese Dinner). Key ingredients that must visually guide the dish: 600 g pork shoulder, cut into 3 cm strips, 3 tbsp honey, 2 tbsp light soy sauce, 1 tbsp dark soy sauce, 1 tbsp hoisin sauce, 1 tbsp Shaoxing wine, 1 tbsp oyster sauce, 1 tsp sesame oil, 3 cloves garlic, 1 tsp five-spice powder. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Char Siu Pork."
+}
