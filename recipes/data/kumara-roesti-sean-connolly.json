@@ -1,0 +1,70 @@
+{
+  "slug": "kumara-roesti-sean-connolly",
+  "title": "Kumara Roesti",
+  "inspiredBy": {
+    "chef": "Sean Connolly",
+    "dish": "kumara roesti"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of a Sean Connolly-style kumara roesti: golden, crisp-edged potato and kumara cakes with fresh herbs and a hint of spice, using precise TM6 and TM7 settings for the perfect crunch.",
+  "category": "Lunch",
+  "cuisine": "New Zealand",
+  "prepMin": 15,
+  "cookMin": 20,
+  "servings": 4,
+  "keywords": [
+    "Thermomix kumara roesti",
+    "Sean Connolly kumara Thermomix",
+    "TM6 kumara roesti",
+    "TM7 kumara roesti",
+    "Thermomix NZ recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-07-31",
+  "intro": "This is my independent Thermomix homage to Sean Connolly and the satisfying crunch of a golden kumara roesti. The Thermomix grates the kumara and potato in seconds, then you pan-fry spoonfuls until they're crisp outside and tender within — a brilliant NZ café classic made easy at home.",
+  "ingredients": [
+    "300 g orange kumara (sweet potato), peeled",
+    "300 g potatoes, peeled",
+    "1 small brown onion, quartered",
+    "2 eggs",
+    "40 g plain flour",
+    "30 g parmesan, finely grated",
+    "1 tsp smoked paprika",
+    "2 tbsp fresh chives, snipped",
+    "1 tbsp fresh thyme leaves",
+    "Salt and black pepper",
+    "Oil, for shallow frying",
+    "Lemon wedges and sour cream, to serve"
+  ],
+  "steps": [
+    "Grate the kumara and potato 5 sec / speed 5. Transfer to a clean tea towel and squeeze out as much liquid as possible. Set aside in a large bowl.",
+    "Chop the onion 3 sec / speed 5. Add to the bowl with the grated kumara and potato.",
+    "Add the eggs, flour, parmesan, smoked paprika, chives, thyme, salt and pepper to the bowl with the kumara mixture. Combine 8 sec / Reverse / speed 3 until evenly mixed.",
+    "Heat 5 mm of oil in a large non-stick pan over medium-high heat. Spoon ¼-cup portions of the mixture into the pan, flattening gently with a spatula.",
+    "Cook for 3–4 minutes each side until deeply golden and crisp. Drain on paper towel. (Pan finish.)",
+    "Serve immediately with lemon wedges and a dollop of sour cream."
+  ],
+  "tips": [
+    "Squeezing the moisture out of the grated kumara and potato is the key to crisp, not soggy, roesti.",
+    "Don't overcrowd the pan — cook in batches so they crisp properly.",
+    "The smoked paprika adds a subtle smoky note that pairs beautifully with the natural sweetness of kumara."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Sean Connolly recipe?",
+      "a": "No. This is Chef Aly's independent Thermomix reinterpretation inspired by Sean Connolly and kumara roesti; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make these ahead?",
+      "a": "You can grate and squeeze the kumara and potato up to 2 hours ahead, kept in the fridge. Cook fresh for the best crunch."
+    }
+  ],
+  "image": "recipes/kumara-roesti-sean-connolly.jpg",
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Kumara Roesti\" (kumara roesti, New Zealand Lunch). Key ingredients that must visually guide the dish: 300 g orange kumara (sweet potato), peeled, 300 g potatoes, peeled, 1 small brown onion, quartered, 2 eggs, 40 g plain flour, 30 g parmesan, finely grated, 1 tsp smoked paprika, 2 tbsp fresh chives, snipped, 1 tbsp fresh thyme leaves, Salt and black pepper. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Kumara Roesti.",
+  "filters": [
+    "Lunch",
+    "Vegetarian",
+    "Under 30 min"
+  ]
+}
