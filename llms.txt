@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Kumara Roesti](https://thermiechef.com.au/recipes/kumara-roesti-sean-connolly.html): A Chef Aly Thermomix reinterpretation of a Sean Connolly-style kumara roesti: golden, crisp-edged potato and kumara cakes with fresh herbs and a hint of spice, using precise TM6 and TM7 settings for the perfect crunch. (35 min, serves 4)
 - [Char Siu Pork](https://thermiechef.com.au/recipes/char-siu-pork-ken-hom.html): A Chef Aly Thermomix reinterpretation of Ken Hom-style char siu pork: metric ingredients, exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (55 min, serves 4)
 - [Teriyaki Chicken](https://thermiechef.com.au/recipes/teriyaki-chicken-nagi-maehashi.html): A Chef Aly Thermomix reinterpretation of Nagi Maehashi-style teriyaki chicken: glossy, caramelised chicken thigh pieces in a sweet-savoury sauce, with exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (30 min, serves 4)
 - [Crispy Rice Salad](https://thermiechef.com.au/recipes/crispy-rice-salad-hetty-mckinnon.html): A Chef Aly Thermomix reinterpretation of Hetty McKinnon-style crispy rice salad: crunchy rice, bright herbs, sesame dressing and exact TM6 and TM7 settings. (40 min, serves 4)

@@ -1,0 +1,78 @@
+{
+  "slug": "harira-mourad-lahlou",
+  "title": "Harira",
+  "inspiredBy": {
+    "chef": "Mourad Lahlou",
+    "dish": "harira"
+  },
+  "description": "My Thermomix take on a Mourad Lahlou-style harira — a fragrant Moroccan chickpea and lentil soup with warming spices, tomato and fresh herbs.",
+  "category": "Soup",
+  "cuisine": "Moroccan",
+  "prepMin": 10,
+  "cookMin": 40,
+  "servings": 6,
+  "keywords": [
+    "Thermomix Harira",
+    "Mourad Lahlou inspired Thermomix recipe",
+    "TM6 harira",
+    "TM7 harira",
+    "Thermomix Moroccan soup"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Mourad Lahlou and the comforting depth of harira. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warming, achievable result.",
+  "ingredients": [
+    "1 onion, quartered",
+    "2 garlic cloves",
+    "20 g olive oil",
+    "1 tsp ground cumin",
+    "1 tsp ground cinnamon",
+    "½ tsp ground ginger",
+    "½ tsp turmeric",
+    "400 g canned crushed tomatoes",
+    "120 g red lentils, rinsed",
+    "200 g canned chickpeas, drained and rinsed",
+    "1 tbsp tomato paste",
+    "800 g vegetable stock",
+    "30 g fresh coriander leaves, plus extra to serve",
+    "20 g fresh flat-leaf parsley",
+    "1 tbsp lemon juice",
+    "Salt and black pepper, to taste"
+  ],
+  "steps": [
+    "Place onion, garlic and fresh herbs (reserve a few coriander leaves for garnish) in the mixing bowl. Chop 5 sec / speed 7.",
+    "Add olive oil and sauté 3 min / 120°C / speed 1.",
+    "Add cumin, cinnamon, ginger, turmeric, tomato paste and crushed tomatoes. Cook 5 min / 100°C / speed 2.",
+    "Add red lentils, chickpeas and vegetable stock. Cook 25 min / 100°C / speed 1 with the simmering basket on the lid instead of the measuring cup to prevent splashing.",
+    "Blend lightly 10 sec / speed 3 for a slightly textured consistency, or leave as-is for a chunkier soup.",
+    "Season with salt, pepper and lemon juice. Serve in warm bowls with a scatter of fresh coriander."
+  ],
+  "tips": [
+    "Red lentils break down beautifully, thickening the soup naturally — no need for flour.",
+    "The simmering basket on the lid stops hot soup splashing out during the long cook.",
+    "Harira reheats brilliantly the next day; the flavours deepen overnight."
+  ],
+  "faq": [
+    {
+      "q": "Is this the original Mourad Lahlou recipe?",
+      "a": "No. This is Chef Aly's independent Thermomix reinterpretation inspired by Mourad Lahlou and harira; it is not endorsed by or affiliated with the chef."
+    },
+    {
+      "q": "Can I make this Harira in a TM6 or TM7?",
+      "a": "Yes. The method is written with TM6 and TM7 settings, using metric weights, clear times, temperatures and speeds."
+    },
+    {
+      "q": "Can I use dried chickpeas instead of canned?",
+      "a": "Yes — soak 80 g dried chickpeas overnight, then add them 10 minutes earlier at step 4 so they have time to become tender."
+    }
+  ],
+  "image": "recipes/harira-mourad-lahlou.jpg",
+  "datePublished": "2026-08-01",
+  "filters": [
+    "Soup",
+    "Vegan",
+    "Under 60 min"
+  ],
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Harira\" (harira, Moroccan Soup). Key ingredients that must visually guide the dish: 1 onion, quartered, 2 garlic cloves, 20 g olive oil, 1 tsp ground cumin, 1 tsp ground cinnamon, ½ tsp ground ginger, ½ tsp turmeric, 400 g canned crushed tomatoes, 120 g red lentils, rinsed, 200 g canned chickpeas, drained and rinsed. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Harira."
+}
