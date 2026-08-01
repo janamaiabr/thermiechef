@@ -1,0 +1,71 @@
+{
+  "slug": "roast-chicken-thomas-keller",
+  "title": "Roast Chicken",
+  "inspiredBy": {
+    "chef": "Thomas Keller",
+    "dish": "roast chicken"
+  },
+  "description": "A Chef Aly Thermomix reinterpretation of Thomas Keller's famous simple roast chicken — golden, juicy, with perfectly crisp skin. Metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks.",
+  "image": "recipes/roast-chicken-thomas-keller.jpg",
+  "category": "Dinner",
+  "cuisine": "French",
+  "prepMin": 15,
+  "cookMin": 75,
+  "servings": 4,
+  "keywords": [
+    "thermomix roast chicken",
+    "Thomas Keller roast chicken thermomix",
+    "TM6 roast chicken",
+    "TM7 roast chicken",
+    "simple roast chicken thermomix"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "datePublished": "2026-08-02",
+  "intro": "Thomas Keller's roast chicken is the dish that proves simplicity wins — just butter, salt, pepper and a hot oven. This Chef Aly Thermomix version makes the compound butter and stuffing in the bowl, then roasts to golden perfection. Fewer ingredients, more flavour.",
+  "ingredients": [
+    "1 whole chicken (about 1.6 kg), giblets removed, patted dry",
+    "60 g unsalted butter, softened",
+    "1 lemon, halved",
+    "4 garlic cloves, 2 left whole and 2 peeled",
+    "6 sprigs fresh thyme",
+    "3 sprigs fresh rosemary",
+    "1 brown onion, quartered",
+    "1 carrot, roughly chopped",
+    "1 celery stalk, roughly chopped",
+    "1 tsp flaky sea salt",
+    "½ tsp black pepper",
+    "250 g water"
+  ],
+  "steps": [
+    "Preheat oven to 230°C (210°C fan-forced). Place onion, carrot and celery in the bottom of a roasting pan to form a rack.",
+    "Place the 2 peeled garlic cloves and 3 sprigs of thyme in the mixing bowl. Chop 5 sec / speed 7. Scrape down.",
+    "Add the softened butter, ½ tsp sea salt and ¼ tsp black pepper. Mix 15 sec / speed 4 until combined into a herb butter.",
+    "Pat the chicken dry with paper towels. Gently loosen the skin over the breasts and push two-thirds of the herb butter under the skin, spreading evenly. Rub the remaining butter over the outside of the chicken. Set aside on a plate 5 min / 0°C / speed 0 while you prepare the cavity.",
+    "Stuff the cavity with the lemon halves, 2 whole garlic cloves, remaining thyme and 2 sprigs of rosemary. Tie the legs together with kitchen twine. Set aside 5 min / 0°C / speed 0 to let the butter firm slightly before roasting.",
+    "Place the chicken on top of the vegetables in the roasting pan. Place 250 g water in the mixing bowl and set the Varoma dish on top. This step is for cleaning the bowl only — the chicken roasts in the oven. Roast at 230°C for 15 min / 230°C oven / no speed, then reduce to 190°C.",
+    "Continue roasting at 190°C for 50–60 min / 190°C oven / no speed until the juices run clear and the internal temperature reaches 74°C.",
+    "Remove from oven, rest 15 min / 0°C / no speed (rest at room temperature, not in the Thermomix). Carve and serve with the pan juices."
+  ],
+  "tips": [
+    "The drier the chicken skin before butter application, the crispier it will be. Pat thoroughly with paper towels.",
+    "Don't skip the 15-minute rest — it redistributes the juices and keeps the breast meat moist.",
+    "The vegetables under the chicken caramelise and make a brilliant quick gravy with the pan juices."
+  ],
+  "faq": [
+    {
+      "q": "Can I make Roast Chicken in a Thermomix TM6 or TM7?",
+      "a": "The Thermomix prepares the compound herb butter, chops the aromatics and stuffs the cavity. The chicken roasts in a conventional oven for the best crisp skin. Both TM6 and TM7 handle the preparation steps identically."
+    },
+    {
+      "q": "Can I use a larger chicken?",
+      "a": "Yes. For a 2 kg chicken, add 15–20 minutes to the roasting time at 190°C and always check the internal temperature reaches 74°C at the thickest part of the thigh."
+    }
+  ],
+  "filters": [
+    "Dinner",
+    "Meat"
+  ],
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Roast Chicken\" (roast chicken, French Dinner). Key ingredients that must visually guide the dish: 1 whole chicken (about 1.6 kg), giblets removed, patted dry, 60 g unsalted butter, softened, 1 lemon, halved, 4 garlic cloves, 2 left whole and 2 peeled, 6 sprigs fresh thyme, 3 sprigs fresh rosemary, 1 brown onion, quartered, 1 carrot, roughly chopped, 1 celery stalk, roughly chopped, 1 tsp flaky sea salt. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Roast Chicken."
+}
