@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Gingerbread Cake](https://thermiechef.com.au/recipes/gingerbread-cake-claudia-fleming.html): My Thermomix take on Claudia Fleming's gingerbread cake — deeply spiced, impossibly moist, with a molasses backbone and a tender crumb that the TM6 mixes flawlessly every time. (60 min, serves 12)
 - [Roast Chicken](https://thermiechef.com.au/recipes/roast-chicken-thomas-keller.html): A Chef Aly Thermomix reinterpretation of Thomas Keller's famous simple roast chicken — golden, juicy, with perfectly crisp skin. Metric ingredients and exact TM6 and TM7 times, temperatures and speeds for Australian home cooks. (90 min, serves 4)
 - [Harira](https://thermiechef.com.au/recipes/harira-mourad-lahlou.html): My Thermomix take on a Mourad Lahlou-style harira — a fragrant Moroccan chickpea and lentil soup with warming spices, tomato and fresh herbs. (50 min, serves 6)
 - [Kumara Roesti](https://thermiechef.com.au/recipes/kumara-roesti-sean-connolly.html): A Chef Aly Thermomix reinterpretation of a Sean Connolly-style kumara roesti: golden, crisp-edged potato and kumara cakes with fresh herbs and a hint of spice, using precise TM6 and TM7 settings for the perfect crunch. (35 min, serves 4)
