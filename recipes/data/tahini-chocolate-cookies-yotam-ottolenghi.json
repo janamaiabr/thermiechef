@@ -1,0 +1,68 @@
+{
+  "slug": "tahini-chocolate-cookies-yotam-ottolenghi",
+  "title": "Tahini Chocolate Cookies",
+  "inspiredBy": {
+    "chef": "Yotam Ottolenghi",
+    "dish": "tahini chocolate cookies"
+  },
+  "description": "My Thermomix take on Ottolenghi's tahini chocolate cookies — nutty, crisp-edged, fudgy-centred, with pools of dark chocolate and a subtle sesame warmth.",
+  "category": "Baking",
+  "cuisine": "Middle Eastern-inspired",
+  "prepMin": 15,
+  "cookMin": 12,
+  "servings": 18,
+  "keywords": [
+    "Thermomix tahini chocolate cookies",
+    "Ottolenghi inspired Thermomix recipe",
+    "TM6 tahini cookies",
+    "TM7 chocolate tahini cookies",
+    "Thermomix famous chef recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "Yotam Ottolenghi's tahini chocolate cookies are everything a biscuit should be — crisp at the edges, soft and almost fudgy in the centre, with the nutty depth of tahini and pockets of melted dark chocolate. This Chef Aly Thermomix version streamlines the method while keeping every bit of that moreish character, with metric quantities and exact TM6 and TM7 settings for Australian home cooks.",
+  "ingredients": [
+    "120 g tahini (well-stirred)",
+    "100 g brown sugar",
+    "60 g caster sugar",
+    "1 egg",
+    "1 tsp vanilla extract",
+    "130 g plain flour",
+    "30 g cocoa powder",
+    "½ tsp bicarbonate of soda",
+    "¼ tsp salt",
+    "100 g dark chocolate (70%), roughly chopped",
+    "2 tbsp sesame seeds (for rolling)"
+  ],
+  "steps": [
+    "Preheat oven to 180°C. Line two baking trays with baking paper.",
+    "Place tahini, brown sugar and caster sugar in the mixing bowl. Mix 20 sec / speed 4 until thick and glossy.",
+    "Add egg and vanilla extract. Mix 10 sec / speed 4 until combined.",
+    "Add plain flour, cocoa powder, bicarbonate of soda and salt. Mix 15 sec / speed 3 until a dough forms. Scrape down sides.",
+    "Add chopped dark chocolate. Mix 5 sec / Reverse / speed 2 to fold through — keep some chunks visible.",
+    "Roll tablespoon-sized portions into balls, roll each in sesame seeds, place on prepared trays 5 cm apart and flatten slightly. Bake 11–12 min until cracked on top but still soft in the centre. Cool on trays for 5 min before transferring to a rack."
+  ],
+  "tips": [
+    "Tahini separates — stir it well before measuring. A thicker tahini gives a chewier cookie.",
+    "Don't overbake. They look underdone at 11 minutes but firm up as they cool — that's the fudgy centre.",
+    "The dough can be chilled for 30 min before rolling for thicker cookies."
+  ],
+  "faq": [
+    {
+      "q": "Can I make these gluten-free?",
+      "a": "Yes. Replace plain flour with 130 g gluten-free plain flour and add ¼ tsp xanthan gum for structure."
+    },
+    {
+      "q": "Is this the original Yotam Ottolenghi recipe?",
+      "a": "No. This is Chef Aly's independent Thermomix reinterpretation inspired by Yotam Ottolenghi and tahini chocolate cookies; it is not endorsed by or affiliated with the chef."
+    }
+  ],
+  "image": "recipes/tahini-chocolate-cookies-yotam-ottolenghi.jpg",
+  "datePublished": "2026-08-05",
+  "filters": [
+    "Baking",
+    "Vegetarian"
+  ],
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Tahini Chocolate Cookies\" (tahini chocolate cookies, Middle Eastern-inspired Baking). Key ingredients that must visually guide the dish: 120 g tahini, 100 g brown sugar, 60 g caster sugar, 1 egg, 130 g plain flour, 30 g cocoa powder, dark chocolate chunks, sesame seeds. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Tahini Chocolate Cookies."
+}

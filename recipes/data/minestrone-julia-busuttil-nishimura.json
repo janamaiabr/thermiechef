@@ -1,0 +1,79 @@
+{
+  "slug": "minestrone-julia-busuttil-nishimura",
+  "title": "Minestrone",
+  "inspiredBy": {
+    "chef": "Julia Busuttil Nishimura",
+    "dish": "minestrone"
+  },
+  "description": "My Thermomix take on a Julia Busuttil Nishimura-style minestrone — a hearty, vegetable-packed Italian soup with pasta, beans and parmesan.",
+  "category": "Soup",
+  "cuisine": "Italian",
+  "prepMin": 15,
+  "cookMin": 35,
+  "servings": 6,
+  "keywords": [
+    "Thermomix Minestrone",
+    "Julia Busuttil Nishimura inspired Thermomix recipe",
+    "TM6 minestrone",
+    "TM7 minestrone",
+    "Thermomix famous chef recipe",
+    "Thermomix soup"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Julia Busuttil Nishimura and the comforting appeal of minestrone. It keeps the spirit of the original inspiration, but the method is written fresh for TM6 and TM7 cooks who want clear settings and a warm, achievable result.",
+  "ingredients": [
+    "1 onion, quartered",
+    "2 carrots, cut into chunks",
+    "2 celery stalks, cut into chunks",
+    "2 garlic cloves",
+    "40 g olive oil",
+    "400 g canned tomatoes",
+    "1 zucchini, diced",
+    "100 g green beans, cut into 3 cm pieces",
+    "400 g canned cannellini beans, drained and rinsed",
+    "1 small potato, diced",
+    "1 L vegetable stock",
+    "80 g small pasta (ditalini or macaroni)",
+    "50 g parmesan rind (optional)",
+    "Salt, pepper",
+    "Fresh basil leaves",
+    "Extra virgin olive oil, for drizzling"
+  ],
+  "steps": [
+    "Place onion, carrots, celery and garlic into the mixing bowl. Chop 5 sec / speed 5. Scrape down the sides.",
+    "Add olive oil. Sauté 5 min / 120°C / speed 1.",
+    "Add canned tomatoes, zucchini, green beans, cannellini beans, potato, parmesan rind (if using) and vegetable stock. Cook 20 min / 100°C / Reverse / speed 1.",
+    "Add pasta. Cook a further 12 min / 100°C / Reverse / speed 1, or until pasta is tender. Season with salt and pepper to taste. Serve with fresh basil and a drizzle of extra virgin olive oil."
+  ],
+  "tips": [
+    "The parmesan rind adds a deep savoury depth — don't skip it if you have one.",
+    "For a thicker soup, mash a ladleful of beans before adding the pasta.",
+    "This soup is even better the next day."
+  ],
+  "faq": [
+    {
+      "q": "Can I use dried beans instead of canned?",
+      "a": "Yes — soak 150 g dried cannellini beans overnight, then cook them in the soup for an extra 20 minutes before adding the pasta."
+    },
+    {
+      "q": "Can I freeze it?",
+      "a": "Freeze without the pasta (it goes mushy). Add fresh pasta when reheating."
+    },
+    {
+      "q": "Is this the original Julia Busuttil Nishimura recipe?",
+      "a": "No. This is Chef Aly's independent Thermomix reinterpretation inspired by Julia Busuttil Nishimura and minestrone; it is not endorsed by or affiliated with the chef."
+    }
+  ],
+  "image": "recipes/minestrone-julia-busuttil-nishimura.jpg",
+  "datePublished": "2026-08-05",
+  "filters": [
+    "Soup",
+    "Vegetarian",
+    "Italian",
+    "Under 60 min",
+    "Freezer friendly"
+  ],
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Minestrone\" (minestrone, Italian Soup). Key ingredients that must visually guide the dish: onion, carrots, celery, garlic, olive oil, canned tomatoes, zucchini, green beans, cannellini beans, potato, small pasta ditalini, parmesan rind, fresh basil, extra virgin olive oil drizzle. Natural soft daylight, shallow depth of field, a rustic ceramic bowl of hearty minestrone on a linen table runner, visible chunks of vegetables and pasta, garnished with fresh basil leaves and a drizzle of olive oil, a parmesan wedge on the side, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Minestrone."
+}

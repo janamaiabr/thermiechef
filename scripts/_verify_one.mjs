@@ -1,0 +1,11 @@
+import fs from 'fs';
+const r = JSON.parse(fs.readFileSync('recipes/data/minestrone-julia-busuttil-nishimura.json', 'utf8'));
+const prompt = (r.photoPrompt || '').toLowerCase();
+const title = (r.title || '').toLowerCase();
+console.log('Title in prompt:', prompt.includes(title));
+console.log('photoStatus:', r.photoStatus);
+console.log('imageApproved:', r.imageApproved);
+console.log('pendingImage:', r.pendingImage);
+console.log('image:', r.image);
+console.log('Expected image:', `recipes/${r.slug}.jpg`);
+console.log('Match:', r.image === `recipes/${r.slug}.jpg`);
