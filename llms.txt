@@ -3,6 +3,7 @@
 > Chef Aly is a top Australian Thermomix consultant. This site has reliable, tested Thermomix recipes (TM6 / TM7) with exact speeds, times and temperatures, plus a free tool that converts any recipe into a Thermomix recipe.
 
 ## Recipes
+- [Miso Caramel Banana Tart](https://thermiechef.com.au/recipes/miso-caramel-banana-tart-christine-manfield.html): My Thermomix take on Christine Manfield's bold flavour philosophy — a silky miso caramel poured over ripe banana in a buttery shortcrust shell, finished with dark chocolate shards and a whisper of sea salt. (55 min, serves 8)
 - [Grilled Lamb with Chimichurri](https://thermiechef.com.au/recipes/grilled-lamb-chimichurri-francis-mallmann.html): My Thermomix take on Francis Mallmann's grilled lamb with chimichurri — charred, herbaceous, and unapologetically bold, with a vibrant chimichurri that brings Argentine fire-cooking spirit to the TM6 and TM7. (40 min, serves 4)
 - [Minestrone](https://thermiechef.com.au/recipes/minestrone-julia-busuttil-nishimura.html): My Thermomix take on a Julia Busuttil Nishimura-style minestrone — a hearty, vegetable-packed Italian soup with pasta, beans and parmesan. (50 min, serves 6)
 - [Tahini Chocolate Cookies](https://thermiechef.com.au/recipes/tahini-chocolate-cookies-yotam-ottolenghi.html): My Thermomix take on Ottolenghi's tahini chocolate cookies — nutty, crisp-edged, fudgy-centred, with pools of dark chocolate and a subtle sesame warmth. (27 min, serves 18)
