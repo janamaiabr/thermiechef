@@ -1,0 +1,70 @@
+{
+  "slug": "buttermilk-chicken-samin-nosrat",
+  "title": "Buttermilk Chicken",
+  "inspiredBy": {
+    "chef": "Samin Nosrat",
+    "dish": "buttermilk chicken"
+  },
+  "description": "My Thermomix take on Samin Nosrat's famous buttermilk chicken — juicy marinated thighs with golden herb butter, roasted to crispy-skinned perfection using the TM6 and TM7.",
+  "category": "Dinner",
+  "cuisine": "American-inspired",
+  "prepMin": 10,
+  "cookMin": 35,
+  "servings": 4,
+  "keywords": [
+    "Thermomix Buttermilk Chicken",
+    "Samin Nosrat inspired Thermomix recipe",
+    "TM6 buttermilk chicken",
+    "TM7 roasted chicken",
+    "Thermomix famous chef recipe"
+  ],
+  "thermomixModel": "TM6 / TM7",
+  "intro": "This is my independent Thermomix homage to Samin Nosrat and the transformative power of buttermilk chicken. The long marinade tenderises every fibre while the herb butter bastes the skin to a golden crunch. The method is written fresh for TM6 and TM7 cooks who want clear settings and a spectacular, achievable result.",
+  "ingredients": [
+    "800 g bone-in chicken thighs, skin on",
+    "500 g buttermilk",
+    "1 lemon, juiced",
+    "4 garlic cloves",
+    "2 cm fresh ginger, peeled",
+    "1 tbsp smoked paprika",
+    "1 tsp salt",
+    "½ tsp black pepper",
+    "60 g butter, softened",
+    "2 tbsp fresh dill, chopped",
+    "1 tbsp fresh thyme leaves",
+    "1 tbsp olive oil"
+  ],
+  "steps": [
+    "Place garlic and ginger in the mixing bowl. Chop 5 sec / speed 8, then scrape down the sides.",
+    "Add buttermilk, lemon juice, smoked paprika, salt and pepper. Blend 10 sec / speed 4 until smooth and combined.",
+    "Pour the buttermilk marinade over the chicken thighs in a large bowl or zip-lock bag, turning to coat evenly. Refrigerate for at least 2 hours, or overnight for best results.",
+    "Preheat oven to 200°C (180°C fan-forced). Place butter, dill and thyme in the mixing bowl. Chop 5 sec / speed 5 until combined into herb butter. Set aside.",
+    "Remove chicken from the marinade, letting excess drip off, and arrange skin-side up in a roasting tin. Drizzle with olive oil. Roast in preheated oven 25 min / 200°C oven / no speed until the skin is starting to golden.",
+    "Remove the tin from the oven briefly. Dollop the herb butter over each thigh, then return to the oven for another 10 min / 200°C oven / no speed until the skin is deeply golden and the internal temperature reaches 75°C.",
+    "Rest the chicken 5 min / 0°C / speed 0 on a warm plate so the juices redistribute. Spoon the pan juices over the top and serve with a simple salad or crusty bread."
+  ],
+  "tips": [
+    "Overnight marinating makes a noticeable difference — the buttermilk really works its magic on the meat fibres.",
+    "If you prefer breast, use bone-in skin-on fillets and reduce the roasting time by about 5 minutes.",
+    "The pan juices are liquid gold — spoon them over mash or soak them up with good bread."
+  ],
+  "faq": [
+    {
+      "q": "Can I skip the overnight marinade?",
+      "a": "Two hours at minimum, but overnight is ideal. The buttermilk needs time to tenderise the meat properly."
+    },
+    {
+      "q": "Is this the original Samin Nosrat recipe?",
+      "a": "No. This is Chef Aly's independent Thermomix reinterpretation inspired by Samin Nosrat and buttermilk chicken; it is not endorsed by or affiliated with the chef."
+    }
+  ],
+  "image": "recipes/buttermilk-chicken-samin-nosrat.jpg",
+  "datePublished": "2026-08-08",
+  "filters": [
+    "Dinner",
+    "Meat"
+  ],
+  "photoStatus": "auto_generated",
+  "imageApproved": true,
+  "photoPrompt": "Professional editorial food photography of \"Buttermilk Chicken\" (buttermilk chicken, American-inspired Dinner). Key ingredients that must visually guide the dish: 800 g bone-in chicken thighs, skin on, 500 g buttermilk, 1 lemon, juiced, 4 garlic cloves, 2 cm fresh ginger, peeled, 1 tbsp smoked paprika, 1 tsp salt, ½ tsp black pepper, 60 g butter, softened, 2 tbsp fresh dill, chopped. Natural soft daylight, shallow depth of field, on a beautiful ceramic plate or bowl on a rustic wood or linen surface, freshly served and garnished, appetising and realistic, overhead or 45-degree angle, warm inviting tones. Show ONLY the finished dish as it really looks. No text, no logos, no hands, no people, no Thermomix machine, no packaging. Square high-resolution image. Make the dish visually accurate to the recipe title, cuisine and ingredients: Buttermilk Chicken."
+}
